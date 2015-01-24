@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("FontAwesomeDemo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Meziantou")]
 [assembly: AssemblyProduct("FontAwesomeDemo")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCopyright("Copyright © Meziantou 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
