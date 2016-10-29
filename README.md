@@ -5,7 +5,7 @@ Use FontAwesome in WPF application
 
 # Usage
 
-1. Install Nuget package
+1. Install Nuget package `Meziantou.WpfFontAwesome`
 2. Add the `ResourceDictionary` to the `app.xaml` file
 
 ````xaml
