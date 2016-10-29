@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FontAwesomeDemo")]
+[assembly: AssemblyTitle("Meziantou.WpfFontAwesome.Demo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Meziantou")]
-[assembly: AssemblyProduct("FontAwesomeDemo")]
-[assembly: AssemblyCopyright("Copyright © Meziantou 2015")]
+[assembly: AssemblyProduct("Meziantou.WpfFontAwesome.Demo")]
+[assembly: AssemblyCopyright("Copyright © Meziantou 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

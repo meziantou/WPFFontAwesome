@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Meziantou.WpfFontAwesome</id>
+    <version>4.7.0.0</version>
+    <authors>Meziantou</authors>
+    <owners>Meziantou</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/meziantou/WPFFontAwesome</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>WPF FontAwesome</tags>
+	<description>Use FontAwesome icon in a WPF application</description>
+  </metadata>
+</package>

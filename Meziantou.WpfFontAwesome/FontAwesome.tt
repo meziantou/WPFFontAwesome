@@ -13,8 +13,7 @@
 <#@ import namespace="System.Text" #>
 <#@ import namespace="System.Text.RegularExpressions" #>
 <#@ import namespace="System.Xml.Linq" #>
-<#
-    
+<#    
     string directory = Path.Combine(System.IO.Path.GetDirectoryName(this.Host.TemplateFile), "Resources");
     const string fileName = "variables.less";
     string variablesPaths = Path.Combine(directory, fileName);
@@ -74,18 +73,6 @@
 namespace <#= @namespace #> 
 {
 <#
-	if(generateWpfExtensions)
-	{
-#>
-	using System;
-	using System.Collections.Generic;
-	using System.Reflection;
-	using System.Text;
-	using System.Windows.Markup;	
-
-<#
-	}
-
 	if(generateEnum)
 	{
 #>
@@ -104,7 +91,7 @@ namespace <#= @namespace #>
         /// <summary>
         /// fa-<#= pair.Name #> icon (<#= pair.Value #>)
         /// </summary>
-        <#= CamelName(pair.Name) #> = 0x<#= pair.Value #>,
+        <#= ToCSharpIdentifier(CamelName(pair.Name)) #> = 0x<#= pair.Value #>,
 <#		
 		} 
 	}
@@ -129,7 +116,7 @@ namespace <#= @namespace #>
         /// <summary>
         /// fa-<#= pair.Name #> icon (<#= pair.Value #>)
         /// </summary>
-        public const string <#= CamelName(pair.Name) #> = "\u<#= pair.Value #>";
+        public const string <#= ToCSharpIdentifier(CamelName(pair.Name)) #> = "\u<#= pair.Value #>";
 <#
 	    }
 	}
@@ -137,18 +124,18 @@ namespace <#= @namespace #>
 	if(generateDictionary)
 	{
 #>
-		private static IDictionary<string, string> _allIcons;
+		private static System.Collections.Generic.IDictionary<string, string> _allIcons;
         
-		public static IDictionary<string, string> AllIcons
+		public static System.Collections.Generic.IDictionary<string, string> AllIcons
         {
             get { return _allIcons; }
         }
 
         static FontAwesomeIcons()
         {
-            _allIcons = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+            _allIcons = new System.Collections.Generic.Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
 <#
-	HashSet<string> strings = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+	System.Collections.Generic.HashSet<string> strings = new System.Collections.Generic.HashSet<string>(StringComparer.OrdinalIgnoreCase);
 	foreach(NameValue pair in pairs)
     {
 		if(!strings.Contains(pair.Name))
@@ -181,8 +168,8 @@ namespace <#= @namespace #>
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("<#= GetType().ToString() #>", "1.0.0.0")]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    [MarkupExtensionReturnType(typeof(string))]
-    <#= visibility #> partial class IconExtension : MarkupExtension
+    [System.Windows.Markup.MarkupExtensionReturnType(typeof(string))]
+    <#= visibility #> partial class IconExtension : System.Windows.Markup.MarkupExtension
     {
         public IconExtension()
         {
@@ -193,10 +180,10 @@ namespace <#= @namespace #>
             Icon = icon;
         }
         
-        [ConstructorArgument("icon")]
+        [System.Windows.Markup.ConstructorArgument("icon")]
         public FontAwesomeIconEnum Icon { get; set; }
 
-        public override object ProvideValue(IServiceProvider serviceProvider)
+        public override object ProvideValue(System.IServiceProvider serviceProvider)
         {
             return ((char)Icon).ToString();
         }
@@ -245,5 +232,16 @@ namespace <#= @namespace #>
         
         return sb.ToString();
     }
+
+	string ToCSharpIdentifier(string name) 
+	{
+		char c = name[0];
+		if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || c == '_')
+		{
+			return name;	
+		}
+		
+		return "Icon" + name;
+	}
 
 #>
