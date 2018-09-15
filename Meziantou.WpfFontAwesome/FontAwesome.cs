@@ -13,7 +13,7 @@ namespace Meziantou.WpfFontAwesome
     /// <summary>
     /// Font Awesome Icons.
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplatingCBF688617F9548F89F86A3B19E785BB338713F3B55E87799D112C7974D60B7B8E265EEA5CB295C2E8A02B0DB6AB4F1190D47D04B27AC238F43820AFBFB82B697.GeneratedTextTransformation", "1.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating78D2D64FFB678D4AF21136306D573C5A98D068402ED888CC162310DA6FB1A6BC05307C86156BD7C6404C0175830EBA0A93947BDC139360C989F627210152AF4F.GeneratedTextTransformation", "1.0.0.0")]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public enum FontAwesomeIconEnum
     {
@@ -24,24 +24,29 @@ namespace Meziantou.WpfFontAwesome
         Icon500px = 0xf26e,
 
         /// <summary>
+        /// fa-accessible-icon icon (f368)
+        /// </summary>
+        AccessibleIcon = 0xf368,
+
+        /// <summary>
+        /// fa-accusoft icon (f369)
+        /// </summary>
+        Accusoft = 0xf369,
+
+        /// <summary>
+        /// fa-ad icon (f641)
+        /// </summary>
+        Ad = 0xf641,
+
+        /// <summary>
         /// fa-address-book icon (f2b9)
         /// </summary>
         AddressBook = 0xf2b9,
 
         /// <summary>
-        /// fa-address-book-o icon (f2ba)
-        /// </summary>
-        AddressBookO = 0xf2ba,
-
-        /// <summary>
         /// fa-address-card icon (f2bb)
         /// </summary>
         AddressCard = 0xf2bb,
-
-        /// <summary>
-        /// fa-address-card-o icon (f2bc)
-        /// </summary>
-        AddressCardO = 0xf2bc,
 
         /// <summary>
         /// fa-adjust icon (f042)
@@ -52,6 +57,26 @@ namespace Meziantou.WpfFontAwesome
         /// fa-adn icon (f170)
         /// </summary>
         Adn = 0xf170,
+
+        /// <summary>
+        /// fa-adversal icon (f36a)
+        /// </summary>
+        Adversal = 0xf36a,
+
+        /// <summary>
+        /// fa-affiliatetheme icon (f36b)
+        /// </summary>
+        Affiliatetheme = 0xf36b,
+
+        /// <summary>
+        /// fa-air-freshener icon (f5d0)
+        /// </summary>
+        AirFreshener = 0xf5d0,
+
+        /// <summary>
+        /// fa-algolia icon (f36c)
+        /// </summary>
+        Algolia = 0xf36c,
 
         /// <summary>
         /// fa-align-center icon (f037)
@@ -74,9 +99,24 @@ namespace Meziantou.WpfFontAwesome
         AlignRight = 0xf038,
 
         /// <summary>
+        /// fa-alipay icon (f642)
+        /// </summary>
+        Alipay = 0xf642,
+
+        /// <summary>
+        /// fa-allergies icon (f461)
+        /// </summary>
+        Allergies = 0xf461,
+
+        /// <summary>
         /// fa-amazon icon (f270)
         /// </summary>
         Amazon = 0xf270,
+
+        /// <summary>
+        /// fa-amazon-pay icon (f42c)
+        /// </summary>
+        AmazonPay = 0xf42c,
 
         /// <summary>
         /// fa-ambulance icon (f0f9)
@@ -87,6 +127,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-american-sign-language-interpreting icon (f2a3)
         /// </summary>
         AmericanSignLanguageInterpreting = 0xf2a3,
+
+        /// <summary>
+        /// fa-amilia icon (f36d)
+        /// </summary>
+        Amilia = 0xf36d,
 
         /// <summary>
         /// fa-anchor icon (f13d)
@@ -144,9 +189,54 @@ namespace Meziantou.WpfFontAwesome
         AngleUp = 0xf106,
 
         /// <summary>
+        /// fa-angry icon (f556)
+        /// </summary>
+        Angry = 0xf556,
+
+        /// <summary>
+        /// fa-angrycreative icon (f36e)
+        /// </summary>
+        Angrycreative = 0xf36e,
+
+        /// <summary>
+        /// fa-angular icon (f420)
+        /// </summary>
+        Angular = 0xf420,
+
+        /// <summary>
+        /// fa-ankh icon (f644)
+        /// </summary>
+        Ankh = 0xf644,
+
+        /// <summary>
+        /// fa-app-store icon (f36f)
+        /// </summary>
+        AppStore = 0xf36f,
+
+        /// <summary>
+        /// fa-app-store-ios icon (f370)
+        /// </summary>
+        AppStoreIos = 0xf370,
+
+        /// <summary>
+        /// fa-apper icon (f371)
+        /// </summary>
+        Apper = 0xf371,
+
+        /// <summary>
         /// fa-apple icon (f179)
         /// </summary>
         Apple = 0xf179,
+
+        /// <summary>
+        /// fa-apple-alt icon (f5d1)
+        /// </summary>
+        AppleAlt = 0xf5d1,
+
+        /// <summary>
+        /// fa-apple-pay icon (f415)
+        /// </summary>
+        ApplePay = 0xf415,
 
         /// <summary>
         /// fa-archive icon (f187)
@@ -154,9 +244,29 @@ namespace Meziantou.WpfFontAwesome
         Archive = 0xf187,
 
         /// <summary>
-        /// fa-area-chart icon (f1fe)
+        /// fa-archway icon (f557)
         /// </summary>
-        AreaChart = 0xf1fe,
+        Archway = 0xf557,
+
+        /// <summary>
+        /// fa-arrow-alt-circle-down icon (f358)
+        /// </summary>
+        ArrowAltCircleDown = 0xf358,
+
+        /// <summary>
+        /// fa-arrow-alt-circle-left icon (f359)
+        /// </summary>
+        ArrowAltCircleLeft = 0xf359,
+
+        /// <summary>
+        /// fa-arrow-alt-circle-right icon (f35a)
+        /// </summary>
+        ArrowAltCircleRight = 0xf35a,
+
+        /// <summary>
+        /// fa-arrow-alt-circle-up icon (f35b)
+        /// </summary>
+        ArrowAltCircleUp = 0xf35b,
 
         /// <summary>
         /// fa-arrow-circle-down icon (f0ab)
@@ -167,26 +277,6 @@ namespace Meziantou.WpfFontAwesome
         /// fa-arrow-circle-left icon (f0a8)
         /// </summary>
         ArrowCircleLeft = 0xf0a8,
-
-        /// <summary>
-        /// fa-arrow-circle-o-down icon (f01a)
-        /// </summary>
-        ArrowCircleODown = 0xf01a,
-
-        /// <summary>
-        /// fa-arrow-circle-o-left icon (f190)
-        /// </summary>
-        ArrowCircleOLeft = 0xf190,
-
-        /// <summary>
-        /// fa-arrow-circle-o-right icon (f18e)
-        /// </summary>
-        ArrowCircleORight = 0xf18e,
-
-        /// <summary>
-        /// fa-arrow-circle-o-up icon (f01b)
-        /// </summary>
-        ArrowCircleOUp = 0xf01b,
 
         /// <summary>
         /// fa-arrow-circle-right icon (f0a9)
@@ -219,29 +309,19 @@ namespace Meziantou.WpfFontAwesome
         ArrowUp = 0xf062,
 
         /// <summary>
-        /// fa-arrows icon (f047)
-        /// </summary>
-        Arrows = 0xf047,
-
-        /// <summary>
         /// fa-arrows-alt icon (f0b2)
         /// </summary>
         ArrowsAlt = 0xf0b2,
 
         /// <summary>
-        /// fa-arrows-h icon (f07e)
+        /// fa-arrows-alt-h icon (f337)
         /// </summary>
-        ArrowsH = 0xf07e,
+        ArrowsAltH = 0xf337,
 
         /// <summary>
-        /// fa-arrows-v icon (f07d)
+        /// fa-arrows-alt-v icon (f338)
         /// </summary>
-        ArrowsV = 0xf07d,
-
-        /// <summary>
-        /// fa-asl-interpreting icon (f2a3)
-        /// </summary>
-        AslInterpreting = 0xf2a3,
+        ArrowsAltV = 0xf338,
 
         /// <summary>
         /// fa-assistive-listening-systems icon (f2a2)
@@ -254,9 +334,29 @@ namespace Meziantou.WpfFontAwesome
         Asterisk = 0xf069,
 
         /// <summary>
+        /// fa-asymmetrik icon (f372)
+        /// </summary>
+        Asymmetrik = 0xf372,
+
+        /// <summary>
         /// fa-at icon (f1fa)
         /// </summary>
         At = 0xf1fa,
+
+        /// <summary>
+        /// fa-atlas icon (f558)
+        /// </summary>
+        Atlas = 0xf558,
+
+        /// <summary>
+        /// fa-atom icon (f5d2)
+        /// </summary>
+        Atom = 0xf5d2,
+
+        /// <summary>
+        /// fa-audible icon (f373)
+        /// </summary>
+        Audible = 0xf373,
 
         /// <summary>
         /// fa-audio-description icon (f29e)
@@ -264,9 +364,34 @@ namespace Meziantou.WpfFontAwesome
         AudioDescription = 0xf29e,
 
         /// <summary>
-        /// fa-automobile icon (f1b9)
+        /// fa-autoprefixer icon (f41c)
         /// </summary>
-        Automobile = 0xf1b9,
+        Autoprefixer = 0xf41c,
+
+        /// <summary>
+        /// fa-avianex icon (f374)
+        /// </summary>
+        Avianex = 0xf374,
+
+        /// <summary>
+        /// fa-aviato icon (f421)
+        /// </summary>
+        Aviato = 0xf421,
+
+        /// <summary>
+        /// fa-award icon (f559)
+        /// </summary>
+        Award = 0xf559,
+
+        /// <summary>
+        /// fa-aws icon (f375)
+        /// </summary>
+        Aws = 0xf375,
+
+        /// <summary>
+        /// fa-backspace icon (f55a)
+        /// </summary>
+        Backspace = 0xf55a,
 
         /// <summary>
         /// fa-backward icon (f04a)
@@ -284,24 +409,14 @@ namespace Meziantou.WpfFontAwesome
         Ban = 0xf05e,
 
         /// <summary>
+        /// fa-band-aid icon (f462)
+        /// </summary>
+        BandAid = 0xf462,
+
+        /// <summary>
         /// fa-bandcamp icon (f2d5)
         /// </summary>
         Bandcamp = 0xf2d5,
-
-        /// <summary>
-        /// fa-bank icon (f19c)
-        /// </summary>
-        Bank = 0xf19c,
-
-        /// <summary>
-        /// fa-bar-chart icon (f080)
-        /// </summary>
-        BarChart = 0xf080,
-
-        /// <summary>
-        /// fa-bar-chart-o icon (f080)
-        /// </summary>
-        BarChartO = 0xf080,
 
         /// <summary>
         /// fa-barcode icon (f02a)
@@ -314,44 +429,19 @@ namespace Meziantou.WpfFontAwesome
         Bars = 0xf0c9,
 
         /// <summary>
+        /// fa-baseball-ball icon (f433)
+        /// </summary>
+        BaseballBall = 0xf433,
+
+        /// <summary>
+        /// fa-basketball-ball icon (f434)
+        /// </summary>
+        BasketballBall = 0xf434,
+
+        /// <summary>
         /// fa-bath icon (f2cd)
         /// </summary>
         Bath = 0xf2cd,
-
-        /// <summary>
-        /// fa-bathtub icon (f2cd)
-        /// </summary>
-        Bathtub = 0xf2cd,
-
-        /// <summary>
-        /// fa-battery icon (f240)
-        /// </summary>
-        Battery = 0xf240,
-
-        /// <summary>
-        /// fa-battery-0 icon (f244)
-        /// </summary>
-        Battery0 = 0xf244,
-
-        /// <summary>
-        /// fa-battery-1 icon (f243)
-        /// </summary>
-        Battery1 = 0xf243,
-
-        /// <summary>
-        /// fa-battery-2 icon (f242)
-        /// </summary>
-        Battery2 = 0xf242,
-
-        /// <summary>
-        /// fa-battery-3 icon (f241)
-        /// </summary>
-        Battery3 = 0xf241,
-
-        /// <summary>
-        /// fa-battery-4 icon (f240)
-        /// </summary>
-        Battery4 = 0xf240,
 
         /// <summary>
         /// fa-battery-empty icon (f244)
@@ -404,24 +494,29 @@ namespace Meziantou.WpfFontAwesome
         Bell = 0xf0f3,
 
         /// <summary>
-        /// fa-bell-o icon (f0a2)
-        /// </summary>
-        BellO = 0xf0a2,
-
-        /// <summary>
         /// fa-bell-slash icon (f1f6)
         /// </summary>
         BellSlash = 0xf1f6,
 
         /// <summary>
-        /// fa-bell-slash-o icon (f1f7)
+        /// fa-bezier-curve icon (f55b)
         /// </summary>
-        BellSlashO = 0xf1f7,
+        BezierCurve = 0xf55b,
+
+        /// <summary>
+        /// fa-bible icon (f647)
+        /// </summary>
+        Bible = 0xf647,
 
         /// <summary>
         /// fa-bicycle icon (f206)
         /// </summary>
         Bicycle = 0xf206,
+
+        /// <summary>
+        /// fa-bimobject icon (f378)
+        /// </summary>
+        Bimobject = 0xf378,
 
         /// <summary>
         /// fa-binoculars icon (f1e5)
@@ -439,14 +534,14 @@ namespace Meziantou.WpfFontAwesome
         Bitbucket = 0xf171,
 
         /// <summary>
-        /// fa-bitbucket-square icon (f172)
+        /// fa-bitcoin icon (f379)
         /// </summary>
-        BitbucketSquare = 0xf172,
+        Bitcoin = 0xf379,
 
         /// <summary>
-        /// fa-bitcoin icon (f15a)
+        /// fa-bity icon (f37a)
         /// </summary>
-        Bitcoin = 0xf15a,
+        Bity = 0xf37a,
 
         /// <summary>
         /// fa-black-tie icon (f27e)
@@ -454,9 +549,29 @@ namespace Meziantou.WpfFontAwesome
         BlackTie = 0xf27e,
 
         /// <summary>
+        /// fa-blackberry icon (f37b)
+        /// </summary>
+        Blackberry = 0xf37b,
+
+        /// <summary>
+        /// fa-blender icon (f517)
+        /// </summary>
+        Blender = 0xf517,
+
+        /// <summary>
         /// fa-blind icon (f29d)
         /// </summary>
         Blind = 0xf29d,
+
+        /// <summary>
+        /// fa-blogger icon (f37c)
+        /// </summary>
+        Blogger = 0xf37c,
+
+        /// <summary>
+        /// fa-blogger-b icon (f37d)
+        /// </summary>
+        BloggerB = 0xf37d,
 
         /// <summary>
         /// fa-bluetooth icon (f293)
@@ -484,9 +599,29 @@ namespace Meziantou.WpfFontAwesome
         Bomb = 0xf1e2,
 
         /// <summary>
+        /// fa-bone icon (f5d7)
+        /// </summary>
+        Bone = 0xf5d7,
+
+        /// <summary>
+        /// fa-bong icon (f55c)
+        /// </summary>
+        Bong = 0xf55c,
+
+        /// <summary>
         /// fa-book icon (f02d)
         /// </summary>
         Book = 0xf02d,
+
+        /// <summary>
+        /// fa-book-open icon (f518)
+        /// </summary>
+        BookOpen = 0xf518,
+
+        /// <summary>
+        /// fa-book-reader icon (f5da)
+        /// </summary>
+        BookReader = 0xf5da,
 
         /// <summary>
         /// fa-bookmark icon (f02e)
@@ -494,9 +629,24 @@ namespace Meziantou.WpfFontAwesome
         Bookmark = 0xf02e,
 
         /// <summary>
-        /// fa-bookmark-o icon (f097)
+        /// fa-bowling-ball icon (f436)
         /// </summary>
-        BookmarkO = 0xf097,
+        BowlingBall = 0xf436,
+
+        /// <summary>
+        /// fa-box icon (f466)
+        /// </summary>
+        Box = 0xf466,
+
+        /// <summary>
+        /// fa-box-open icon (f49e)
+        /// </summary>
+        BoxOpen = 0xf49e,
+
+        /// <summary>
+        /// fa-boxes icon (f468)
+        /// </summary>
+        Boxes = 0xf468,
 
         /// <summary>
         /// fa-braille icon (f2a1)
@@ -504,9 +654,34 @@ namespace Meziantou.WpfFontAwesome
         Braille = 0xf2a1,
 
         /// <summary>
+        /// fa-brain icon (f5dc)
+        /// </summary>
+        Brain = 0xf5dc,
+
+        /// <summary>
         /// fa-briefcase icon (f0b1)
         /// </summary>
         Briefcase = 0xf0b1,
+
+        /// <summary>
+        /// fa-briefcase-medical icon (f469)
+        /// </summary>
+        BriefcaseMedical = 0xf469,
+
+        /// <summary>
+        /// fa-broadcast-tower icon (f519)
+        /// </summary>
+        BroadcastTower = 0xf519,
+
+        /// <summary>
+        /// fa-broom icon (f51a)
+        /// </summary>
+        Broom = 0xf51a,
+
+        /// <summary>
+        /// fa-brush icon (f55d)
+        /// </summary>
+        Brush = 0xf55d,
 
         /// <summary>
         /// fa-btc icon (f15a)
@@ -524,11 +699,6 @@ namespace Meziantou.WpfFontAwesome
         Building = 0xf1ad,
 
         /// <summary>
-        /// fa-building-o icon (f0f7)
-        /// </summary>
-        BuildingO = 0xf0f7,
-
-        /// <summary>
         /// fa-bullhorn icon (f0a1)
         /// </summary>
         Bullhorn = 0xf0a1,
@@ -539,9 +709,29 @@ namespace Meziantou.WpfFontAwesome
         Bullseye = 0xf140,
 
         /// <summary>
+        /// fa-burn icon (f46a)
+        /// </summary>
+        Burn = 0xf46a,
+
+        /// <summary>
+        /// fa-buromobelexperte icon (f37f)
+        /// </summary>
+        Buromobelexperte = 0xf37f,
+
+        /// <summary>
         /// fa-bus icon (f207)
         /// </summary>
         Bus = 0xf207,
+
+        /// <summary>
+        /// fa-bus-alt icon (f55e)
+        /// </summary>
+        BusAlt = 0xf55e,
+
+        /// <summary>
+        /// fa-business-time icon (f64a)
+        /// </summary>
+        BusinessTime = 0xf64a,
 
         /// <summary>
         /// fa-buysellads icon (f20d)
@@ -549,44 +739,39 @@ namespace Meziantou.WpfFontAwesome
         Buysellads = 0xf20d,
 
         /// <summary>
-        /// fa-cab icon (f1ba)
-        /// </summary>
-        Cab = 0xf1ba,
-
-        /// <summary>
         /// fa-calculator icon (f1ec)
         /// </summary>
         Calculator = 0xf1ec,
 
         /// <summary>
-        /// fa-calendar icon (f073)
+        /// fa-calendar icon (f133)
         /// </summary>
-        Calendar = 0xf073,
+        Calendar = 0xf133,
 
         /// <summary>
-        /// fa-calendar-check-o icon (f274)
+        /// fa-calendar-alt icon (f073)
         /// </summary>
-        CalendarCheckO = 0xf274,
+        CalendarAlt = 0xf073,
 
         /// <summary>
-        /// fa-calendar-minus-o icon (f272)
+        /// fa-calendar-check icon (f274)
         /// </summary>
-        CalendarMinusO = 0xf272,
+        CalendarCheck = 0xf274,
 
         /// <summary>
-        /// fa-calendar-o icon (f133)
+        /// fa-calendar-minus icon (f272)
         /// </summary>
-        CalendarO = 0xf133,
+        CalendarMinus = 0xf272,
 
         /// <summary>
-        /// fa-calendar-plus-o icon (f271)
+        /// fa-calendar-plus icon (f271)
         /// </summary>
-        CalendarPlusO = 0xf271,
+        CalendarPlus = 0xf271,
 
         /// <summary>
-        /// fa-calendar-times-o icon (f273)
+        /// fa-calendar-times icon (f273)
         /// </summary>
-        CalendarTimesO = 0xf273,
+        CalendarTimes = 0xf273,
 
         /// <summary>
         /// fa-camera icon (f030)
@@ -599,9 +784,39 @@ namespace Meziantou.WpfFontAwesome
         CameraRetro = 0xf083,
 
         /// <summary>
+        /// fa-cannabis icon (f55f)
+        /// </summary>
+        Cannabis = 0xf55f,
+
+        /// <summary>
+        /// fa-capsules icon (f46b)
+        /// </summary>
+        Capsules = 0xf46b,
+
+        /// <summary>
         /// fa-car icon (f1b9)
         /// </summary>
         Car = 0xf1b9,
+
+        /// <summary>
+        /// fa-car-alt icon (f5de)
+        /// </summary>
+        CarAlt = 0xf5de,
+
+        /// <summary>
+        /// fa-car-battery icon (f5df)
+        /// </summary>
+        CarBattery = 0xf5df,
+
+        /// <summary>
+        /// fa-car-crash icon (f5e1)
+        /// </summary>
+        CarCrash = 0xf5e1,
+
+        /// <summary>
+        /// fa-car-side icon (f5e4)
+        /// </summary>
+        CarSide = 0xf5e4,
 
         /// <summary>
         /// fa-caret-down icon (f0d7)
@@ -619,24 +834,24 @@ namespace Meziantou.WpfFontAwesome
         CaretRight = 0xf0da,
 
         /// <summary>
-        /// fa-caret-square-o-down icon (f150)
+        /// fa-caret-square-down icon (f150)
         /// </summary>
-        CaretSquareODown = 0xf150,
+        CaretSquareDown = 0xf150,
 
         /// <summary>
-        /// fa-caret-square-o-left icon (f191)
+        /// fa-caret-square-left icon (f191)
         /// </summary>
-        CaretSquareOLeft = 0xf191,
+        CaretSquareLeft = 0xf191,
 
         /// <summary>
-        /// fa-caret-square-o-right icon (f152)
+        /// fa-caret-square-right icon (f152)
         /// </summary>
-        CaretSquareORight = 0xf152,
+        CaretSquareRight = 0xf152,
 
         /// <summary>
-        /// fa-caret-square-o-up icon (f151)
+        /// fa-caret-square-up icon (f151)
         /// </summary>
-        CaretSquareOUp = 0xf151,
+        CaretSquareUp = 0xf151,
 
         /// <summary>
         /// fa-caret-up icon (f0d8)
@@ -654,14 +869,19 @@ namespace Meziantou.WpfFontAwesome
         CartPlus = 0xf217,
 
         /// <summary>
-        /// fa-cc icon (f20a)
+        /// fa-cc-amazon-pay icon (f42d)
         /// </summary>
-        Cc = 0xf20a,
+        CcAmazonPay = 0xf42d,
 
         /// <summary>
         /// fa-cc-amex icon (f1f3)
         /// </summary>
         CcAmex = 0xf1f3,
+
+        /// <summary>
+        /// fa-cc-apple-pay icon (f416)
+        /// </summary>
+        CcApplePay = 0xf416,
 
         /// <summary>
         /// fa-cc-diners-club icon (f24c)
@@ -699,19 +919,49 @@ namespace Meziantou.WpfFontAwesome
         CcVisa = 0xf1f0,
 
         /// <summary>
+        /// fa-centercode icon (f380)
+        /// </summary>
+        Centercode = 0xf380,
+
+        /// <summary>
         /// fa-certificate icon (f0a3)
         /// </summary>
         Certificate = 0xf0a3,
 
         /// <summary>
-        /// fa-chain icon (f0c1)
+        /// fa-chalkboard icon (f51b)
         /// </summary>
-        Chain = 0xf0c1,
+        Chalkboard = 0xf51b,
 
         /// <summary>
-        /// fa-chain-broken icon (f127)
+        /// fa-chalkboard-teacher icon (f51c)
         /// </summary>
-        ChainBroken = 0xf127,
+        ChalkboardTeacher = 0xf51c,
+
+        /// <summary>
+        /// fa-charging-station icon (f5e7)
+        /// </summary>
+        ChargingStation = 0xf5e7,
+
+        /// <summary>
+        /// fa-chart-area icon (f1fe)
+        /// </summary>
+        ChartArea = 0xf1fe,
+
+        /// <summary>
+        /// fa-chart-bar icon (f080)
+        /// </summary>
+        ChartBar = 0xf080,
+
+        /// <summary>
+        /// fa-chart-line icon (f201)
+        /// </summary>
+        ChartLine = 0xf201,
+
+        /// <summary>
+        /// fa-chart-pie icon (f200)
+        /// </summary>
+        ChartPie = 0xf200,
 
         /// <summary>
         /// fa-check icon (f00c)
@@ -724,9 +974,9 @@ namespace Meziantou.WpfFontAwesome
         CheckCircle = 0xf058,
 
         /// <summary>
-        /// fa-check-circle-o icon (f05d)
+        /// fa-check-double icon (f560)
         /// </summary>
-        CheckCircleO = 0xf05d,
+        CheckDouble = 0xf560,
 
         /// <summary>
         /// fa-check-square icon (f14a)
@@ -734,9 +984,44 @@ namespace Meziantou.WpfFontAwesome
         CheckSquare = 0xf14a,
 
         /// <summary>
-        /// fa-check-square-o icon (f046)
+        /// fa-chess icon (f439)
         /// </summary>
-        CheckSquareO = 0xf046,
+        Chess = 0xf439,
+
+        /// <summary>
+        /// fa-chess-bishop icon (f43a)
+        /// </summary>
+        ChessBishop = 0xf43a,
+
+        /// <summary>
+        /// fa-chess-board icon (f43c)
+        /// </summary>
+        ChessBoard = 0xf43c,
+
+        /// <summary>
+        /// fa-chess-king icon (f43f)
+        /// </summary>
+        ChessKing = 0xf43f,
+
+        /// <summary>
+        /// fa-chess-knight icon (f441)
+        /// </summary>
+        ChessKnight = 0xf441,
+
+        /// <summary>
+        /// fa-chess-pawn icon (f443)
+        /// </summary>
+        ChessPawn = 0xf443,
+
+        /// <summary>
+        /// fa-chess-queen icon (f445)
+        /// </summary>
+        ChessQueen = 0xf445,
+
+        /// <summary>
+        /// fa-chess-rook icon (f447)
+        /// </summary>
+        ChessRook = 0xf447,
 
         /// <summary>
         /// fa-chevron-circle-down icon (f13a)
@@ -789,34 +1074,44 @@ namespace Meziantou.WpfFontAwesome
         Chrome = 0xf268,
 
         /// <summary>
+        /// fa-church icon (f51d)
+        /// </summary>
+        Church = 0xf51d,
+
+        /// <summary>
         /// fa-circle icon (f111)
         /// </summary>
         Circle = 0xf111,
 
         /// <summary>
-        /// fa-circle-o icon (f10c)
+        /// fa-circle-notch icon (f1ce)
         /// </summary>
-        CircleO = 0xf10c,
+        CircleNotch = 0xf1ce,
 
         /// <summary>
-        /// fa-circle-o-notch icon (f1ce)
+        /// fa-city icon (f64f)
         /// </summary>
-        CircleONotch = 0xf1ce,
+        City = 0xf64f,
 
         /// <summary>
-        /// fa-circle-thin icon (f1db)
+        /// fa-clipboard icon (f328)
         /// </summary>
-        CircleThin = 0xf1db,
+        Clipboard = 0xf328,
 
         /// <summary>
-        /// fa-clipboard icon (f0ea)
+        /// fa-clipboard-check icon (f46c)
         /// </summary>
-        Clipboard = 0xf0ea,
+        ClipboardCheck = 0xf46c,
 
         /// <summary>
-        /// fa-clock-o icon (f017)
+        /// fa-clipboard-list icon (f46d)
         /// </summary>
-        ClockO = 0xf017,
+        ClipboardList = 0xf46d,
+
+        /// <summary>
+        /// fa-clock icon (f017)
+        /// </summary>
+        Clock = 0xf017,
 
         /// <summary>
         /// fa-clone icon (f24d)
@@ -824,9 +1119,9 @@ namespace Meziantou.WpfFontAwesome
         Clone = 0xf24d,
 
         /// <summary>
-        /// fa-close icon (f00d)
+        /// fa-closed-captioning icon (f20a)
         /// </summary>
-        Close = 0xf00d,
+        ClosedCaptioning = 0xf20a,
 
         /// <summary>
         /// fa-cloud icon (f0c2)
@@ -834,19 +1129,34 @@ namespace Meziantou.WpfFontAwesome
         Cloud = 0xf0c2,
 
         /// <summary>
-        /// fa-cloud-download icon (f0ed)
+        /// fa-cloud-download-alt icon (f381)
         /// </summary>
-        CloudDownload = 0xf0ed,
+        CloudDownloadAlt = 0xf381,
 
         /// <summary>
-        /// fa-cloud-upload icon (f0ee)
+        /// fa-cloud-upload-alt icon (f382)
         /// </summary>
-        CloudUpload = 0xf0ee,
+        CloudUploadAlt = 0xf382,
 
         /// <summary>
-        /// fa-cny icon (f157)
+        /// fa-cloudscale icon (f383)
         /// </summary>
-        Cny = 0xf157,
+        Cloudscale = 0xf383,
+
+        /// <summary>
+        /// fa-cloudsmith icon (f384)
+        /// </summary>
+        Cloudsmith = 0xf384,
+
+        /// <summary>
+        /// fa-cloudversify icon (f385)
+        /// </summary>
+        Cloudversify = 0xf385,
+
+        /// <summary>
+        /// fa-cocktail icon (f561)
+        /// </summary>
+        Cocktail = 0xf561,
 
         /// <summary>
         /// fa-code icon (f121)
@@ -854,9 +1164,9 @@ namespace Meziantou.WpfFontAwesome
         Code = 0xf121,
 
         /// <summary>
-        /// fa-code-fork icon (f126)
+        /// fa-code-branch icon (f126)
         /// </summary>
-        CodeFork = 0xf126,
+        CodeBranch = 0xf126,
 
         /// <summary>
         /// fa-codepen icon (f1cb)
@@ -884,6 +1194,11 @@ namespace Meziantou.WpfFontAwesome
         Cogs = 0xf085,
 
         /// <summary>
+        /// fa-coins icon (f51e)
+        /// </summary>
+        Coins = 0xf51e,
+
+        /// <summary>
         /// fa-columns icon (f0db)
         /// </summary>
         Columns = 0xf0db,
@@ -894,19 +1209,24 @@ namespace Meziantou.WpfFontAwesome
         Comment = 0xf075,
 
         /// <summary>
-        /// fa-comment-o icon (f0e5)
+        /// fa-comment-alt icon (f27a)
         /// </summary>
-        CommentO = 0xf0e5,
+        CommentAlt = 0xf27a,
 
         /// <summary>
-        /// fa-commenting icon (f27a)
+        /// fa-comment-dollar icon (f651)
         /// </summary>
-        Commenting = 0xf27a,
+        CommentDollar = 0xf651,
 
         /// <summary>
-        /// fa-commenting-o icon (f27b)
+        /// fa-comment-dots icon (f4ad)
         /// </summary>
-        CommentingO = 0xf27b,
+        CommentDots = 0xf4ad,
+
+        /// <summary>
+        /// fa-comment-slash icon (f4b3)
+        /// </summary>
+        CommentSlash = 0xf4b3,
 
         /// <summary>
         /// fa-comments icon (f086)
@@ -914,9 +1234,14 @@ namespace Meziantou.WpfFontAwesome
         Comments = 0xf086,
 
         /// <summary>
-        /// fa-comments-o icon (f0e6)
+        /// fa-comments-dollar icon (f653)
         /// </summary>
-        CommentsO = 0xf0e6,
+        CommentsDollar = 0xf653,
+
+        /// <summary>
+        /// fa-compact-disc icon (f51f)
+        /// </summary>
+        CompactDisc = 0xf51f,
 
         /// <summary>
         /// fa-compass icon (f14e)
@@ -929,6 +1254,11 @@ namespace Meziantou.WpfFontAwesome
         Compress = 0xf066,
 
         /// <summary>
+        /// fa-concierge-bell icon (f562)
+        /// </summary>
+        ConciergeBell = 0xf562,
+
+        /// <summary>
         /// fa-connectdevelop icon (f20e)
         /// </summary>
         Connectdevelop = 0xf20e,
@@ -937,6 +1267,16 @@ namespace Meziantou.WpfFontAwesome
         /// fa-contao icon (f26d)
         /// </summary>
         Contao = 0xf26d,
+
+        /// <summary>
+        /// fa-cookie icon (f563)
+        /// </summary>
+        Cookie = 0xf563,
+
+        /// <summary>
+        /// fa-cookie-bite icon (f564)
+        /// </summary>
+        CookieBite = 0xf564,
 
         /// <summary>
         /// fa-copy icon (f0c5)
@@ -949,9 +1289,79 @@ namespace Meziantou.WpfFontAwesome
         Copyright = 0xf1f9,
 
         /// <summary>
+        /// fa-couch icon (f4b8)
+        /// </summary>
+        Couch = 0xf4b8,
+
+        /// <summary>
+        /// fa-cpanel icon (f388)
+        /// </summary>
+        Cpanel = 0xf388,
+
+        /// <summary>
         /// fa-creative-commons icon (f25e)
         /// </summary>
         CreativeCommons = 0xf25e,
+
+        /// <summary>
+        /// fa-creative-commons-by icon (f4e7)
+        /// </summary>
+        CreativeCommonsBy = 0xf4e7,
+
+        /// <summary>
+        /// fa-creative-commons-nc icon (f4e8)
+        /// </summary>
+        CreativeCommonsNc = 0xf4e8,
+
+        /// <summary>
+        /// fa-creative-commons-nc-eu icon (f4e9)
+        /// </summary>
+        CreativeCommonsNcEu = 0xf4e9,
+
+        /// <summary>
+        /// fa-creative-commons-nc-jp icon (f4ea)
+        /// </summary>
+        CreativeCommonsNcJp = 0xf4ea,
+
+        /// <summary>
+        /// fa-creative-commons-nd icon (f4eb)
+        /// </summary>
+        CreativeCommonsNd = 0xf4eb,
+
+        /// <summary>
+        /// fa-creative-commons-pd icon (f4ec)
+        /// </summary>
+        CreativeCommonsPd = 0xf4ec,
+
+        /// <summary>
+        /// fa-creative-commons-pd-alt icon (f4ed)
+        /// </summary>
+        CreativeCommonsPdAlt = 0xf4ed,
+
+        /// <summary>
+        /// fa-creative-commons-remix icon (f4ee)
+        /// </summary>
+        CreativeCommonsRemix = 0xf4ee,
+
+        /// <summary>
+        /// fa-creative-commons-sa icon (f4ef)
+        /// </summary>
+        CreativeCommonsSa = 0xf4ef,
+
+        /// <summary>
+        /// fa-creative-commons-sampling icon (f4f0)
+        /// </summary>
+        CreativeCommonsSampling = 0xf4f0,
+
+        /// <summary>
+        /// fa-creative-commons-sampling-plus icon (f4f1)
+        /// </summary>
+        CreativeCommonsSamplingPlus = 0xf4f1,
+
+        /// <summary>
+        /// fa-creative-commons-share icon (f4f2)
+        /// </summary>
+        CreativeCommonsShare = 0xf4f2,
 
         /// <summary>
         /// fa-credit-card icon (f09d)
@@ -959,14 +1369,19 @@ namespace Meziantou.WpfFontAwesome
         CreditCard = 0xf09d,
 
         /// <summary>
-        /// fa-credit-card-alt icon (f283)
-        /// </summary>
-        CreditCardAlt = 0xf283,
-
-        /// <summary>
         /// fa-crop icon (f125)
         /// </summary>
         Crop = 0xf125,
+
+        /// <summary>
+        /// fa-crop-alt icon (f565)
+        /// </summary>
+        CropAlt = 0xf565,
+
+        /// <summary>
+        /// fa-cross icon (f654)
+        /// </summary>
+        Cross = 0xf654,
 
         /// <summary>
         /// fa-crosshairs icon (f05b)
@@ -974,9 +1389,24 @@ namespace Meziantou.WpfFontAwesome
         Crosshairs = 0xf05b,
 
         /// <summary>
+        /// fa-crow icon (f520)
+        /// </summary>
+        Crow = 0xf520,
+
+        /// <summary>
+        /// fa-crown icon (f521)
+        /// </summary>
+        Crown = 0xf521,
+
+        /// <summary>
         /// fa-css3 icon (f13c)
         /// </summary>
         Css3 = 0xf13c,
+
+        /// <summary>
+        /// fa-css3-alt icon (f38b)
+        /// </summary>
+        Css3Alt = 0xf38b,
 
         /// <summary>
         /// fa-cube icon (f1b2)
@@ -994,14 +1424,14 @@ namespace Meziantou.WpfFontAwesome
         Cut = 0xf0c4,
 
         /// <summary>
-        /// fa-cutlery icon (f0f5)
+        /// fa-cuttlefish icon (f38c)
         /// </summary>
-        Cutlery = 0xf0f5,
+        Cuttlefish = 0xf38c,
 
         /// <summary>
-        /// fa-dashboard icon (f0e4)
+        /// fa-d-and-d icon (f38d)
         /// </summary>
-        Dashboard = 0xf0e4,
+        DAndD = 0xf38d,
 
         /// <summary>
         /// fa-dashcube icon (f210)
@@ -1019,19 +1449,19 @@ namespace Meziantou.WpfFontAwesome
         Deaf = 0xf2a4,
 
         /// <summary>
-        /// fa-deafness icon (f2a4)
-        /// </summary>
-        Deafness = 0xf2a4,
-
-        /// <summary>
-        /// fa-dedent icon (f03b)
-        /// </summary>
-        Dedent = 0xf03b,
-
-        /// <summary>
         /// fa-delicious icon (f1a5)
         /// </summary>
         Delicious = 0xf1a5,
+
+        /// <summary>
+        /// fa-deploydog icon (f38e)
+        /// </summary>
+        Deploydog = 0xf38e,
+
+        /// <summary>
+        /// fa-deskpro icon (f38f)
+        /// </summary>
+        Deskpro = 0xf38f,
 
         /// <summary>
         /// fa-desktop icon (f108)
@@ -1044,9 +1474,49 @@ namespace Meziantou.WpfFontAwesome
         Deviantart = 0xf1bd,
 
         /// <summary>
-        /// fa-diamond icon (f219)
+        /// fa-dharmachakra icon (f655)
         /// </summary>
-        Diamond = 0xf219,
+        Dharmachakra = 0xf655,
+
+        /// <summary>
+        /// fa-diagnoses icon (f470)
+        /// </summary>
+        Diagnoses = 0xf470,
+
+        /// <summary>
+        /// fa-dice icon (f522)
+        /// </summary>
+        Dice = 0xf522,
+
+        /// <summary>
+        /// fa-dice-five icon (f523)
+        /// </summary>
+        DiceFive = 0xf523,
+
+        /// <summary>
+        /// fa-dice-four icon (f524)
+        /// </summary>
+        DiceFour = 0xf524,
+
+        /// <summary>
+        /// fa-dice-one icon (f525)
+        /// </summary>
+        DiceOne = 0xf525,
+
+        /// <summary>
+        /// fa-dice-six icon (f526)
+        /// </summary>
+        DiceSix = 0xf526,
+
+        /// <summary>
+        /// fa-dice-three icon (f527)
+        /// </summary>
+        DiceThree = 0xf527,
+
+        /// <summary>
+        /// fa-dice-two icon (f528)
+        /// </summary>
+        DiceTwo = 0xf528,
 
         /// <summary>
         /// fa-digg icon (f1a6)
@@ -1054,14 +1524,94 @@ namespace Meziantou.WpfFontAwesome
         Digg = 0xf1a6,
 
         /// <summary>
-        /// fa-dollar icon (f155)
+        /// fa-digital-ocean icon (f391)
         /// </summary>
-        Dollar = 0xf155,
+        DigitalOcean = 0xf391,
 
         /// <summary>
-        /// fa-dot-circle-o icon (f192)
+        /// fa-digital-tachograph icon (f566)
         /// </summary>
-        DotCircleO = 0xf192,
+        DigitalTachograph = 0xf566,
+
+        /// <summary>
+        /// fa-directions icon (f5eb)
+        /// </summary>
+        Directions = 0xf5eb,
+
+        /// <summary>
+        /// fa-discord icon (f392)
+        /// </summary>
+        Discord = 0xf392,
+
+        /// <summary>
+        /// fa-discourse icon (f393)
+        /// </summary>
+        Discourse = 0xf393,
+
+        /// <summary>
+        /// fa-divide icon (f529)
+        /// </summary>
+        Divide = 0xf529,
+
+        /// <summary>
+        /// fa-dizzy icon (f567)
+        /// </summary>
+        Dizzy = 0xf567,
+
+        /// <summary>
+        /// fa-dna icon (f471)
+        /// </summary>
+        Dna = 0xf471,
+
+        /// <summary>
+        /// fa-dochub icon (f394)
+        /// </summary>
+        Dochub = 0xf394,
+
+        /// <summary>
+        /// fa-docker icon (f395)
+        /// </summary>
+        Docker = 0xf395,
+
+        /// <summary>
+        /// fa-dollar-sign icon (f155)
+        /// </summary>
+        DollarSign = 0xf155,
+
+        /// <summary>
+        /// fa-dolly icon (f472)
+        /// </summary>
+        Dolly = 0xf472,
+
+        /// <summary>
+        /// fa-dolly-flatbed icon (f474)
+        /// </summary>
+        DollyFlatbed = 0xf474,
+
+        /// <summary>
+        /// fa-donate icon (f4b9)
+        /// </summary>
+        Donate = 0xf4b9,
+
+        /// <summary>
+        /// fa-door-closed icon (f52a)
+        /// </summary>
+        DoorClosed = 0xf52a,
+
+        /// <summary>
+        /// fa-door-open icon (f52b)
+        /// </summary>
+        DoorOpen = 0xf52b,
+
+        /// <summary>
+        /// fa-dot-circle icon (f192)
+        /// </summary>
+        DotCircle = 0xf192,
+
+        /// <summary>
+        /// fa-dove icon (f4ba)
+        /// </summary>
+        Dove = 0xf4ba,
 
         /// <summary>
         /// fa-download icon (f019)
@@ -1069,19 +1619,29 @@ namespace Meziantou.WpfFontAwesome
         Download = 0xf019,
 
         /// <summary>
+        /// fa-draft2digital icon (f396)
+        /// </summary>
+        Draft2digital = 0xf396,
+
+        /// <summary>
+        /// fa-drafting-compass icon (f568)
+        /// </summary>
+        DraftingCompass = 0xf568,
+
+        /// <summary>
+        /// fa-draw-polygon icon (f5ee)
+        /// </summary>
+        DrawPolygon = 0xf5ee,
+
+        /// <summary>
         /// fa-dribbble icon (f17d)
         /// </summary>
         Dribbble = 0xf17d,
 
         /// <summary>
-        /// fa-drivers-license icon (f2c2)
+        /// fa-dribbble-square icon (f397)
         /// </summary>
-        DriversLicense = 0xf2c2,
-
-        /// <summary>
-        /// fa-drivers-license-o icon (f2c3)
-        /// </summary>
-        DriversLicenseO = 0xf2c3,
+        DribbbleSquare = 0xf397,
 
         /// <summary>
         /// fa-dropbox icon (f16b)
@@ -1089,9 +1649,39 @@ namespace Meziantou.WpfFontAwesome
         Dropbox = 0xf16b,
 
         /// <summary>
+        /// fa-drum icon (f569)
+        /// </summary>
+        Drum = 0xf569,
+
+        /// <summary>
+        /// fa-drum-steelpan icon (f56a)
+        /// </summary>
+        DrumSteelpan = 0xf56a,
+
+        /// <summary>
         /// fa-drupal icon (f1a9)
         /// </summary>
         Drupal = 0xf1a9,
+
+        /// <summary>
+        /// fa-dumbbell icon (f44b)
+        /// </summary>
+        Dumbbell = 0xf44b,
+
+        /// <summary>
+        /// fa-dyalog icon (f399)
+        /// </summary>
+        Dyalog = 0xf399,
+
+        /// <summary>
+        /// fa-earlybirds icon (f39a)
+        /// </summary>
+        Earlybirds = 0xf39a,
+
+        /// <summary>
+        /// fa-ebay icon (f4f4)
+        /// </summary>
+        Ebay = 0xf4f4,
 
         /// <summary>
         /// fa-edge icon (f282)
@@ -1104,14 +1694,14 @@ namespace Meziantou.WpfFontAwesome
         Edit = 0xf044,
 
         /// <summary>
-        /// fa-eercast icon (f2da)
-        /// </summary>
-        Eercast = 0xf2da,
-
-        /// <summary>
         /// fa-eject icon (f052)
         /// </summary>
         Eject = 0xf052,
+
+        /// <summary>
+        /// fa-elementor icon (f430)
+        /// </summary>
+        Elementor = 0xf430,
 
         /// <summary>
         /// fa-ellipsis-h icon (f141)
@@ -1124,6 +1714,16 @@ namespace Meziantou.WpfFontAwesome
         EllipsisV = 0xf142,
 
         /// <summary>
+        /// fa-ello icon (f5f1)
+        /// </summary>
+        Ello = 0xf5f1,
+
+        /// <summary>
+        /// fa-ember icon (f423)
+        /// </summary>
+        Ember = 0xf423,
+
+        /// <summary>
         /// fa-empire icon (f1d1)
         /// </summary>
         Empire = 0xf1d1,
@@ -1134,19 +1734,14 @@ namespace Meziantou.WpfFontAwesome
         Envelope = 0xf0e0,
 
         /// <summary>
-        /// fa-envelope-o icon (f003)
-        /// </summary>
-        EnvelopeO = 0xf003,
-
-        /// <summary>
         /// fa-envelope-open icon (f2b6)
         /// </summary>
         EnvelopeOpen = 0xf2b6,
 
         /// <summary>
-        /// fa-envelope-open-o icon (f2b7)
+        /// fa-envelope-open-text icon (f658)
         /// </summary>
-        EnvelopeOpenO = 0xf2b7,
+        EnvelopeOpenText = 0xf658,
 
         /// <summary>
         /// fa-envelope-square icon (f199)
@@ -1159,9 +1754,24 @@ namespace Meziantou.WpfFontAwesome
         Envira = 0xf299,
 
         /// <summary>
+        /// fa-equals icon (f52c)
+        /// </summary>
+        Equals = 0xf52c,
+
+        /// <summary>
         /// fa-eraser icon (f12d)
         /// </summary>
         Eraser = 0xf12d,
+
+        /// <summary>
+        /// fa-erlang icon (f39d)
+        /// </summary>
+        Erlang = 0xf39d,
+
+        /// <summary>
+        /// fa-ethereum icon (f42e)
+        /// </summary>
+        Ethereum = 0xf42e,
 
         /// <summary>
         /// fa-etsy icon (f2d7)
@@ -1169,19 +1779,14 @@ namespace Meziantou.WpfFontAwesome
         Etsy = 0xf2d7,
 
         /// <summary>
-        /// fa-eur icon (f153)
+        /// fa-euro-sign icon (f153)
         /// </summary>
-        Eur = 0xf153,
+        EuroSign = 0xf153,
 
         /// <summary>
-        /// fa-euro icon (f153)
+        /// fa-exchange-alt icon (f362)
         /// </summary>
-        Euro = 0xf153,
-
-        /// <summary>
-        /// fa-exchange icon (f0ec)
-        /// </summary>
-        Exchange = 0xf0ec,
+        ExchangeAlt = 0xf362,
 
         /// <summary>
         /// fa-exclamation icon (f12a)
@@ -1204,19 +1809,24 @@ namespace Meziantou.WpfFontAwesome
         Expand = 0xf065,
 
         /// <summary>
+        /// fa-expand-arrows-alt icon (f31e)
+        /// </summary>
+        ExpandArrowsAlt = 0xf31e,
+
+        /// <summary>
         /// fa-expeditedssl icon (f23e)
         /// </summary>
         Expeditedssl = 0xf23e,
 
         /// <summary>
-        /// fa-external-link icon (f08e)
+        /// fa-external-link-alt icon (f35d)
         /// </summary>
-        ExternalLink = 0xf08e,
+        ExternalLinkAlt = 0xf35d,
 
         /// <summary>
-        /// fa-external-link-square icon (f14c)
+        /// fa-external-link-square-alt icon (f360)
         /// </summary>
-        ExternalLinkSquare = 0xf14c,
+        ExternalLinkSquareAlt = 0xf360,
 
         /// <summary>
         /// fa-eye icon (f06e)
@@ -1224,19 +1834,14 @@ namespace Meziantou.WpfFontAwesome
         Eye = 0xf06e,
 
         /// <summary>
+        /// fa-eye-dropper icon (f1fb)
+        /// </summary>
+        EyeDropper = 0xf1fb,
+
+        /// <summary>
         /// fa-eye-slash icon (f070)
         /// </summary>
         EyeSlash = 0xf070,
-
-        /// <summary>
-        /// fa-eyedropper icon (f1fb)
-        /// </summary>
-        Eyedropper = 0xf1fb,
-
-        /// <summary>
-        /// fa-fa icon (f2b4)
-        /// </summary>
-        Fa = 0xf2b4,
 
         /// <summary>
         /// fa-facebook icon (f09a)
@@ -1244,14 +1849,14 @@ namespace Meziantou.WpfFontAwesome
         Facebook = 0xf09a,
 
         /// <summary>
-        /// fa-facebook-f icon (f09a)
+        /// fa-facebook-f icon (f39e)
         /// </summary>
-        FacebookF = 0xf09a,
+        FacebookF = 0xf39e,
 
         /// <summary>
-        /// fa-facebook-official icon (f230)
+        /// fa-facebook-messenger icon (f39f)
         /// </summary>
-        FacebookOfficial = 0xf230,
+        FacebookMessenger = 0xf39f,
 
         /// <summary>
         /// fa-facebook-square icon (f082)
@@ -1274,9 +1879,14 @@ namespace Meziantou.WpfFontAwesome
         Fax = 0xf1ac,
 
         /// <summary>
-        /// fa-feed icon (f09e)
+        /// fa-feather icon (f52d)
         /// </summary>
-        Feed = 0xf09e,
+        Feather = 0xf52d,
+
+        /// <summary>
+        /// fa-feather-alt icon (f56b)
+        /// </summary>
+        FeatherAlt = 0xf56b,
 
         /// <summary>
         /// fa-female icon (f182)
@@ -1294,94 +1904,119 @@ namespace Meziantou.WpfFontAwesome
         File = 0xf15b,
 
         /// <summary>
-        /// fa-file-archive-o icon (f1c6)
+        /// fa-file-alt icon (f15c)
         /// </summary>
-        FileArchiveO = 0xf1c6,
+        FileAlt = 0xf15c,
 
         /// <summary>
-        /// fa-file-audio-o icon (f1c7)
+        /// fa-file-archive icon (f1c6)
         /// </summary>
-        FileAudioO = 0xf1c7,
+        FileArchive = 0xf1c6,
 
         /// <summary>
-        /// fa-file-code-o icon (f1c9)
+        /// fa-file-audio icon (f1c7)
         /// </summary>
-        FileCodeO = 0xf1c9,
+        FileAudio = 0xf1c7,
 
         /// <summary>
-        /// fa-file-excel-o icon (f1c3)
+        /// fa-file-code icon (f1c9)
         /// </summary>
-        FileExcelO = 0xf1c3,
+        FileCode = 0xf1c9,
 
         /// <summary>
-        /// fa-file-image-o icon (f1c5)
+        /// fa-file-contract icon (f56c)
         /// </summary>
-        FileImageO = 0xf1c5,
+        FileContract = 0xf56c,
 
         /// <summary>
-        /// fa-file-movie-o icon (f1c8)
+        /// fa-file-download icon (f56d)
         /// </summary>
-        FileMovieO = 0xf1c8,
+        FileDownload = 0xf56d,
 
         /// <summary>
-        /// fa-file-o icon (f016)
+        /// fa-file-excel icon (f1c3)
         /// </summary>
-        FileO = 0xf016,
+        FileExcel = 0xf1c3,
 
         /// <summary>
-        /// fa-file-pdf-o icon (f1c1)
+        /// fa-file-export icon (f56e)
         /// </summary>
-        FilePdfO = 0xf1c1,
+        FileExport = 0xf56e,
 
         /// <summary>
-        /// fa-file-photo-o icon (f1c5)
+        /// fa-file-image icon (f1c5)
         /// </summary>
-        FilePhotoO = 0xf1c5,
+        FileImage = 0xf1c5,
 
         /// <summary>
-        /// fa-file-picture-o icon (f1c5)
+        /// fa-file-import icon (f56f)
         /// </summary>
-        FilePictureO = 0xf1c5,
+        FileImport = 0xf56f,
 
         /// <summary>
-        /// fa-file-powerpoint-o icon (f1c4)
+        /// fa-file-invoice icon (f570)
         /// </summary>
-        FilePowerpointO = 0xf1c4,
+        FileInvoice = 0xf570,
 
         /// <summary>
-        /// fa-file-sound-o icon (f1c7)
+        /// fa-file-invoice-dollar icon (f571)
         /// </summary>
-        FileSoundO = 0xf1c7,
+        FileInvoiceDollar = 0xf571,
 
         /// <summary>
-        /// fa-file-text icon (f15c)
+        /// fa-file-medical icon (f477)
         /// </summary>
-        FileText = 0xf15c,
+        FileMedical = 0xf477,
 
         /// <summary>
-        /// fa-file-text-o icon (f0f6)
+        /// fa-file-medical-alt icon (f478)
         /// </summary>
-        FileTextO = 0xf0f6,
+        FileMedicalAlt = 0xf478,
 
         /// <summary>
-        /// fa-file-video-o icon (f1c8)
+        /// fa-file-pdf icon (f1c1)
         /// </summary>
-        FileVideoO = 0xf1c8,
+        FilePdf = 0xf1c1,
 
         /// <summary>
-        /// fa-file-word-o icon (f1c2)
+        /// fa-file-powerpoint icon (f1c4)
         /// </summary>
-        FileWordO = 0xf1c2,
+        FilePowerpoint = 0xf1c4,
 
         /// <summary>
-        /// fa-file-zip-o icon (f1c6)
+        /// fa-file-prescription icon (f572)
         /// </summary>
-        FileZipO = 0xf1c6,
+        FilePrescription = 0xf572,
 
         /// <summary>
-        /// fa-files-o icon (f0c5)
+        /// fa-file-signature icon (f573)
         /// </summary>
-        FilesO = 0xf0c5,
+        FileSignature = 0xf573,
+
+        /// <summary>
+        /// fa-file-upload icon (f574)
+        /// </summary>
+        FileUpload = 0xf574,
+
+        /// <summary>
+        /// fa-file-video icon (f1c8)
+        /// </summary>
+        FileVideo = 0xf1c8,
+
+        /// <summary>
+        /// fa-file-word icon (f1c2)
+        /// </summary>
+        FileWord = 0xf1c2,
+
+        /// <summary>
+        /// fa-fill icon (f575)
+        /// </summary>
+        Fill = 0xf575,
+
+        /// <summary>
+        /// fa-fill-drip icon (f576)
+        /// </summary>
+        FillDrip = 0xf576,
 
         /// <summary>
         /// fa-film icon (f008)
@@ -1392,6 +2027,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-filter icon (f0b0)
         /// </summary>
         Filter = 0xf0b0,
+
+        /// <summary>
+        /// fa-fingerprint icon (f577)
+        /// </summary>
+        Fingerprint = 0xf577,
 
         /// <summary>
         /// fa-fire icon (f06d)
@@ -1409,9 +2049,29 @@ namespace Meziantou.WpfFontAwesome
         Firefox = 0xf269,
 
         /// <summary>
+        /// fa-first-aid icon (f479)
+        /// </summary>
+        FirstAid = 0xf479,
+
+        /// <summary>
         /// fa-first-order icon (f2b0)
         /// </summary>
         FirstOrder = 0xf2b0,
+
+        /// <summary>
+        /// fa-first-order-alt icon (f50a)
+        /// </summary>
+        FirstOrderAlt = 0xf50a,
+
+        /// <summary>
+        /// fa-firstdraft icon (f3a1)
+        /// </summary>
+        Firstdraft = 0xf3a1,
+
+        /// <summary>
+        /// fa-fish icon (f578)
+        /// </summary>
+        Fish = 0xf578,
 
         /// <summary>
         /// fa-flag icon (f024)
@@ -1424,16 +2084,6 @@ namespace Meziantou.WpfFontAwesome
         FlagCheckered = 0xf11e,
 
         /// <summary>
-        /// fa-flag-o icon (f11d)
-        /// </summary>
-        FlagO = 0xf11d,
-
-        /// <summary>
-        /// fa-flash icon (f0e7)
-        /// </summary>
-        Flash = 0xf0e7,
-
-        /// <summary>
         /// fa-flask icon (f0c3)
         /// </summary>
         Flask = 0xf0c3,
@@ -1444,9 +2094,19 @@ namespace Meziantou.WpfFontAwesome
         Flickr = 0xf16e,
 
         /// <summary>
-        /// fa-floppy-o icon (f0c7)
+        /// fa-flipboard icon (f44d)
         /// </summary>
-        FloppyO = 0xf0c7,
+        Flipboard = 0xf44d,
+
+        /// <summary>
+        /// fa-flushed icon (f579)
+        /// </summary>
+        Flushed = 0xf579,
+
+        /// <summary>
+        /// fa-fly icon (f417)
+        /// </summary>
+        Fly = 0xf417,
 
         /// <summary>
         /// fa-folder icon (f07b)
@@ -1454,9 +2114,9 @@ namespace Meziantou.WpfFontAwesome
         Folder = 0xf07b,
 
         /// <summary>
-        /// fa-folder-o icon (f114)
+        /// fa-folder-minus icon (f65d)
         /// </summary>
-        FolderO = 0xf114,
+        FolderMinus = 0xf65d,
 
         /// <summary>
         /// fa-folder-open icon (f07c)
@@ -1464,9 +2124,9 @@ namespace Meziantou.WpfFontAwesome
         FolderOpen = 0xf07c,
 
         /// <summary>
-        /// fa-folder-open-o icon (f115)
+        /// fa-folder-plus icon (f65e)
         /// </summary>
-        FolderOpenO = 0xf115,
+        FolderPlus = 0xf65e,
 
         /// <summary>
         /// fa-font icon (f031)
@@ -1479,14 +2139,44 @@ namespace Meziantou.WpfFontAwesome
         FontAwesome = 0xf2b4,
 
         /// <summary>
+        /// fa-font-awesome-alt icon (f35c)
+        /// </summary>
+        FontAwesomeAlt = 0xf35c,
+
+        /// <summary>
+        /// fa-font-awesome-flag icon (f425)
+        /// </summary>
+        FontAwesomeFlag = 0xf425,
+
+        /// <summary>
+        /// fa-font-awesome-logo-full icon (f4e6)
+        /// </summary>
+        FontAwesomeLogoFull = 0xf4e6,
+
+        /// <summary>
         /// fa-fonticons icon (f280)
         /// </summary>
         Fonticons = 0xf280,
 
         /// <summary>
+        /// fa-fonticons-fi icon (f3a2)
+        /// </summary>
+        FonticonsFi = 0xf3a2,
+
+        /// <summary>
+        /// fa-football-ball icon (f44e)
+        /// </summary>
+        FootballBall = 0xf44e,
+
+        /// <summary>
         /// fa-fort-awesome icon (f286)
         /// </summary>
         FortAwesome = 0xf286,
+
+        /// <summary>
+        /// fa-fort-awesome-alt icon (f3a3)
+        /// </summary>
+        FortAwesomeAlt = 0xf3a3,
 
         /// <summary>
         /// fa-forumbee icon (f211)
@@ -1509,14 +2199,49 @@ namespace Meziantou.WpfFontAwesome
         FreeCodeCamp = 0xf2c5,
 
         /// <summary>
-        /// fa-frown-o icon (f119)
+        /// fa-freebsd icon (f3a4)
         /// </summary>
-        FrownO = 0xf119,
+        Freebsd = 0xf3a4,
 
         /// <summary>
-        /// fa-futbol-o icon (f1e3)
+        /// fa-frog icon (f52e)
         /// </summary>
-        FutbolO = 0xf1e3,
+        Frog = 0xf52e,
+
+        /// <summary>
+        /// fa-frown icon (f119)
+        /// </summary>
+        Frown = 0xf119,
+
+        /// <summary>
+        /// fa-frown-open icon (f57a)
+        /// </summary>
+        FrownOpen = 0xf57a,
+
+        /// <summary>
+        /// fa-fulcrum icon (f50b)
+        /// </summary>
+        Fulcrum = 0xf50b,
+
+        /// <summary>
+        /// fa-funnel-dollar icon (f662)
+        /// </summary>
+        FunnelDollar = 0xf662,
+
+        /// <summary>
+        /// fa-futbol icon (f1e3)
+        /// </summary>
+        Futbol = 0xf1e3,
+
+        /// <summary>
+        /// fa-galactic-republic icon (f50c)
+        /// </summary>
+        GalacticRepublic = 0xf50c,
+
+        /// <summary>
+        /// fa-galactic-senate icon (f50d)
+        /// </summary>
+        GalacticSenate = 0xf50d,
 
         /// <summary>
         /// fa-gamepad icon (f11b)
@@ -1524,29 +2249,19 @@ namespace Meziantou.WpfFontAwesome
         Gamepad = 0xf11b,
 
         /// <summary>
+        /// fa-gas-pump icon (f52f)
+        /// </summary>
+        GasPump = 0xf52f,
+
+        /// <summary>
         /// fa-gavel icon (f0e3)
         /// </summary>
         Gavel = 0xf0e3,
 
         /// <summary>
-        /// fa-gbp icon (f154)
+        /// fa-gem icon (f3a5)
         /// </summary>
-        Gbp = 0xf154,
-
-        /// <summary>
-        /// fa-ge icon (f1d1)
-        /// </summary>
-        Ge = 0xf1d1,
-
-        /// <summary>
-        /// fa-gear icon (f013)
-        /// </summary>
-        Gear = 0xf013,
-
-        /// <summary>
-        /// fa-gears icon (f085)
-        /// </summary>
-        Gears = 0xf085,
+        Gem = 0xf3a5,
 
         /// <summary>
         /// fa-genderless icon (f22d)
@@ -1599,19 +2314,34 @@ namespace Meziantou.WpfFontAwesome
         GithubSquare = 0xf092,
 
         /// <summary>
+        /// fa-gitkraken icon (f3a6)
+        /// </summary>
+        Gitkraken = 0xf3a6,
+
+        /// <summary>
         /// fa-gitlab icon (f296)
         /// </summary>
         Gitlab = 0xf296,
 
         /// <summary>
-        /// fa-gittip icon (f184)
+        /// fa-gitter icon (f426)
         /// </summary>
-        Gittip = 0xf184,
+        Gitter = 0xf426,
 
         /// <summary>
-        /// fa-glass icon (f000)
+        /// fa-glass-martini icon (f000)
         /// </summary>
-        Glass = 0xf000,
+        GlassMartini = 0xf000,
+
+        /// <summary>
+        /// fa-glass-martini-alt icon (f57b)
+        /// </summary>
+        GlassMartiniAlt = 0xf57b,
+
+        /// <summary>
+        /// fa-glasses icon (f530)
+        /// </summary>
+        Glasses = 0xf530,
 
         /// <summary>
         /// fa-glide icon (f2a5)
@@ -1629,24 +2359,64 @@ namespace Meziantou.WpfFontAwesome
         Globe = 0xf0ac,
 
         /// <summary>
+        /// fa-globe-africa icon (f57c)
+        /// </summary>
+        GlobeAfrica = 0xf57c,
+
+        /// <summary>
+        /// fa-globe-americas icon (f57d)
+        /// </summary>
+        GlobeAmericas = 0xf57d,
+
+        /// <summary>
+        /// fa-globe-asia icon (f57e)
+        /// </summary>
+        GlobeAsia = 0xf57e,
+
+        /// <summary>
+        /// fa-gofore icon (f3a7)
+        /// </summary>
+        Gofore = 0xf3a7,
+
+        /// <summary>
+        /// fa-golf-ball icon (f450)
+        /// </summary>
+        GolfBall = 0xf450,
+
+        /// <summary>
+        /// fa-goodreads icon (f3a8)
+        /// </summary>
+        Goodreads = 0xf3a8,
+
+        /// <summary>
+        /// fa-goodreads-g icon (f3a9)
+        /// </summary>
+        GoodreadsG = 0xf3a9,
+
+        /// <summary>
         /// fa-google icon (f1a0)
         /// </summary>
         Google = 0xf1a0,
 
         /// <summary>
-        /// fa-google-plus icon (f0d5)
+        /// fa-google-drive icon (f3aa)
         /// </summary>
-        GooglePlus = 0xf0d5,
+        GoogleDrive = 0xf3aa,
 
         /// <summary>
-        /// fa-google-plus-circle icon (f2b3)
+        /// fa-google-play icon (f3ab)
         /// </summary>
-        GooglePlusCircle = 0xf2b3,
+        GooglePlay = 0xf3ab,
 
         /// <summary>
-        /// fa-google-plus-official icon (f2b3)
+        /// fa-google-plus icon (f2b3)
         /// </summary>
-        GooglePlusOfficial = 0xf2b3,
+        GooglePlus = 0xf2b3,
+
+        /// <summary>
+        /// fa-google-plus-g icon (f0d5)
+        /// </summary>
+        GooglePlusG = 0xf0d5,
 
         /// <summary>
         /// fa-google-plus-square icon (f0d4)
@@ -1657,6 +2427,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-google-wallet icon (f1ee)
         /// </summary>
         GoogleWallet = 0xf1ee,
+
+        /// <summary>
+        /// fa-gopuram icon (f664)
+        /// </summary>
+        Gopuram = 0xf664,
 
         /// <summary>
         /// fa-graduation-cap icon (f19d)
@@ -1674,9 +2449,109 @@ namespace Meziantou.WpfFontAwesome
         Grav = 0xf2d6,
 
         /// <summary>
-        /// fa-group icon (f0c0)
+        /// fa-greater-than icon (f531)
         /// </summary>
-        Group = 0xf0c0,
+        GreaterThan = 0xf531,
+
+        /// <summary>
+        /// fa-greater-than-equal icon (f532)
+        /// </summary>
+        GreaterThanEqual = 0xf532,
+
+        /// <summary>
+        /// fa-grimace icon (f57f)
+        /// </summary>
+        Grimace = 0xf57f,
+
+        /// <summary>
+        /// fa-grin icon (f580)
+        /// </summary>
+        Grin = 0xf580,
+
+        /// <summary>
+        /// fa-grin-alt icon (f581)
+        /// </summary>
+        GrinAlt = 0xf581,
+
+        /// <summary>
+        /// fa-grin-beam icon (f582)
+        /// </summary>
+        GrinBeam = 0xf582,
+
+        /// <summary>
+        /// fa-grin-beam-sweat icon (f583)
+        /// </summary>
+        GrinBeamSweat = 0xf583,
+
+        /// <summary>
+        /// fa-grin-hearts icon (f584)
+        /// </summary>
+        GrinHearts = 0xf584,
+
+        /// <summary>
+        /// fa-grin-squint icon (f585)
+        /// </summary>
+        GrinSquint = 0xf585,
+
+        /// <summary>
+        /// fa-grin-squint-tears icon (f586)
+        /// </summary>
+        GrinSquintTears = 0xf586,
+
+        /// <summary>
+        /// fa-grin-stars icon (f587)
+        /// </summary>
+        GrinStars = 0xf587,
+
+        /// <summary>
+        /// fa-grin-tears icon (f588)
+        /// </summary>
+        GrinTears = 0xf588,
+
+        /// <summary>
+        /// fa-grin-tongue icon (f589)
+        /// </summary>
+        GrinTongue = 0xf589,
+
+        /// <summary>
+        /// fa-grin-tongue-squint icon (f58a)
+        /// </summary>
+        GrinTongueSquint = 0xf58a,
+
+        /// <summary>
+        /// fa-grin-tongue-wink icon (f58b)
+        /// </summary>
+        GrinTongueWink = 0xf58b,
+
+        /// <summary>
+        /// fa-grin-wink icon (f58c)
+        /// </summary>
+        GrinWink = 0xf58c,
+
+        /// <summary>
+        /// fa-grip-horizontal icon (f58d)
+        /// </summary>
+        GripHorizontal = 0xf58d,
+
+        /// <summary>
+        /// fa-grip-vertical icon (f58e)
+        /// </summary>
+        GripVertical = 0xf58e,
+
+        /// <summary>
+        /// fa-gripfire icon (f3ac)
+        /// </summary>
+        Gripfire = 0xf3ac,
+
+        /// <summary>
+        /// fa-grunt icon (f3ad)
+        /// </summary>
+        Grunt = 0xf3ad,
+
+        /// <summary>
+        /// fa-gulp icon (f3ae)
+        /// </summary>
+        Gulp = 0xf3ae,
 
         /// <summary>
         /// fa-h-square icon (f0fd)
@@ -1689,79 +2564,104 @@ namespace Meziantou.WpfFontAwesome
         HackerNews = 0xf1d4,
 
         /// <summary>
-        /// fa-hand-grab-o icon (f255)
+        /// fa-hacker-news-square icon (f3af)
         /// </summary>
-        HandGrabO = 0xf255,
+        HackerNewsSquare = 0xf3af,
 
         /// <summary>
-        /// fa-hand-lizard-o icon (f258)
+        /// fa-hackerrank icon (f5f7)
         /// </summary>
-        HandLizardO = 0xf258,
+        Hackerrank = 0xf5f7,
 
         /// <summary>
-        /// fa-hand-o-down icon (f0a7)
+        /// fa-hamsa icon (f665)
         /// </summary>
-        HandODown = 0xf0a7,
+        Hamsa = 0xf665,
 
         /// <summary>
-        /// fa-hand-o-left icon (f0a5)
+        /// fa-hand-holding icon (f4bd)
         /// </summary>
-        HandOLeft = 0xf0a5,
+        HandHolding = 0xf4bd,
 
         /// <summary>
-        /// fa-hand-o-right icon (f0a4)
+        /// fa-hand-holding-heart icon (f4be)
         /// </summary>
-        HandORight = 0xf0a4,
+        HandHoldingHeart = 0xf4be,
 
         /// <summary>
-        /// fa-hand-o-up icon (f0a6)
+        /// fa-hand-holding-usd icon (f4c0)
         /// </summary>
-        HandOUp = 0xf0a6,
+        HandHoldingUsd = 0xf4c0,
 
         /// <summary>
-        /// fa-hand-paper-o icon (f256)
+        /// fa-hand-lizard icon (f258)
         /// </summary>
-        HandPaperO = 0xf256,
+        HandLizard = 0xf258,
 
         /// <summary>
-        /// fa-hand-peace-o icon (f25b)
+        /// fa-hand-paper icon (f256)
         /// </summary>
-        HandPeaceO = 0xf25b,
+        HandPaper = 0xf256,
 
         /// <summary>
-        /// fa-hand-pointer-o icon (f25a)
+        /// fa-hand-peace icon (f25b)
         /// </summary>
-        HandPointerO = 0xf25a,
+        HandPeace = 0xf25b,
 
         /// <summary>
-        /// fa-hand-rock-o icon (f255)
+        /// fa-hand-point-down icon (f0a7)
         /// </summary>
-        HandRockO = 0xf255,
+        HandPointDown = 0xf0a7,
 
         /// <summary>
-        /// fa-hand-scissors-o icon (f257)
+        /// fa-hand-point-left icon (f0a5)
         /// </summary>
-        HandScissorsO = 0xf257,
+        HandPointLeft = 0xf0a5,
 
         /// <summary>
-        /// fa-hand-spock-o icon (f259)
+        /// fa-hand-point-right icon (f0a4)
         /// </summary>
-        HandSpockO = 0xf259,
+        HandPointRight = 0xf0a4,
 
         /// <summary>
-        /// fa-hand-stop-o icon (f256)
+        /// fa-hand-point-up icon (f0a6)
         /// </summary>
-        HandStopO = 0xf256,
+        HandPointUp = 0xf0a6,
 
         /// <summary>
-        /// fa-handshake-o icon (f2b5)
+        /// fa-hand-pointer icon (f25a)
         /// </summary>
-        HandshakeO = 0xf2b5,
+        HandPointer = 0xf25a,
 
         /// <summary>
-        /// fa-hard-of-hearing icon (f2a4)
+        /// fa-hand-rock icon (f255)
         /// </summary>
-        HardOfHearing = 0xf2a4,
+        HandRock = 0xf255,
+
+        /// <summary>
+        /// fa-hand-scissors icon (f257)
+        /// </summary>
+        HandScissors = 0xf257,
+
+        /// <summary>
+        /// fa-hand-spock icon (f259)
+        /// </summary>
+        HandSpock = 0xf259,
+
+        /// <summary>
+        /// fa-hands icon (f4c2)
+        /// </summary>
+        Hands = 0xf4c2,
+
+        /// <summary>
+        /// fa-hands-helping icon (f4c4)
+        /// </summary>
+        HandsHelping = 0xf4c4,
+
+        /// <summary>
+        /// fa-handshake icon (f2b5)
+        /// </summary>
+        Handshake = 0xf2b5,
 
         /// <summary>
         /// fa-hashtag icon (f292)
@@ -1769,14 +2669,19 @@ namespace Meziantou.WpfFontAwesome
         Hashtag = 0xf292,
 
         /// <summary>
-        /// fa-hdd-o icon (f0a0)
+        /// fa-haykal icon (f666)
         /// </summary>
-        HddO = 0xf0a0,
+        Haykal = 0xf666,
 
         /// <summary>
-        /// fa-header icon (f1dc)
+        /// fa-hdd icon (f0a0)
         /// </summary>
-        Header = 0xf1dc,
+        Hdd = 0xf0a0,
+
+        /// <summary>
+        /// fa-heading icon (f1dc)
+        /// </summary>
+        Heading = 0xf1dc,
 
         /// <summary>
         /// fa-headphones icon (f025)
@@ -1784,14 +2689,19 @@ namespace Meziantou.WpfFontAwesome
         Headphones = 0xf025,
 
         /// <summary>
+        /// fa-headphones-alt icon (f58f)
+        /// </summary>
+        HeadphonesAlt = 0xf58f,
+
+        /// <summary>
+        /// fa-headset icon (f590)
+        /// </summary>
+        Headset = 0xf590,
+
+        /// <summary>
         /// fa-heart icon (f004)
         /// </summary>
         Heart = 0xf004,
-
-        /// <summary>
-        /// fa-heart-o icon (f08a)
-        /// </summary>
-        HeartO = 0xf08a,
 
         /// <summary>
         /// fa-heartbeat icon (f21e)
@@ -1799,9 +2709,34 @@ namespace Meziantou.WpfFontAwesome
         Heartbeat = 0xf21e,
 
         /// <summary>
+        /// fa-helicopter icon (f533)
+        /// </summary>
+        Helicopter = 0xf533,
+
+        /// <summary>
+        /// fa-highlighter icon (f591)
+        /// </summary>
+        Highlighter = 0xf591,
+
+        /// <summary>
+        /// fa-hips icon (f452)
+        /// </summary>
+        Hips = 0xf452,
+
+        /// <summary>
+        /// fa-hire-a-helper icon (f3b0)
+        /// </summary>
+        HireAHelper = 0xf3b0,
+
+        /// <summary>
         /// fa-history icon (f1da)
         /// </summary>
         History = 0xf1da,
+
+        /// <summary>
+        /// fa-hockey-puck icon (f453)
+        /// </summary>
+        HockeyPuck = 0xf453,
 
         /// <summary>
         /// fa-home icon (f015)
@@ -1809,34 +2744,49 @@ namespace Meziantou.WpfFontAwesome
         Home = 0xf015,
 
         /// <summary>
-        /// fa-hospital-o icon (f0f8)
+        /// fa-hooli icon (f427)
         /// </summary>
-        HospitalO = 0xf0f8,
+        Hooli = 0xf427,
 
         /// <summary>
-        /// fa-hotel icon (f236)
+        /// fa-hornbill icon (f592)
         /// </summary>
-        Hotel = 0xf236,
+        Hornbill = 0xf592,
+
+        /// <summary>
+        /// fa-hospital icon (f0f8)
+        /// </summary>
+        Hospital = 0xf0f8,
+
+        /// <summary>
+        /// fa-hospital-alt icon (f47d)
+        /// </summary>
+        HospitalAlt = 0xf47d,
+
+        /// <summary>
+        /// fa-hospital-symbol icon (f47e)
+        /// </summary>
+        HospitalSymbol = 0xf47e,
+
+        /// <summary>
+        /// fa-hot-tub icon (f593)
+        /// </summary>
+        HotTub = 0xf593,
+
+        /// <summary>
+        /// fa-hotel icon (f594)
+        /// </summary>
+        Hotel = 0xf594,
+
+        /// <summary>
+        /// fa-hotjar icon (f3b1)
+        /// </summary>
+        Hotjar = 0xf3b1,
 
         /// <summary>
         /// fa-hourglass icon (f254)
         /// </summary>
         Hourglass = 0xf254,
-
-        /// <summary>
-        /// fa-hourglass-1 icon (f251)
-        /// </summary>
-        Hourglass1 = 0xf251,
-
-        /// <summary>
-        /// fa-hourglass-2 icon (f252)
-        /// </summary>
-        Hourglass2 = 0xf252,
-
-        /// <summary>
-        /// fa-hourglass-3 icon (f253)
-        /// </summary>
-        Hourglass3 = 0xf253,
 
         /// <summary>
         /// fa-hourglass-end icon (f253)
@@ -1847,11 +2797,6 @@ namespace Meziantou.WpfFontAwesome
         /// fa-hourglass-half icon (f252)
         /// </summary>
         HourglassHalf = 0xf252,
-
-        /// <summary>
-        /// fa-hourglass-o icon (f250)
-        /// </summary>
-        HourglassO = 0xf250,
 
         /// <summary>
         /// fa-hourglass-start icon (f251)
@@ -1869,6 +2814,11 @@ namespace Meziantou.WpfFontAwesome
         Html5 = 0xf13b,
 
         /// <summary>
+        /// fa-hubspot icon (f3b2)
+        /// </summary>
+        Hubspot = 0xf3b2,
+
+        /// <summary>
         /// fa-i-cursor icon (f246)
         /// </summary>
         ICursor = 0xf246,
@@ -1884,19 +2834,19 @@ namespace Meziantou.WpfFontAwesome
         IdCard = 0xf2c2,
 
         /// <summary>
-        /// fa-id-card-o icon (f2c3)
+        /// fa-id-card-alt icon (f47f)
         /// </summary>
-        IdCardO = 0xf2c3,
-
-        /// <summary>
-        /// fa-ils icon (f20b)
-        /// </summary>
-        Ils = 0xf20b,
+        IdCardAlt = 0xf47f,
 
         /// <summary>
         /// fa-image icon (f03e)
         /// </summary>
         Image = 0xf03e,
+
+        /// <summary>
+        /// fa-images icon (f302)
+        /// </summary>
+        Images = 0xf302,
 
         /// <summary>
         /// fa-imdb icon (f2d8)
@@ -1919,6 +2869,11 @@ namespace Meziantou.WpfFontAwesome
         Industry = 0xf275,
 
         /// <summary>
+        /// fa-infinity icon (f534)
+        /// </summary>
+        Infinity = 0xf534,
+
+        /// <summary>
         /// fa-info icon (f129)
         /// </summary>
         Info = 0xf129,
@@ -1929,29 +2884,14 @@ namespace Meziantou.WpfFontAwesome
         InfoCircle = 0xf05a,
 
         /// <summary>
-        /// fa-inr icon (f156)
-        /// </summary>
-        Inr = 0xf156,
-
-        /// <summary>
         /// fa-instagram icon (f16d)
         /// </summary>
         Instagram = 0xf16d,
 
         /// <summary>
-        /// fa-institution icon (f19c)
-        /// </summary>
-        Institution = 0xf19c,
-
-        /// <summary>
         /// fa-internet-explorer icon (f26b)
         /// </summary>
         InternetExplorer = 0xf26b,
-
-        /// <summary>
-        /// fa-intersex icon (f224)
-        /// </summary>
-        Intersex = 0xf224,
 
         /// <summary>
         /// fa-ioxhost icon (f208)
@@ -1964,14 +2904,64 @@ namespace Meziantou.WpfFontAwesome
         Italic = 0xf033,
 
         /// <summary>
+        /// fa-itunes icon (f3b4)
+        /// </summary>
+        Itunes = 0xf3b4,
+
+        /// <summary>
+        /// fa-itunes-note icon (f3b5)
+        /// </summary>
+        ItunesNote = 0xf3b5,
+
+        /// <summary>
+        /// fa-java icon (f4e4)
+        /// </summary>
+        Java = 0xf4e4,
+
+        /// <summary>
+        /// fa-jedi icon (f669)
+        /// </summary>
+        Jedi = 0xf669,
+
+        /// <summary>
+        /// fa-jedi-order icon (f50e)
+        /// </summary>
+        JediOrder = 0xf50e,
+
+        /// <summary>
+        /// fa-jenkins icon (f3b6)
+        /// </summary>
+        Jenkins = 0xf3b6,
+
+        /// <summary>
+        /// fa-joget icon (f3b7)
+        /// </summary>
+        Joget = 0xf3b7,
+
+        /// <summary>
+        /// fa-joint icon (f595)
+        /// </summary>
+        Joint = 0xf595,
+
+        /// <summary>
         /// fa-joomla icon (f1aa)
         /// </summary>
         Joomla = 0xf1aa,
 
         /// <summary>
-        /// fa-jpy icon (f157)
+        /// fa-journal-whills icon (f66a)
         /// </summary>
-        Jpy = 0xf157,
+        JournalWhills = 0xf66a,
+
+        /// <summary>
+        /// fa-js icon (f3b8)
+        /// </summary>
+        Js = 0xf3b8,
+
+        /// <summary>
+        /// fa-js-square icon (f3b9)
+        /// </summary>
+        JsSquare = 0xf3b9,
 
         /// <summary>
         /// fa-jsfiddle icon (f1cc)
@@ -1979,19 +2969,79 @@ namespace Meziantou.WpfFontAwesome
         Jsfiddle = 0xf1cc,
 
         /// <summary>
+        /// fa-kaaba icon (f66b)
+        /// </summary>
+        Kaaba = 0xf66b,
+
+        /// <summary>
+        /// fa-kaggle icon (f5fa)
+        /// </summary>
+        Kaggle = 0xf5fa,
+
+        /// <summary>
         /// fa-key icon (f084)
         /// </summary>
         Key = 0xf084,
 
         /// <summary>
-        /// fa-keyboard-o icon (f11c)
+        /// fa-keybase icon (f4f5)
         /// </summary>
-        KeyboardO = 0xf11c,
+        Keybase = 0xf4f5,
 
         /// <summary>
-        /// fa-krw icon (f159)
+        /// fa-keyboard icon (f11c)
         /// </summary>
-        Krw = 0xf159,
+        Keyboard = 0xf11c,
+
+        /// <summary>
+        /// fa-keycdn icon (f3ba)
+        /// </summary>
+        Keycdn = 0xf3ba,
+
+        /// <summary>
+        /// fa-khanda icon (f66d)
+        /// </summary>
+        Khanda = 0xf66d,
+
+        /// <summary>
+        /// fa-kickstarter icon (f3bb)
+        /// </summary>
+        Kickstarter = 0xf3bb,
+
+        /// <summary>
+        /// fa-kickstarter-k icon (f3bc)
+        /// </summary>
+        KickstarterK = 0xf3bc,
+
+        /// <summary>
+        /// fa-kiss icon (f596)
+        /// </summary>
+        Kiss = 0xf596,
+
+        /// <summary>
+        /// fa-kiss-beam icon (f597)
+        /// </summary>
+        KissBeam = 0xf597,
+
+        /// <summary>
+        /// fa-kiss-wink-heart icon (f598)
+        /// </summary>
+        KissWinkHeart = 0xf598,
+
+        /// <summary>
+        /// fa-kiwi-bird icon (f535)
+        /// </summary>
+        KiwiBird = 0xf535,
+
+        /// <summary>
+        /// fa-korvue icon (f42f)
+        /// </summary>
+        Korvue = 0xf42f,
+
+        /// <summary>
+        /// fa-landmark icon (f66f)
+        /// </summary>
+        Landmark = 0xf66f,
 
         /// <summary>
         /// fa-language icon (f1ab)
@@ -2004,6 +3054,16 @@ namespace Meziantou.WpfFontAwesome
         Laptop = 0xf109,
 
         /// <summary>
+        /// fa-laptop-code icon (f5fc)
+        /// </summary>
+        LaptopCode = 0xf5fc,
+
+        /// <summary>
+        /// fa-laravel icon (f3bd)
+        /// </summary>
+        Laravel = 0xf3bd,
+
+        /// <summary>
         /// fa-lastfm icon (f202)
         /// </summary>
         Lastfm = 0xf202,
@@ -2012,6 +3072,31 @@ namespace Meziantou.WpfFontAwesome
         /// fa-lastfm-square icon (f203)
         /// </summary>
         LastfmSquare = 0xf203,
+
+        /// <summary>
+        /// fa-laugh icon (f599)
+        /// </summary>
+        Laugh = 0xf599,
+
+        /// <summary>
+        /// fa-laugh-beam icon (f59a)
+        /// </summary>
+        LaughBeam = 0xf59a,
+
+        /// <summary>
+        /// fa-laugh-squint icon (f59b)
+        /// </summary>
+        LaughSquint = 0xf59b,
+
+        /// <summary>
+        /// fa-laugh-wink icon (f59c)
+        /// </summary>
+        LaughWink = 0xf59c,
+
+        /// <summary>
+        /// fa-layer-group icon (f5fd)
+        /// </summary>
+        LayerGroup = 0xf5fd,
 
         /// <summary>
         /// fa-leaf icon (f06c)
@@ -2024,34 +3109,34 @@ namespace Meziantou.WpfFontAwesome
         Leanpub = 0xf212,
 
         /// <summary>
-        /// fa-legal icon (f0e3)
+        /// fa-lemon icon (f094)
         /// </summary>
-        Legal = 0xf0e3,
+        Lemon = 0xf094,
 
         /// <summary>
-        /// fa-lemon-o icon (f094)
+        /// fa-less icon (f41d)
         /// </summary>
-        LemonO = 0xf094,
+        Less = 0xf41d,
 
         /// <summary>
-        /// fa-level-down icon (f149)
+        /// fa-less-than icon (f536)
         /// </summary>
-        LevelDown = 0xf149,
+        LessThan = 0xf536,
 
         /// <summary>
-        /// fa-level-up icon (f148)
+        /// fa-less-than-equal icon (f537)
         /// </summary>
-        LevelUp = 0xf148,
+        LessThanEqual = 0xf537,
 
         /// <summary>
-        /// fa-life-bouy icon (f1cd)
+        /// fa-level-down-alt icon (f3be)
         /// </summary>
-        LifeBouy = 0xf1cd,
+        LevelDownAlt = 0xf3be,
 
         /// <summary>
-        /// fa-life-buoy icon (f1cd)
+        /// fa-level-up-alt icon (f3bf)
         /// </summary>
-        LifeBuoy = 0xf1cd,
+        LevelUpAlt = 0xf3bf,
 
         /// <summary>
         /// fa-life-ring icon (f1cd)
@@ -2059,19 +3144,14 @@ namespace Meziantou.WpfFontAwesome
         LifeRing = 0xf1cd,
 
         /// <summary>
-        /// fa-life-saver icon (f1cd)
+        /// fa-lightbulb icon (f0eb)
         /// </summary>
-        LifeSaver = 0xf1cd,
+        Lightbulb = 0xf0eb,
 
         /// <summary>
-        /// fa-lightbulb-o icon (f0eb)
+        /// fa-line icon (f3c0)
         /// </summary>
-        LightbulbO = 0xf0eb,
-
-        /// <summary>
-        /// fa-line-chart icon (f201)
-        /// </summary>
-        LineChart = 0xf201,
+        Line = 0xf3c0,
 
         /// <summary>
         /// fa-link icon (f0c1)
@@ -2079,14 +3159,14 @@ namespace Meziantou.WpfFontAwesome
         Link = 0xf0c1,
 
         /// <summary>
-        /// fa-linkedin icon (f0e1)
+        /// fa-linkedin icon (f08c)
         /// </summary>
-        Linkedin = 0xf0e1,
+        Linkedin = 0xf08c,
 
         /// <summary>
-        /// fa-linkedin-square icon (f08c)
+        /// fa-linkedin-in icon (f0e1)
         /// </summary>
-        LinkedinSquare = 0xf08c,
+        LinkedinIn = 0xf0e1,
 
         /// <summary>
         /// fa-linode icon (f2b8)
@@ -2097,6 +3177,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-linux icon (f17c)
         /// </summary>
         Linux = 0xf17c,
+
+        /// <summary>
+        /// fa-lira-sign icon (f195)
+        /// </summary>
+        LiraSign = 0xf195,
 
         /// <summary>
         /// fa-list icon (f03a)
@@ -2129,29 +3214,49 @@ namespace Meziantou.WpfFontAwesome
         Lock = 0xf023,
 
         /// <summary>
-        /// fa-long-arrow-down icon (f175)
+        /// fa-lock-open icon (f3c1)
         /// </summary>
-        LongArrowDown = 0xf175,
+        LockOpen = 0xf3c1,
 
         /// <summary>
-        /// fa-long-arrow-left icon (f177)
+        /// fa-long-arrow-alt-down icon (f309)
         /// </summary>
-        LongArrowLeft = 0xf177,
+        LongArrowAltDown = 0xf309,
 
         /// <summary>
-        /// fa-long-arrow-right icon (f178)
+        /// fa-long-arrow-alt-left icon (f30a)
         /// </summary>
-        LongArrowRight = 0xf178,
+        LongArrowAltLeft = 0xf30a,
 
         /// <summary>
-        /// fa-long-arrow-up icon (f176)
+        /// fa-long-arrow-alt-right icon (f30b)
         /// </summary>
-        LongArrowUp = 0xf176,
+        LongArrowAltRight = 0xf30b,
+
+        /// <summary>
+        /// fa-long-arrow-alt-up icon (f30c)
+        /// </summary>
+        LongArrowAltUp = 0xf30c,
 
         /// <summary>
         /// fa-low-vision icon (f2a8)
         /// </summary>
         LowVision = 0xf2a8,
+
+        /// <summary>
+        /// fa-luggage-cart icon (f59d)
+        /// </summary>
+        LuggageCart = 0xf59d,
+
+        /// <summary>
+        /// fa-lyft icon (f3c3)
+        /// </summary>
+        Lyft = 0xf3c3,
+
+        /// <summary>
+        /// fa-magento icon (f3c4)
+        /// </summary>
+        Magento = 0xf3c4,
 
         /// <summary>
         /// fa-magic icon (f0d0)
@@ -2164,19 +3269,14 @@ namespace Meziantou.WpfFontAwesome
         Magnet = 0xf076,
 
         /// <summary>
-        /// fa-mail-forward icon (f064)
+        /// fa-mail-bulk icon (f674)
         /// </summary>
-        MailForward = 0xf064,
+        MailBulk = 0xf674,
 
         /// <summary>
-        /// fa-mail-reply icon (f112)
+        /// fa-mailchimp icon (f59e)
         /// </summary>
-        MailReply = 0xf112,
-
-        /// <summary>
-        /// fa-mail-reply-all icon (f122)
-        /// </summary>
-        MailReplyAll = 0xf122,
+        Mailchimp = 0xf59e,
 
         /// <summary>
         /// fa-male icon (f183)
@@ -2184,9 +3284,24 @@ namespace Meziantou.WpfFontAwesome
         Male = 0xf183,
 
         /// <summary>
+        /// fa-mandalorian icon (f50f)
+        /// </summary>
+        Mandalorian = 0xf50f,
+
+        /// <summary>
         /// fa-map icon (f279)
         /// </summary>
         Map = 0xf279,
+
+        /// <summary>
+        /// fa-map-marked icon (f59f)
+        /// </summary>
+        MapMarked = 0xf59f,
+
+        /// <summary>
+        /// fa-map-marked-alt icon (f5a0)
+        /// </summary>
+        MapMarkedAlt = 0xf5a0,
 
         /// <summary>
         /// fa-map-marker icon (f041)
@@ -2194,9 +3309,9 @@ namespace Meziantou.WpfFontAwesome
         MapMarker = 0xf041,
 
         /// <summary>
-        /// fa-map-o icon (f278)
+        /// fa-map-marker-alt icon (f3c5)
         /// </summary>
-        MapO = 0xf278,
+        MapMarkerAlt = 0xf3c5,
 
         /// <summary>
         /// fa-map-pin icon (f276)
@@ -2207,6 +3322,16 @@ namespace Meziantou.WpfFontAwesome
         /// fa-map-signs icon (f277)
         /// </summary>
         MapSigns = 0xf277,
+
+        /// <summary>
+        /// fa-markdown icon (f60f)
+        /// </summary>
+        Markdown = 0xf60f,
+
+        /// <summary>
+        /// fa-marker icon (f5a1)
+        /// </summary>
+        Marker = 0xf5a1,
 
         /// <summary>
         /// fa-mars icon (f222)
@@ -2234,14 +3359,24 @@ namespace Meziantou.WpfFontAwesome
         MarsStrokeV = 0xf22a,
 
         /// <summary>
+        /// fa-mastodon icon (f4f6)
+        /// </summary>
+        Mastodon = 0xf4f6,
+
+        /// <summary>
         /// fa-maxcdn icon (f136)
         /// </summary>
         Maxcdn = 0xf136,
 
         /// <summary>
-        /// fa-meanpath icon (f20c)
+        /// fa-medal icon (f5a2)
         /// </summary>
-        Meanpath = 0xf20c,
+        Medal = 0xf5a2,
+
+        /// <summary>
+        /// fa-medapps icon (f3c6)
+        /// </summary>
+        Medapps = 0xf3c6,
 
         /// <summary>
         /// fa-medium icon (f23a)
@@ -2249,9 +3384,19 @@ namespace Meziantou.WpfFontAwesome
         Medium = 0xf23a,
 
         /// <summary>
+        /// fa-medium-m icon (f3c7)
+        /// </summary>
+        MediumM = 0xf3c7,
+
+        /// <summary>
         /// fa-medkit icon (f0fa)
         /// </summary>
         Medkit = 0xf0fa,
+
+        /// <summary>
+        /// fa-medrt icon (f3c8)
+        /// </summary>
+        Medrt = 0xf3c8,
 
         /// <summary>
         /// fa-meetup icon (f2e0)
@@ -2259,9 +3404,34 @@ namespace Meziantou.WpfFontAwesome
         Meetup = 0xf2e0,
 
         /// <summary>
-        /// fa-meh-o icon (f11a)
+        /// fa-megaport icon (f5a3)
         /// </summary>
-        MehO = 0xf11a,
+        Megaport = 0xf5a3,
+
+        /// <summary>
+        /// fa-meh icon (f11a)
+        /// </summary>
+        Meh = 0xf11a,
+
+        /// <summary>
+        /// fa-meh-blank icon (f5a4)
+        /// </summary>
+        MehBlank = 0xf5a4,
+
+        /// <summary>
+        /// fa-meh-rolling-eyes icon (f5a5)
+        /// </summary>
+        MehRollingEyes = 0xf5a5,
+
+        /// <summary>
+        /// fa-memory icon (f538)
+        /// </summary>
+        Memory = 0xf538,
+
+        /// <summary>
+        /// fa-menorah icon (f676)
+        /// </summary>
+        Menorah = 0xf676,
 
         /// <summary>
         /// fa-mercury icon (f223)
@@ -2279,9 +3449,29 @@ namespace Meziantou.WpfFontAwesome
         Microphone = 0xf130,
 
         /// <summary>
+        /// fa-microphone-alt icon (f3c9)
+        /// </summary>
+        MicrophoneAlt = 0xf3c9,
+
+        /// <summary>
+        /// fa-microphone-alt-slash icon (f539)
+        /// </summary>
+        MicrophoneAltSlash = 0xf539,
+
+        /// <summary>
         /// fa-microphone-slash icon (f131)
         /// </summary>
         MicrophoneSlash = 0xf131,
+
+        /// <summary>
+        /// fa-microscope icon (f610)
+        /// </summary>
+        Microscope = 0xf610,
+
+        /// <summary>
+        /// fa-microsoft icon (f3ca)
+        /// </summary>
+        Microsoft = 0xf3ca,
 
         /// <summary>
         /// fa-minus icon (f068)
@@ -2299,9 +3489,9 @@ namespace Meziantou.WpfFontAwesome
         MinusSquare = 0xf146,
 
         /// <summary>
-        /// fa-minus-square-o icon (f147)
+        /// fa-mix icon (f3cb)
         /// </summary>
-        MinusSquareO = 0xf147,
+        Mix = 0xf3cb,
 
         /// <summary>
         /// fa-mixcloud icon (f289)
@@ -2309,14 +3499,19 @@ namespace Meziantou.WpfFontAwesome
         Mixcloud = 0xf289,
 
         /// <summary>
+        /// fa-mizuni icon (f3cc)
+        /// </summary>
+        Mizuni = 0xf3cc,
+
+        /// <summary>
         /// fa-mobile icon (f10b)
         /// </summary>
         Mobile = 0xf10b,
 
         /// <summary>
-        /// fa-mobile-phone icon (f10b)
+        /// fa-mobile-alt icon (f3cd)
         /// </summary>
-        MobilePhone = 0xf10b,
+        MobileAlt = 0xf3cd,
 
         /// <summary>
         /// fa-modx icon (f285)
@@ -2324,19 +3519,59 @@ namespace Meziantou.WpfFontAwesome
         Modx = 0xf285,
 
         /// <summary>
-        /// fa-money icon (f0d6)
+        /// fa-monero icon (f3d0)
         /// </summary>
-        Money = 0xf0d6,
+        Monero = 0xf3d0,
 
         /// <summary>
-        /// fa-moon-o icon (f186)
+        /// fa-money-bill icon (f0d6)
         /// </summary>
-        MoonO = 0xf186,
+        MoneyBill = 0xf0d6,
 
         /// <summary>
-        /// fa-mortar-board icon (f19d)
+        /// fa-money-bill-alt icon (f3d1)
         /// </summary>
-        MortarBoard = 0xf19d,
+        MoneyBillAlt = 0xf3d1,
+
+        /// <summary>
+        /// fa-money-bill-wave icon (f53a)
+        /// </summary>
+        MoneyBillWave = 0xf53a,
+
+        /// <summary>
+        /// fa-money-bill-wave-alt icon (f53b)
+        /// </summary>
+        MoneyBillWaveAlt = 0xf53b,
+
+        /// <summary>
+        /// fa-money-check icon (f53c)
+        /// </summary>
+        MoneyCheck = 0xf53c,
+
+        /// <summary>
+        /// fa-money-check-alt icon (f53d)
+        /// </summary>
+        MoneyCheckAlt = 0xf53d,
+
+        /// <summary>
+        /// fa-monument icon (f5a6)
+        /// </summary>
+        Monument = 0xf5a6,
+
+        /// <summary>
+        /// fa-moon icon (f186)
+        /// </summary>
+        Moon = 0xf186,
+
+        /// <summary>
+        /// fa-mortar-pestle icon (f5a7)
+        /// </summary>
+        MortarPestle = 0xf5a7,
+
+        /// <summary>
+        /// fa-mosque icon (f678)
+        /// </summary>
+        Mosque = 0xf678,
 
         /// <summary>
         /// fa-motorcycle icon (f21c)
@@ -2354,9 +3589,14 @@ namespace Meziantou.WpfFontAwesome
         Music = 0xf001,
 
         /// <summary>
-        /// fa-navicon icon (f0c9)
+        /// fa-napster icon (f3d2)
         /// </summary>
-        Navicon = 0xf0c9,
+        Napster = 0xf3d2,
+
+        /// <summary>
+        /// fa-neos icon (f612)
+        /// </summary>
+        Neos = 0xf612,
 
         /// <summary>
         /// fa-neuter icon (f22c)
@@ -2364,9 +3604,54 @@ namespace Meziantou.WpfFontAwesome
         Neuter = 0xf22c,
 
         /// <summary>
-        /// fa-newspaper-o icon (f1ea)
+        /// fa-newspaper icon (f1ea)
         /// </summary>
-        NewspaperO = 0xf1ea,
+        Newspaper = 0xf1ea,
+
+        /// <summary>
+        /// fa-nimblr icon (f5a8)
+        /// </summary>
+        Nimblr = 0xf5a8,
+
+        /// <summary>
+        /// fa-nintendo-switch icon (f418)
+        /// </summary>
+        NintendoSwitch = 0xf418,
+
+        /// <summary>
+        /// fa-node icon (f419)
+        /// </summary>
+        Node = 0xf419,
+
+        /// <summary>
+        /// fa-node-js icon (f3d3)
+        /// </summary>
+        NodeJs = 0xf3d3,
+
+        /// <summary>
+        /// fa-not-equal icon (f53e)
+        /// </summary>
+        NotEqual = 0xf53e,
+
+        /// <summary>
+        /// fa-notes-medical icon (f481)
+        /// </summary>
+        NotesMedical = 0xf481,
+
+        /// <summary>
+        /// fa-npm icon (f3d4)
+        /// </summary>
+        Npm = 0xf3d4,
+
+        /// <summary>
+        /// fa-ns8 icon (f3d5)
+        /// </summary>
+        Ns8 = 0xf3d5,
+
+        /// <summary>
+        /// fa-nutritionix icon (f3d6)
+        /// </summary>
+        Nutritionix = 0xf3d6,
 
         /// <summary>
         /// fa-object-group icon (f247)
@@ -2389,6 +3674,21 @@ namespace Meziantou.WpfFontAwesome
         OdnoklassnikiSquare = 0xf264,
 
         /// <summary>
+        /// fa-oil-can icon (f613)
+        /// </summary>
+        OilCan = 0xf613,
+
+        /// <summary>
+        /// fa-old-republic icon (f510)
+        /// </summary>
+        OldRepublic = 0xf510,
+
+        /// <summary>
+        /// fa-om icon (f679)
+        /// </summary>
+        Om = 0xf679,
+
+        /// <summary>
         /// fa-opencart icon (f23d)
         /// </summary>
         Opencart = 0xf23d,
@@ -2409,9 +3709,19 @@ namespace Meziantou.WpfFontAwesome
         OptinMonster = 0xf23c,
 
         /// <summary>
+        /// fa-osi icon (f41a)
+        /// </summary>
+        Osi = 0xf41a,
+
+        /// <summary>
         /// fa-outdent icon (f03b)
         /// </summary>
         Outdent = 0xf03b,
+
+        /// <summary>
+        /// fa-page4 icon (f3d7)
+        /// </summary>
+        Page4 = 0xf3d7,
 
         /// <summary>
         /// fa-pagelines icon (f18c)
@@ -2424,14 +3734,29 @@ namespace Meziantou.WpfFontAwesome
         PaintBrush = 0xf1fc,
 
         /// <summary>
+        /// fa-paint-roller icon (f5aa)
+        /// </summary>
+        PaintRoller = 0xf5aa,
+
+        /// <summary>
+        /// fa-palette icon (f53f)
+        /// </summary>
+        Palette = 0xf53f,
+
+        /// <summary>
+        /// fa-palfed icon (f3d8)
+        /// </summary>
+        Palfed = 0xf3d8,
+
+        /// <summary>
+        /// fa-pallet icon (f482)
+        /// </summary>
+        Pallet = 0xf482,
+
+        /// <summary>
         /// fa-paper-plane icon (f1d8)
         /// </summary>
         PaperPlane = 0xf1d8,
-
-        /// <summary>
-        /// fa-paper-plane-o icon (f1d9)
-        /// </summary>
-        PaperPlaneO = 0xf1d9,
 
         /// <summary>
         /// fa-paperclip icon (f0c6)
@@ -2439,14 +3764,39 @@ namespace Meziantou.WpfFontAwesome
         Paperclip = 0xf0c6,
 
         /// <summary>
+        /// fa-parachute-box icon (f4cd)
+        /// </summary>
+        ParachuteBox = 0xf4cd,
+
+        /// <summary>
         /// fa-paragraph icon (f1dd)
         /// </summary>
         Paragraph = 0xf1dd,
 
         /// <summary>
+        /// fa-parking icon (f540)
+        /// </summary>
+        Parking = 0xf540,
+
+        /// <summary>
+        /// fa-passport icon (f5ab)
+        /// </summary>
+        Passport = 0xf5ab,
+
+        /// <summary>
+        /// fa-pastafarianism icon (f67b)
+        /// </summary>
+        Pastafarianism = 0xf67b,
+
+        /// <summary>
         /// fa-paste icon (f0ea)
         /// </summary>
         Paste = 0xf0ea,
+
+        /// <summary>
+        /// fa-patreon icon (f3d9)
+        /// </summary>
+        Patreon = 0xf3d9,
 
         /// <summary>
         /// fa-pause icon (f04c)
@@ -2459,11 +3809,6 @@ namespace Meziantou.WpfFontAwesome
         PauseCircle = 0xf28b,
 
         /// <summary>
-        /// fa-pause-circle-o icon (f28c)
-        /// </summary>
-        PauseCircleO = 0xf28c,
-
-        /// <summary>
         /// fa-paw icon (f1b0)
         /// </summary>
         Paw = 0xf1b0,
@@ -2474,19 +3819,49 @@ namespace Meziantou.WpfFontAwesome
         Paypal = 0xf1ed,
 
         /// <summary>
-        /// fa-pencil icon (f040)
+        /// fa-peace icon (f67c)
         /// </summary>
-        Pencil = 0xf040,
+        Peace = 0xf67c,
 
         /// <summary>
-        /// fa-pencil-square icon (f14b)
+        /// fa-pen icon (f304)
         /// </summary>
-        PencilSquare = 0xf14b,
+        Pen = 0xf304,
 
         /// <summary>
-        /// fa-pencil-square-o icon (f044)
+        /// fa-pen-alt icon (f305)
         /// </summary>
-        PencilSquareO = 0xf044,
+        PenAlt = 0xf305,
+
+        /// <summary>
+        /// fa-pen-fancy icon (f5ac)
+        /// </summary>
+        PenFancy = 0xf5ac,
+
+        /// <summary>
+        /// fa-pen-nib icon (f5ad)
+        /// </summary>
+        PenNib = 0xf5ad,
+
+        /// <summary>
+        /// fa-pen-square icon (f14b)
+        /// </summary>
+        PenSquare = 0xf14b,
+
+        /// <summary>
+        /// fa-pencil-alt icon (f303)
+        /// </summary>
+        PencilAlt = 0xf303,
+
+        /// <summary>
+        /// fa-pencil-ruler icon (f5ae)
+        /// </summary>
+        PencilRuler = 0xf5ae,
+
+        /// <summary>
+        /// fa-people-carry icon (f4ce)
+        /// </summary>
+        PeopleCarry = 0xf4ce,
 
         /// <summary>
         /// fa-percent icon (f295)
@@ -2494,9 +3869,39 @@ namespace Meziantou.WpfFontAwesome
         Percent = 0xf295,
 
         /// <summary>
+        /// fa-percentage icon (f541)
+        /// </summary>
+        Percentage = 0xf541,
+
+        /// <summary>
+        /// fa-periscope icon (f3da)
+        /// </summary>
+        Periscope = 0xf3da,
+
+        /// <summary>
+        /// fa-phabricator icon (f3db)
+        /// </summary>
+        Phabricator = 0xf3db,
+
+        /// <summary>
+        /// fa-phoenix-framework icon (f3dc)
+        /// </summary>
+        PhoenixFramework = 0xf3dc,
+
+        /// <summary>
+        /// fa-phoenix-squadron icon (f511)
+        /// </summary>
+        PhoenixSquadron = 0xf511,
+
+        /// <summary>
         /// fa-phone icon (f095)
         /// </summary>
         Phone = 0xf095,
+
+        /// <summary>
+        /// fa-phone-slash icon (f3dd)
+        /// </summary>
+        PhoneSlash = 0xf3dd,
 
         /// <summary>
         /// fa-phone-square icon (f098)
@@ -2504,19 +3909,14 @@ namespace Meziantou.WpfFontAwesome
         PhoneSquare = 0xf098,
 
         /// <summary>
-        /// fa-photo icon (f03e)
+        /// fa-phone-volume icon (f2a0)
         /// </summary>
-        Photo = 0xf03e,
+        PhoneVolume = 0xf2a0,
 
         /// <summary>
-        /// fa-picture-o icon (f03e)
+        /// fa-php icon (f457)
         /// </summary>
-        PictureO = 0xf03e,
-
-        /// <summary>
-        /// fa-pie-chart icon (f200)
-        /// </summary>
-        PieChart = 0xf200,
+        Php = 0xf457,
 
         /// <summary>
         /// fa-pied-piper icon (f2ae)
@@ -2529,9 +3929,24 @@ namespace Meziantou.WpfFontAwesome
         PiedPiperAlt = 0xf1a8,
 
         /// <summary>
+        /// fa-pied-piper-hat icon (f4e5)
+        /// </summary>
+        PiedPiperHat = 0xf4e5,
+
+        /// <summary>
         /// fa-pied-piper-pp icon (f1a7)
         /// </summary>
         PiedPiperPp = 0xf1a7,
+
+        /// <summary>
+        /// fa-piggy-bank icon (f4d3)
+        /// </summary>
+        PiggyBank = 0xf4d3,
+
+        /// <summary>
+        /// fa-pills icon (f484)
+        /// </summary>
+        Pills = 0xf484,
 
         /// <summary>
         /// fa-pinterest icon (f0d2)
@@ -2549,9 +3964,24 @@ namespace Meziantou.WpfFontAwesome
         PinterestSquare = 0xf0d3,
 
         /// <summary>
+        /// fa-place-of-worship icon (f67f)
+        /// </summary>
+        PlaceOfWorship = 0xf67f,
+
+        /// <summary>
         /// fa-plane icon (f072)
         /// </summary>
         Plane = 0xf072,
+
+        /// <summary>
+        /// fa-plane-arrival icon (f5af)
+        /// </summary>
+        PlaneArrival = 0xf5af,
+
+        /// <summary>
+        /// fa-plane-departure icon (f5b0)
+        /// </summary>
+        PlaneDeparture = 0xf5b0,
 
         /// <summary>
         /// fa-play icon (f04b)
@@ -2564,9 +3994,9 @@ namespace Meziantou.WpfFontAwesome
         PlayCircle = 0xf144,
 
         /// <summary>
-        /// fa-play-circle-o icon (f01d)
+        /// fa-playstation icon (f3df)
         /// </summary>
-        PlayCircleO = 0xf01d,
+        Playstation = 0xf3df,
 
         /// <summary>
         /// fa-plug icon (f1e6)
@@ -2589,14 +4019,39 @@ namespace Meziantou.WpfFontAwesome
         PlusSquare = 0xf0fe,
 
         /// <summary>
-        /// fa-plus-square-o icon (f196)
-        /// </summary>
-        PlusSquareO = 0xf196,
-
-        /// <summary>
         /// fa-podcast icon (f2ce)
         /// </summary>
         Podcast = 0xf2ce,
+
+        /// <summary>
+        /// fa-poll icon (f681)
+        /// </summary>
+        Poll = 0xf681,
+
+        /// <summary>
+        /// fa-poll-h icon (f682)
+        /// </summary>
+        PollH = 0xf682,
+
+        /// <summary>
+        /// fa-poo icon (f2fe)
+        /// </summary>
+        Poo = 0xf2fe,
+
+        /// <summary>
+        /// fa-poop icon (f619)
+        /// </summary>
+        Poop = 0xf619,
+
+        /// <summary>
+        /// fa-portrait icon (f3e0)
+        /// </summary>
+        Portrait = 0xf3e0,
+
+        /// <summary>
+        /// fa-pound-sign icon (f154)
+        /// </summary>
+        PoundSign = 0xf154,
 
         /// <summary>
         /// fa-power-off icon (f011)
@@ -2604,9 +4059,39 @@ namespace Meziantou.WpfFontAwesome
         PowerOff = 0xf011,
 
         /// <summary>
+        /// fa-pray icon (f683)
+        /// </summary>
+        Pray = 0xf683,
+
+        /// <summary>
+        /// fa-praying-hands icon (f684)
+        /// </summary>
+        PrayingHands = 0xf684,
+
+        /// <summary>
+        /// fa-prescription icon (f5b1)
+        /// </summary>
+        Prescription = 0xf5b1,
+
+        /// <summary>
+        /// fa-prescription-bottle icon (f485)
+        /// </summary>
+        PrescriptionBottle = 0xf485,
+
+        /// <summary>
+        /// fa-prescription-bottle-alt icon (f486)
+        /// </summary>
+        PrescriptionBottleAlt = 0xf486,
+
+        /// <summary>
         /// fa-print icon (f02f)
         /// </summary>
         Print = 0xf02f,
+
+        /// <summary>
+        /// fa-procedures icon (f487)
+        /// </summary>
+        Procedures = 0xf487,
 
         /// <summary>
         /// fa-product-hunt icon (f288)
@@ -2614,9 +4099,24 @@ namespace Meziantou.WpfFontAwesome
         ProductHunt = 0xf288,
 
         /// <summary>
+        /// fa-project-diagram icon (f542)
+        /// </summary>
+        ProjectDiagram = 0xf542,
+
+        /// <summary>
+        /// fa-pushed icon (f3e1)
+        /// </summary>
+        Pushed = 0xf3e1,
+
+        /// <summary>
         /// fa-puzzle-piece icon (f12e)
         /// </summary>
         PuzzlePiece = 0xf12e,
+
+        /// <summary>
+        /// fa-python icon (f3e2)
+        /// </summary>
+        Python = 0xf3e2,
 
         /// <summary>
         /// fa-qq icon (f1d6)
@@ -2639,9 +4139,14 @@ namespace Meziantou.WpfFontAwesome
         QuestionCircle = 0xf059,
 
         /// <summary>
-        /// fa-question-circle-o icon (f29c)
+        /// fa-quidditch icon (f458)
         /// </summary>
-        QuestionCircleO = 0xf29c,
+        Quidditch = 0xf458,
+
+        /// <summary>
+        /// fa-quinscape icon (f459)
+        /// </summary>
+        Quinscape = 0xf459,
 
         /// <summary>
         /// fa-quora icon (f2c4)
@@ -2659,9 +4164,14 @@ namespace Meziantou.WpfFontAwesome
         QuoteRight = 0xf10e,
 
         /// <summary>
-        /// fa-ra icon (f1d0)
+        /// fa-quran icon (f687)
         /// </summary>
-        Ra = 0xf1d0,
+        Quran = 0xf687,
+
+        /// <summary>
+        /// fa-r-project icon (f4f7)
+        /// </summary>
+        RProject = 0xf4f7,
 
         /// <summary>
         /// fa-random icon (f074)
@@ -2674,14 +4184,34 @@ namespace Meziantou.WpfFontAwesome
         Ravelry = 0xf2d9,
 
         /// <summary>
+        /// fa-react icon (f41b)
+        /// </summary>
+        React = 0xf41b,
+
+        /// <summary>
+        /// fa-readme icon (f4d5)
+        /// </summary>
+        Readme = 0xf4d5,
+
+        /// <summary>
         /// fa-rebel icon (f1d0)
         /// </summary>
         Rebel = 0xf1d0,
 
         /// <summary>
+        /// fa-receipt icon (f543)
+        /// </summary>
+        Receipt = 0xf543,
+
+        /// <summary>
         /// fa-recycle icon (f1b8)
         /// </summary>
         Recycle = 0xf1b8,
+
+        /// <summary>
+        /// fa-red-river icon (f3e3)
+        /// </summary>
+        RedRiver = 0xf3e3,
 
         /// <summary>
         /// fa-reddit icon (f1a1)
@@ -2699,9 +4229,14 @@ namespace Meziantou.WpfFontAwesome
         RedditSquare = 0xf1a2,
 
         /// <summary>
-        /// fa-refresh icon (f021)
+        /// fa-redo icon (f01e)
         /// </summary>
-        Refresh = 0xf021,
+        Redo = 0xf01e,
+
+        /// <summary>
+        /// fa-redo-alt icon (f2f9)
+        /// </summary>
+        RedoAlt = 0xf2f9,
 
         /// <summary>
         /// fa-registered icon (f25d)
@@ -2709,9 +4244,9 @@ namespace Meziantou.WpfFontAwesome
         Registered = 0xf25d,
 
         /// <summary>
-        /// fa-remove icon (f00d)
+        /// fa-rendact icon (f3e4)
         /// </summary>
-        Remove = 0xf00d,
+        Rendact = 0xf3e4,
 
         /// <summary>
         /// fa-renren icon (f18b)
@@ -2719,19 +4254,9 @@ namespace Meziantou.WpfFontAwesome
         Renren = 0xf18b,
 
         /// <summary>
-        /// fa-reorder icon (f0c9)
+        /// fa-reply icon (f3e5)
         /// </summary>
-        Reorder = 0xf0c9,
-
-        /// <summary>
-        /// fa-repeat icon (f01e)
-        /// </summary>
-        Repeat = 0xf01e,
-
-        /// <summary>
-        /// fa-reply icon (f112)
-        /// </summary>
-        Reply = 0xf112,
+        Reply = 0xf3e5,
 
         /// <summary>
         /// fa-reply-all icon (f122)
@@ -2739,9 +4264,19 @@ namespace Meziantou.WpfFontAwesome
         ReplyAll = 0xf122,
 
         /// <summary>
-        /// fa-resistance icon (f1d0)
+        /// fa-replyd icon (f3e6)
         /// </summary>
-        Resistance = 0xf1d0,
+        Replyd = 0xf3e6,
+
+        /// <summary>
+        /// fa-researchgate icon (f4f8)
+        /// </summary>
+        Researchgate = 0xf4f8,
+
+        /// <summary>
+        /// fa-resolving icon (f3e7)
+        /// </summary>
+        Resolving = 0xf3e7,
 
         /// <summary>
         /// fa-retweet icon (f079)
@@ -2749,9 +4284,14 @@ namespace Meziantou.WpfFontAwesome
         Retweet = 0xf079,
 
         /// <summary>
-        /// fa-rmb icon (f157)
+        /// fa-rev icon (f5b2)
         /// </summary>
-        Rmb = 0xf157,
+        Rev = 0xf5b2,
+
+        /// <summary>
+        /// fa-ribbon icon (f4d6)
+        /// </summary>
+        Ribbon = 0xf4d6,
 
         /// <summary>
         /// fa-road icon (f018)
@@ -2759,24 +4299,29 @@ namespace Meziantou.WpfFontAwesome
         Road = 0xf018,
 
         /// <summary>
+        /// fa-robot icon (f544)
+        /// </summary>
+        Robot = 0xf544,
+
+        /// <summary>
         /// fa-rocket icon (f135)
         /// </summary>
         Rocket = 0xf135,
 
         /// <summary>
-        /// fa-rotate-left icon (f0e2)
+        /// fa-rocketchat icon (f3e8)
         /// </summary>
-        RotateLeft = 0xf0e2,
+        Rocketchat = 0xf3e8,
 
         /// <summary>
-        /// fa-rotate-right icon (f01e)
+        /// fa-rockrms icon (f3e9)
         /// </summary>
-        RotateRight = 0xf01e,
+        Rockrms = 0xf3e9,
 
         /// <summary>
-        /// fa-rouble icon (f158)
+        /// fa-route icon (f4d7)
         /// </summary>
-        Rouble = 0xf158,
+        Route = 0xf4d7,
 
         /// <summary>
         /// fa-rss icon (f09e)
@@ -2789,24 +4334,44 @@ namespace Meziantou.WpfFontAwesome
         RssSquare = 0xf143,
 
         /// <summary>
-        /// fa-rub icon (f158)
+        /// fa-ruble-sign icon (f158)
         /// </summary>
-        Rub = 0xf158,
+        RubleSign = 0xf158,
 
         /// <summary>
-        /// fa-ruble icon (f158)
+        /// fa-ruler icon (f545)
         /// </summary>
-        Ruble = 0xf158,
+        Ruler = 0xf545,
 
         /// <summary>
-        /// fa-rupee icon (f156)
+        /// fa-ruler-combined icon (f546)
         /// </summary>
-        Rupee = 0xf156,
+        RulerCombined = 0xf546,
 
         /// <summary>
-        /// fa-s15 icon (f2cd)
+        /// fa-ruler-horizontal icon (f547)
         /// </summary>
-        S15 = 0xf2cd,
+        RulerHorizontal = 0xf547,
+
+        /// <summary>
+        /// fa-ruler-vertical icon (f548)
+        /// </summary>
+        RulerVertical = 0xf548,
+
+        /// <summary>
+        /// fa-rupee-sign icon (f156)
+        /// </summary>
+        RupeeSign = 0xf156,
+
+        /// <summary>
+        /// fa-sad-cry icon (f5b3)
+        /// </summary>
+        SadCry = 0xf5b3,
+
+        /// <summary>
+        /// fa-sad-tear icon (f5b4)
+        /// </summary>
+        SadTear = 0xf5b4,
 
         /// <summary>
         /// fa-safari icon (f267)
@@ -2814,14 +4379,29 @@ namespace Meziantou.WpfFontAwesome
         Safari = 0xf267,
 
         /// <summary>
+        /// fa-sass icon (f41e)
+        /// </summary>
+        Sass = 0xf41e,
+
+        /// <summary>
         /// fa-save icon (f0c7)
         /// </summary>
         Save = 0xf0c7,
 
         /// <summary>
-        /// fa-scissors icon (f0c4)
+        /// fa-schlix icon (f3ea)
         /// </summary>
-        Scissors = 0xf0c4,
+        Schlix = 0xf3ea,
+
+        /// <summary>
+        /// fa-school icon (f549)
+        /// </summary>
+        School = 0xf549,
+
+        /// <summary>
+        /// fa-screwdriver icon (f54a)
+        /// </summary>
+        Screwdriver = 0xf54a,
 
         /// <summary>
         /// fa-scribd icon (f28a)
@@ -2834,6 +4414,16 @@ namespace Meziantou.WpfFontAwesome
         Search = 0xf002,
 
         /// <summary>
+        /// fa-search-dollar icon (f688)
+        /// </summary>
+        SearchDollar = 0xf688,
+
+        /// <summary>
+        /// fa-search-location icon (f689)
+        /// </summary>
+        SearchLocation = 0xf689,
+
+        /// <summary>
         /// fa-search-minus icon (f010)
         /// </summary>
         SearchMinus = 0xf010,
@@ -2844,24 +4434,39 @@ namespace Meziantou.WpfFontAwesome
         SearchPlus = 0xf00e,
 
         /// <summary>
+        /// fa-searchengin icon (f3eb)
+        /// </summary>
+        Searchengin = 0xf3eb,
+
+        /// <summary>
+        /// fa-seedling icon (f4d8)
+        /// </summary>
+        Seedling = 0xf4d8,
+
+        /// <summary>
+        /// fa-sellcast icon (f2da)
+        /// </summary>
+        Sellcast = 0xf2da,
+
+        /// <summary>
         /// fa-sellsy icon (f213)
         /// </summary>
         Sellsy = 0xf213,
 
         /// <summary>
-        /// fa-send icon (f1d8)
-        /// </summary>
-        Send = 0xf1d8,
-
-        /// <summary>
-        /// fa-send-o icon (f1d9)
-        /// </summary>
-        SendO = 0xf1d9,
-
-        /// <summary>
         /// fa-server icon (f233)
         /// </summary>
         Server = 0xf233,
+
+        /// <summary>
+        /// fa-servicestack icon (f3ec)
+        /// </summary>
+        Servicestack = 0xf3ec,
+
+        /// <summary>
+        /// fa-shapes icon (f61f)
+        /// </summary>
+        Shapes = 0xf61f,
 
         /// <summary>
         /// fa-share icon (f064)
@@ -2884,24 +4489,14 @@ namespace Meziantou.WpfFontAwesome
         ShareSquare = 0xf14d,
 
         /// <summary>
-        /// fa-share-square-o icon (f045)
+        /// fa-shekel-sign icon (f20b)
         /// </summary>
-        ShareSquareO = 0xf045,
+        ShekelSign = 0xf20b,
 
         /// <summary>
-        /// fa-shekel icon (f20b)
+        /// fa-shield-alt icon (f3ed)
         /// </summary>
-        Shekel = 0xf20b,
-
-        /// <summary>
-        /// fa-sheqel icon (f20b)
-        /// </summary>
-        Sheqel = 0xf20b,
-
-        /// <summary>
-        /// fa-shield icon (f132)
-        /// </summary>
-        Shield = 0xf132,
+        ShieldAlt = 0xf3ed,
 
         /// <summary>
         /// fa-ship icon (f21a)
@@ -2909,9 +4504,19 @@ namespace Meziantou.WpfFontAwesome
         Ship = 0xf21a,
 
         /// <summary>
+        /// fa-shipping-fast icon (f48b)
+        /// </summary>
+        ShippingFast = 0xf48b,
+
+        /// <summary>
         /// fa-shirtsinbulk icon (f214)
         /// </summary>
         Shirtsinbulk = 0xf214,
+
+        /// <summary>
+        /// fa-shoe-prints icon (f54b)
+        /// </summary>
+        ShoePrints = 0xf54b,
 
         /// <summary>
         /// fa-shopping-bag icon (f290)
@@ -2929,14 +4534,29 @@ namespace Meziantou.WpfFontAwesome
         ShoppingCart = 0xf07a,
 
         /// <summary>
+        /// fa-shopware icon (f5b5)
+        /// </summary>
+        Shopware = 0xf5b5,
+
+        /// <summary>
         /// fa-shower icon (f2cc)
         /// </summary>
         Shower = 0xf2cc,
 
         /// <summary>
-        /// fa-sign-in icon (f090)
+        /// fa-shuttle-van icon (f5b6)
         /// </summary>
-        SignIn = 0xf090,
+        ShuttleVan = 0xf5b6,
+
+        /// <summary>
+        /// fa-sign icon (f4d9)
+        /// </summary>
+        Sign = 0xf4d9,
+
+        /// <summary>
+        /// fa-sign-in-alt icon (f2f6)
+        /// </summary>
+        SignInAlt = 0xf2f6,
 
         /// <summary>
         /// fa-sign-language icon (f2a7)
@@ -2944,9 +4564,9 @@ namespace Meziantou.WpfFontAwesome
         SignLanguage = 0xf2a7,
 
         /// <summary>
-        /// fa-sign-out icon (f08b)
+        /// fa-sign-out-alt icon (f2f5)
         /// </summary>
-        SignOut = 0xf08b,
+        SignOutAlt = 0xf2f5,
 
         /// <summary>
         /// fa-signal icon (f012)
@@ -2954,9 +4574,9 @@ namespace Meziantou.WpfFontAwesome
         Signal = 0xf012,
 
         /// <summary>
-        /// fa-signing icon (f2a7)
+        /// fa-signature icon (f5b7)
         /// </summary>
-        Signing = 0xf2a7,
+        Signature = 0xf5b7,
 
         /// <summary>
         /// fa-simplybuilt icon (f215)
@@ -2964,9 +4584,24 @@ namespace Meziantou.WpfFontAwesome
         Simplybuilt = 0xf215,
 
         /// <summary>
+        /// fa-sistrix icon (f3ee)
+        /// </summary>
+        Sistrix = 0xf3ee,
+
+        /// <summary>
         /// fa-sitemap icon (f0e8)
         /// </summary>
         Sitemap = 0xf0e8,
+
+        /// <summary>
+        /// fa-sith icon (f512)
+        /// </summary>
+        Sith = 0xf512,
+
+        /// <summary>
+        /// fa-skull icon (f54c)
+        /// </summary>
+        Skull = 0xf54c,
 
         /// <summary>
         /// fa-skyatlas icon (f216)
@@ -2984,9 +4619,14 @@ namespace Meziantou.WpfFontAwesome
         Slack = 0xf198,
 
         /// <summary>
-        /// fa-sliders icon (f1de)
+        /// fa-slack-hash icon (f3ef)
         /// </summary>
-        Sliders = 0xf1de,
+        SlackHash = 0xf3ef,
+
+        /// <summary>
+        /// fa-sliders-h icon (f1de)
+        /// </summary>
+        SlidersH = 0xf1de,
 
         /// <summary>
         /// fa-slideshare icon (f1e7)
@@ -2994,9 +4634,29 @@ namespace Meziantou.WpfFontAwesome
         Slideshare = 0xf1e7,
 
         /// <summary>
-        /// fa-smile-o icon (f118)
+        /// fa-smile icon (f118)
         /// </summary>
-        SmileO = 0xf118,
+        Smile = 0xf118,
+
+        /// <summary>
+        /// fa-smile-beam icon (f5b8)
+        /// </summary>
+        SmileBeam = 0xf5b8,
+
+        /// <summary>
+        /// fa-smile-wink icon (f4da)
+        /// </summary>
+        SmileWink = 0xf4da,
+
+        /// <summary>
+        /// fa-smoking icon (f48d)
+        /// </summary>
+        Smoking = 0xf48d,
+
+        /// <summary>
+        /// fa-smoking-ban icon (f54d)
+        /// </summary>
+        SmokingBan = 0xf54d,
 
         /// <summary>
         /// fa-snapchat icon (f2ab)
@@ -3014,14 +4674,19 @@ namespace Meziantou.WpfFontAwesome
         SnapchatSquare = 0xf2ad,
 
         /// <summary>
-        /// fa-snowflake-o icon (f2dc)
+        /// fa-snowflake icon (f2dc)
         /// </summary>
-        SnowflakeO = 0xf2dc,
+        Snowflake = 0xf2dc,
 
         /// <summary>
-        /// fa-soccer-ball-o icon (f1e3)
+        /// fa-socks icon (f696)
         /// </summary>
-        SoccerBallO = 0xf1e3,
+        Socks = 0xf696,
+
+        /// <summary>
+        /// fa-solar-panel icon (f5ba)
+        /// </summary>
+        SolarPanel = 0xf5ba,
 
         /// <summary>
         /// fa-sort icon (f0dc)
@@ -3029,34 +4694,24 @@ namespace Meziantou.WpfFontAwesome
         Sort = 0xf0dc,
 
         /// <summary>
-        /// fa-sort-alpha-asc icon (f15d)
+        /// fa-sort-alpha-down icon (f15d)
         /// </summary>
-        SortAlphaAsc = 0xf15d,
+        SortAlphaDown = 0xf15d,
 
         /// <summary>
-        /// fa-sort-alpha-desc icon (f15e)
+        /// fa-sort-alpha-up icon (f15e)
         /// </summary>
-        SortAlphaDesc = 0xf15e,
+        SortAlphaUp = 0xf15e,
 
         /// <summary>
-        /// fa-sort-amount-asc icon (f160)
+        /// fa-sort-amount-down icon (f160)
         /// </summary>
-        SortAmountAsc = 0xf160,
+        SortAmountDown = 0xf160,
 
         /// <summary>
-        /// fa-sort-amount-desc icon (f161)
+        /// fa-sort-amount-up icon (f161)
         /// </summary>
-        SortAmountDesc = 0xf161,
-
-        /// <summary>
-        /// fa-sort-asc icon (f0de)
-        /// </summary>
-        SortAsc = 0xf0de,
-
-        /// <summary>
-        /// fa-sort-desc icon (f0dd)
-        /// </summary>
-        SortDesc = 0xf0dd,
+        SortAmountUp = 0xf161,
 
         /// <summary>
         /// fa-sort-down icon (f0dd)
@@ -3064,14 +4719,14 @@ namespace Meziantou.WpfFontAwesome
         SortDown = 0xf0dd,
 
         /// <summary>
-        /// fa-sort-numeric-asc icon (f162)
+        /// fa-sort-numeric-down icon (f162)
         /// </summary>
-        SortNumericAsc = 0xf162,
+        SortNumericDown = 0xf162,
 
         /// <summary>
-        /// fa-sort-numeric-desc icon (f163)
+        /// fa-sort-numeric-up icon (f163)
         /// </summary>
-        SortNumericDesc = 0xf163,
+        SortNumericUp = 0xf163,
 
         /// <summary>
         /// fa-sort-up icon (f0de)
@@ -3084,9 +4739,19 @@ namespace Meziantou.WpfFontAwesome
         Soundcloud = 0xf1be,
 
         /// <summary>
+        /// fa-spa icon (f5bb)
+        /// </summary>
+        Spa = 0xf5bb,
+
+        /// <summary>
         /// fa-space-shuttle icon (f197)
         /// </summary>
         SpaceShuttle = 0xf197,
+
+        /// <summary>
+        /// fa-speakap icon (f3f3)
+        /// </summary>
+        Speakap = 0xf3f3,
 
         /// <summary>
         /// fa-spinner icon (f110)
@@ -3094,9 +4759,9 @@ namespace Meziantou.WpfFontAwesome
         Spinner = 0xf110,
 
         /// <summary>
-        /// fa-spoon icon (f1b1)
+        /// fa-splotch icon (f5bc)
         /// </summary>
-        Spoon = 0xf1b1,
+        Splotch = 0xf5bc,
 
         /// <summary>
         /// fa-spotify icon (f1bc)
@@ -3104,14 +4769,29 @@ namespace Meziantou.WpfFontAwesome
         Spotify = 0xf1bc,
 
         /// <summary>
+        /// fa-spray-can icon (f5bd)
+        /// </summary>
+        SprayCan = 0xf5bd,
+
+        /// <summary>
         /// fa-square icon (f0c8)
         /// </summary>
         Square = 0xf0c8,
 
         /// <summary>
-        /// fa-square-o icon (f096)
+        /// fa-square-full icon (f45c)
         /// </summary>
-        SquareO = 0xf096,
+        SquareFull = 0xf45c,
+
+        /// <summary>
+        /// fa-square-root-alt icon (f698)
+        /// </summary>
+        SquareRootAlt = 0xf698,
+
+        /// <summary>
+        /// fa-squarespace icon (f5be)
+        /// </summary>
+        Squarespace = 0xf5be,
 
         /// <summary>
         /// fa-stack-exchange icon (f18d)
@@ -3124,9 +4804,19 @@ namespace Meziantou.WpfFontAwesome
         StackOverflow = 0xf16c,
 
         /// <summary>
+        /// fa-stamp icon (f5bf)
+        /// </summary>
+        Stamp = 0xf5bf,
+
+        /// <summary>
         /// fa-star icon (f005)
         /// </summary>
         Star = 0xf005,
+
+        /// <summary>
+        /// fa-star-and-crescent icon (f699)
+        /// </summary>
+        StarAndCrescent = 0xf699,
 
         /// <summary>
         /// fa-star-half icon (f089)
@@ -3134,24 +4824,24 @@ namespace Meziantou.WpfFontAwesome
         StarHalf = 0xf089,
 
         /// <summary>
-        /// fa-star-half-empty icon (f123)
+        /// fa-star-half-alt icon (f5c0)
         /// </summary>
-        StarHalfEmpty = 0xf123,
+        StarHalfAlt = 0xf5c0,
 
         /// <summary>
-        /// fa-star-half-full icon (f123)
+        /// fa-star-of-david icon (f69a)
         /// </summary>
-        StarHalfFull = 0xf123,
+        StarOfDavid = 0xf69a,
 
         /// <summary>
-        /// fa-star-half-o icon (f123)
+        /// fa-star-of-life icon (f621)
         /// </summary>
-        StarHalfO = 0xf123,
+        StarOfLife = 0xf621,
 
         /// <summary>
-        /// fa-star-o icon (f006)
+        /// fa-staylinked icon (f3f5)
         /// </summary>
-        StarO = 0xf006,
+        Staylinked = 0xf3f5,
 
         /// <summary>
         /// fa-steam icon (f1b6)
@@ -3162,6 +4852,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-steam-square icon (f1b7)
         /// </summary>
         SteamSquare = 0xf1b7,
+
+        /// <summary>
+        /// fa-steam-symbol icon (f3f6)
+        /// </summary>
+        SteamSymbol = 0xf3f6,
 
         /// <summary>
         /// fa-step-backward icon (f048)
@@ -3179,14 +4874,14 @@ namespace Meziantou.WpfFontAwesome
         Stethoscope = 0xf0f1,
 
         /// <summary>
+        /// fa-sticker-mule icon (f3f7)
+        /// </summary>
+        StickerMule = 0xf3f7,
+
+        /// <summary>
         /// fa-sticky-note icon (f249)
         /// </summary>
         StickyNote = 0xf249,
-
-        /// <summary>
-        /// fa-sticky-note-o icon (f24a)
-        /// </summary>
-        StickyNoteO = 0xf24a,
 
         /// <summary>
         /// fa-stop icon (f04d)
@@ -3199,9 +4894,29 @@ namespace Meziantou.WpfFontAwesome
         StopCircle = 0xf28d,
 
         /// <summary>
-        /// fa-stop-circle-o icon (f28e)
+        /// fa-stopwatch icon (f2f2)
         /// </summary>
-        StopCircleO = 0xf28e,
+        Stopwatch = 0xf2f2,
+
+        /// <summary>
+        /// fa-store icon (f54e)
+        /// </summary>
+        Store = 0xf54e,
+
+        /// <summary>
+        /// fa-store-alt icon (f54f)
+        /// </summary>
+        StoreAlt = 0xf54f,
+
+        /// <summary>
+        /// fa-strava icon (f428)
+        /// </summary>
+        Strava = 0xf428,
+
+        /// <summary>
+        /// fa-stream icon (f550)
+        /// </summary>
+        Stream = 0xf550,
 
         /// <summary>
         /// fa-street-view icon (f21d)
@@ -3212,6 +4927,26 @@ namespace Meziantou.WpfFontAwesome
         /// fa-strikethrough icon (f0cc)
         /// </summary>
         Strikethrough = 0xf0cc,
+
+        /// <summary>
+        /// fa-stripe icon (f429)
+        /// </summary>
+        Stripe = 0xf429,
+
+        /// <summary>
+        /// fa-stripe-s icon (f42a)
+        /// </summary>
+        StripeS = 0xf42a,
+
+        /// <summary>
+        /// fa-stroopwafel icon (f551)
+        /// </summary>
+        Stroopwafel = 0xf551,
+
+        /// <summary>
+        /// fa-studiovinari icon (f3f8)
+        /// </summary>
+        Studiovinari = 0xf3f8,
 
         /// <summary>
         /// fa-stumbleupon icon (f1a4)
@@ -3239,9 +4974,14 @@ namespace Meziantou.WpfFontAwesome
         Suitcase = 0xf0f2,
 
         /// <summary>
-        /// fa-sun-o icon (f185)
+        /// fa-suitcase-rolling icon (f5c1)
         /// </summary>
-        SunO = 0xf185,
+        SuitcaseRolling = 0xf5c1,
+
+        /// <summary>
+        /// fa-sun icon (f185)
+        /// </summary>
+        Sun = 0xf185,
 
         /// <summary>
         /// fa-superpowers icon (f2dd)
@@ -3254,9 +4994,49 @@ namespace Meziantou.WpfFontAwesome
         Superscript = 0xf12b,
 
         /// <summary>
-        /// fa-support icon (f1cd)
+        /// fa-supple icon (f3f9)
         /// </summary>
-        Support = 0xf1cd,
+        Supple = 0xf3f9,
+
+        /// <summary>
+        /// fa-surprise icon (f5c2)
+        /// </summary>
+        Surprise = 0xf5c2,
+
+        /// <summary>
+        /// fa-swatchbook icon (f5c3)
+        /// </summary>
+        Swatchbook = 0xf5c3,
+
+        /// <summary>
+        /// fa-swimmer icon (f5c4)
+        /// </summary>
+        Swimmer = 0xf5c4,
+
+        /// <summary>
+        /// fa-swimming-pool icon (f5c5)
+        /// </summary>
+        SwimmingPool = 0xf5c5,
+
+        /// <summary>
+        /// fa-synagogue icon (f69b)
+        /// </summary>
+        Synagogue = 0xf69b,
+
+        /// <summary>
+        /// fa-sync icon (f021)
+        /// </summary>
+        Sync = 0xf021,
+
+        /// <summary>
+        /// fa-sync-alt icon (f2f1)
+        /// </summary>
+        SyncAlt = 0xf2f1,
+
+        /// <summary>
+        /// fa-syringe icon (f48e)
+        /// </summary>
+        Syringe = 0xf48e,
 
         /// <summary>
         /// fa-table icon (f0ce)
@@ -3264,14 +5044,29 @@ namespace Meziantou.WpfFontAwesome
         Table = 0xf0ce,
 
         /// <summary>
+        /// fa-table-tennis icon (f45d)
+        /// </summary>
+        TableTennis = 0xf45d,
+
+        /// <summary>
         /// fa-tablet icon (f10a)
         /// </summary>
         Tablet = 0xf10a,
 
         /// <summary>
-        /// fa-tachometer icon (f0e4)
+        /// fa-tablet-alt icon (f3fa)
         /// </summary>
-        Tachometer = 0xf0e4,
+        TabletAlt = 0xf3fa,
+
+        /// <summary>
+        /// fa-tablets icon (f490)
+        /// </summary>
+        Tablets = 0xf490,
+
+        /// <summary>
+        /// fa-tachometer-alt icon (f3fd)
+        /// </summary>
+        TachometerAlt = 0xf3fd,
 
         /// <summary>
         /// fa-tag icon (f02b)
@@ -3284,6 +5079,11 @@ namespace Meziantou.WpfFontAwesome
         Tags = 0xf02c,
 
         /// <summary>
+        /// fa-tape icon (f4db)
+        /// </summary>
+        Tape = 0xf4db,
+
+        /// <summary>
         /// fa-tasks icon (f0ae)
         /// </summary>
         Tasks = 0xf0ae,
@@ -3294,14 +5094,29 @@ namespace Meziantou.WpfFontAwesome
         Taxi = 0xf1ba,
 
         /// <summary>
+        /// fa-teamspeak icon (f4f9)
+        /// </summary>
+        Teamspeak = 0xf4f9,
+
+        /// <summary>
+        /// fa-teeth icon (f62e)
+        /// </summary>
+        Teeth = 0xf62e,
+
+        /// <summary>
+        /// fa-teeth-open icon (f62f)
+        /// </summary>
+        TeethOpen = 0xf62f,
+
+        /// <summary>
         /// fa-telegram icon (f2c6)
         /// </summary>
         Telegram = 0xf2c6,
 
         /// <summary>
-        /// fa-television icon (f26c)
+        /// fa-telegram-plane icon (f3fe)
         /// </summary>
-        Television = 0xf26c,
+        TelegramPlane = 0xf3fe,
 
         /// <summary>
         /// fa-tencent-weibo icon (f1d5)
@@ -3339,39 +5154,29 @@ namespace Meziantou.WpfFontAwesome
         ThList = 0xf00b,
 
         /// <summary>
+        /// fa-the-red-yeti icon (f69d)
+        /// </summary>
+        TheRedYeti = 0xf69d,
+
+        /// <summary>
+        /// fa-theater-masks icon (f630)
+        /// </summary>
+        TheaterMasks = 0xf630,
+
+        /// <summary>
+        /// fa-themeco icon (f5c6)
+        /// </summary>
+        Themeco = 0xf5c6,
+
+        /// <summary>
         /// fa-themeisle icon (f2b2)
         /// </summary>
         Themeisle = 0xf2b2,
 
         /// <summary>
-        /// fa-thermometer icon (f2c7)
+        /// fa-thermometer icon (f491)
         /// </summary>
-        Thermometer = 0xf2c7,
-
-        /// <summary>
-        /// fa-thermometer-0 icon (f2cb)
-        /// </summary>
-        Thermometer0 = 0xf2cb,
-
-        /// <summary>
-        /// fa-thermometer-1 icon (f2ca)
-        /// </summary>
-        Thermometer1 = 0xf2ca,
-
-        /// <summary>
-        /// fa-thermometer-2 icon (f2c9)
-        /// </summary>
-        Thermometer2 = 0xf2c9,
-
-        /// <summary>
-        /// fa-thermometer-3 icon (f2c8)
-        /// </summary>
-        Thermometer3 = 0xf2c8,
-
-        /// <summary>
-        /// fa-thermometer-4 icon (f2c7)
-        /// </summary>
-        Thermometer4 = 0xf2c7,
+        Thermometer = 0xf491,
 
         /// <summary>
         /// fa-thermometer-empty icon (f2cb)
@@ -3399,24 +5204,9 @@ namespace Meziantou.WpfFontAwesome
         ThermometerThreeQuarters = 0xf2c8,
 
         /// <summary>
-        /// fa-thumb-tack icon (f08d)
-        /// </summary>
-        ThumbTack = 0xf08d,
-
-        /// <summary>
         /// fa-thumbs-down icon (f165)
         /// </summary>
         ThumbsDown = 0xf165,
-
-        /// <summary>
-        /// fa-thumbs-o-down icon (f088)
-        /// </summary>
-        ThumbsODown = 0xf088,
-
-        /// <summary>
-        /// fa-thumbs-o-up icon (f087)
-        /// </summary>
-        ThumbsOUp = 0xf087,
 
         /// <summary>
         /// fa-thumbs-up icon (f164)
@@ -3424,9 +5214,14 @@ namespace Meziantou.WpfFontAwesome
         ThumbsUp = 0xf164,
 
         /// <summary>
-        /// fa-ticket icon (f145)
+        /// fa-thumbtack icon (f08d)
         /// </summary>
-        Ticket = 0xf145,
+        Thumbtack = 0xf08d,
+
+        /// <summary>
+        /// fa-ticket-alt icon (f3ff)
+        /// </summary>
+        TicketAlt = 0xf3ff,
 
         /// <summary>
         /// fa-times icon (f00d)
@@ -3439,34 +5234,19 @@ namespace Meziantou.WpfFontAwesome
         TimesCircle = 0xf057,
 
         /// <summary>
-        /// fa-times-circle-o icon (f05c)
-        /// </summary>
-        TimesCircleO = 0xf05c,
-
-        /// <summary>
-        /// fa-times-rectangle icon (f2d3)
-        /// </summary>
-        TimesRectangle = 0xf2d3,
-
-        /// <summary>
-        /// fa-times-rectangle-o icon (f2d4)
-        /// </summary>
-        TimesRectangleO = 0xf2d4,
-
-        /// <summary>
         /// fa-tint icon (f043)
         /// </summary>
         Tint = 0xf043,
 
         /// <summary>
-        /// fa-toggle-down icon (f150)
+        /// fa-tint-slash icon (f5c7)
         /// </summary>
-        ToggleDown = 0xf150,
+        TintSlash = 0xf5c7,
 
         /// <summary>
-        /// fa-toggle-left icon (f191)
+        /// fa-tired icon (f5c8)
         /// </summary>
-        ToggleLeft = 0xf191,
+        Tired = 0xf5c8,
 
         /// <summary>
         /// fa-toggle-off icon (f204)
@@ -3479,19 +5259,39 @@ namespace Meziantou.WpfFontAwesome
         ToggleOn = 0xf205,
 
         /// <summary>
-        /// fa-toggle-right icon (f152)
+        /// fa-toolbox icon (f552)
         /// </summary>
-        ToggleRight = 0xf152,
+        Toolbox = 0xf552,
 
         /// <summary>
-        /// fa-toggle-up icon (f151)
+        /// fa-tooth icon (f5c9)
         /// </summary>
-        ToggleUp = 0xf151,
+        Tooth = 0xf5c9,
+
+        /// <summary>
+        /// fa-torah icon (f6a0)
+        /// </summary>
+        Torah = 0xf6a0,
+
+        /// <summary>
+        /// fa-torii-gate icon (f6a1)
+        /// </summary>
+        ToriiGate = 0xf6a1,
+
+        /// <summary>
+        /// fa-trade-federation icon (f513)
+        /// </summary>
+        TradeFederation = 0xf513,
 
         /// <summary>
         /// fa-trademark icon (f25c)
         /// </summary>
         Trademark = 0xf25c,
+
+        /// <summary>
+        /// fa-traffic-light icon (f637)
+        /// </summary>
+        TrafficLight = 0xf637,
 
         /// <summary>
         /// fa-train icon (f238)
@@ -3514,9 +5314,9 @@ namespace Meziantou.WpfFontAwesome
         Trash = 0xf1f8,
 
         /// <summary>
-        /// fa-trash-o icon (f014)
+        /// fa-trash-alt icon (f2ed)
         /// </summary>
-        TrashO = 0xf014,
+        TrashAlt = 0xf2ed,
 
         /// <summary>
         /// fa-tree icon (f1bb)
@@ -3544,9 +5344,29 @@ namespace Meziantou.WpfFontAwesome
         Truck = 0xf0d1,
 
         /// <summary>
-        /// fa-try icon (f195)
+        /// fa-truck-loading icon (f4de)
         /// </summary>
-        Try = 0xf195,
+        TruckLoading = 0xf4de,
+
+        /// <summary>
+        /// fa-truck-monster icon (f63b)
+        /// </summary>
+        TruckMonster = 0xf63b,
+
+        /// <summary>
+        /// fa-truck-moving icon (f4df)
+        /// </summary>
+        TruckMoving = 0xf4df,
+
+        /// <summary>
+        /// fa-truck-pickup icon (f63c)
+        /// </summary>
+        TruckPickup = 0xf63c,
+
+        /// <summary>
+        /// fa-tshirt icon (f553)
+        /// </summary>
+        Tshirt = 0xf553,
 
         /// <summary>
         /// fa-tty icon (f1e4)
@@ -3562,11 +5382,6 @@ namespace Meziantou.WpfFontAwesome
         /// fa-tumblr-square icon (f174)
         /// </summary>
         TumblrSquare = 0xf174,
-
-        /// <summary>
-        /// fa-turkish-lira icon (f195)
-        /// </summary>
-        TurkishLira = 0xf195,
 
         /// <summary>
         /// fa-tv icon (f26c)
@@ -3589,9 +5404,29 @@ namespace Meziantou.WpfFontAwesome
         TwitterSquare = 0xf081,
 
         /// <summary>
+        /// fa-typo3 icon (f42b)
+        /// </summary>
+        Typo3 = 0xf42b,
+
+        /// <summary>
+        /// fa-uber icon (f402)
+        /// </summary>
+        Uber = 0xf402,
+
+        /// <summary>
+        /// fa-uikit icon (f403)
+        /// </summary>
+        Uikit = 0xf403,
+
+        /// <summary>
         /// fa-umbrella icon (f0e9)
         /// </summary>
         Umbrella = 0xf0e9,
+
+        /// <summary>
+        /// fa-umbrella-beach icon (f5ca)
+        /// </summary>
+        UmbrellaBeach = 0xf5ca,
 
         /// <summary>
         /// fa-underline icon (f0cd)
@@ -3602,6 +5437,16 @@ namespace Meziantou.WpfFontAwesome
         /// fa-undo icon (f0e2)
         /// </summary>
         Undo = 0xf0e2,
+
+        /// <summary>
+        /// fa-undo-alt icon (f2ea)
+        /// </summary>
+        UndoAlt = 0xf2ea,
+
+        /// <summary>
+        /// fa-uniregistry icon (f404)
+        /// </summary>
+        Uniregistry = 0xf404,
 
         /// <summary>
         /// fa-universal-access icon (f29a)
@@ -3629,9 +5474,9 @@ namespace Meziantou.WpfFontAwesome
         UnlockAlt = 0xf13e,
 
         /// <summary>
-        /// fa-unsorted icon (f0dc)
+        /// fa-untappd icon (f405)
         /// </summary>
-        Unsorted = 0xf0dc,
+        Untappd = 0xf405,
 
         /// <summary>
         /// fa-upload icon (f093)
@@ -3644,14 +5489,29 @@ namespace Meziantou.WpfFontAwesome
         Usb = 0xf287,
 
         /// <summary>
-        /// fa-usd icon (f155)
-        /// </summary>
-        Usd = 0xf155,
-
-        /// <summary>
         /// fa-user icon (f007)
         /// </summary>
         User = 0xf007,
+
+        /// <summary>
+        /// fa-user-alt icon (f406)
+        /// </summary>
+        UserAlt = 0xf406,
+
+        /// <summary>
+        /// fa-user-alt-slash icon (f4fa)
+        /// </summary>
+        UserAltSlash = 0xf4fa,
+
+        /// <summary>
+        /// fa-user-astronaut icon (f4fb)
+        /// </summary>
+        UserAstronaut = 0xf4fb,
+
+        /// <summary>
+        /// fa-user-check icon (f4fc)
+        /// </summary>
+        UserCheck = 0xf4fc,
 
         /// <summary>
         /// fa-user-circle icon (f2bd)
@@ -3659,9 +5519,34 @@ namespace Meziantou.WpfFontAwesome
         UserCircle = 0xf2bd,
 
         /// <summary>
-        /// fa-user-circle-o icon (f2be)
+        /// fa-user-clock icon (f4fd)
         /// </summary>
-        UserCircleO = 0xf2be,
+        UserClock = 0xf4fd,
+
+        /// <summary>
+        /// fa-user-cog icon (f4fe)
+        /// </summary>
+        UserCog = 0xf4fe,
+
+        /// <summary>
+        /// fa-user-edit icon (f4ff)
+        /// </summary>
+        UserEdit = 0xf4ff,
+
+        /// <summary>
+        /// fa-user-friends icon (f500)
+        /// </summary>
+        UserFriends = 0xf500,
+
+        /// <summary>
+        /// fa-user-graduate icon (f501)
+        /// </summary>
+        UserGraduate = 0xf501,
+
+        /// <summary>
+        /// fa-user-lock icon (f502)
+        /// </summary>
+        UserLock = 0xf502,
 
         /// <summary>
         /// fa-user-md icon (f0f0)
@@ -3669,9 +5554,14 @@ namespace Meziantou.WpfFontAwesome
         UserMd = 0xf0f0,
 
         /// <summary>
-        /// fa-user-o icon (f2c0)
+        /// fa-user-minus icon (f503)
         /// </summary>
-        UserO = 0xf2c0,
+        UserMinus = 0xf503,
+
+        /// <summary>
+        /// fa-user-ninja icon (f504)
+        /// </summary>
+        UserNinja = 0xf504,
 
         /// <summary>
         /// fa-user-plus icon (f234)
@@ -3684,6 +5574,26 @@ namespace Meziantou.WpfFontAwesome
         UserSecret = 0xf21b,
 
         /// <summary>
+        /// fa-user-shield icon (f505)
+        /// </summary>
+        UserShield = 0xf505,
+
+        /// <summary>
+        /// fa-user-slash icon (f506)
+        /// </summary>
+        UserSlash = 0xf506,
+
+        /// <summary>
+        /// fa-user-tag icon (f507)
+        /// </summary>
+        UserTag = 0xf507,
+
+        /// <summary>
+        /// fa-user-tie icon (f508)
+        /// </summary>
+        UserTie = 0xf508,
+
+        /// <summary>
         /// fa-user-times icon (f235)
         /// </summary>
         UserTimes = 0xf235,
@@ -3694,14 +5604,34 @@ namespace Meziantou.WpfFontAwesome
         Users = 0xf0c0,
 
         /// <summary>
-        /// fa-vcard icon (f2bb)
+        /// fa-users-cog icon (f509)
         /// </summary>
-        Vcard = 0xf2bb,
+        UsersCog = 0xf509,
 
         /// <summary>
-        /// fa-vcard-o icon (f2bc)
+        /// fa-ussunnah icon (f407)
         /// </summary>
-        VcardO = 0xf2bc,
+        Ussunnah = 0xf407,
+
+        /// <summary>
+        /// fa-utensil-spoon icon (f2e5)
+        /// </summary>
+        UtensilSpoon = 0xf2e5,
+
+        /// <summary>
+        /// fa-utensils icon (f2e7)
+        /// </summary>
+        Utensils = 0xf2e7,
+
+        /// <summary>
+        /// fa-vaadin icon (f408)
+        /// </summary>
+        Vaadin = 0xf408,
+
+        /// <summary>
+        /// fa-vector-square icon (f5cb)
+        /// </summary>
+        VectorSquare = 0xf5cb,
 
         /// <summary>
         /// fa-venus icon (f221)
@@ -3734,19 +5664,49 @@ namespace Meziantou.WpfFontAwesome
         ViadeoSquare = 0xf2aa,
 
         /// <summary>
-        /// fa-video-camera icon (f03d)
+        /// fa-vial icon (f492)
         /// </summary>
-        VideoCamera = 0xf03d,
+        Vial = 0xf492,
 
         /// <summary>
-        /// fa-vimeo icon (f27d)
+        /// fa-vials icon (f493)
         /// </summary>
-        Vimeo = 0xf27d,
+        Vials = 0xf493,
+
+        /// <summary>
+        /// fa-viber icon (f409)
+        /// </summary>
+        Viber = 0xf409,
+
+        /// <summary>
+        /// fa-video icon (f03d)
+        /// </summary>
+        Video = 0xf03d,
+
+        /// <summary>
+        /// fa-video-slash icon (f4e2)
+        /// </summary>
+        VideoSlash = 0xf4e2,
+
+        /// <summary>
+        /// fa-vihara icon (f6a7)
+        /// </summary>
+        Vihara = 0xf6a7,
+
+        /// <summary>
+        /// fa-vimeo icon (f40a)
+        /// </summary>
+        Vimeo = 0xf40a,
 
         /// <summary>
         /// fa-vimeo-square icon (f194)
         /// </summary>
         VimeoSquare = 0xf194,
+
+        /// <summary>
+        /// fa-vimeo-v icon (f27d)
+        /// </summary>
+        VimeoV = 0xf27d,
 
         /// <summary>
         /// fa-vine icon (f1ca)
@@ -3759,9 +5719,14 @@ namespace Meziantou.WpfFontAwesome
         Vk = 0xf189,
 
         /// <summary>
-        /// fa-volume-control-phone icon (f2a0)
+        /// fa-vnv icon (f40b)
         /// </summary>
-        VolumeControlPhone = 0xf2a0,
+        Vnv = 0xf40b,
+
+        /// <summary>
+        /// fa-volleyball-ball icon (f45f)
+        /// </summary>
+        VolleyballBall = 0xf45f,
 
         /// <summary>
         /// fa-volume-down icon (f027)
@@ -3779,19 +5744,44 @@ namespace Meziantou.WpfFontAwesome
         VolumeUp = 0xf028,
 
         /// <summary>
-        /// fa-warning icon (f071)
+        /// fa-vuejs icon (f41f)
         /// </summary>
-        Warning = 0xf071,
+        Vuejs = 0xf41f,
 
         /// <summary>
-        /// fa-wechat icon (f1d7)
+        /// fa-walking icon (f554)
         /// </summary>
-        Wechat = 0xf1d7,
+        Walking = 0xf554,
+
+        /// <summary>
+        /// fa-wallet icon (f555)
+        /// </summary>
+        Wallet = 0xf555,
+
+        /// <summary>
+        /// fa-warehouse icon (f494)
+        /// </summary>
+        Warehouse = 0xf494,
+
+        /// <summary>
+        /// fa-weebly icon (f5cc)
+        /// </summary>
+        Weebly = 0xf5cc,
 
         /// <summary>
         /// fa-weibo icon (f18a)
         /// </summary>
         Weibo = 0xf18a,
+
+        /// <summary>
+        /// fa-weight icon (f496)
+        /// </summary>
+        Weight = 0xf496,
+
+        /// <summary>
+        /// fa-weight-hanging icon (f5cd)
+        /// </summary>
+        WeightHanging = 0xf5cd,
 
         /// <summary>
         /// fa-weixin icon (f1d7)
@@ -3804,14 +5794,19 @@ namespace Meziantou.WpfFontAwesome
         Whatsapp = 0xf232,
 
         /// <summary>
+        /// fa-whatsapp-square icon (f40c)
+        /// </summary>
+        WhatsappSquare = 0xf40c,
+
+        /// <summary>
         /// fa-wheelchair icon (f193)
         /// </summary>
         Wheelchair = 0xf193,
 
         /// <summary>
-        /// fa-wheelchair-alt icon (f29b)
+        /// fa-whmcs icon (f40d)
         /// </summary>
-        WheelchairAlt = 0xf29b,
+        Whmcs = 0xf40d,
 
         /// <summary>
         /// fa-wifi icon (f1eb)
@@ -3824,14 +5819,9 @@ namespace Meziantou.WpfFontAwesome
         WikipediaW = 0xf266,
 
         /// <summary>
-        /// fa-window-close icon (f2d3)
+        /// fa-window-close icon (f410)
         /// </summary>
-        WindowClose = 0xf2d3,
-
-        /// <summary>
-        /// fa-window-close-o icon (f2d4)
-        /// </summary>
-        WindowCloseO = 0xf2d4,
+        WindowClose = 0xf410,
 
         /// <summary>
         /// fa-window-maximize icon (f2d0)
@@ -3854,14 +5844,39 @@ namespace Meziantou.WpfFontAwesome
         Windows = 0xf17a,
 
         /// <summary>
-        /// fa-won icon (f159)
+        /// fa-wine-glass icon (f4e3)
         /// </summary>
-        Won = 0xf159,
+        WineGlass = 0xf4e3,
+
+        /// <summary>
+        /// fa-wine-glass-alt icon (f5ce)
+        /// </summary>
+        WineGlassAlt = 0xf5ce,
+
+        /// <summary>
+        /// fa-wix icon (f5cf)
+        /// </summary>
+        Wix = 0xf5cf,
+
+        /// <summary>
+        /// fa-wolf-pack-battalion icon (f514)
+        /// </summary>
+        WolfPackBattalion = 0xf514,
+
+        /// <summary>
+        /// fa-won-sign icon (f159)
+        /// </summary>
+        WonSign = 0xf159,
 
         /// <summary>
         /// fa-wordpress icon (f19a)
         /// </summary>
         Wordpress = 0xf19a,
+
+        /// <summary>
+        /// fa-wordpress-simple icon (f411)
+        /// </summary>
+        WordpressSimple = 0xf411,
 
         /// <summary>
         /// fa-wpbeginner icon (f297)
@@ -3884,6 +5899,16 @@ namespace Meziantou.WpfFontAwesome
         Wrench = 0xf0ad,
 
         /// <summary>
+        /// fa-x-ray icon (f497)
+        /// </summary>
+        XRay = 0xf497,
+
+        /// <summary>
+        /// fa-xbox icon (f412)
+        /// </summary>
+        Xbox = 0xf412,
+
+        /// <summary>
         /// fa-xing icon (f168)
         /// </summary>
         Xing = 0xf168,
@@ -3899,24 +5924,19 @@ namespace Meziantou.WpfFontAwesome
         YCombinator = 0xf23b,
 
         /// <summary>
-        /// fa-y-combinator-square icon (f1d4)
-        /// </summary>
-        YCombinatorSquare = 0xf1d4,
-
-        /// <summary>
         /// fa-yahoo icon (f19e)
         /// </summary>
         Yahoo = 0xf19e,
 
         /// <summary>
-        /// fa-yc icon (f23b)
+        /// fa-yandex icon (f413)
         /// </summary>
-        Yc = 0xf23b,
+        Yandex = 0xf413,
 
         /// <summary>
-        /// fa-yc-square icon (f1d4)
+        /// fa-yandex-international icon (f414)
         /// </summary>
-        YcSquare = 0xf1d4,
+        YandexInternational = 0xf414,
 
         /// <summary>
         /// fa-yelp icon (f1e9)
@@ -3924,9 +5944,14 @@ namespace Meziantou.WpfFontAwesome
         Yelp = 0xf1e9,
 
         /// <summary>
-        /// fa-yen icon (f157)
+        /// fa-yen-sign icon (f157)
         /// </summary>
-        Yen = 0xf157,
+        YenSign = 0xf157,
+
+        /// <summary>
+        /// fa-yin-yang icon (f6ad)
+        /// </summary>
+        YinYang = 0xf6ad,
 
         /// <summary>
         /// fa-yoast icon (f2b1)
@@ -3939,20 +5964,20 @@ namespace Meziantou.WpfFontAwesome
         Youtube = 0xf167,
 
         /// <summary>
-        /// fa-youtube-play icon (f16a)
+        /// fa-youtube-square icon (f431)
         /// </summary>
-        YoutubePlay = 0xf16a,
+        YoutubeSquare = 0xf431,
 
         /// <summary>
-        /// fa-youtube-square icon (f166)
+        /// fa-zhihu icon (f63f)
         /// </summary>
-        YoutubeSquare = 0xf166,
+        Zhihu = 0xf63f,
     }
 
     /// <summary>
     /// Font Awesome Icons.
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplatingCBF688617F9548F89F86A3B19E785BB338713F3B55E87799D112C7974D60B7B8E265EEA5CB295C2E8A02B0DB6AB4F1190D47D04B27AC238F43820AFBFB82B697.GeneratedTextTransformation", "1.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating78D2D64FFB678D4AF21136306D573C5A98D068402ED888CC162310DA6FB1A6BC05307C86156BD7C6404C0175830EBA0A93947BDC139360C989F627210152AF4F.GeneratedTextTransformation", "1.0.0.0")]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public static partial class FontAwesomeIcons
@@ -3964,24 +5989,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Icon500px = "\uf26e";
 
         /// <summary>
+        /// fa-accessible-icon icon (f368)
+        /// </summary>
+        public const string AccessibleIcon = "\uf368";
+
+        /// <summary>
+        /// fa-accusoft icon (f369)
+        /// </summary>
+        public const string Accusoft = "\uf369";
+
+        /// <summary>
+        /// fa-ad icon (f641)
+        /// </summary>
+        public const string Ad = "\uf641";
+
+        /// <summary>
         /// fa-address-book icon (f2b9)
         /// </summary>
         public const string AddressBook = "\uf2b9";
 
         /// <summary>
-        /// fa-address-book-o icon (f2ba)
-        /// </summary>
-        public const string AddressBookO = "\uf2ba";
-
-        /// <summary>
         /// fa-address-card icon (f2bb)
         /// </summary>
         public const string AddressCard = "\uf2bb";
-
-        /// <summary>
-        /// fa-address-card-o icon (f2bc)
-        /// </summary>
-        public const string AddressCardO = "\uf2bc";
 
         /// <summary>
         /// fa-adjust icon (f042)
@@ -3992,6 +6022,26 @@ namespace Meziantou.WpfFontAwesome
         /// fa-adn icon (f170)
         /// </summary>
         public const string Adn = "\uf170";
+
+        /// <summary>
+        /// fa-adversal icon (f36a)
+        /// </summary>
+        public const string Adversal = "\uf36a";
+
+        /// <summary>
+        /// fa-affiliatetheme icon (f36b)
+        /// </summary>
+        public const string Affiliatetheme = "\uf36b";
+
+        /// <summary>
+        /// fa-air-freshener icon (f5d0)
+        /// </summary>
+        public const string AirFreshener = "\uf5d0";
+
+        /// <summary>
+        /// fa-algolia icon (f36c)
+        /// </summary>
+        public const string Algolia = "\uf36c";
 
         /// <summary>
         /// fa-align-center icon (f037)
@@ -4014,9 +6064,24 @@ namespace Meziantou.WpfFontAwesome
         public const string AlignRight = "\uf038";
 
         /// <summary>
+        /// fa-alipay icon (f642)
+        /// </summary>
+        public const string Alipay = "\uf642";
+
+        /// <summary>
+        /// fa-allergies icon (f461)
+        /// </summary>
+        public const string Allergies = "\uf461";
+
+        /// <summary>
         /// fa-amazon icon (f270)
         /// </summary>
         public const string Amazon = "\uf270";
+
+        /// <summary>
+        /// fa-amazon-pay icon (f42c)
+        /// </summary>
+        public const string AmazonPay = "\uf42c";
 
         /// <summary>
         /// fa-ambulance icon (f0f9)
@@ -4027,6 +6092,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-american-sign-language-interpreting icon (f2a3)
         /// </summary>
         public const string AmericanSignLanguageInterpreting = "\uf2a3";
+
+        /// <summary>
+        /// fa-amilia icon (f36d)
+        /// </summary>
+        public const string Amilia = "\uf36d";
 
         /// <summary>
         /// fa-anchor icon (f13d)
@@ -4084,9 +6154,54 @@ namespace Meziantou.WpfFontAwesome
         public const string AngleUp = "\uf106";
 
         /// <summary>
+        /// fa-angry icon (f556)
+        /// </summary>
+        public const string Angry = "\uf556";
+
+        /// <summary>
+        /// fa-angrycreative icon (f36e)
+        /// </summary>
+        public const string Angrycreative = "\uf36e";
+
+        /// <summary>
+        /// fa-angular icon (f420)
+        /// </summary>
+        public const string Angular = "\uf420";
+
+        /// <summary>
+        /// fa-ankh icon (f644)
+        /// </summary>
+        public const string Ankh = "\uf644";
+
+        /// <summary>
+        /// fa-app-store icon (f36f)
+        /// </summary>
+        public const string AppStore = "\uf36f";
+
+        /// <summary>
+        /// fa-app-store-ios icon (f370)
+        /// </summary>
+        public const string AppStoreIos = "\uf370";
+
+        /// <summary>
+        /// fa-apper icon (f371)
+        /// </summary>
+        public const string Apper = "\uf371";
+
+        /// <summary>
         /// fa-apple icon (f179)
         /// </summary>
         public const string Apple = "\uf179";
+
+        /// <summary>
+        /// fa-apple-alt icon (f5d1)
+        /// </summary>
+        public const string AppleAlt = "\uf5d1";
+
+        /// <summary>
+        /// fa-apple-pay icon (f415)
+        /// </summary>
+        public const string ApplePay = "\uf415";
 
         /// <summary>
         /// fa-archive icon (f187)
@@ -4094,9 +6209,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Archive = "\uf187";
 
         /// <summary>
-        /// fa-area-chart icon (f1fe)
+        /// fa-archway icon (f557)
         /// </summary>
-        public const string AreaChart = "\uf1fe";
+        public const string Archway = "\uf557";
+
+        /// <summary>
+        /// fa-arrow-alt-circle-down icon (f358)
+        /// </summary>
+        public const string ArrowAltCircleDown = "\uf358";
+
+        /// <summary>
+        /// fa-arrow-alt-circle-left icon (f359)
+        /// </summary>
+        public const string ArrowAltCircleLeft = "\uf359";
+
+        /// <summary>
+        /// fa-arrow-alt-circle-right icon (f35a)
+        /// </summary>
+        public const string ArrowAltCircleRight = "\uf35a";
+
+        /// <summary>
+        /// fa-arrow-alt-circle-up icon (f35b)
+        /// </summary>
+        public const string ArrowAltCircleUp = "\uf35b";
 
         /// <summary>
         /// fa-arrow-circle-down icon (f0ab)
@@ -4107,26 +6242,6 @@ namespace Meziantou.WpfFontAwesome
         /// fa-arrow-circle-left icon (f0a8)
         /// </summary>
         public const string ArrowCircleLeft = "\uf0a8";
-
-        /// <summary>
-        /// fa-arrow-circle-o-down icon (f01a)
-        /// </summary>
-        public const string ArrowCircleODown = "\uf01a";
-
-        /// <summary>
-        /// fa-arrow-circle-o-left icon (f190)
-        /// </summary>
-        public const string ArrowCircleOLeft = "\uf190";
-
-        /// <summary>
-        /// fa-arrow-circle-o-right icon (f18e)
-        /// </summary>
-        public const string ArrowCircleORight = "\uf18e";
-
-        /// <summary>
-        /// fa-arrow-circle-o-up icon (f01b)
-        /// </summary>
-        public const string ArrowCircleOUp = "\uf01b";
 
         /// <summary>
         /// fa-arrow-circle-right icon (f0a9)
@@ -4159,29 +6274,19 @@ namespace Meziantou.WpfFontAwesome
         public const string ArrowUp = "\uf062";
 
         /// <summary>
-        /// fa-arrows icon (f047)
-        /// </summary>
-        public const string Arrows = "\uf047";
-
-        /// <summary>
         /// fa-arrows-alt icon (f0b2)
         /// </summary>
         public const string ArrowsAlt = "\uf0b2";
 
         /// <summary>
-        /// fa-arrows-h icon (f07e)
+        /// fa-arrows-alt-h icon (f337)
         /// </summary>
-        public const string ArrowsH = "\uf07e";
+        public const string ArrowsAltH = "\uf337";
 
         /// <summary>
-        /// fa-arrows-v icon (f07d)
+        /// fa-arrows-alt-v icon (f338)
         /// </summary>
-        public const string ArrowsV = "\uf07d";
-
-        /// <summary>
-        /// fa-asl-interpreting icon (f2a3)
-        /// </summary>
-        public const string AslInterpreting = "\uf2a3";
+        public const string ArrowsAltV = "\uf338";
 
         /// <summary>
         /// fa-assistive-listening-systems icon (f2a2)
@@ -4194,9 +6299,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Asterisk = "\uf069";
 
         /// <summary>
+        /// fa-asymmetrik icon (f372)
+        /// </summary>
+        public const string Asymmetrik = "\uf372";
+
+        /// <summary>
         /// fa-at icon (f1fa)
         /// </summary>
         public const string At = "\uf1fa";
+
+        /// <summary>
+        /// fa-atlas icon (f558)
+        /// </summary>
+        public const string Atlas = "\uf558";
+
+        /// <summary>
+        /// fa-atom icon (f5d2)
+        /// </summary>
+        public const string Atom = "\uf5d2";
+
+        /// <summary>
+        /// fa-audible icon (f373)
+        /// </summary>
+        public const string Audible = "\uf373";
 
         /// <summary>
         /// fa-audio-description icon (f29e)
@@ -4204,9 +6329,34 @@ namespace Meziantou.WpfFontAwesome
         public const string AudioDescription = "\uf29e";
 
         /// <summary>
-        /// fa-automobile icon (f1b9)
+        /// fa-autoprefixer icon (f41c)
         /// </summary>
-        public const string Automobile = "\uf1b9";
+        public const string Autoprefixer = "\uf41c";
+
+        /// <summary>
+        /// fa-avianex icon (f374)
+        /// </summary>
+        public const string Avianex = "\uf374";
+
+        /// <summary>
+        /// fa-aviato icon (f421)
+        /// </summary>
+        public const string Aviato = "\uf421";
+
+        /// <summary>
+        /// fa-award icon (f559)
+        /// </summary>
+        public const string Award = "\uf559";
+
+        /// <summary>
+        /// fa-aws icon (f375)
+        /// </summary>
+        public const string Aws = "\uf375";
+
+        /// <summary>
+        /// fa-backspace icon (f55a)
+        /// </summary>
+        public const string Backspace = "\uf55a";
 
         /// <summary>
         /// fa-backward icon (f04a)
@@ -4224,24 +6374,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Ban = "\uf05e";
 
         /// <summary>
+        /// fa-band-aid icon (f462)
+        /// </summary>
+        public const string BandAid = "\uf462";
+
+        /// <summary>
         /// fa-bandcamp icon (f2d5)
         /// </summary>
         public const string Bandcamp = "\uf2d5";
-
-        /// <summary>
-        /// fa-bank icon (f19c)
-        /// </summary>
-        public const string Bank = "\uf19c";
-
-        /// <summary>
-        /// fa-bar-chart icon (f080)
-        /// </summary>
-        public const string BarChart = "\uf080";
-
-        /// <summary>
-        /// fa-bar-chart-o icon (f080)
-        /// </summary>
-        public const string BarChartO = "\uf080";
 
         /// <summary>
         /// fa-barcode icon (f02a)
@@ -4254,44 +6394,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Bars = "\uf0c9";
 
         /// <summary>
+        /// fa-baseball-ball icon (f433)
+        /// </summary>
+        public const string BaseballBall = "\uf433";
+
+        /// <summary>
+        /// fa-basketball-ball icon (f434)
+        /// </summary>
+        public const string BasketballBall = "\uf434";
+
+        /// <summary>
         /// fa-bath icon (f2cd)
         /// </summary>
         public const string Bath = "\uf2cd";
-
-        /// <summary>
-        /// fa-bathtub icon (f2cd)
-        /// </summary>
-        public const string Bathtub = "\uf2cd";
-
-        /// <summary>
-        /// fa-battery icon (f240)
-        /// </summary>
-        public const string Battery = "\uf240";
-
-        /// <summary>
-        /// fa-battery-0 icon (f244)
-        /// </summary>
-        public const string Battery0 = "\uf244";
-
-        /// <summary>
-        /// fa-battery-1 icon (f243)
-        /// </summary>
-        public const string Battery1 = "\uf243";
-
-        /// <summary>
-        /// fa-battery-2 icon (f242)
-        /// </summary>
-        public const string Battery2 = "\uf242";
-
-        /// <summary>
-        /// fa-battery-3 icon (f241)
-        /// </summary>
-        public const string Battery3 = "\uf241";
-
-        /// <summary>
-        /// fa-battery-4 icon (f240)
-        /// </summary>
-        public const string Battery4 = "\uf240";
 
         /// <summary>
         /// fa-battery-empty icon (f244)
@@ -4344,24 +6459,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Bell = "\uf0f3";
 
         /// <summary>
-        /// fa-bell-o icon (f0a2)
-        /// </summary>
-        public const string BellO = "\uf0a2";
-
-        /// <summary>
         /// fa-bell-slash icon (f1f6)
         /// </summary>
         public const string BellSlash = "\uf1f6";
 
         /// <summary>
-        /// fa-bell-slash-o icon (f1f7)
+        /// fa-bezier-curve icon (f55b)
         /// </summary>
-        public const string BellSlashO = "\uf1f7";
+        public const string BezierCurve = "\uf55b";
+
+        /// <summary>
+        /// fa-bible icon (f647)
+        /// </summary>
+        public const string Bible = "\uf647";
 
         /// <summary>
         /// fa-bicycle icon (f206)
         /// </summary>
         public const string Bicycle = "\uf206";
+
+        /// <summary>
+        /// fa-bimobject icon (f378)
+        /// </summary>
+        public const string Bimobject = "\uf378";
 
         /// <summary>
         /// fa-binoculars icon (f1e5)
@@ -4379,14 +6499,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Bitbucket = "\uf171";
 
         /// <summary>
-        /// fa-bitbucket-square icon (f172)
+        /// fa-bitcoin icon (f379)
         /// </summary>
-        public const string BitbucketSquare = "\uf172";
+        public const string Bitcoin = "\uf379";
 
         /// <summary>
-        /// fa-bitcoin icon (f15a)
+        /// fa-bity icon (f37a)
         /// </summary>
-        public const string Bitcoin = "\uf15a";
+        public const string Bity = "\uf37a";
 
         /// <summary>
         /// fa-black-tie icon (f27e)
@@ -4394,9 +6514,29 @@ namespace Meziantou.WpfFontAwesome
         public const string BlackTie = "\uf27e";
 
         /// <summary>
+        /// fa-blackberry icon (f37b)
+        /// </summary>
+        public const string Blackberry = "\uf37b";
+
+        /// <summary>
+        /// fa-blender icon (f517)
+        /// </summary>
+        public const string Blender = "\uf517";
+
+        /// <summary>
         /// fa-blind icon (f29d)
         /// </summary>
         public const string Blind = "\uf29d";
+
+        /// <summary>
+        /// fa-blogger icon (f37c)
+        /// </summary>
+        public const string Blogger = "\uf37c";
+
+        /// <summary>
+        /// fa-blogger-b icon (f37d)
+        /// </summary>
+        public const string BloggerB = "\uf37d";
 
         /// <summary>
         /// fa-bluetooth icon (f293)
@@ -4424,9 +6564,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Bomb = "\uf1e2";
 
         /// <summary>
+        /// fa-bone icon (f5d7)
+        /// </summary>
+        public const string Bone = "\uf5d7";
+
+        /// <summary>
+        /// fa-bong icon (f55c)
+        /// </summary>
+        public const string Bong = "\uf55c";
+
+        /// <summary>
         /// fa-book icon (f02d)
         /// </summary>
         public const string Book = "\uf02d";
+
+        /// <summary>
+        /// fa-book-open icon (f518)
+        /// </summary>
+        public const string BookOpen = "\uf518";
+
+        /// <summary>
+        /// fa-book-reader icon (f5da)
+        /// </summary>
+        public const string BookReader = "\uf5da";
 
         /// <summary>
         /// fa-bookmark icon (f02e)
@@ -4434,9 +6594,24 @@ namespace Meziantou.WpfFontAwesome
         public const string Bookmark = "\uf02e";
 
         /// <summary>
-        /// fa-bookmark-o icon (f097)
+        /// fa-bowling-ball icon (f436)
         /// </summary>
-        public const string BookmarkO = "\uf097";
+        public const string BowlingBall = "\uf436";
+
+        /// <summary>
+        /// fa-box icon (f466)
+        /// </summary>
+        public const string Box = "\uf466";
+
+        /// <summary>
+        /// fa-box-open icon (f49e)
+        /// </summary>
+        public const string BoxOpen = "\uf49e";
+
+        /// <summary>
+        /// fa-boxes icon (f468)
+        /// </summary>
+        public const string Boxes = "\uf468";
 
         /// <summary>
         /// fa-braille icon (f2a1)
@@ -4444,9 +6619,34 @@ namespace Meziantou.WpfFontAwesome
         public const string Braille = "\uf2a1";
 
         /// <summary>
+        /// fa-brain icon (f5dc)
+        /// </summary>
+        public const string Brain = "\uf5dc";
+
+        /// <summary>
         /// fa-briefcase icon (f0b1)
         /// </summary>
         public const string Briefcase = "\uf0b1";
+
+        /// <summary>
+        /// fa-briefcase-medical icon (f469)
+        /// </summary>
+        public const string BriefcaseMedical = "\uf469";
+
+        /// <summary>
+        /// fa-broadcast-tower icon (f519)
+        /// </summary>
+        public const string BroadcastTower = "\uf519";
+
+        /// <summary>
+        /// fa-broom icon (f51a)
+        /// </summary>
+        public const string Broom = "\uf51a";
+
+        /// <summary>
+        /// fa-brush icon (f55d)
+        /// </summary>
+        public const string Brush = "\uf55d";
 
         /// <summary>
         /// fa-btc icon (f15a)
@@ -4464,11 +6664,6 @@ namespace Meziantou.WpfFontAwesome
         public const string Building = "\uf1ad";
 
         /// <summary>
-        /// fa-building-o icon (f0f7)
-        /// </summary>
-        public const string BuildingO = "\uf0f7";
-
-        /// <summary>
         /// fa-bullhorn icon (f0a1)
         /// </summary>
         public const string Bullhorn = "\uf0a1";
@@ -4479,9 +6674,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Bullseye = "\uf140";
 
         /// <summary>
+        /// fa-burn icon (f46a)
+        /// </summary>
+        public const string Burn = "\uf46a";
+
+        /// <summary>
+        /// fa-buromobelexperte icon (f37f)
+        /// </summary>
+        public const string Buromobelexperte = "\uf37f";
+
+        /// <summary>
         /// fa-bus icon (f207)
         /// </summary>
         public const string Bus = "\uf207";
+
+        /// <summary>
+        /// fa-bus-alt icon (f55e)
+        /// </summary>
+        public const string BusAlt = "\uf55e";
+
+        /// <summary>
+        /// fa-business-time icon (f64a)
+        /// </summary>
+        public const string BusinessTime = "\uf64a";
 
         /// <summary>
         /// fa-buysellads icon (f20d)
@@ -4489,44 +6704,39 @@ namespace Meziantou.WpfFontAwesome
         public const string Buysellads = "\uf20d";
 
         /// <summary>
-        /// fa-cab icon (f1ba)
-        /// </summary>
-        public const string Cab = "\uf1ba";
-
-        /// <summary>
         /// fa-calculator icon (f1ec)
         /// </summary>
         public const string Calculator = "\uf1ec";
 
         /// <summary>
-        /// fa-calendar icon (f073)
+        /// fa-calendar icon (f133)
         /// </summary>
-        public const string Calendar = "\uf073";
+        public const string Calendar = "\uf133";
 
         /// <summary>
-        /// fa-calendar-check-o icon (f274)
+        /// fa-calendar-alt icon (f073)
         /// </summary>
-        public const string CalendarCheckO = "\uf274";
+        public const string CalendarAlt = "\uf073";
 
         /// <summary>
-        /// fa-calendar-minus-o icon (f272)
+        /// fa-calendar-check icon (f274)
         /// </summary>
-        public const string CalendarMinusO = "\uf272";
+        public const string CalendarCheck = "\uf274";
 
         /// <summary>
-        /// fa-calendar-o icon (f133)
+        /// fa-calendar-minus icon (f272)
         /// </summary>
-        public const string CalendarO = "\uf133";
+        public const string CalendarMinus = "\uf272";
 
         /// <summary>
-        /// fa-calendar-plus-o icon (f271)
+        /// fa-calendar-plus icon (f271)
         /// </summary>
-        public const string CalendarPlusO = "\uf271";
+        public const string CalendarPlus = "\uf271";
 
         /// <summary>
-        /// fa-calendar-times-o icon (f273)
+        /// fa-calendar-times icon (f273)
         /// </summary>
-        public const string CalendarTimesO = "\uf273";
+        public const string CalendarTimes = "\uf273";
 
         /// <summary>
         /// fa-camera icon (f030)
@@ -4539,9 +6749,39 @@ namespace Meziantou.WpfFontAwesome
         public const string CameraRetro = "\uf083";
 
         /// <summary>
+        /// fa-cannabis icon (f55f)
+        /// </summary>
+        public const string Cannabis = "\uf55f";
+
+        /// <summary>
+        /// fa-capsules icon (f46b)
+        /// </summary>
+        public const string Capsules = "\uf46b";
+
+        /// <summary>
         /// fa-car icon (f1b9)
         /// </summary>
         public const string Car = "\uf1b9";
+
+        /// <summary>
+        /// fa-car-alt icon (f5de)
+        /// </summary>
+        public const string CarAlt = "\uf5de";
+
+        /// <summary>
+        /// fa-car-battery icon (f5df)
+        /// </summary>
+        public const string CarBattery = "\uf5df";
+
+        /// <summary>
+        /// fa-car-crash icon (f5e1)
+        /// </summary>
+        public const string CarCrash = "\uf5e1";
+
+        /// <summary>
+        /// fa-car-side icon (f5e4)
+        /// </summary>
+        public const string CarSide = "\uf5e4";
 
         /// <summary>
         /// fa-caret-down icon (f0d7)
@@ -4559,24 +6799,24 @@ namespace Meziantou.WpfFontAwesome
         public const string CaretRight = "\uf0da";
 
         /// <summary>
-        /// fa-caret-square-o-down icon (f150)
+        /// fa-caret-square-down icon (f150)
         /// </summary>
-        public const string CaretSquareODown = "\uf150";
+        public const string CaretSquareDown = "\uf150";
 
         /// <summary>
-        /// fa-caret-square-o-left icon (f191)
+        /// fa-caret-square-left icon (f191)
         /// </summary>
-        public const string CaretSquareOLeft = "\uf191";
+        public const string CaretSquareLeft = "\uf191";
 
         /// <summary>
-        /// fa-caret-square-o-right icon (f152)
+        /// fa-caret-square-right icon (f152)
         /// </summary>
-        public const string CaretSquareORight = "\uf152";
+        public const string CaretSquareRight = "\uf152";
 
         /// <summary>
-        /// fa-caret-square-o-up icon (f151)
+        /// fa-caret-square-up icon (f151)
         /// </summary>
-        public const string CaretSquareOUp = "\uf151";
+        public const string CaretSquareUp = "\uf151";
 
         /// <summary>
         /// fa-caret-up icon (f0d8)
@@ -4594,14 +6834,19 @@ namespace Meziantou.WpfFontAwesome
         public const string CartPlus = "\uf217";
 
         /// <summary>
-        /// fa-cc icon (f20a)
+        /// fa-cc-amazon-pay icon (f42d)
         /// </summary>
-        public const string Cc = "\uf20a";
+        public const string CcAmazonPay = "\uf42d";
 
         /// <summary>
         /// fa-cc-amex icon (f1f3)
         /// </summary>
         public const string CcAmex = "\uf1f3";
+
+        /// <summary>
+        /// fa-cc-apple-pay icon (f416)
+        /// </summary>
+        public const string CcApplePay = "\uf416";
 
         /// <summary>
         /// fa-cc-diners-club icon (f24c)
@@ -4639,19 +6884,49 @@ namespace Meziantou.WpfFontAwesome
         public const string CcVisa = "\uf1f0";
 
         /// <summary>
+        /// fa-centercode icon (f380)
+        /// </summary>
+        public const string Centercode = "\uf380";
+
+        /// <summary>
         /// fa-certificate icon (f0a3)
         /// </summary>
         public const string Certificate = "\uf0a3";
 
         /// <summary>
-        /// fa-chain icon (f0c1)
+        /// fa-chalkboard icon (f51b)
         /// </summary>
-        public const string Chain = "\uf0c1";
+        public const string Chalkboard = "\uf51b";
 
         /// <summary>
-        /// fa-chain-broken icon (f127)
+        /// fa-chalkboard-teacher icon (f51c)
         /// </summary>
-        public const string ChainBroken = "\uf127";
+        public const string ChalkboardTeacher = "\uf51c";
+
+        /// <summary>
+        /// fa-charging-station icon (f5e7)
+        /// </summary>
+        public const string ChargingStation = "\uf5e7";
+
+        /// <summary>
+        /// fa-chart-area icon (f1fe)
+        /// </summary>
+        public const string ChartArea = "\uf1fe";
+
+        /// <summary>
+        /// fa-chart-bar icon (f080)
+        /// </summary>
+        public const string ChartBar = "\uf080";
+
+        /// <summary>
+        /// fa-chart-line icon (f201)
+        /// </summary>
+        public const string ChartLine = "\uf201";
+
+        /// <summary>
+        /// fa-chart-pie icon (f200)
+        /// </summary>
+        public const string ChartPie = "\uf200";
 
         /// <summary>
         /// fa-check icon (f00c)
@@ -4664,9 +6939,9 @@ namespace Meziantou.WpfFontAwesome
         public const string CheckCircle = "\uf058";
 
         /// <summary>
-        /// fa-check-circle-o icon (f05d)
+        /// fa-check-double icon (f560)
         /// </summary>
-        public const string CheckCircleO = "\uf05d";
+        public const string CheckDouble = "\uf560";
 
         /// <summary>
         /// fa-check-square icon (f14a)
@@ -4674,9 +6949,44 @@ namespace Meziantou.WpfFontAwesome
         public const string CheckSquare = "\uf14a";
 
         /// <summary>
-        /// fa-check-square-o icon (f046)
+        /// fa-chess icon (f439)
         /// </summary>
-        public const string CheckSquareO = "\uf046";
+        public const string Chess = "\uf439";
+
+        /// <summary>
+        /// fa-chess-bishop icon (f43a)
+        /// </summary>
+        public const string ChessBishop = "\uf43a";
+
+        /// <summary>
+        /// fa-chess-board icon (f43c)
+        /// </summary>
+        public const string ChessBoard = "\uf43c";
+
+        /// <summary>
+        /// fa-chess-king icon (f43f)
+        /// </summary>
+        public const string ChessKing = "\uf43f";
+
+        /// <summary>
+        /// fa-chess-knight icon (f441)
+        /// </summary>
+        public const string ChessKnight = "\uf441";
+
+        /// <summary>
+        /// fa-chess-pawn icon (f443)
+        /// </summary>
+        public const string ChessPawn = "\uf443";
+
+        /// <summary>
+        /// fa-chess-queen icon (f445)
+        /// </summary>
+        public const string ChessQueen = "\uf445";
+
+        /// <summary>
+        /// fa-chess-rook icon (f447)
+        /// </summary>
+        public const string ChessRook = "\uf447";
 
         /// <summary>
         /// fa-chevron-circle-down icon (f13a)
@@ -4729,34 +7039,44 @@ namespace Meziantou.WpfFontAwesome
         public const string Chrome = "\uf268";
 
         /// <summary>
+        /// fa-church icon (f51d)
+        /// </summary>
+        public const string Church = "\uf51d";
+
+        /// <summary>
         /// fa-circle icon (f111)
         /// </summary>
         public const string Circle = "\uf111";
 
         /// <summary>
-        /// fa-circle-o icon (f10c)
+        /// fa-circle-notch icon (f1ce)
         /// </summary>
-        public const string CircleO = "\uf10c";
+        public const string CircleNotch = "\uf1ce";
 
         /// <summary>
-        /// fa-circle-o-notch icon (f1ce)
+        /// fa-city icon (f64f)
         /// </summary>
-        public const string CircleONotch = "\uf1ce";
+        public const string City = "\uf64f";
 
         /// <summary>
-        /// fa-circle-thin icon (f1db)
+        /// fa-clipboard icon (f328)
         /// </summary>
-        public const string CircleThin = "\uf1db";
+        public const string Clipboard = "\uf328";
 
         /// <summary>
-        /// fa-clipboard icon (f0ea)
+        /// fa-clipboard-check icon (f46c)
         /// </summary>
-        public const string Clipboard = "\uf0ea";
+        public const string ClipboardCheck = "\uf46c";
 
         /// <summary>
-        /// fa-clock-o icon (f017)
+        /// fa-clipboard-list icon (f46d)
         /// </summary>
-        public const string ClockO = "\uf017";
+        public const string ClipboardList = "\uf46d";
+
+        /// <summary>
+        /// fa-clock icon (f017)
+        /// </summary>
+        public const string Clock = "\uf017";
 
         /// <summary>
         /// fa-clone icon (f24d)
@@ -4764,9 +7084,9 @@ namespace Meziantou.WpfFontAwesome
         public const string Clone = "\uf24d";
 
         /// <summary>
-        /// fa-close icon (f00d)
+        /// fa-closed-captioning icon (f20a)
         /// </summary>
-        public const string Close = "\uf00d";
+        public const string ClosedCaptioning = "\uf20a";
 
         /// <summary>
         /// fa-cloud icon (f0c2)
@@ -4774,19 +7094,34 @@ namespace Meziantou.WpfFontAwesome
         public const string Cloud = "\uf0c2";
 
         /// <summary>
-        /// fa-cloud-download icon (f0ed)
+        /// fa-cloud-download-alt icon (f381)
         /// </summary>
-        public const string CloudDownload = "\uf0ed";
+        public const string CloudDownloadAlt = "\uf381";
 
         /// <summary>
-        /// fa-cloud-upload icon (f0ee)
+        /// fa-cloud-upload-alt icon (f382)
         /// </summary>
-        public const string CloudUpload = "\uf0ee";
+        public const string CloudUploadAlt = "\uf382";
 
         /// <summary>
-        /// fa-cny icon (f157)
+        /// fa-cloudscale icon (f383)
         /// </summary>
-        public const string Cny = "\uf157";
+        public const string Cloudscale = "\uf383";
+
+        /// <summary>
+        /// fa-cloudsmith icon (f384)
+        /// </summary>
+        public const string Cloudsmith = "\uf384";
+
+        /// <summary>
+        /// fa-cloudversify icon (f385)
+        /// </summary>
+        public const string Cloudversify = "\uf385";
+
+        /// <summary>
+        /// fa-cocktail icon (f561)
+        /// </summary>
+        public const string Cocktail = "\uf561";
 
         /// <summary>
         /// fa-code icon (f121)
@@ -4794,9 +7129,9 @@ namespace Meziantou.WpfFontAwesome
         public const string Code = "\uf121";
 
         /// <summary>
-        /// fa-code-fork icon (f126)
+        /// fa-code-branch icon (f126)
         /// </summary>
-        public const string CodeFork = "\uf126";
+        public const string CodeBranch = "\uf126";
 
         /// <summary>
         /// fa-codepen icon (f1cb)
@@ -4824,6 +7159,11 @@ namespace Meziantou.WpfFontAwesome
         public const string Cogs = "\uf085";
 
         /// <summary>
+        /// fa-coins icon (f51e)
+        /// </summary>
+        public const string Coins = "\uf51e";
+
+        /// <summary>
         /// fa-columns icon (f0db)
         /// </summary>
         public const string Columns = "\uf0db";
@@ -4834,19 +7174,24 @@ namespace Meziantou.WpfFontAwesome
         public const string Comment = "\uf075";
 
         /// <summary>
-        /// fa-comment-o icon (f0e5)
+        /// fa-comment-alt icon (f27a)
         /// </summary>
-        public const string CommentO = "\uf0e5";
+        public const string CommentAlt = "\uf27a";
 
         /// <summary>
-        /// fa-commenting icon (f27a)
+        /// fa-comment-dollar icon (f651)
         /// </summary>
-        public const string Commenting = "\uf27a";
+        public const string CommentDollar = "\uf651";
 
         /// <summary>
-        /// fa-commenting-o icon (f27b)
+        /// fa-comment-dots icon (f4ad)
         /// </summary>
-        public const string CommentingO = "\uf27b";
+        public const string CommentDots = "\uf4ad";
+
+        /// <summary>
+        /// fa-comment-slash icon (f4b3)
+        /// </summary>
+        public const string CommentSlash = "\uf4b3";
 
         /// <summary>
         /// fa-comments icon (f086)
@@ -4854,9 +7199,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Comments = "\uf086";
 
         /// <summary>
-        /// fa-comments-o icon (f0e6)
+        /// fa-comments-dollar icon (f653)
         /// </summary>
-        public const string CommentsO = "\uf0e6";
+        public const string CommentsDollar = "\uf653";
+
+        /// <summary>
+        /// fa-compact-disc icon (f51f)
+        /// </summary>
+        public const string CompactDisc = "\uf51f";
 
         /// <summary>
         /// fa-compass icon (f14e)
@@ -4869,6 +7219,11 @@ namespace Meziantou.WpfFontAwesome
         public const string Compress = "\uf066";
 
         /// <summary>
+        /// fa-concierge-bell icon (f562)
+        /// </summary>
+        public const string ConciergeBell = "\uf562";
+
+        /// <summary>
         /// fa-connectdevelop icon (f20e)
         /// </summary>
         public const string Connectdevelop = "\uf20e";
@@ -4877,6 +7232,16 @@ namespace Meziantou.WpfFontAwesome
         /// fa-contao icon (f26d)
         /// </summary>
         public const string Contao = "\uf26d";
+
+        /// <summary>
+        /// fa-cookie icon (f563)
+        /// </summary>
+        public const string Cookie = "\uf563";
+
+        /// <summary>
+        /// fa-cookie-bite icon (f564)
+        /// </summary>
+        public const string CookieBite = "\uf564";
 
         /// <summary>
         /// fa-copy icon (f0c5)
@@ -4889,9 +7254,79 @@ namespace Meziantou.WpfFontAwesome
         public const string Copyright = "\uf1f9";
 
         /// <summary>
+        /// fa-couch icon (f4b8)
+        /// </summary>
+        public const string Couch = "\uf4b8";
+
+        /// <summary>
+        /// fa-cpanel icon (f388)
+        /// </summary>
+        public const string Cpanel = "\uf388";
+
+        /// <summary>
         /// fa-creative-commons icon (f25e)
         /// </summary>
         public const string CreativeCommons = "\uf25e";
+
+        /// <summary>
+        /// fa-creative-commons-by icon (f4e7)
+        /// </summary>
+        public const string CreativeCommonsBy = "\uf4e7";
+
+        /// <summary>
+        /// fa-creative-commons-nc icon (f4e8)
+        /// </summary>
+        public const string CreativeCommonsNc = "\uf4e8";
+
+        /// <summary>
+        /// fa-creative-commons-nc-eu icon (f4e9)
+        /// </summary>
+        public const string CreativeCommonsNcEu = "\uf4e9";
+
+        /// <summary>
+        /// fa-creative-commons-nc-jp icon (f4ea)
+        /// </summary>
+        public const string CreativeCommonsNcJp = "\uf4ea";
+
+        /// <summary>
+        /// fa-creative-commons-nd icon (f4eb)
+        /// </summary>
+        public const string CreativeCommonsNd = "\uf4eb";
+
+        /// <summary>
+        /// fa-creative-commons-pd icon (f4ec)
+        /// </summary>
+        public const string CreativeCommonsPd = "\uf4ec";
+
+        /// <summary>
+        /// fa-creative-commons-pd-alt icon (f4ed)
+        /// </summary>
+        public const string CreativeCommonsPdAlt = "\uf4ed";
+
+        /// <summary>
+        /// fa-creative-commons-remix icon (f4ee)
+        /// </summary>
+        public const string CreativeCommonsRemix = "\uf4ee";
+
+        /// <summary>
+        /// fa-creative-commons-sa icon (f4ef)
+        /// </summary>
+        public const string CreativeCommonsSa = "\uf4ef";
+
+        /// <summary>
+        /// fa-creative-commons-sampling icon (f4f0)
+        /// </summary>
+        public const string CreativeCommonsSampling = "\uf4f0";
+
+        /// <summary>
+        /// fa-creative-commons-sampling-plus icon (f4f1)
+        /// </summary>
+        public const string CreativeCommonsSamplingPlus = "\uf4f1";
+
+        /// <summary>
+        /// fa-creative-commons-share icon (f4f2)
+        /// </summary>
+        public const string CreativeCommonsShare = "\uf4f2";
 
         /// <summary>
         /// fa-credit-card icon (f09d)
@@ -4899,14 +7334,19 @@ namespace Meziantou.WpfFontAwesome
         public const string CreditCard = "\uf09d";
 
         /// <summary>
-        /// fa-credit-card-alt icon (f283)
-        /// </summary>
-        public const string CreditCardAlt = "\uf283";
-
-        /// <summary>
         /// fa-crop icon (f125)
         /// </summary>
         public const string Crop = "\uf125";
+
+        /// <summary>
+        /// fa-crop-alt icon (f565)
+        /// </summary>
+        public const string CropAlt = "\uf565";
+
+        /// <summary>
+        /// fa-cross icon (f654)
+        /// </summary>
+        public const string Cross = "\uf654";
 
         /// <summary>
         /// fa-crosshairs icon (f05b)
@@ -4914,9 +7354,24 @@ namespace Meziantou.WpfFontAwesome
         public const string Crosshairs = "\uf05b";
 
         /// <summary>
+        /// fa-crow icon (f520)
+        /// </summary>
+        public const string Crow = "\uf520";
+
+        /// <summary>
+        /// fa-crown icon (f521)
+        /// </summary>
+        public const string Crown = "\uf521";
+
+        /// <summary>
         /// fa-css3 icon (f13c)
         /// </summary>
         public const string Css3 = "\uf13c";
+
+        /// <summary>
+        /// fa-css3-alt icon (f38b)
+        /// </summary>
+        public const string Css3Alt = "\uf38b";
 
         /// <summary>
         /// fa-cube icon (f1b2)
@@ -4934,14 +7389,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Cut = "\uf0c4";
 
         /// <summary>
-        /// fa-cutlery icon (f0f5)
+        /// fa-cuttlefish icon (f38c)
         /// </summary>
-        public const string Cutlery = "\uf0f5";
+        public const string Cuttlefish = "\uf38c";
 
         /// <summary>
-        /// fa-dashboard icon (f0e4)
+        /// fa-d-and-d icon (f38d)
         /// </summary>
-        public const string Dashboard = "\uf0e4";
+        public const string DAndD = "\uf38d";
 
         /// <summary>
         /// fa-dashcube icon (f210)
@@ -4959,19 +7414,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Deaf = "\uf2a4";
 
         /// <summary>
-        /// fa-deafness icon (f2a4)
-        /// </summary>
-        public const string Deafness = "\uf2a4";
-
-        /// <summary>
-        /// fa-dedent icon (f03b)
-        /// </summary>
-        public const string Dedent = "\uf03b";
-
-        /// <summary>
         /// fa-delicious icon (f1a5)
         /// </summary>
         public const string Delicious = "\uf1a5";
+
+        /// <summary>
+        /// fa-deploydog icon (f38e)
+        /// </summary>
+        public const string Deploydog = "\uf38e";
+
+        /// <summary>
+        /// fa-deskpro icon (f38f)
+        /// </summary>
+        public const string Deskpro = "\uf38f";
 
         /// <summary>
         /// fa-desktop icon (f108)
@@ -4984,9 +7439,49 @@ namespace Meziantou.WpfFontAwesome
         public const string Deviantart = "\uf1bd";
 
         /// <summary>
-        /// fa-diamond icon (f219)
+        /// fa-dharmachakra icon (f655)
         /// </summary>
-        public const string Diamond = "\uf219";
+        public const string Dharmachakra = "\uf655";
+
+        /// <summary>
+        /// fa-diagnoses icon (f470)
+        /// </summary>
+        public const string Diagnoses = "\uf470";
+
+        /// <summary>
+        /// fa-dice icon (f522)
+        /// </summary>
+        public const string Dice = "\uf522";
+
+        /// <summary>
+        /// fa-dice-five icon (f523)
+        /// </summary>
+        public const string DiceFive = "\uf523";
+
+        /// <summary>
+        /// fa-dice-four icon (f524)
+        /// </summary>
+        public const string DiceFour = "\uf524";
+
+        /// <summary>
+        /// fa-dice-one icon (f525)
+        /// </summary>
+        public const string DiceOne = "\uf525";
+
+        /// <summary>
+        /// fa-dice-six icon (f526)
+        /// </summary>
+        public const string DiceSix = "\uf526";
+
+        /// <summary>
+        /// fa-dice-three icon (f527)
+        /// </summary>
+        public const string DiceThree = "\uf527";
+
+        /// <summary>
+        /// fa-dice-two icon (f528)
+        /// </summary>
+        public const string DiceTwo = "\uf528";
 
         /// <summary>
         /// fa-digg icon (f1a6)
@@ -4994,14 +7489,94 @@ namespace Meziantou.WpfFontAwesome
         public const string Digg = "\uf1a6";
 
         /// <summary>
-        /// fa-dollar icon (f155)
+        /// fa-digital-ocean icon (f391)
         /// </summary>
-        public const string Dollar = "\uf155";
+        public const string DigitalOcean = "\uf391";
 
         /// <summary>
-        /// fa-dot-circle-o icon (f192)
+        /// fa-digital-tachograph icon (f566)
         /// </summary>
-        public const string DotCircleO = "\uf192";
+        public const string DigitalTachograph = "\uf566";
+
+        /// <summary>
+        /// fa-directions icon (f5eb)
+        /// </summary>
+        public const string Directions = "\uf5eb";
+
+        /// <summary>
+        /// fa-discord icon (f392)
+        /// </summary>
+        public const string Discord = "\uf392";
+
+        /// <summary>
+        /// fa-discourse icon (f393)
+        /// </summary>
+        public const string Discourse = "\uf393";
+
+        /// <summary>
+        /// fa-divide icon (f529)
+        /// </summary>
+        public const string Divide = "\uf529";
+
+        /// <summary>
+        /// fa-dizzy icon (f567)
+        /// </summary>
+        public const string Dizzy = "\uf567";
+
+        /// <summary>
+        /// fa-dna icon (f471)
+        /// </summary>
+        public const string Dna = "\uf471";
+
+        /// <summary>
+        /// fa-dochub icon (f394)
+        /// </summary>
+        public const string Dochub = "\uf394";
+
+        /// <summary>
+        /// fa-docker icon (f395)
+        /// </summary>
+        public const string Docker = "\uf395";
+
+        /// <summary>
+        /// fa-dollar-sign icon (f155)
+        /// </summary>
+        public const string DollarSign = "\uf155";
+
+        /// <summary>
+        /// fa-dolly icon (f472)
+        /// </summary>
+        public const string Dolly = "\uf472";
+
+        /// <summary>
+        /// fa-dolly-flatbed icon (f474)
+        /// </summary>
+        public const string DollyFlatbed = "\uf474";
+
+        /// <summary>
+        /// fa-donate icon (f4b9)
+        /// </summary>
+        public const string Donate = "\uf4b9";
+
+        /// <summary>
+        /// fa-door-closed icon (f52a)
+        /// </summary>
+        public const string DoorClosed = "\uf52a";
+
+        /// <summary>
+        /// fa-door-open icon (f52b)
+        /// </summary>
+        public const string DoorOpen = "\uf52b";
+
+        /// <summary>
+        /// fa-dot-circle icon (f192)
+        /// </summary>
+        public const string DotCircle = "\uf192";
+
+        /// <summary>
+        /// fa-dove icon (f4ba)
+        /// </summary>
+        public const string Dove = "\uf4ba";
 
         /// <summary>
         /// fa-download icon (f019)
@@ -5009,19 +7584,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Download = "\uf019";
 
         /// <summary>
+        /// fa-draft2digital icon (f396)
+        /// </summary>
+        public const string Draft2digital = "\uf396";
+
+        /// <summary>
+        /// fa-drafting-compass icon (f568)
+        /// </summary>
+        public const string DraftingCompass = "\uf568";
+
+        /// <summary>
+        /// fa-draw-polygon icon (f5ee)
+        /// </summary>
+        public const string DrawPolygon = "\uf5ee";
+
+        /// <summary>
         /// fa-dribbble icon (f17d)
         /// </summary>
         public const string Dribbble = "\uf17d";
 
         /// <summary>
-        /// fa-drivers-license icon (f2c2)
+        /// fa-dribbble-square icon (f397)
         /// </summary>
-        public const string DriversLicense = "\uf2c2";
-
-        /// <summary>
-        /// fa-drivers-license-o icon (f2c3)
-        /// </summary>
-        public const string DriversLicenseO = "\uf2c3";
+        public const string DribbbleSquare = "\uf397";
 
         /// <summary>
         /// fa-dropbox icon (f16b)
@@ -5029,9 +7614,39 @@ namespace Meziantou.WpfFontAwesome
         public const string Dropbox = "\uf16b";
 
         /// <summary>
+        /// fa-drum icon (f569)
+        /// </summary>
+        public const string Drum = "\uf569";
+
+        /// <summary>
+        /// fa-drum-steelpan icon (f56a)
+        /// </summary>
+        public const string DrumSteelpan = "\uf56a";
+
+        /// <summary>
         /// fa-drupal icon (f1a9)
         /// </summary>
         public const string Drupal = "\uf1a9";
+
+        /// <summary>
+        /// fa-dumbbell icon (f44b)
+        /// </summary>
+        public const string Dumbbell = "\uf44b";
+
+        /// <summary>
+        /// fa-dyalog icon (f399)
+        /// </summary>
+        public const string Dyalog = "\uf399";
+
+        /// <summary>
+        /// fa-earlybirds icon (f39a)
+        /// </summary>
+        public const string Earlybirds = "\uf39a";
+
+        /// <summary>
+        /// fa-ebay icon (f4f4)
+        /// </summary>
+        public const string Ebay = "\uf4f4";
 
         /// <summary>
         /// fa-edge icon (f282)
@@ -5044,14 +7659,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Edit = "\uf044";
 
         /// <summary>
-        /// fa-eercast icon (f2da)
-        /// </summary>
-        public const string Eercast = "\uf2da";
-
-        /// <summary>
         /// fa-eject icon (f052)
         /// </summary>
         public const string Eject = "\uf052";
+
+        /// <summary>
+        /// fa-elementor icon (f430)
+        /// </summary>
+        public const string Elementor = "\uf430";
 
         /// <summary>
         /// fa-ellipsis-h icon (f141)
@@ -5064,6 +7679,16 @@ namespace Meziantou.WpfFontAwesome
         public const string EllipsisV = "\uf142";
 
         /// <summary>
+        /// fa-ello icon (f5f1)
+        /// </summary>
+        public const string Ello = "\uf5f1";
+
+        /// <summary>
+        /// fa-ember icon (f423)
+        /// </summary>
+        public const string Ember = "\uf423";
+
+        /// <summary>
         /// fa-empire icon (f1d1)
         /// </summary>
         public const string Empire = "\uf1d1";
@@ -5074,19 +7699,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Envelope = "\uf0e0";
 
         /// <summary>
-        /// fa-envelope-o icon (f003)
-        /// </summary>
-        public const string EnvelopeO = "\uf003";
-
-        /// <summary>
         /// fa-envelope-open icon (f2b6)
         /// </summary>
         public const string EnvelopeOpen = "\uf2b6";
 
         /// <summary>
-        /// fa-envelope-open-o icon (f2b7)
+        /// fa-envelope-open-text icon (f658)
         /// </summary>
-        public const string EnvelopeOpenO = "\uf2b7";
+        public const string EnvelopeOpenText = "\uf658";
 
         /// <summary>
         /// fa-envelope-square icon (f199)
@@ -5099,9 +7719,24 @@ namespace Meziantou.WpfFontAwesome
         public const string Envira = "\uf299";
 
         /// <summary>
+        /// fa-equals icon (f52c)
+        /// </summary>
+        public new const string Equals = "\uf52c";
+
+        /// <summary>
         /// fa-eraser icon (f12d)
         /// </summary>
         public const string Eraser = "\uf12d";
+
+        /// <summary>
+        /// fa-erlang icon (f39d)
+        /// </summary>
+        public const string Erlang = "\uf39d";
+
+        /// <summary>
+        /// fa-ethereum icon (f42e)
+        /// </summary>
+        public const string Ethereum = "\uf42e";
 
         /// <summary>
         /// fa-etsy icon (f2d7)
@@ -5109,19 +7744,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Etsy = "\uf2d7";
 
         /// <summary>
-        /// fa-eur icon (f153)
+        /// fa-euro-sign icon (f153)
         /// </summary>
-        public const string Eur = "\uf153";
+        public const string EuroSign = "\uf153";
 
         /// <summary>
-        /// fa-euro icon (f153)
+        /// fa-exchange-alt icon (f362)
         /// </summary>
-        public const string Euro = "\uf153";
-
-        /// <summary>
-        /// fa-exchange icon (f0ec)
-        /// </summary>
-        public const string Exchange = "\uf0ec";
+        public const string ExchangeAlt = "\uf362";
 
         /// <summary>
         /// fa-exclamation icon (f12a)
@@ -5144,19 +7774,24 @@ namespace Meziantou.WpfFontAwesome
         public const string Expand = "\uf065";
 
         /// <summary>
+        /// fa-expand-arrows-alt icon (f31e)
+        /// </summary>
+        public const string ExpandArrowsAlt = "\uf31e";
+
+        /// <summary>
         /// fa-expeditedssl icon (f23e)
         /// </summary>
         public const string Expeditedssl = "\uf23e";
 
         /// <summary>
-        /// fa-external-link icon (f08e)
+        /// fa-external-link-alt icon (f35d)
         /// </summary>
-        public const string ExternalLink = "\uf08e";
+        public const string ExternalLinkAlt = "\uf35d";
 
         /// <summary>
-        /// fa-external-link-square icon (f14c)
+        /// fa-external-link-square-alt icon (f360)
         /// </summary>
-        public const string ExternalLinkSquare = "\uf14c";
+        public const string ExternalLinkSquareAlt = "\uf360";
 
         /// <summary>
         /// fa-eye icon (f06e)
@@ -5164,19 +7799,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Eye = "\uf06e";
 
         /// <summary>
+        /// fa-eye-dropper icon (f1fb)
+        /// </summary>
+        public const string EyeDropper = "\uf1fb";
+
+        /// <summary>
         /// fa-eye-slash icon (f070)
         /// </summary>
         public const string EyeSlash = "\uf070";
-
-        /// <summary>
-        /// fa-eyedropper icon (f1fb)
-        /// </summary>
-        public const string Eyedropper = "\uf1fb";
-
-        /// <summary>
-        /// fa-fa icon (f2b4)
-        /// </summary>
-        public const string Fa = "\uf2b4";
 
         /// <summary>
         /// fa-facebook icon (f09a)
@@ -5184,14 +7814,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Facebook = "\uf09a";
 
         /// <summary>
-        /// fa-facebook-f icon (f09a)
+        /// fa-facebook-f icon (f39e)
         /// </summary>
-        public const string FacebookF = "\uf09a";
+        public const string FacebookF = "\uf39e";
 
         /// <summary>
-        /// fa-facebook-official icon (f230)
+        /// fa-facebook-messenger icon (f39f)
         /// </summary>
-        public const string FacebookOfficial = "\uf230";
+        public const string FacebookMessenger = "\uf39f";
 
         /// <summary>
         /// fa-facebook-square icon (f082)
@@ -5214,9 +7844,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Fax = "\uf1ac";
 
         /// <summary>
-        /// fa-feed icon (f09e)
+        /// fa-feather icon (f52d)
         /// </summary>
-        public const string Feed = "\uf09e";
+        public const string Feather = "\uf52d";
+
+        /// <summary>
+        /// fa-feather-alt icon (f56b)
+        /// </summary>
+        public const string FeatherAlt = "\uf56b";
 
         /// <summary>
         /// fa-female icon (f182)
@@ -5234,94 +7869,119 @@ namespace Meziantou.WpfFontAwesome
         public const string File = "\uf15b";
 
         /// <summary>
-        /// fa-file-archive-o icon (f1c6)
+        /// fa-file-alt icon (f15c)
         /// </summary>
-        public const string FileArchiveO = "\uf1c6";
+        public const string FileAlt = "\uf15c";
 
         /// <summary>
-        /// fa-file-audio-o icon (f1c7)
+        /// fa-file-archive icon (f1c6)
         /// </summary>
-        public const string FileAudioO = "\uf1c7";
+        public const string FileArchive = "\uf1c6";
 
         /// <summary>
-        /// fa-file-code-o icon (f1c9)
+        /// fa-file-audio icon (f1c7)
         /// </summary>
-        public const string FileCodeO = "\uf1c9";
+        public const string FileAudio = "\uf1c7";
 
         /// <summary>
-        /// fa-file-excel-o icon (f1c3)
+        /// fa-file-code icon (f1c9)
         /// </summary>
-        public const string FileExcelO = "\uf1c3";
+        public const string FileCode = "\uf1c9";
 
         /// <summary>
-        /// fa-file-image-o icon (f1c5)
+        /// fa-file-contract icon (f56c)
         /// </summary>
-        public const string FileImageO = "\uf1c5";
+        public const string FileContract = "\uf56c";
 
         /// <summary>
-        /// fa-file-movie-o icon (f1c8)
+        /// fa-file-download icon (f56d)
         /// </summary>
-        public const string FileMovieO = "\uf1c8";
+        public const string FileDownload = "\uf56d";
 
         /// <summary>
-        /// fa-file-o icon (f016)
+        /// fa-file-excel icon (f1c3)
         /// </summary>
-        public const string FileO = "\uf016";
+        public const string FileExcel = "\uf1c3";
 
         /// <summary>
-        /// fa-file-pdf-o icon (f1c1)
+        /// fa-file-export icon (f56e)
         /// </summary>
-        public const string FilePdfO = "\uf1c1";
+        public const string FileExport = "\uf56e";
 
         /// <summary>
-        /// fa-file-photo-o icon (f1c5)
+        /// fa-file-image icon (f1c5)
         /// </summary>
-        public const string FilePhotoO = "\uf1c5";
+        public const string FileImage = "\uf1c5";
 
         /// <summary>
-        /// fa-file-picture-o icon (f1c5)
+        /// fa-file-import icon (f56f)
         /// </summary>
-        public const string FilePictureO = "\uf1c5";
+        public const string FileImport = "\uf56f";
 
         /// <summary>
-        /// fa-file-powerpoint-o icon (f1c4)
+        /// fa-file-invoice icon (f570)
         /// </summary>
-        public const string FilePowerpointO = "\uf1c4";
+        public const string FileInvoice = "\uf570";
 
         /// <summary>
-        /// fa-file-sound-o icon (f1c7)
+        /// fa-file-invoice-dollar icon (f571)
         /// </summary>
-        public const string FileSoundO = "\uf1c7";
+        public const string FileInvoiceDollar = "\uf571";
 
         /// <summary>
-        /// fa-file-text icon (f15c)
+        /// fa-file-medical icon (f477)
         /// </summary>
-        public const string FileText = "\uf15c";
+        public const string FileMedical = "\uf477";
 
         /// <summary>
-        /// fa-file-text-o icon (f0f6)
+        /// fa-file-medical-alt icon (f478)
         /// </summary>
-        public const string FileTextO = "\uf0f6";
+        public const string FileMedicalAlt = "\uf478";
 
         /// <summary>
-        /// fa-file-video-o icon (f1c8)
+        /// fa-file-pdf icon (f1c1)
         /// </summary>
-        public const string FileVideoO = "\uf1c8";
+        public const string FilePdf = "\uf1c1";
 
         /// <summary>
-        /// fa-file-word-o icon (f1c2)
+        /// fa-file-powerpoint icon (f1c4)
         /// </summary>
-        public const string FileWordO = "\uf1c2";
+        public const string FilePowerpoint = "\uf1c4";
 
         /// <summary>
-        /// fa-file-zip-o icon (f1c6)
+        /// fa-file-prescription icon (f572)
         /// </summary>
-        public const string FileZipO = "\uf1c6";
+        public const string FilePrescription = "\uf572";
 
         /// <summary>
-        /// fa-files-o icon (f0c5)
+        /// fa-file-signature icon (f573)
         /// </summary>
-        public const string FilesO = "\uf0c5";
+        public const string FileSignature = "\uf573";
+
+        /// <summary>
+        /// fa-file-upload icon (f574)
+        /// </summary>
+        public const string FileUpload = "\uf574";
+
+        /// <summary>
+        /// fa-file-video icon (f1c8)
+        /// </summary>
+        public const string FileVideo = "\uf1c8";
+
+        /// <summary>
+        /// fa-file-word icon (f1c2)
+        /// </summary>
+        public const string FileWord = "\uf1c2";
+
+        /// <summary>
+        /// fa-fill icon (f575)
+        /// </summary>
+        public const string Fill = "\uf575";
+
+        /// <summary>
+        /// fa-fill-drip icon (f576)
+        /// </summary>
+        public const string FillDrip = "\uf576";
 
         /// <summary>
         /// fa-film icon (f008)
@@ -5332,6 +7992,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-filter icon (f0b0)
         /// </summary>
         public const string Filter = "\uf0b0";
+
+        /// <summary>
+        /// fa-fingerprint icon (f577)
+        /// </summary>
+        public const string Fingerprint = "\uf577";
 
         /// <summary>
         /// fa-fire icon (f06d)
@@ -5349,9 +8014,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Firefox = "\uf269";
 
         /// <summary>
+        /// fa-first-aid icon (f479)
+        /// </summary>
+        public const string FirstAid = "\uf479";
+
+        /// <summary>
         /// fa-first-order icon (f2b0)
         /// </summary>
         public const string FirstOrder = "\uf2b0";
+
+        /// <summary>
+        /// fa-first-order-alt icon (f50a)
+        /// </summary>
+        public const string FirstOrderAlt = "\uf50a";
+
+        /// <summary>
+        /// fa-firstdraft icon (f3a1)
+        /// </summary>
+        public const string Firstdraft = "\uf3a1";
+
+        /// <summary>
+        /// fa-fish icon (f578)
+        /// </summary>
+        public const string Fish = "\uf578";
 
         /// <summary>
         /// fa-flag icon (f024)
@@ -5364,16 +8049,6 @@ namespace Meziantou.WpfFontAwesome
         public const string FlagCheckered = "\uf11e";
 
         /// <summary>
-        /// fa-flag-o icon (f11d)
-        /// </summary>
-        public const string FlagO = "\uf11d";
-
-        /// <summary>
-        /// fa-flash icon (f0e7)
-        /// </summary>
-        public const string Flash = "\uf0e7";
-
-        /// <summary>
         /// fa-flask icon (f0c3)
         /// </summary>
         public const string Flask = "\uf0c3";
@@ -5384,9 +8059,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Flickr = "\uf16e";
 
         /// <summary>
-        /// fa-floppy-o icon (f0c7)
+        /// fa-flipboard icon (f44d)
         /// </summary>
-        public const string FloppyO = "\uf0c7";
+        public const string Flipboard = "\uf44d";
+
+        /// <summary>
+        /// fa-flushed icon (f579)
+        /// </summary>
+        public const string Flushed = "\uf579";
+
+        /// <summary>
+        /// fa-fly icon (f417)
+        /// </summary>
+        public const string Fly = "\uf417";
 
         /// <summary>
         /// fa-folder icon (f07b)
@@ -5394,9 +8079,9 @@ namespace Meziantou.WpfFontAwesome
         public const string Folder = "\uf07b";
 
         /// <summary>
-        /// fa-folder-o icon (f114)
+        /// fa-folder-minus icon (f65d)
         /// </summary>
-        public const string FolderO = "\uf114";
+        public const string FolderMinus = "\uf65d";
 
         /// <summary>
         /// fa-folder-open icon (f07c)
@@ -5404,9 +8089,9 @@ namespace Meziantou.WpfFontAwesome
         public const string FolderOpen = "\uf07c";
 
         /// <summary>
-        /// fa-folder-open-o icon (f115)
+        /// fa-folder-plus icon (f65e)
         /// </summary>
-        public const string FolderOpenO = "\uf115";
+        public const string FolderPlus = "\uf65e";
 
         /// <summary>
         /// fa-font icon (f031)
@@ -5419,14 +8104,44 @@ namespace Meziantou.WpfFontAwesome
         public const string FontAwesome = "\uf2b4";
 
         /// <summary>
+        /// fa-font-awesome-alt icon (f35c)
+        /// </summary>
+        public const string FontAwesomeAlt = "\uf35c";
+
+        /// <summary>
+        /// fa-font-awesome-flag icon (f425)
+        /// </summary>
+        public const string FontAwesomeFlag = "\uf425";
+
+        /// <summary>
+        /// fa-font-awesome-logo-full icon (f4e6)
+        /// </summary>
+        public const string FontAwesomeLogoFull = "\uf4e6";
+
+        /// <summary>
         /// fa-fonticons icon (f280)
         /// </summary>
         public const string Fonticons = "\uf280";
 
         /// <summary>
+        /// fa-fonticons-fi icon (f3a2)
+        /// </summary>
+        public const string FonticonsFi = "\uf3a2";
+
+        /// <summary>
+        /// fa-football-ball icon (f44e)
+        /// </summary>
+        public const string FootballBall = "\uf44e";
+
+        /// <summary>
         /// fa-fort-awesome icon (f286)
         /// </summary>
         public const string FortAwesome = "\uf286";
+
+        /// <summary>
+        /// fa-fort-awesome-alt icon (f3a3)
+        /// </summary>
+        public const string FortAwesomeAlt = "\uf3a3";
 
         /// <summary>
         /// fa-forumbee icon (f211)
@@ -5449,14 +8164,49 @@ namespace Meziantou.WpfFontAwesome
         public const string FreeCodeCamp = "\uf2c5";
 
         /// <summary>
-        /// fa-frown-o icon (f119)
+        /// fa-freebsd icon (f3a4)
         /// </summary>
-        public const string FrownO = "\uf119";
+        public const string Freebsd = "\uf3a4";
 
         /// <summary>
-        /// fa-futbol-o icon (f1e3)
+        /// fa-frog icon (f52e)
         /// </summary>
-        public const string FutbolO = "\uf1e3";
+        public const string Frog = "\uf52e";
+
+        /// <summary>
+        /// fa-frown icon (f119)
+        /// </summary>
+        public const string Frown = "\uf119";
+
+        /// <summary>
+        /// fa-frown-open icon (f57a)
+        /// </summary>
+        public const string FrownOpen = "\uf57a";
+
+        /// <summary>
+        /// fa-fulcrum icon (f50b)
+        /// </summary>
+        public const string Fulcrum = "\uf50b";
+
+        /// <summary>
+        /// fa-funnel-dollar icon (f662)
+        /// </summary>
+        public const string FunnelDollar = "\uf662";
+
+        /// <summary>
+        /// fa-futbol icon (f1e3)
+        /// </summary>
+        public const string Futbol = "\uf1e3";
+
+        /// <summary>
+        /// fa-galactic-republic icon (f50c)
+        /// </summary>
+        public const string GalacticRepublic = "\uf50c";
+
+        /// <summary>
+        /// fa-galactic-senate icon (f50d)
+        /// </summary>
+        public const string GalacticSenate = "\uf50d";
 
         /// <summary>
         /// fa-gamepad icon (f11b)
@@ -5464,29 +8214,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Gamepad = "\uf11b";
 
         /// <summary>
+        /// fa-gas-pump icon (f52f)
+        /// </summary>
+        public const string GasPump = "\uf52f";
+
+        /// <summary>
         /// fa-gavel icon (f0e3)
         /// </summary>
         public const string Gavel = "\uf0e3";
 
         /// <summary>
-        /// fa-gbp icon (f154)
+        /// fa-gem icon (f3a5)
         /// </summary>
-        public const string Gbp = "\uf154";
-
-        /// <summary>
-        /// fa-ge icon (f1d1)
-        /// </summary>
-        public const string Ge = "\uf1d1";
-
-        /// <summary>
-        /// fa-gear icon (f013)
-        /// </summary>
-        public const string Gear = "\uf013";
-
-        /// <summary>
-        /// fa-gears icon (f085)
-        /// </summary>
-        public const string Gears = "\uf085";
+        public const string Gem = "\uf3a5";
 
         /// <summary>
         /// fa-genderless icon (f22d)
@@ -5539,19 +8279,34 @@ namespace Meziantou.WpfFontAwesome
         public const string GithubSquare = "\uf092";
 
         /// <summary>
+        /// fa-gitkraken icon (f3a6)
+        /// </summary>
+        public const string Gitkraken = "\uf3a6";
+
+        /// <summary>
         /// fa-gitlab icon (f296)
         /// </summary>
         public const string Gitlab = "\uf296";
 
         /// <summary>
-        /// fa-gittip icon (f184)
+        /// fa-gitter icon (f426)
         /// </summary>
-        public const string Gittip = "\uf184";
+        public const string Gitter = "\uf426";
 
         /// <summary>
-        /// fa-glass icon (f000)
+        /// fa-glass-martini icon (f000)
         /// </summary>
-        public const string Glass = "\uf000";
+        public const string GlassMartini = "\uf000";
+
+        /// <summary>
+        /// fa-glass-martini-alt icon (f57b)
+        /// </summary>
+        public const string GlassMartiniAlt = "\uf57b";
+
+        /// <summary>
+        /// fa-glasses icon (f530)
+        /// </summary>
+        public const string Glasses = "\uf530";
 
         /// <summary>
         /// fa-glide icon (f2a5)
@@ -5569,24 +8324,64 @@ namespace Meziantou.WpfFontAwesome
         public const string Globe = "\uf0ac";
 
         /// <summary>
+        /// fa-globe-africa icon (f57c)
+        /// </summary>
+        public const string GlobeAfrica = "\uf57c";
+
+        /// <summary>
+        /// fa-globe-americas icon (f57d)
+        /// </summary>
+        public const string GlobeAmericas = "\uf57d";
+
+        /// <summary>
+        /// fa-globe-asia icon (f57e)
+        /// </summary>
+        public const string GlobeAsia = "\uf57e";
+
+        /// <summary>
+        /// fa-gofore icon (f3a7)
+        /// </summary>
+        public const string Gofore = "\uf3a7";
+
+        /// <summary>
+        /// fa-golf-ball icon (f450)
+        /// </summary>
+        public const string GolfBall = "\uf450";
+
+        /// <summary>
+        /// fa-goodreads icon (f3a8)
+        /// </summary>
+        public const string Goodreads = "\uf3a8";
+
+        /// <summary>
+        /// fa-goodreads-g icon (f3a9)
+        /// </summary>
+        public const string GoodreadsG = "\uf3a9";
+
+        /// <summary>
         /// fa-google icon (f1a0)
         /// </summary>
         public const string Google = "\uf1a0";
 
         /// <summary>
-        /// fa-google-plus icon (f0d5)
+        /// fa-google-drive icon (f3aa)
         /// </summary>
-        public const string GooglePlus = "\uf0d5";
+        public const string GoogleDrive = "\uf3aa";
 
         /// <summary>
-        /// fa-google-plus-circle icon (f2b3)
+        /// fa-google-play icon (f3ab)
         /// </summary>
-        public const string GooglePlusCircle = "\uf2b3";
+        public const string GooglePlay = "\uf3ab";
 
         /// <summary>
-        /// fa-google-plus-official icon (f2b3)
+        /// fa-google-plus icon (f2b3)
         /// </summary>
-        public const string GooglePlusOfficial = "\uf2b3";
+        public const string GooglePlus = "\uf2b3";
+
+        /// <summary>
+        /// fa-google-plus-g icon (f0d5)
+        /// </summary>
+        public const string GooglePlusG = "\uf0d5";
 
         /// <summary>
         /// fa-google-plus-square icon (f0d4)
@@ -5597,6 +8392,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-google-wallet icon (f1ee)
         /// </summary>
         public const string GoogleWallet = "\uf1ee";
+
+        /// <summary>
+        /// fa-gopuram icon (f664)
+        /// </summary>
+        public const string Gopuram = "\uf664";
 
         /// <summary>
         /// fa-graduation-cap icon (f19d)
@@ -5614,9 +8414,109 @@ namespace Meziantou.WpfFontAwesome
         public const string Grav = "\uf2d6";
 
         /// <summary>
-        /// fa-group icon (f0c0)
+        /// fa-greater-than icon (f531)
         /// </summary>
-        public const string Group = "\uf0c0";
+        public const string GreaterThan = "\uf531";
+
+        /// <summary>
+        /// fa-greater-than-equal icon (f532)
+        /// </summary>
+        public const string GreaterThanEqual = "\uf532";
+
+        /// <summary>
+        /// fa-grimace icon (f57f)
+        /// </summary>
+        public const string Grimace = "\uf57f";
+
+        /// <summary>
+        /// fa-grin icon (f580)
+        /// </summary>
+        public const string Grin = "\uf580";
+
+        /// <summary>
+        /// fa-grin-alt icon (f581)
+        /// </summary>
+        public const string GrinAlt = "\uf581";
+
+        /// <summary>
+        /// fa-grin-beam icon (f582)
+        /// </summary>
+        public const string GrinBeam = "\uf582";
+
+        /// <summary>
+        /// fa-grin-beam-sweat icon (f583)
+        /// </summary>
+        public const string GrinBeamSweat = "\uf583";
+
+        /// <summary>
+        /// fa-grin-hearts icon (f584)
+        /// </summary>
+        public const string GrinHearts = "\uf584";
+
+        /// <summary>
+        /// fa-grin-squint icon (f585)
+        /// </summary>
+        public const string GrinSquint = "\uf585";
+
+        /// <summary>
+        /// fa-grin-squint-tears icon (f586)
+        /// </summary>
+        public const string GrinSquintTears = "\uf586";
+
+        /// <summary>
+        /// fa-grin-stars icon (f587)
+        /// </summary>
+        public const string GrinStars = "\uf587";
+
+        /// <summary>
+        /// fa-grin-tears icon (f588)
+        /// </summary>
+        public const string GrinTears = "\uf588";
+
+        /// <summary>
+        /// fa-grin-tongue icon (f589)
+        /// </summary>
+        public const string GrinTongue = "\uf589";
+
+        /// <summary>
+        /// fa-grin-tongue-squint icon (f58a)
+        /// </summary>
+        public const string GrinTongueSquint = "\uf58a";
+
+        /// <summary>
+        /// fa-grin-tongue-wink icon (f58b)
+        /// </summary>
+        public const string GrinTongueWink = "\uf58b";
+
+        /// <summary>
+        /// fa-grin-wink icon (f58c)
+        /// </summary>
+        public const string GrinWink = "\uf58c";
+
+        /// <summary>
+        /// fa-grip-horizontal icon (f58d)
+        /// </summary>
+        public const string GripHorizontal = "\uf58d";
+
+        /// <summary>
+        /// fa-grip-vertical icon (f58e)
+        /// </summary>
+        public const string GripVertical = "\uf58e";
+
+        /// <summary>
+        /// fa-gripfire icon (f3ac)
+        /// </summary>
+        public const string Gripfire = "\uf3ac";
+
+        /// <summary>
+        /// fa-grunt icon (f3ad)
+        /// </summary>
+        public const string Grunt = "\uf3ad";
+
+        /// <summary>
+        /// fa-gulp icon (f3ae)
+        /// </summary>
+        public const string Gulp = "\uf3ae";
 
         /// <summary>
         /// fa-h-square icon (f0fd)
@@ -5629,79 +8529,104 @@ namespace Meziantou.WpfFontAwesome
         public const string HackerNews = "\uf1d4";
 
         /// <summary>
-        /// fa-hand-grab-o icon (f255)
+        /// fa-hacker-news-square icon (f3af)
         /// </summary>
-        public const string HandGrabO = "\uf255";
+        public const string HackerNewsSquare = "\uf3af";
 
         /// <summary>
-        /// fa-hand-lizard-o icon (f258)
+        /// fa-hackerrank icon (f5f7)
         /// </summary>
-        public const string HandLizardO = "\uf258";
+        public const string Hackerrank = "\uf5f7";
 
         /// <summary>
-        /// fa-hand-o-down icon (f0a7)
+        /// fa-hamsa icon (f665)
         /// </summary>
-        public const string HandODown = "\uf0a7";
+        public const string Hamsa = "\uf665";
 
         /// <summary>
-        /// fa-hand-o-left icon (f0a5)
+        /// fa-hand-holding icon (f4bd)
         /// </summary>
-        public const string HandOLeft = "\uf0a5";
+        public const string HandHolding = "\uf4bd";
 
         /// <summary>
-        /// fa-hand-o-right icon (f0a4)
+        /// fa-hand-holding-heart icon (f4be)
         /// </summary>
-        public const string HandORight = "\uf0a4";
+        public const string HandHoldingHeart = "\uf4be";
 
         /// <summary>
-        /// fa-hand-o-up icon (f0a6)
+        /// fa-hand-holding-usd icon (f4c0)
         /// </summary>
-        public const string HandOUp = "\uf0a6";
+        public const string HandHoldingUsd = "\uf4c0";
 
         /// <summary>
-        /// fa-hand-paper-o icon (f256)
+        /// fa-hand-lizard icon (f258)
         /// </summary>
-        public const string HandPaperO = "\uf256";
+        public const string HandLizard = "\uf258";
 
         /// <summary>
-        /// fa-hand-peace-o icon (f25b)
+        /// fa-hand-paper icon (f256)
         /// </summary>
-        public const string HandPeaceO = "\uf25b";
+        public const string HandPaper = "\uf256";
 
         /// <summary>
-        /// fa-hand-pointer-o icon (f25a)
+        /// fa-hand-peace icon (f25b)
         /// </summary>
-        public const string HandPointerO = "\uf25a";
+        public const string HandPeace = "\uf25b";
 
         /// <summary>
-        /// fa-hand-rock-o icon (f255)
+        /// fa-hand-point-down icon (f0a7)
         /// </summary>
-        public const string HandRockO = "\uf255";
+        public const string HandPointDown = "\uf0a7";
 
         /// <summary>
-        /// fa-hand-scissors-o icon (f257)
+        /// fa-hand-point-left icon (f0a5)
         /// </summary>
-        public const string HandScissorsO = "\uf257";
+        public const string HandPointLeft = "\uf0a5";
 
         /// <summary>
-        /// fa-hand-spock-o icon (f259)
+        /// fa-hand-point-right icon (f0a4)
         /// </summary>
-        public const string HandSpockO = "\uf259";
+        public const string HandPointRight = "\uf0a4";
 
         /// <summary>
-        /// fa-hand-stop-o icon (f256)
+        /// fa-hand-point-up icon (f0a6)
         /// </summary>
-        public const string HandStopO = "\uf256";
+        public const string HandPointUp = "\uf0a6";
 
         /// <summary>
-        /// fa-handshake-o icon (f2b5)
+        /// fa-hand-pointer icon (f25a)
         /// </summary>
-        public const string HandshakeO = "\uf2b5";
+        public const string HandPointer = "\uf25a";
 
         /// <summary>
-        /// fa-hard-of-hearing icon (f2a4)
+        /// fa-hand-rock icon (f255)
         /// </summary>
-        public const string HardOfHearing = "\uf2a4";
+        public const string HandRock = "\uf255";
+
+        /// <summary>
+        /// fa-hand-scissors icon (f257)
+        /// </summary>
+        public const string HandScissors = "\uf257";
+
+        /// <summary>
+        /// fa-hand-spock icon (f259)
+        /// </summary>
+        public const string HandSpock = "\uf259";
+
+        /// <summary>
+        /// fa-hands icon (f4c2)
+        /// </summary>
+        public const string Hands = "\uf4c2";
+
+        /// <summary>
+        /// fa-hands-helping icon (f4c4)
+        /// </summary>
+        public const string HandsHelping = "\uf4c4";
+
+        /// <summary>
+        /// fa-handshake icon (f2b5)
+        /// </summary>
+        public const string Handshake = "\uf2b5";
 
         /// <summary>
         /// fa-hashtag icon (f292)
@@ -5709,14 +8634,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Hashtag = "\uf292";
 
         /// <summary>
-        /// fa-hdd-o icon (f0a0)
+        /// fa-haykal icon (f666)
         /// </summary>
-        public const string HddO = "\uf0a0";
+        public const string Haykal = "\uf666";
 
         /// <summary>
-        /// fa-header icon (f1dc)
+        /// fa-hdd icon (f0a0)
         /// </summary>
-        public const string Header = "\uf1dc";
+        public const string Hdd = "\uf0a0";
+
+        /// <summary>
+        /// fa-heading icon (f1dc)
+        /// </summary>
+        public const string Heading = "\uf1dc";
 
         /// <summary>
         /// fa-headphones icon (f025)
@@ -5724,14 +8654,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Headphones = "\uf025";
 
         /// <summary>
+        /// fa-headphones-alt icon (f58f)
+        /// </summary>
+        public const string HeadphonesAlt = "\uf58f";
+
+        /// <summary>
+        /// fa-headset icon (f590)
+        /// </summary>
+        public const string Headset = "\uf590";
+
+        /// <summary>
         /// fa-heart icon (f004)
         /// </summary>
         public const string Heart = "\uf004";
-
-        /// <summary>
-        /// fa-heart-o icon (f08a)
-        /// </summary>
-        public const string HeartO = "\uf08a";
 
         /// <summary>
         /// fa-heartbeat icon (f21e)
@@ -5739,9 +8674,34 @@ namespace Meziantou.WpfFontAwesome
         public const string Heartbeat = "\uf21e";
 
         /// <summary>
+        /// fa-helicopter icon (f533)
+        /// </summary>
+        public const string Helicopter = "\uf533";
+
+        /// <summary>
+        /// fa-highlighter icon (f591)
+        /// </summary>
+        public const string Highlighter = "\uf591";
+
+        /// <summary>
+        /// fa-hips icon (f452)
+        /// </summary>
+        public const string Hips = "\uf452";
+
+        /// <summary>
+        /// fa-hire-a-helper icon (f3b0)
+        /// </summary>
+        public const string HireAHelper = "\uf3b0";
+
+        /// <summary>
         /// fa-history icon (f1da)
         /// </summary>
         public const string History = "\uf1da";
+
+        /// <summary>
+        /// fa-hockey-puck icon (f453)
+        /// </summary>
+        public const string HockeyPuck = "\uf453";
 
         /// <summary>
         /// fa-home icon (f015)
@@ -5749,34 +8709,49 @@ namespace Meziantou.WpfFontAwesome
         public const string Home = "\uf015";
 
         /// <summary>
-        /// fa-hospital-o icon (f0f8)
+        /// fa-hooli icon (f427)
         /// </summary>
-        public const string HospitalO = "\uf0f8";
+        public const string Hooli = "\uf427";
 
         /// <summary>
-        /// fa-hotel icon (f236)
+        /// fa-hornbill icon (f592)
         /// </summary>
-        public const string Hotel = "\uf236";
+        public const string Hornbill = "\uf592";
+
+        /// <summary>
+        /// fa-hospital icon (f0f8)
+        /// </summary>
+        public const string Hospital = "\uf0f8";
+
+        /// <summary>
+        /// fa-hospital-alt icon (f47d)
+        /// </summary>
+        public const string HospitalAlt = "\uf47d";
+
+        /// <summary>
+        /// fa-hospital-symbol icon (f47e)
+        /// </summary>
+        public const string HospitalSymbol = "\uf47e";
+
+        /// <summary>
+        /// fa-hot-tub icon (f593)
+        /// </summary>
+        public const string HotTub = "\uf593";
+
+        /// <summary>
+        /// fa-hotel icon (f594)
+        /// </summary>
+        public const string Hotel = "\uf594";
+
+        /// <summary>
+        /// fa-hotjar icon (f3b1)
+        /// </summary>
+        public const string Hotjar = "\uf3b1";
 
         /// <summary>
         /// fa-hourglass icon (f254)
         /// </summary>
         public const string Hourglass = "\uf254";
-
-        /// <summary>
-        /// fa-hourglass-1 icon (f251)
-        /// </summary>
-        public const string Hourglass1 = "\uf251";
-
-        /// <summary>
-        /// fa-hourglass-2 icon (f252)
-        /// </summary>
-        public const string Hourglass2 = "\uf252";
-
-        /// <summary>
-        /// fa-hourglass-3 icon (f253)
-        /// </summary>
-        public const string Hourglass3 = "\uf253";
 
         /// <summary>
         /// fa-hourglass-end icon (f253)
@@ -5787,11 +8762,6 @@ namespace Meziantou.WpfFontAwesome
         /// fa-hourglass-half icon (f252)
         /// </summary>
         public const string HourglassHalf = "\uf252";
-
-        /// <summary>
-        /// fa-hourglass-o icon (f250)
-        /// </summary>
-        public const string HourglassO = "\uf250";
 
         /// <summary>
         /// fa-hourglass-start icon (f251)
@@ -5809,6 +8779,11 @@ namespace Meziantou.WpfFontAwesome
         public const string Html5 = "\uf13b";
 
         /// <summary>
+        /// fa-hubspot icon (f3b2)
+        /// </summary>
+        public const string Hubspot = "\uf3b2";
+
+        /// <summary>
         /// fa-i-cursor icon (f246)
         /// </summary>
         public const string ICursor = "\uf246";
@@ -5824,19 +8799,19 @@ namespace Meziantou.WpfFontAwesome
         public const string IdCard = "\uf2c2";
 
         /// <summary>
-        /// fa-id-card-o icon (f2c3)
+        /// fa-id-card-alt icon (f47f)
         /// </summary>
-        public const string IdCardO = "\uf2c3";
-
-        /// <summary>
-        /// fa-ils icon (f20b)
-        /// </summary>
-        public const string Ils = "\uf20b";
+        public const string IdCardAlt = "\uf47f";
 
         /// <summary>
         /// fa-image icon (f03e)
         /// </summary>
         public const string Image = "\uf03e";
+
+        /// <summary>
+        /// fa-images icon (f302)
+        /// </summary>
+        public const string Images = "\uf302";
 
         /// <summary>
         /// fa-imdb icon (f2d8)
@@ -5859,6 +8834,11 @@ namespace Meziantou.WpfFontAwesome
         public const string Industry = "\uf275";
 
         /// <summary>
+        /// fa-infinity icon (f534)
+        /// </summary>
+        public const string Infinity = "\uf534";
+
+        /// <summary>
         /// fa-info icon (f129)
         /// </summary>
         public const string Info = "\uf129";
@@ -5869,29 +8849,14 @@ namespace Meziantou.WpfFontAwesome
         public const string InfoCircle = "\uf05a";
 
         /// <summary>
-        /// fa-inr icon (f156)
-        /// </summary>
-        public const string Inr = "\uf156";
-
-        /// <summary>
         /// fa-instagram icon (f16d)
         /// </summary>
         public const string Instagram = "\uf16d";
 
         /// <summary>
-        /// fa-institution icon (f19c)
-        /// </summary>
-        public const string Institution = "\uf19c";
-
-        /// <summary>
         /// fa-internet-explorer icon (f26b)
         /// </summary>
         public const string InternetExplorer = "\uf26b";
-
-        /// <summary>
-        /// fa-intersex icon (f224)
-        /// </summary>
-        public const string Intersex = "\uf224";
 
         /// <summary>
         /// fa-ioxhost icon (f208)
@@ -5904,14 +8869,64 @@ namespace Meziantou.WpfFontAwesome
         public const string Italic = "\uf033";
 
         /// <summary>
+        /// fa-itunes icon (f3b4)
+        /// </summary>
+        public const string Itunes = "\uf3b4";
+
+        /// <summary>
+        /// fa-itunes-note icon (f3b5)
+        /// </summary>
+        public const string ItunesNote = "\uf3b5";
+
+        /// <summary>
+        /// fa-java icon (f4e4)
+        /// </summary>
+        public const string Java = "\uf4e4";
+
+        /// <summary>
+        /// fa-jedi icon (f669)
+        /// </summary>
+        public const string Jedi = "\uf669";
+
+        /// <summary>
+        /// fa-jedi-order icon (f50e)
+        /// </summary>
+        public const string JediOrder = "\uf50e";
+
+        /// <summary>
+        /// fa-jenkins icon (f3b6)
+        /// </summary>
+        public const string Jenkins = "\uf3b6";
+
+        /// <summary>
+        /// fa-joget icon (f3b7)
+        /// </summary>
+        public const string Joget = "\uf3b7";
+
+        /// <summary>
+        /// fa-joint icon (f595)
+        /// </summary>
+        public const string Joint = "\uf595";
+
+        /// <summary>
         /// fa-joomla icon (f1aa)
         /// </summary>
         public const string Joomla = "\uf1aa";
 
         /// <summary>
-        /// fa-jpy icon (f157)
+        /// fa-journal-whills icon (f66a)
         /// </summary>
-        public const string Jpy = "\uf157";
+        public const string JournalWhills = "\uf66a";
+
+        /// <summary>
+        /// fa-js icon (f3b8)
+        /// </summary>
+        public const string Js = "\uf3b8";
+
+        /// <summary>
+        /// fa-js-square icon (f3b9)
+        /// </summary>
+        public const string JsSquare = "\uf3b9";
 
         /// <summary>
         /// fa-jsfiddle icon (f1cc)
@@ -5919,19 +8934,79 @@ namespace Meziantou.WpfFontAwesome
         public const string Jsfiddle = "\uf1cc";
 
         /// <summary>
+        /// fa-kaaba icon (f66b)
+        /// </summary>
+        public const string Kaaba = "\uf66b";
+
+        /// <summary>
+        /// fa-kaggle icon (f5fa)
+        /// </summary>
+        public const string Kaggle = "\uf5fa";
+
+        /// <summary>
         /// fa-key icon (f084)
         /// </summary>
         public const string Key = "\uf084";
 
         /// <summary>
-        /// fa-keyboard-o icon (f11c)
+        /// fa-keybase icon (f4f5)
         /// </summary>
-        public const string KeyboardO = "\uf11c";
+        public const string Keybase = "\uf4f5";
 
         /// <summary>
-        /// fa-krw icon (f159)
+        /// fa-keyboard icon (f11c)
         /// </summary>
-        public const string Krw = "\uf159";
+        public const string Keyboard = "\uf11c";
+
+        /// <summary>
+        /// fa-keycdn icon (f3ba)
+        /// </summary>
+        public const string Keycdn = "\uf3ba";
+
+        /// <summary>
+        /// fa-khanda icon (f66d)
+        /// </summary>
+        public const string Khanda = "\uf66d";
+
+        /// <summary>
+        /// fa-kickstarter icon (f3bb)
+        /// </summary>
+        public const string Kickstarter = "\uf3bb";
+
+        /// <summary>
+        /// fa-kickstarter-k icon (f3bc)
+        /// </summary>
+        public const string KickstarterK = "\uf3bc";
+
+        /// <summary>
+        /// fa-kiss icon (f596)
+        /// </summary>
+        public const string Kiss = "\uf596";
+
+        /// <summary>
+        /// fa-kiss-beam icon (f597)
+        /// </summary>
+        public const string KissBeam = "\uf597";
+
+        /// <summary>
+        /// fa-kiss-wink-heart icon (f598)
+        /// </summary>
+        public const string KissWinkHeart = "\uf598";
+
+        /// <summary>
+        /// fa-kiwi-bird icon (f535)
+        /// </summary>
+        public const string KiwiBird = "\uf535";
+
+        /// <summary>
+        /// fa-korvue icon (f42f)
+        /// </summary>
+        public const string Korvue = "\uf42f";
+
+        /// <summary>
+        /// fa-landmark icon (f66f)
+        /// </summary>
+        public const string Landmark = "\uf66f";
 
         /// <summary>
         /// fa-language icon (f1ab)
@@ -5944,6 +9019,16 @@ namespace Meziantou.WpfFontAwesome
         public const string Laptop = "\uf109";
 
         /// <summary>
+        /// fa-laptop-code icon (f5fc)
+        /// </summary>
+        public const string LaptopCode = "\uf5fc";
+
+        /// <summary>
+        /// fa-laravel icon (f3bd)
+        /// </summary>
+        public const string Laravel = "\uf3bd";
+
+        /// <summary>
         /// fa-lastfm icon (f202)
         /// </summary>
         public const string Lastfm = "\uf202";
@@ -5952,6 +9037,31 @@ namespace Meziantou.WpfFontAwesome
         /// fa-lastfm-square icon (f203)
         /// </summary>
         public const string LastfmSquare = "\uf203";
+
+        /// <summary>
+        /// fa-laugh icon (f599)
+        /// </summary>
+        public const string Laugh = "\uf599";
+
+        /// <summary>
+        /// fa-laugh-beam icon (f59a)
+        /// </summary>
+        public const string LaughBeam = "\uf59a";
+
+        /// <summary>
+        /// fa-laugh-squint icon (f59b)
+        /// </summary>
+        public const string LaughSquint = "\uf59b";
+
+        /// <summary>
+        /// fa-laugh-wink icon (f59c)
+        /// </summary>
+        public const string LaughWink = "\uf59c";
+
+        /// <summary>
+        /// fa-layer-group icon (f5fd)
+        /// </summary>
+        public const string LayerGroup = "\uf5fd";
 
         /// <summary>
         /// fa-leaf icon (f06c)
@@ -5964,34 +9074,34 @@ namespace Meziantou.WpfFontAwesome
         public const string Leanpub = "\uf212";
 
         /// <summary>
-        /// fa-legal icon (f0e3)
+        /// fa-lemon icon (f094)
         /// </summary>
-        public const string Legal = "\uf0e3";
+        public const string Lemon = "\uf094";
 
         /// <summary>
-        /// fa-lemon-o icon (f094)
+        /// fa-less icon (f41d)
         /// </summary>
-        public const string LemonO = "\uf094";
+        public const string Less = "\uf41d";
 
         /// <summary>
-        /// fa-level-down icon (f149)
+        /// fa-less-than icon (f536)
         /// </summary>
-        public const string LevelDown = "\uf149";
+        public const string LessThan = "\uf536";
 
         /// <summary>
-        /// fa-level-up icon (f148)
+        /// fa-less-than-equal icon (f537)
         /// </summary>
-        public const string LevelUp = "\uf148";
+        public const string LessThanEqual = "\uf537";
 
         /// <summary>
-        /// fa-life-bouy icon (f1cd)
+        /// fa-level-down-alt icon (f3be)
         /// </summary>
-        public const string LifeBouy = "\uf1cd";
+        public const string LevelDownAlt = "\uf3be";
 
         /// <summary>
-        /// fa-life-buoy icon (f1cd)
+        /// fa-level-up-alt icon (f3bf)
         /// </summary>
-        public const string LifeBuoy = "\uf1cd";
+        public const string LevelUpAlt = "\uf3bf";
 
         /// <summary>
         /// fa-life-ring icon (f1cd)
@@ -5999,19 +9109,14 @@ namespace Meziantou.WpfFontAwesome
         public const string LifeRing = "\uf1cd";
 
         /// <summary>
-        /// fa-life-saver icon (f1cd)
+        /// fa-lightbulb icon (f0eb)
         /// </summary>
-        public const string LifeSaver = "\uf1cd";
+        public const string Lightbulb = "\uf0eb";
 
         /// <summary>
-        /// fa-lightbulb-o icon (f0eb)
+        /// fa-line icon (f3c0)
         /// </summary>
-        public const string LightbulbO = "\uf0eb";
-
-        /// <summary>
-        /// fa-line-chart icon (f201)
-        /// </summary>
-        public const string LineChart = "\uf201";
+        public const string Line = "\uf3c0";
 
         /// <summary>
         /// fa-link icon (f0c1)
@@ -6019,14 +9124,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Link = "\uf0c1";
 
         /// <summary>
-        /// fa-linkedin icon (f0e1)
+        /// fa-linkedin icon (f08c)
         /// </summary>
-        public const string Linkedin = "\uf0e1";
+        public const string Linkedin = "\uf08c";
 
         /// <summary>
-        /// fa-linkedin-square icon (f08c)
+        /// fa-linkedin-in icon (f0e1)
         /// </summary>
-        public const string LinkedinSquare = "\uf08c";
+        public const string LinkedinIn = "\uf0e1";
 
         /// <summary>
         /// fa-linode icon (f2b8)
@@ -6037,6 +9142,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-linux icon (f17c)
         /// </summary>
         public const string Linux = "\uf17c";
+
+        /// <summary>
+        /// fa-lira-sign icon (f195)
+        /// </summary>
+        public const string LiraSign = "\uf195";
 
         /// <summary>
         /// fa-list icon (f03a)
@@ -6069,29 +9179,49 @@ namespace Meziantou.WpfFontAwesome
         public const string Lock = "\uf023";
 
         /// <summary>
-        /// fa-long-arrow-down icon (f175)
+        /// fa-lock-open icon (f3c1)
         /// </summary>
-        public const string LongArrowDown = "\uf175";
+        public const string LockOpen = "\uf3c1";
 
         /// <summary>
-        /// fa-long-arrow-left icon (f177)
+        /// fa-long-arrow-alt-down icon (f309)
         /// </summary>
-        public const string LongArrowLeft = "\uf177";
+        public const string LongArrowAltDown = "\uf309";
 
         /// <summary>
-        /// fa-long-arrow-right icon (f178)
+        /// fa-long-arrow-alt-left icon (f30a)
         /// </summary>
-        public const string LongArrowRight = "\uf178";
+        public const string LongArrowAltLeft = "\uf30a";
 
         /// <summary>
-        /// fa-long-arrow-up icon (f176)
+        /// fa-long-arrow-alt-right icon (f30b)
         /// </summary>
-        public const string LongArrowUp = "\uf176";
+        public const string LongArrowAltRight = "\uf30b";
+
+        /// <summary>
+        /// fa-long-arrow-alt-up icon (f30c)
+        /// </summary>
+        public const string LongArrowAltUp = "\uf30c";
 
         /// <summary>
         /// fa-low-vision icon (f2a8)
         /// </summary>
         public const string LowVision = "\uf2a8";
+
+        /// <summary>
+        /// fa-luggage-cart icon (f59d)
+        /// </summary>
+        public const string LuggageCart = "\uf59d";
+
+        /// <summary>
+        /// fa-lyft icon (f3c3)
+        /// </summary>
+        public const string Lyft = "\uf3c3";
+
+        /// <summary>
+        /// fa-magento icon (f3c4)
+        /// </summary>
+        public const string Magento = "\uf3c4";
 
         /// <summary>
         /// fa-magic icon (f0d0)
@@ -6104,19 +9234,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Magnet = "\uf076";
 
         /// <summary>
-        /// fa-mail-forward icon (f064)
+        /// fa-mail-bulk icon (f674)
         /// </summary>
-        public const string MailForward = "\uf064";
+        public const string MailBulk = "\uf674";
 
         /// <summary>
-        /// fa-mail-reply icon (f112)
+        /// fa-mailchimp icon (f59e)
         /// </summary>
-        public const string MailReply = "\uf112";
-
-        /// <summary>
-        /// fa-mail-reply-all icon (f122)
-        /// </summary>
-        public const string MailReplyAll = "\uf122";
+        public const string Mailchimp = "\uf59e";
 
         /// <summary>
         /// fa-male icon (f183)
@@ -6124,9 +9249,24 @@ namespace Meziantou.WpfFontAwesome
         public const string Male = "\uf183";
 
         /// <summary>
+        /// fa-mandalorian icon (f50f)
+        /// </summary>
+        public const string Mandalorian = "\uf50f";
+
+        /// <summary>
         /// fa-map icon (f279)
         /// </summary>
         public const string Map = "\uf279";
+
+        /// <summary>
+        /// fa-map-marked icon (f59f)
+        /// </summary>
+        public const string MapMarked = "\uf59f";
+
+        /// <summary>
+        /// fa-map-marked-alt icon (f5a0)
+        /// </summary>
+        public const string MapMarkedAlt = "\uf5a0";
 
         /// <summary>
         /// fa-map-marker icon (f041)
@@ -6134,9 +9274,9 @@ namespace Meziantou.WpfFontAwesome
         public const string MapMarker = "\uf041";
 
         /// <summary>
-        /// fa-map-o icon (f278)
+        /// fa-map-marker-alt icon (f3c5)
         /// </summary>
-        public const string MapO = "\uf278";
+        public const string MapMarkerAlt = "\uf3c5";
 
         /// <summary>
         /// fa-map-pin icon (f276)
@@ -6147,6 +9287,16 @@ namespace Meziantou.WpfFontAwesome
         /// fa-map-signs icon (f277)
         /// </summary>
         public const string MapSigns = "\uf277";
+
+        /// <summary>
+        /// fa-markdown icon (f60f)
+        /// </summary>
+        public const string Markdown = "\uf60f";
+
+        /// <summary>
+        /// fa-marker icon (f5a1)
+        /// </summary>
+        public const string Marker = "\uf5a1";
 
         /// <summary>
         /// fa-mars icon (f222)
@@ -6174,14 +9324,24 @@ namespace Meziantou.WpfFontAwesome
         public const string MarsStrokeV = "\uf22a";
 
         /// <summary>
+        /// fa-mastodon icon (f4f6)
+        /// </summary>
+        public const string Mastodon = "\uf4f6";
+
+        /// <summary>
         /// fa-maxcdn icon (f136)
         /// </summary>
         public const string Maxcdn = "\uf136";
 
         /// <summary>
-        /// fa-meanpath icon (f20c)
+        /// fa-medal icon (f5a2)
         /// </summary>
-        public const string Meanpath = "\uf20c";
+        public const string Medal = "\uf5a2";
+
+        /// <summary>
+        /// fa-medapps icon (f3c6)
+        /// </summary>
+        public const string Medapps = "\uf3c6";
 
         /// <summary>
         /// fa-medium icon (f23a)
@@ -6189,9 +9349,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Medium = "\uf23a";
 
         /// <summary>
+        /// fa-medium-m icon (f3c7)
+        /// </summary>
+        public const string MediumM = "\uf3c7";
+
+        /// <summary>
         /// fa-medkit icon (f0fa)
         /// </summary>
         public const string Medkit = "\uf0fa";
+
+        /// <summary>
+        /// fa-medrt icon (f3c8)
+        /// </summary>
+        public const string Medrt = "\uf3c8";
 
         /// <summary>
         /// fa-meetup icon (f2e0)
@@ -6199,9 +9369,34 @@ namespace Meziantou.WpfFontAwesome
         public const string Meetup = "\uf2e0";
 
         /// <summary>
-        /// fa-meh-o icon (f11a)
+        /// fa-megaport icon (f5a3)
         /// </summary>
-        public const string MehO = "\uf11a";
+        public const string Megaport = "\uf5a3";
+
+        /// <summary>
+        /// fa-meh icon (f11a)
+        /// </summary>
+        public const string Meh = "\uf11a";
+
+        /// <summary>
+        /// fa-meh-blank icon (f5a4)
+        /// </summary>
+        public const string MehBlank = "\uf5a4";
+
+        /// <summary>
+        /// fa-meh-rolling-eyes icon (f5a5)
+        /// </summary>
+        public const string MehRollingEyes = "\uf5a5";
+
+        /// <summary>
+        /// fa-memory icon (f538)
+        /// </summary>
+        public const string Memory = "\uf538";
+
+        /// <summary>
+        /// fa-menorah icon (f676)
+        /// </summary>
+        public const string Menorah = "\uf676";
 
         /// <summary>
         /// fa-mercury icon (f223)
@@ -6219,9 +9414,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Microphone = "\uf130";
 
         /// <summary>
+        /// fa-microphone-alt icon (f3c9)
+        /// </summary>
+        public const string MicrophoneAlt = "\uf3c9";
+
+        /// <summary>
+        /// fa-microphone-alt-slash icon (f539)
+        /// </summary>
+        public const string MicrophoneAltSlash = "\uf539";
+
+        /// <summary>
         /// fa-microphone-slash icon (f131)
         /// </summary>
         public const string MicrophoneSlash = "\uf131";
+
+        /// <summary>
+        /// fa-microscope icon (f610)
+        /// </summary>
+        public const string Microscope = "\uf610";
+
+        /// <summary>
+        /// fa-microsoft icon (f3ca)
+        /// </summary>
+        public const string Microsoft = "\uf3ca";
 
         /// <summary>
         /// fa-minus icon (f068)
@@ -6239,9 +9454,9 @@ namespace Meziantou.WpfFontAwesome
         public const string MinusSquare = "\uf146";
 
         /// <summary>
-        /// fa-minus-square-o icon (f147)
+        /// fa-mix icon (f3cb)
         /// </summary>
-        public const string MinusSquareO = "\uf147";
+        public const string Mix = "\uf3cb";
 
         /// <summary>
         /// fa-mixcloud icon (f289)
@@ -6249,14 +9464,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Mixcloud = "\uf289";
 
         /// <summary>
+        /// fa-mizuni icon (f3cc)
+        /// </summary>
+        public const string Mizuni = "\uf3cc";
+
+        /// <summary>
         /// fa-mobile icon (f10b)
         /// </summary>
         public const string Mobile = "\uf10b";
 
         /// <summary>
-        /// fa-mobile-phone icon (f10b)
+        /// fa-mobile-alt icon (f3cd)
         /// </summary>
-        public const string MobilePhone = "\uf10b";
+        public const string MobileAlt = "\uf3cd";
 
         /// <summary>
         /// fa-modx icon (f285)
@@ -6264,19 +9484,59 @@ namespace Meziantou.WpfFontAwesome
         public const string Modx = "\uf285";
 
         /// <summary>
-        /// fa-money icon (f0d6)
+        /// fa-monero icon (f3d0)
         /// </summary>
-        public const string Money = "\uf0d6";
+        public const string Monero = "\uf3d0";
 
         /// <summary>
-        /// fa-moon-o icon (f186)
+        /// fa-money-bill icon (f0d6)
         /// </summary>
-        public const string MoonO = "\uf186";
+        public const string MoneyBill = "\uf0d6";
 
         /// <summary>
-        /// fa-mortar-board icon (f19d)
+        /// fa-money-bill-alt icon (f3d1)
         /// </summary>
-        public const string MortarBoard = "\uf19d";
+        public const string MoneyBillAlt = "\uf3d1";
+
+        /// <summary>
+        /// fa-money-bill-wave icon (f53a)
+        /// </summary>
+        public const string MoneyBillWave = "\uf53a";
+
+        /// <summary>
+        /// fa-money-bill-wave-alt icon (f53b)
+        /// </summary>
+        public const string MoneyBillWaveAlt = "\uf53b";
+
+        /// <summary>
+        /// fa-money-check icon (f53c)
+        /// </summary>
+        public const string MoneyCheck = "\uf53c";
+
+        /// <summary>
+        /// fa-money-check-alt icon (f53d)
+        /// </summary>
+        public const string MoneyCheckAlt = "\uf53d";
+
+        /// <summary>
+        /// fa-monument icon (f5a6)
+        /// </summary>
+        public const string Monument = "\uf5a6";
+
+        /// <summary>
+        /// fa-moon icon (f186)
+        /// </summary>
+        public const string Moon = "\uf186";
+
+        /// <summary>
+        /// fa-mortar-pestle icon (f5a7)
+        /// </summary>
+        public const string MortarPestle = "\uf5a7";
+
+        /// <summary>
+        /// fa-mosque icon (f678)
+        /// </summary>
+        public const string Mosque = "\uf678";
 
         /// <summary>
         /// fa-motorcycle icon (f21c)
@@ -6294,9 +9554,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Music = "\uf001";
 
         /// <summary>
-        /// fa-navicon icon (f0c9)
+        /// fa-napster icon (f3d2)
         /// </summary>
-        public const string Navicon = "\uf0c9";
+        public const string Napster = "\uf3d2";
+
+        /// <summary>
+        /// fa-neos icon (f612)
+        /// </summary>
+        public const string Neos = "\uf612";
 
         /// <summary>
         /// fa-neuter icon (f22c)
@@ -6304,9 +9569,54 @@ namespace Meziantou.WpfFontAwesome
         public const string Neuter = "\uf22c";
 
         /// <summary>
-        /// fa-newspaper-o icon (f1ea)
+        /// fa-newspaper icon (f1ea)
         /// </summary>
-        public const string NewspaperO = "\uf1ea";
+        public const string Newspaper = "\uf1ea";
+
+        /// <summary>
+        /// fa-nimblr icon (f5a8)
+        /// </summary>
+        public const string Nimblr = "\uf5a8";
+
+        /// <summary>
+        /// fa-nintendo-switch icon (f418)
+        /// </summary>
+        public const string NintendoSwitch = "\uf418";
+
+        /// <summary>
+        /// fa-node icon (f419)
+        /// </summary>
+        public const string Node = "\uf419";
+
+        /// <summary>
+        /// fa-node-js icon (f3d3)
+        /// </summary>
+        public const string NodeJs = "\uf3d3";
+
+        /// <summary>
+        /// fa-not-equal icon (f53e)
+        /// </summary>
+        public const string NotEqual = "\uf53e";
+
+        /// <summary>
+        /// fa-notes-medical icon (f481)
+        /// </summary>
+        public const string NotesMedical = "\uf481";
+
+        /// <summary>
+        /// fa-npm icon (f3d4)
+        /// </summary>
+        public const string Npm = "\uf3d4";
+
+        /// <summary>
+        /// fa-ns8 icon (f3d5)
+        /// </summary>
+        public const string Ns8 = "\uf3d5";
+
+        /// <summary>
+        /// fa-nutritionix icon (f3d6)
+        /// </summary>
+        public const string Nutritionix = "\uf3d6";
 
         /// <summary>
         /// fa-object-group icon (f247)
@@ -6329,6 +9639,21 @@ namespace Meziantou.WpfFontAwesome
         public const string OdnoklassnikiSquare = "\uf264";
 
         /// <summary>
+        /// fa-oil-can icon (f613)
+        /// </summary>
+        public const string OilCan = "\uf613";
+
+        /// <summary>
+        /// fa-old-republic icon (f510)
+        /// </summary>
+        public const string OldRepublic = "\uf510";
+
+        /// <summary>
+        /// fa-om icon (f679)
+        /// </summary>
+        public const string Om = "\uf679";
+
+        /// <summary>
         /// fa-opencart icon (f23d)
         /// </summary>
         public const string Opencart = "\uf23d";
@@ -6349,9 +9674,19 @@ namespace Meziantou.WpfFontAwesome
         public const string OptinMonster = "\uf23c";
 
         /// <summary>
+        /// fa-osi icon (f41a)
+        /// </summary>
+        public const string Osi = "\uf41a";
+
+        /// <summary>
         /// fa-outdent icon (f03b)
         /// </summary>
         public const string Outdent = "\uf03b";
+
+        /// <summary>
+        /// fa-page4 icon (f3d7)
+        /// </summary>
+        public const string Page4 = "\uf3d7";
 
         /// <summary>
         /// fa-pagelines icon (f18c)
@@ -6364,14 +9699,29 @@ namespace Meziantou.WpfFontAwesome
         public const string PaintBrush = "\uf1fc";
 
         /// <summary>
+        /// fa-paint-roller icon (f5aa)
+        /// </summary>
+        public const string PaintRoller = "\uf5aa";
+
+        /// <summary>
+        /// fa-palette icon (f53f)
+        /// </summary>
+        public const string Palette = "\uf53f";
+
+        /// <summary>
+        /// fa-palfed icon (f3d8)
+        /// </summary>
+        public const string Palfed = "\uf3d8";
+
+        /// <summary>
+        /// fa-pallet icon (f482)
+        /// </summary>
+        public const string Pallet = "\uf482";
+
+        /// <summary>
         /// fa-paper-plane icon (f1d8)
         /// </summary>
         public const string PaperPlane = "\uf1d8";
-
-        /// <summary>
-        /// fa-paper-plane-o icon (f1d9)
-        /// </summary>
-        public const string PaperPlaneO = "\uf1d9";
 
         /// <summary>
         /// fa-paperclip icon (f0c6)
@@ -6379,14 +9729,39 @@ namespace Meziantou.WpfFontAwesome
         public const string Paperclip = "\uf0c6";
 
         /// <summary>
+        /// fa-parachute-box icon (f4cd)
+        /// </summary>
+        public const string ParachuteBox = "\uf4cd";
+
+        /// <summary>
         /// fa-paragraph icon (f1dd)
         /// </summary>
         public const string Paragraph = "\uf1dd";
 
         /// <summary>
+        /// fa-parking icon (f540)
+        /// </summary>
+        public const string Parking = "\uf540";
+
+        /// <summary>
+        /// fa-passport icon (f5ab)
+        /// </summary>
+        public const string Passport = "\uf5ab";
+
+        /// <summary>
+        /// fa-pastafarianism icon (f67b)
+        /// </summary>
+        public const string Pastafarianism = "\uf67b";
+
+        /// <summary>
         /// fa-paste icon (f0ea)
         /// </summary>
         public const string Paste = "\uf0ea";
+
+        /// <summary>
+        /// fa-patreon icon (f3d9)
+        /// </summary>
+        public const string Patreon = "\uf3d9";
 
         /// <summary>
         /// fa-pause icon (f04c)
@@ -6399,11 +9774,6 @@ namespace Meziantou.WpfFontAwesome
         public const string PauseCircle = "\uf28b";
 
         /// <summary>
-        /// fa-pause-circle-o icon (f28c)
-        /// </summary>
-        public const string PauseCircleO = "\uf28c";
-
-        /// <summary>
         /// fa-paw icon (f1b0)
         /// </summary>
         public const string Paw = "\uf1b0";
@@ -6414,19 +9784,49 @@ namespace Meziantou.WpfFontAwesome
         public const string Paypal = "\uf1ed";
 
         /// <summary>
-        /// fa-pencil icon (f040)
+        /// fa-peace icon (f67c)
         /// </summary>
-        public const string Pencil = "\uf040";
+        public const string Peace = "\uf67c";
 
         /// <summary>
-        /// fa-pencil-square icon (f14b)
+        /// fa-pen icon (f304)
         /// </summary>
-        public const string PencilSquare = "\uf14b";
+        public const string Pen = "\uf304";
 
         /// <summary>
-        /// fa-pencil-square-o icon (f044)
+        /// fa-pen-alt icon (f305)
         /// </summary>
-        public const string PencilSquareO = "\uf044";
+        public const string PenAlt = "\uf305";
+
+        /// <summary>
+        /// fa-pen-fancy icon (f5ac)
+        /// </summary>
+        public const string PenFancy = "\uf5ac";
+
+        /// <summary>
+        /// fa-pen-nib icon (f5ad)
+        /// </summary>
+        public const string PenNib = "\uf5ad";
+
+        /// <summary>
+        /// fa-pen-square icon (f14b)
+        /// </summary>
+        public const string PenSquare = "\uf14b";
+
+        /// <summary>
+        /// fa-pencil-alt icon (f303)
+        /// </summary>
+        public const string PencilAlt = "\uf303";
+
+        /// <summary>
+        /// fa-pencil-ruler icon (f5ae)
+        /// </summary>
+        public const string PencilRuler = "\uf5ae";
+
+        /// <summary>
+        /// fa-people-carry icon (f4ce)
+        /// </summary>
+        public const string PeopleCarry = "\uf4ce";
 
         /// <summary>
         /// fa-percent icon (f295)
@@ -6434,9 +9834,39 @@ namespace Meziantou.WpfFontAwesome
         public const string Percent = "\uf295";
 
         /// <summary>
+        /// fa-percentage icon (f541)
+        /// </summary>
+        public const string Percentage = "\uf541";
+
+        /// <summary>
+        /// fa-periscope icon (f3da)
+        /// </summary>
+        public const string Periscope = "\uf3da";
+
+        /// <summary>
+        /// fa-phabricator icon (f3db)
+        /// </summary>
+        public const string Phabricator = "\uf3db";
+
+        /// <summary>
+        /// fa-phoenix-framework icon (f3dc)
+        /// </summary>
+        public const string PhoenixFramework = "\uf3dc";
+
+        /// <summary>
+        /// fa-phoenix-squadron icon (f511)
+        /// </summary>
+        public const string PhoenixSquadron = "\uf511";
+
+        /// <summary>
         /// fa-phone icon (f095)
         /// </summary>
         public const string Phone = "\uf095";
+
+        /// <summary>
+        /// fa-phone-slash icon (f3dd)
+        /// </summary>
+        public const string PhoneSlash = "\uf3dd";
 
         /// <summary>
         /// fa-phone-square icon (f098)
@@ -6444,19 +9874,14 @@ namespace Meziantou.WpfFontAwesome
         public const string PhoneSquare = "\uf098";
 
         /// <summary>
-        /// fa-photo icon (f03e)
+        /// fa-phone-volume icon (f2a0)
         /// </summary>
-        public const string Photo = "\uf03e";
+        public const string PhoneVolume = "\uf2a0";
 
         /// <summary>
-        /// fa-picture-o icon (f03e)
+        /// fa-php icon (f457)
         /// </summary>
-        public const string PictureO = "\uf03e";
-
-        /// <summary>
-        /// fa-pie-chart icon (f200)
-        /// </summary>
-        public const string PieChart = "\uf200";
+        public const string Php = "\uf457";
 
         /// <summary>
         /// fa-pied-piper icon (f2ae)
@@ -6469,9 +9894,24 @@ namespace Meziantou.WpfFontAwesome
         public const string PiedPiperAlt = "\uf1a8";
 
         /// <summary>
+        /// fa-pied-piper-hat icon (f4e5)
+        /// </summary>
+        public const string PiedPiperHat = "\uf4e5";
+
+        /// <summary>
         /// fa-pied-piper-pp icon (f1a7)
         /// </summary>
         public const string PiedPiperPp = "\uf1a7";
+
+        /// <summary>
+        /// fa-piggy-bank icon (f4d3)
+        /// </summary>
+        public const string PiggyBank = "\uf4d3";
+
+        /// <summary>
+        /// fa-pills icon (f484)
+        /// </summary>
+        public const string Pills = "\uf484";
 
         /// <summary>
         /// fa-pinterest icon (f0d2)
@@ -6489,9 +9929,24 @@ namespace Meziantou.WpfFontAwesome
         public const string PinterestSquare = "\uf0d3";
 
         /// <summary>
+        /// fa-place-of-worship icon (f67f)
+        /// </summary>
+        public const string PlaceOfWorship = "\uf67f";
+
+        /// <summary>
         /// fa-plane icon (f072)
         /// </summary>
         public const string Plane = "\uf072";
+
+        /// <summary>
+        /// fa-plane-arrival icon (f5af)
+        /// </summary>
+        public const string PlaneArrival = "\uf5af";
+
+        /// <summary>
+        /// fa-plane-departure icon (f5b0)
+        /// </summary>
+        public const string PlaneDeparture = "\uf5b0";
 
         /// <summary>
         /// fa-play icon (f04b)
@@ -6504,9 +9959,9 @@ namespace Meziantou.WpfFontAwesome
         public const string PlayCircle = "\uf144";
 
         /// <summary>
-        /// fa-play-circle-o icon (f01d)
+        /// fa-playstation icon (f3df)
         /// </summary>
-        public const string PlayCircleO = "\uf01d";
+        public const string Playstation = "\uf3df";
 
         /// <summary>
         /// fa-plug icon (f1e6)
@@ -6529,14 +9984,39 @@ namespace Meziantou.WpfFontAwesome
         public const string PlusSquare = "\uf0fe";
 
         /// <summary>
-        /// fa-plus-square-o icon (f196)
-        /// </summary>
-        public const string PlusSquareO = "\uf196";
-
-        /// <summary>
         /// fa-podcast icon (f2ce)
         /// </summary>
         public const string Podcast = "\uf2ce";
+
+        /// <summary>
+        /// fa-poll icon (f681)
+        /// </summary>
+        public const string Poll = "\uf681";
+
+        /// <summary>
+        /// fa-poll-h icon (f682)
+        /// </summary>
+        public const string PollH = "\uf682";
+
+        /// <summary>
+        /// fa-poo icon (f2fe)
+        /// </summary>
+        public const string Poo = "\uf2fe";
+
+        /// <summary>
+        /// fa-poop icon (f619)
+        /// </summary>
+        public const string Poop = "\uf619";
+
+        /// <summary>
+        /// fa-portrait icon (f3e0)
+        /// </summary>
+        public const string Portrait = "\uf3e0";
+
+        /// <summary>
+        /// fa-pound-sign icon (f154)
+        /// </summary>
+        public const string PoundSign = "\uf154";
 
         /// <summary>
         /// fa-power-off icon (f011)
@@ -6544,9 +10024,39 @@ namespace Meziantou.WpfFontAwesome
         public const string PowerOff = "\uf011";
 
         /// <summary>
+        /// fa-pray icon (f683)
+        /// </summary>
+        public const string Pray = "\uf683";
+
+        /// <summary>
+        /// fa-praying-hands icon (f684)
+        /// </summary>
+        public const string PrayingHands = "\uf684";
+
+        /// <summary>
+        /// fa-prescription icon (f5b1)
+        /// </summary>
+        public const string Prescription = "\uf5b1";
+
+        /// <summary>
+        /// fa-prescription-bottle icon (f485)
+        /// </summary>
+        public const string PrescriptionBottle = "\uf485";
+
+        /// <summary>
+        /// fa-prescription-bottle-alt icon (f486)
+        /// </summary>
+        public const string PrescriptionBottleAlt = "\uf486";
+
+        /// <summary>
         /// fa-print icon (f02f)
         /// </summary>
         public const string Print = "\uf02f";
+
+        /// <summary>
+        /// fa-procedures icon (f487)
+        /// </summary>
+        public const string Procedures = "\uf487";
 
         /// <summary>
         /// fa-product-hunt icon (f288)
@@ -6554,9 +10064,24 @@ namespace Meziantou.WpfFontAwesome
         public const string ProductHunt = "\uf288";
 
         /// <summary>
+        /// fa-project-diagram icon (f542)
+        /// </summary>
+        public const string ProjectDiagram = "\uf542";
+
+        /// <summary>
+        /// fa-pushed icon (f3e1)
+        /// </summary>
+        public const string Pushed = "\uf3e1";
+
+        /// <summary>
         /// fa-puzzle-piece icon (f12e)
         /// </summary>
         public const string PuzzlePiece = "\uf12e";
+
+        /// <summary>
+        /// fa-python icon (f3e2)
+        /// </summary>
+        public const string Python = "\uf3e2";
 
         /// <summary>
         /// fa-qq icon (f1d6)
@@ -6579,9 +10104,14 @@ namespace Meziantou.WpfFontAwesome
         public const string QuestionCircle = "\uf059";
 
         /// <summary>
-        /// fa-question-circle-o icon (f29c)
+        /// fa-quidditch icon (f458)
         /// </summary>
-        public const string QuestionCircleO = "\uf29c";
+        public const string Quidditch = "\uf458";
+
+        /// <summary>
+        /// fa-quinscape icon (f459)
+        /// </summary>
+        public const string Quinscape = "\uf459";
 
         /// <summary>
         /// fa-quora icon (f2c4)
@@ -6599,9 +10129,14 @@ namespace Meziantou.WpfFontAwesome
         public const string QuoteRight = "\uf10e";
 
         /// <summary>
-        /// fa-ra icon (f1d0)
+        /// fa-quran icon (f687)
         /// </summary>
-        public const string Ra = "\uf1d0";
+        public const string Quran = "\uf687";
+
+        /// <summary>
+        /// fa-r-project icon (f4f7)
+        /// </summary>
+        public const string RProject = "\uf4f7";
 
         /// <summary>
         /// fa-random icon (f074)
@@ -6614,14 +10149,34 @@ namespace Meziantou.WpfFontAwesome
         public const string Ravelry = "\uf2d9";
 
         /// <summary>
+        /// fa-react icon (f41b)
+        /// </summary>
+        public const string React = "\uf41b";
+
+        /// <summary>
+        /// fa-readme icon (f4d5)
+        /// </summary>
+        public const string Readme = "\uf4d5";
+
+        /// <summary>
         /// fa-rebel icon (f1d0)
         /// </summary>
         public const string Rebel = "\uf1d0";
 
         /// <summary>
+        /// fa-receipt icon (f543)
+        /// </summary>
+        public const string Receipt = "\uf543";
+
+        /// <summary>
         /// fa-recycle icon (f1b8)
         /// </summary>
         public const string Recycle = "\uf1b8";
+
+        /// <summary>
+        /// fa-red-river icon (f3e3)
+        /// </summary>
+        public const string RedRiver = "\uf3e3";
 
         /// <summary>
         /// fa-reddit icon (f1a1)
@@ -6639,9 +10194,14 @@ namespace Meziantou.WpfFontAwesome
         public const string RedditSquare = "\uf1a2";
 
         /// <summary>
-        /// fa-refresh icon (f021)
+        /// fa-redo icon (f01e)
         /// </summary>
-        public const string Refresh = "\uf021";
+        public const string Redo = "\uf01e";
+
+        /// <summary>
+        /// fa-redo-alt icon (f2f9)
+        /// </summary>
+        public const string RedoAlt = "\uf2f9";
 
         /// <summary>
         /// fa-registered icon (f25d)
@@ -6649,9 +10209,9 @@ namespace Meziantou.WpfFontAwesome
         public const string Registered = "\uf25d";
 
         /// <summary>
-        /// fa-remove icon (f00d)
+        /// fa-rendact icon (f3e4)
         /// </summary>
-        public const string Remove = "\uf00d";
+        public const string Rendact = "\uf3e4";
 
         /// <summary>
         /// fa-renren icon (f18b)
@@ -6659,19 +10219,9 @@ namespace Meziantou.WpfFontAwesome
         public const string Renren = "\uf18b";
 
         /// <summary>
-        /// fa-reorder icon (f0c9)
+        /// fa-reply icon (f3e5)
         /// </summary>
-        public const string Reorder = "\uf0c9";
-
-        /// <summary>
-        /// fa-repeat icon (f01e)
-        /// </summary>
-        public const string Repeat = "\uf01e";
-
-        /// <summary>
-        /// fa-reply icon (f112)
-        /// </summary>
-        public const string Reply = "\uf112";
+        public const string Reply = "\uf3e5";
 
         /// <summary>
         /// fa-reply-all icon (f122)
@@ -6679,9 +10229,19 @@ namespace Meziantou.WpfFontAwesome
         public const string ReplyAll = "\uf122";
 
         /// <summary>
-        /// fa-resistance icon (f1d0)
+        /// fa-replyd icon (f3e6)
         /// </summary>
-        public const string Resistance = "\uf1d0";
+        public const string Replyd = "\uf3e6";
+
+        /// <summary>
+        /// fa-researchgate icon (f4f8)
+        /// </summary>
+        public const string Researchgate = "\uf4f8";
+
+        /// <summary>
+        /// fa-resolving icon (f3e7)
+        /// </summary>
+        public const string Resolving = "\uf3e7";
 
         /// <summary>
         /// fa-retweet icon (f079)
@@ -6689,9 +10249,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Retweet = "\uf079";
 
         /// <summary>
-        /// fa-rmb icon (f157)
+        /// fa-rev icon (f5b2)
         /// </summary>
-        public const string Rmb = "\uf157";
+        public const string Rev = "\uf5b2";
+
+        /// <summary>
+        /// fa-ribbon icon (f4d6)
+        /// </summary>
+        public const string Ribbon = "\uf4d6";
 
         /// <summary>
         /// fa-road icon (f018)
@@ -6699,24 +10264,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Road = "\uf018";
 
         /// <summary>
+        /// fa-robot icon (f544)
+        /// </summary>
+        public const string Robot = "\uf544";
+
+        /// <summary>
         /// fa-rocket icon (f135)
         /// </summary>
         public const string Rocket = "\uf135";
 
         /// <summary>
-        /// fa-rotate-left icon (f0e2)
+        /// fa-rocketchat icon (f3e8)
         /// </summary>
-        public const string RotateLeft = "\uf0e2";
+        public const string Rocketchat = "\uf3e8";
 
         /// <summary>
-        /// fa-rotate-right icon (f01e)
+        /// fa-rockrms icon (f3e9)
         /// </summary>
-        public const string RotateRight = "\uf01e";
+        public const string Rockrms = "\uf3e9";
 
         /// <summary>
-        /// fa-rouble icon (f158)
+        /// fa-route icon (f4d7)
         /// </summary>
-        public const string Rouble = "\uf158";
+        public const string Route = "\uf4d7";
 
         /// <summary>
         /// fa-rss icon (f09e)
@@ -6729,24 +10299,44 @@ namespace Meziantou.WpfFontAwesome
         public const string RssSquare = "\uf143";
 
         /// <summary>
-        /// fa-rub icon (f158)
+        /// fa-ruble-sign icon (f158)
         /// </summary>
-        public const string Rub = "\uf158";
+        public const string RubleSign = "\uf158";
 
         /// <summary>
-        /// fa-ruble icon (f158)
+        /// fa-ruler icon (f545)
         /// </summary>
-        public const string Ruble = "\uf158";
+        public const string Ruler = "\uf545";
 
         /// <summary>
-        /// fa-rupee icon (f156)
+        /// fa-ruler-combined icon (f546)
         /// </summary>
-        public const string Rupee = "\uf156";
+        public const string RulerCombined = "\uf546";
 
         /// <summary>
-        /// fa-s15 icon (f2cd)
+        /// fa-ruler-horizontal icon (f547)
         /// </summary>
-        public const string S15 = "\uf2cd";
+        public const string RulerHorizontal = "\uf547";
+
+        /// <summary>
+        /// fa-ruler-vertical icon (f548)
+        /// </summary>
+        public const string RulerVertical = "\uf548";
+
+        /// <summary>
+        /// fa-rupee-sign icon (f156)
+        /// </summary>
+        public const string RupeeSign = "\uf156";
+
+        /// <summary>
+        /// fa-sad-cry icon (f5b3)
+        /// </summary>
+        public const string SadCry = "\uf5b3";
+
+        /// <summary>
+        /// fa-sad-tear icon (f5b4)
+        /// </summary>
+        public const string SadTear = "\uf5b4";
 
         /// <summary>
         /// fa-safari icon (f267)
@@ -6754,14 +10344,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Safari = "\uf267";
 
         /// <summary>
+        /// fa-sass icon (f41e)
+        /// </summary>
+        public const string Sass = "\uf41e";
+
+        /// <summary>
         /// fa-save icon (f0c7)
         /// </summary>
         public const string Save = "\uf0c7";
 
         /// <summary>
-        /// fa-scissors icon (f0c4)
+        /// fa-schlix icon (f3ea)
         /// </summary>
-        public const string Scissors = "\uf0c4";
+        public const string Schlix = "\uf3ea";
+
+        /// <summary>
+        /// fa-school icon (f549)
+        /// </summary>
+        public const string School = "\uf549";
+
+        /// <summary>
+        /// fa-screwdriver icon (f54a)
+        /// </summary>
+        public const string Screwdriver = "\uf54a";
 
         /// <summary>
         /// fa-scribd icon (f28a)
@@ -6774,6 +10379,16 @@ namespace Meziantou.WpfFontAwesome
         public const string Search = "\uf002";
 
         /// <summary>
+        /// fa-search-dollar icon (f688)
+        /// </summary>
+        public const string SearchDollar = "\uf688";
+
+        /// <summary>
+        /// fa-search-location icon (f689)
+        /// </summary>
+        public const string SearchLocation = "\uf689";
+
+        /// <summary>
         /// fa-search-minus icon (f010)
         /// </summary>
         public const string SearchMinus = "\uf010";
@@ -6784,24 +10399,39 @@ namespace Meziantou.WpfFontAwesome
         public const string SearchPlus = "\uf00e";
 
         /// <summary>
+        /// fa-searchengin icon (f3eb)
+        /// </summary>
+        public const string Searchengin = "\uf3eb";
+
+        /// <summary>
+        /// fa-seedling icon (f4d8)
+        /// </summary>
+        public const string Seedling = "\uf4d8";
+
+        /// <summary>
+        /// fa-sellcast icon (f2da)
+        /// </summary>
+        public const string Sellcast = "\uf2da";
+
+        /// <summary>
         /// fa-sellsy icon (f213)
         /// </summary>
         public const string Sellsy = "\uf213";
 
         /// <summary>
-        /// fa-send icon (f1d8)
-        /// </summary>
-        public const string Send = "\uf1d8";
-
-        /// <summary>
-        /// fa-send-o icon (f1d9)
-        /// </summary>
-        public const string SendO = "\uf1d9";
-
-        /// <summary>
         /// fa-server icon (f233)
         /// </summary>
         public const string Server = "\uf233";
+
+        /// <summary>
+        /// fa-servicestack icon (f3ec)
+        /// </summary>
+        public const string Servicestack = "\uf3ec";
+
+        /// <summary>
+        /// fa-shapes icon (f61f)
+        /// </summary>
+        public const string Shapes = "\uf61f";
 
         /// <summary>
         /// fa-share icon (f064)
@@ -6824,24 +10454,14 @@ namespace Meziantou.WpfFontAwesome
         public const string ShareSquare = "\uf14d";
 
         /// <summary>
-        /// fa-share-square-o icon (f045)
+        /// fa-shekel-sign icon (f20b)
         /// </summary>
-        public const string ShareSquareO = "\uf045";
+        public const string ShekelSign = "\uf20b";
 
         /// <summary>
-        /// fa-shekel icon (f20b)
+        /// fa-shield-alt icon (f3ed)
         /// </summary>
-        public const string Shekel = "\uf20b";
-
-        /// <summary>
-        /// fa-sheqel icon (f20b)
-        /// </summary>
-        public const string Sheqel = "\uf20b";
-
-        /// <summary>
-        /// fa-shield icon (f132)
-        /// </summary>
-        public const string Shield = "\uf132";
+        public const string ShieldAlt = "\uf3ed";
 
         /// <summary>
         /// fa-ship icon (f21a)
@@ -6849,9 +10469,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Ship = "\uf21a";
 
         /// <summary>
+        /// fa-shipping-fast icon (f48b)
+        /// </summary>
+        public const string ShippingFast = "\uf48b";
+
+        /// <summary>
         /// fa-shirtsinbulk icon (f214)
         /// </summary>
         public const string Shirtsinbulk = "\uf214";
+
+        /// <summary>
+        /// fa-shoe-prints icon (f54b)
+        /// </summary>
+        public const string ShoePrints = "\uf54b";
 
         /// <summary>
         /// fa-shopping-bag icon (f290)
@@ -6869,14 +10499,29 @@ namespace Meziantou.WpfFontAwesome
         public const string ShoppingCart = "\uf07a";
 
         /// <summary>
+        /// fa-shopware icon (f5b5)
+        /// </summary>
+        public const string Shopware = "\uf5b5";
+
+        /// <summary>
         /// fa-shower icon (f2cc)
         /// </summary>
         public const string Shower = "\uf2cc";
 
         /// <summary>
-        /// fa-sign-in icon (f090)
+        /// fa-shuttle-van icon (f5b6)
         /// </summary>
-        public const string SignIn = "\uf090";
+        public const string ShuttleVan = "\uf5b6";
+
+        /// <summary>
+        /// fa-sign icon (f4d9)
+        /// </summary>
+        public const string Sign = "\uf4d9";
+
+        /// <summary>
+        /// fa-sign-in-alt icon (f2f6)
+        /// </summary>
+        public const string SignInAlt = "\uf2f6";
 
         /// <summary>
         /// fa-sign-language icon (f2a7)
@@ -6884,9 +10529,9 @@ namespace Meziantou.WpfFontAwesome
         public const string SignLanguage = "\uf2a7";
 
         /// <summary>
-        /// fa-sign-out icon (f08b)
+        /// fa-sign-out-alt icon (f2f5)
         /// </summary>
-        public const string SignOut = "\uf08b";
+        public const string SignOutAlt = "\uf2f5";
 
         /// <summary>
         /// fa-signal icon (f012)
@@ -6894,9 +10539,9 @@ namespace Meziantou.WpfFontAwesome
         public const string Signal = "\uf012";
 
         /// <summary>
-        /// fa-signing icon (f2a7)
+        /// fa-signature icon (f5b7)
         /// </summary>
-        public const string Signing = "\uf2a7";
+        public const string Signature = "\uf5b7";
 
         /// <summary>
         /// fa-simplybuilt icon (f215)
@@ -6904,9 +10549,24 @@ namespace Meziantou.WpfFontAwesome
         public const string Simplybuilt = "\uf215";
 
         /// <summary>
+        /// fa-sistrix icon (f3ee)
+        /// </summary>
+        public const string Sistrix = "\uf3ee";
+
+        /// <summary>
         /// fa-sitemap icon (f0e8)
         /// </summary>
         public const string Sitemap = "\uf0e8";
+
+        /// <summary>
+        /// fa-sith icon (f512)
+        /// </summary>
+        public const string Sith = "\uf512";
+
+        /// <summary>
+        /// fa-skull icon (f54c)
+        /// </summary>
+        public const string Skull = "\uf54c";
 
         /// <summary>
         /// fa-skyatlas icon (f216)
@@ -6924,9 +10584,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Slack = "\uf198";
 
         /// <summary>
-        /// fa-sliders icon (f1de)
+        /// fa-slack-hash icon (f3ef)
         /// </summary>
-        public const string Sliders = "\uf1de";
+        public const string SlackHash = "\uf3ef";
+
+        /// <summary>
+        /// fa-sliders-h icon (f1de)
+        /// </summary>
+        public const string SlidersH = "\uf1de";
 
         /// <summary>
         /// fa-slideshare icon (f1e7)
@@ -6934,9 +10599,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Slideshare = "\uf1e7";
 
         /// <summary>
-        /// fa-smile-o icon (f118)
+        /// fa-smile icon (f118)
         /// </summary>
-        public const string SmileO = "\uf118";
+        public const string Smile = "\uf118";
+
+        /// <summary>
+        /// fa-smile-beam icon (f5b8)
+        /// </summary>
+        public const string SmileBeam = "\uf5b8";
+
+        /// <summary>
+        /// fa-smile-wink icon (f4da)
+        /// </summary>
+        public const string SmileWink = "\uf4da";
+
+        /// <summary>
+        /// fa-smoking icon (f48d)
+        /// </summary>
+        public const string Smoking = "\uf48d";
+
+        /// <summary>
+        /// fa-smoking-ban icon (f54d)
+        /// </summary>
+        public const string SmokingBan = "\uf54d";
 
         /// <summary>
         /// fa-snapchat icon (f2ab)
@@ -6954,14 +10639,19 @@ namespace Meziantou.WpfFontAwesome
         public const string SnapchatSquare = "\uf2ad";
 
         /// <summary>
-        /// fa-snowflake-o icon (f2dc)
+        /// fa-snowflake icon (f2dc)
         /// </summary>
-        public const string SnowflakeO = "\uf2dc";
+        public const string Snowflake = "\uf2dc";
 
         /// <summary>
-        /// fa-soccer-ball-o icon (f1e3)
+        /// fa-socks icon (f696)
         /// </summary>
-        public const string SoccerBallO = "\uf1e3";
+        public const string Socks = "\uf696";
+
+        /// <summary>
+        /// fa-solar-panel icon (f5ba)
+        /// </summary>
+        public const string SolarPanel = "\uf5ba";
 
         /// <summary>
         /// fa-sort icon (f0dc)
@@ -6969,34 +10659,24 @@ namespace Meziantou.WpfFontAwesome
         public const string Sort = "\uf0dc";
 
         /// <summary>
-        /// fa-sort-alpha-asc icon (f15d)
+        /// fa-sort-alpha-down icon (f15d)
         /// </summary>
-        public const string SortAlphaAsc = "\uf15d";
+        public const string SortAlphaDown = "\uf15d";
 
         /// <summary>
-        /// fa-sort-alpha-desc icon (f15e)
+        /// fa-sort-alpha-up icon (f15e)
         /// </summary>
-        public const string SortAlphaDesc = "\uf15e";
+        public const string SortAlphaUp = "\uf15e";
 
         /// <summary>
-        /// fa-sort-amount-asc icon (f160)
+        /// fa-sort-amount-down icon (f160)
         /// </summary>
-        public const string SortAmountAsc = "\uf160";
+        public const string SortAmountDown = "\uf160";
 
         /// <summary>
-        /// fa-sort-amount-desc icon (f161)
+        /// fa-sort-amount-up icon (f161)
         /// </summary>
-        public const string SortAmountDesc = "\uf161";
-
-        /// <summary>
-        /// fa-sort-asc icon (f0de)
-        /// </summary>
-        public const string SortAsc = "\uf0de";
-
-        /// <summary>
-        /// fa-sort-desc icon (f0dd)
-        /// </summary>
-        public const string SortDesc = "\uf0dd";
+        public const string SortAmountUp = "\uf161";
 
         /// <summary>
         /// fa-sort-down icon (f0dd)
@@ -7004,14 +10684,14 @@ namespace Meziantou.WpfFontAwesome
         public const string SortDown = "\uf0dd";
 
         /// <summary>
-        /// fa-sort-numeric-asc icon (f162)
+        /// fa-sort-numeric-down icon (f162)
         /// </summary>
-        public const string SortNumericAsc = "\uf162";
+        public const string SortNumericDown = "\uf162";
 
         /// <summary>
-        /// fa-sort-numeric-desc icon (f163)
+        /// fa-sort-numeric-up icon (f163)
         /// </summary>
-        public const string SortNumericDesc = "\uf163";
+        public const string SortNumericUp = "\uf163";
 
         /// <summary>
         /// fa-sort-up icon (f0de)
@@ -7024,9 +10704,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Soundcloud = "\uf1be";
 
         /// <summary>
+        /// fa-spa icon (f5bb)
+        /// </summary>
+        public const string Spa = "\uf5bb";
+
+        /// <summary>
         /// fa-space-shuttle icon (f197)
         /// </summary>
         public const string SpaceShuttle = "\uf197";
+
+        /// <summary>
+        /// fa-speakap icon (f3f3)
+        /// </summary>
+        public const string Speakap = "\uf3f3";
 
         /// <summary>
         /// fa-spinner icon (f110)
@@ -7034,9 +10724,9 @@ namespace Meziantou.WpfFontAwesome
         public const string Spinner = "\uf110";
 
         /// <summary>
-        /// fa-spoon icon (f1b1)
+        /// fa-splotch icon (f5bc)
         /// </summary>
-        public const string Spoon = "\uf1b1";
+        public const string Splotch = "\uf5bc";
 
         /// <summary>
         /// fa-spotify icon (f1bc)
@@ -7044,14 +10734,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Spotify = "\uf1bc";
 
         /// <summary>
+        /// fa-spray-can icon (f5bd)
+        /// </summary>
+        public const string SprayCan = "\uf5bd";
+
+        /// <summary>
         /// fa-square icon (f0c8)
         /// </summary>
         public const string Square = "\uf0c8";
 
         /// <summary>
-        /// fa-square-o icon (f096)
+        /// fa-square-full icon (f45c)
         /// </summary>
-        public const string SquareO = "\uf096";
+        public const string SquareFull = "\uf45c";
+
+        /// <summary>
+        /// fa-square-root-alt icon (f698)
+        /// </summary>
+        public const string SquareRootAlt = "\uf698";
+
+        /// <summary>
+        /// fa-squarespace icon (f5be)
+        /// </summary>
+        public const string Squarespace = "\uf5be";
 
         /// <summary>
         /// fa-stack-exchange icon (f18d)
@@ -7064,9 +10769,19 @@ namespace Meziantou.WpfFontAwesome
         public const string StackOverflow = "\uf16c";
 
         /// <summary>
+        /// fa-stamp icon (f5bf)
+        /// </summary>
+        public const string Stamp = "\uf5bf";
+
+        /// <summary>
         /// fa-star icon (f005)
         /// </summary>
         public const string Star = "\uf005";
+
+        /// <summary>
+        /// fa-star-and-crescent icon (f699)
+        /// </summary>
+        public const string StarAndCrescent = "\uf699";
 
         /// <summary>
         /// fa-star-half icon (f089)
@@ -7074,24 +10789,24 @@ namespace Meziantou.WpfFontAwesome
         public const string StarHalf = "\uf089";
 
         /// <summary>
-        /// fa-star-half-empty icon (f123)
+        /// fa-star-half-alt icon (f5c0)
         /// </summary>
-        public const string StarHalfEmpty = "\uf123";
+        public const string StarHalfAlt = "\uf5c0";
 
         /// <summary>
-        /// fa-star-half-full icon (f123)
+        /// fa-star-of-david icon (f69a)
         /// </summary>
-        public const string StarHalfFull = "\uf123";
+        public const string StarOfDavid = "\uf69a";
 
         /// <summary>
-        /// fa-star-half-o icon (f123)
+        /// fa-star-of-life icon (f621)
         /// </summary>
-        public const string StarHalfO = "\uf123";
+        public const string StarOfLife = "\uf621";
 
         /// <summary>
-        /// fa-star-o icon (f006)
+        /// fa-staylinked icon (f3f5)
         /// </summary>
-        public const string StarO = "\uf006";
+        public const string Staylinked = "\uf3f5";
 
         /// <summary>
         /// fa-steam icon (f1b6)
@@ -7102,6 +10817,11 @@ namespace Meziantou.WpfFontAwesome
         /// fa-steam-square icon (f1b7)
         /// </summary>
         public const string SteamSquare = "\uf1b7";
+
+        /// <summary>
+        /// fa-steam-symbol icon (f3f6)
+        /// </summary>
+        public const string SteamSymbol = "\uf3f6";
 
         /// <summary>
         /// fa-step-backward icon (f048)
@@ -7119,14 +10839,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Stethoscope = "\uf0f1";
 
         /// <summary>
+        /// fa-sticker-mule icon (f3f7)
+        /// </summary>
+        public const string StickerMule = "\uf3f7";
+
+        /// <summary>
         /// fa-sticky-note icon (f249)
         /// </summary>
         public const string StickyNote = "\uf249";
-
-        /// <summary>
-        /// fa-sticky-note-o icon (f24a)
-        /// </summary>
-        public const string StickyNoteO = "\uf24a";
 
         /// <summary>
         /// fa-stop icon (f04d)
@@ -7139,9 +10859,29 @@ namespace Meziantou.WpfFontAwesome
         public const string StopCircle = "\uf28d";
 
         /// <summary>
-        /// fa-stop-circle-o icon (f28e)
+        /// fa-stopwatch icon (f2f2)
         /// </summary>
-        public const string StopCircleO = "\uf28e";
+        public const string Stopwatch = "\uf2f2";
+
+        /// <summary>
+        /// fa-store icon (f54e)
+        /// </summary>
+        public const string Store = "\uf54e";
+
+        /// <summary>
+        /// fa-store-alt icon (f54f)
+        /// </summary>
+        public const string StoreAlt = "\uf54f";
+
+        /// <summary>
+        /// fa-strava icon (f428)
+        /// </summary>
+        public const string Strava = "\uf428";
+
+        /// <summary>
+        /// fa-stream icon (f550)
+        /// </summary>
+        public const string Stream = "\uf550";
 
         /// <summary>
         /// fa-street-view icon (f21d)
@@ -7152,6 +10892,26 @@ namespace Meziantou.WpfFontAwesome
         /// fa-strikethrough icon (f0cc)
         /// </summary>
         public const string Strikethrough = "\uf0cc";
+
+        /// <summary>
+        /// fa-stripe icon (f429)
+        /// </summary>
+        public const string Stripe = "\uf429";
+
+        /// <summary>
+        /// fa-stripe-s icon (f42a)
+        /// </summary>
+        public const string StripeS = "\uf42a";
+
+        /// <summary>
+        /// fa-stroopwafel icon (f551)
+        /// </summary>
+        public const string Stroopwafel = "\uf551";
+
+        /// <summary>
+        /// fa-studiovinari icon (f3f8)
+        /// </summary>
+        public const string Studiovinari = "\uf3f8";
 
         /// <summary>
         /// fa-stumbleupon icon (f1a4)
@@ -7179,9 +10939,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Suitcase = "\uf0f2";
 
         /// <summary>
-        /// fa-sun-o icon (f185)
+        /// fa-suitcase-rolling icon (f5c1)
         /// </summary>
-        public const string SunO = "\uf185";
+        public const string SuitcaseRolling = "\uf5c1";
+
+        /// <summary>
+        /// fa-sun icon (f185)
+        /// </summary>
+        public const string Sun = "\uf185";
 
         /// <summary>
         /// fa-superpowers icon (f2dd)
@@ -7194,9 +10959,49 @@ namespace Meziantou.WpfFontAwesome
         public const string Superscript = "\uf12b";
 
         /// <summary>
-        /// fa-support icon (f1cd)
+        /// fa-supple icon (f3f9)
         /// </summary>
-        public const string Support = "\uf1cd";
+        public const string Supple = "\uf3f9";
+
+        /// <summary>
+        /// fa-surprise icon (f5c2)
+        /// </summary>
+        public const string Surprise = "\uf5c2";
+
+        /// <summary>
+        /// fa-swatchbook icon (f5c3)
+        /// </summary>
+        public const string Swatchbook = "\uf5c3";
+
+        /// <summary>
+        /// fa-swimmer icon (f5c4)
+        /// </summary>
+        public const string Swimmer = "\uf5c4";
+
+        /// <summary>
+        /// fa-swimming-pool icon (f5c5)
+        /// </summary>
+        public const string SwimmingPool = "\uf5c5";
+
+        /// <summary>
+        /// fa-synagogue icon (f69b)
+        /// </summary>
+        public const string Synagogue = "\uf69b";
+
+        /// <summary>
+        /// fa-sync icon (f021)
+        /// </summary>
+        public const string Sync = "\uf021";
+
+        /// <summary>
+        /// fa-sync-alt icon (f2f1)
+        /// </summary>
+        public const string SyncAlt = "\uf2f1";
+
+        /// <summary>
+        /// fa-syringe icon (f48e)
+        /// </summary>
+        public const string Syringe = "\uf48e";
 
         /// <summary>
         /// fa-table icon (f0ce)
@@ -7204,14 +11009,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Table = "\uf0ce";
 
         /// <summary>
+        /// fa-table-tennis icon (f45d)
+        /// </summary>
+        public const string TableTennis = "\uf45d";
+
+        /// <summary>
         /// fa-tablet icon (f10a)
         /// </summary>
         public const string Tablet = "\uf10a";
 
         /// <summary>
-        /// fa-tachometer icon (f0e4)
+        /// fa-tablet-alt icon (f3fa)
         /// </summary>
-        public const string Tachometer = "\uf0e4";
+        public const string TabletAlt = "\uf3fa";
+
+        /// <summary>
+        /// fa-tablets icon (f490)
+        /// </summary>
+        public const string Tablets = "\uf490";
+
+        /// <summary>
+        /// fa-tachometer-alt icon (f3fd)
+        /// </summary>
+        public const string TachometerAlt = "\uf3fd";
 
         /// <summary>
         /// fa-tag icon (f02b)
@@ -7224,6 +11044,11 @@ namespace Meziantou.WpfFontAwesome
         public const string Tags = "\uf02c";
 
         /// <summary>
+        /// fa-tape icon (f4db)
+        /// </summary>
+        public const string Tape = "\uf4db";
+
+        /// <summary>
         /// fa-tasks icon (f0ae)
         /// </summary>
         public const string Tasks = "\uf0ae";
@@ -7234,14 +11059,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Taxi = "\uf1ba";
 
         /// <summary>
+        /// fa-teamspeak icon (f4f9)
+        /// </summary>
+        public const string Teamspeak = "\uf4f9";
+
+        /// <summary>
+        /// fa-teeth icon (f62e)
+        /// </summary>
+        public const string Teeth = "\uf62e";
+
+        /// <summary>
+        /// fa-teeth-open icon (f62f)
+        /// </summary>
+        public const string TeethOpen = "\uf62f";
+
+        /// <summary>
         /// fa-telegram icon (f2c6)
         /// </summary>
         public const string Telegram = "\uf2c6";
 
         /// <summary>
-        /// fa-television icon (f26c)
+        /// fa-telegram-plane icon (f3fe)
         /// </summary>
-        public const string Television = "\uf26c";
+        public const string TelegramPlane = "\uf3fe";
 
         /// <summary>
         /// fa-tencent-weibo icon (f1d5)
@@ -7279,39 +11119,29 @@ namespace Meziantou.WpfFontAwesome
         public const string ThList = "\uf00b";
 
         /// <summary>
+        /// fa-the-red-yeti icon (f69d)
+        /// </summary>
+        public const string TheRedYeti = "\uf69d";
+
+        /// <summary>
+        /// fa-theater-masks icon (f630)
+        /// </summary>
+        public const string TheaterMasks = "\uf630";
+
+        /// <summary>
+        /// fa-themeco icon (f5c6)
+        /// </summary>
+        public const string Themeco = "\uf5c6";
+
+        /// <summary>
         /// fa-themeisle icon (f2b2)
         /// </summary>
         public const string Themeisle = "\uf2b2";
 
         /// <summary>
-        /// fa-thermometer icon (f2c7)
+        /// fa-thermometer icon (f491)
         /// </summary>
-        public const string Thermometer = "\uf2c7";
-
-        /// <summary>
-        /// fa-thermometer-0 icon (f2cb)
-        /// </summary>
-        public const string Thermometer0 = "\uf2cb";
-
-        /// <summary>
-        /// fa-thermometer-1 icon (f2ca)
-        /// </summary>
-        public const string Thermometer1 = "\uf2ca";
-
-        /// <summary>
-        /// fa-thermometer-2 icon (f2c9)
-        /// </summary>
-        public const string Thermometer2 = "\uf2c9";
-
-        /// <summary>
-        /// fa-thermometer-3 icon (f2c8)
-        /// </summary>
-        public const string Thermometer3 = "\uf2c8";
-
-        /// <summary>
-        /// fa-thermometer-4 icon (f2c7)
-        /// </summary>
-        public const string Thermometer4 = "\uf2c7";
+        public const string Thermometer = "\uf491";
 
         /// <summary>
         /// fa-thermometer-empty icon (f2cb)
@@ -7339,24 +11169,9 @@ namespace Meziantou.WpfFontAwesome
         public const string ThermometerThreeQuarters = "\uf2c8";
 
         /// <summary>
-        /// fa-thumb-tack icon (f08d)
-        /// </summary>
-        public const string ThumbTack = "\uf08d";
-
-        /// <summary>
         /// fa-thumbs-down icon (f165)
         /// </summary>
         public const string ThumbsDown = "\uf165";
-
-        /// <summary>
-        /// fa-thumbs-o-down icon (f088)
-        /// </summary>
-        public const string ThumbsODown = "\uf088";
-
-        /// <summary>
-        /// fa-thumbs-o-up icon (f087)
-        /// </summary>
-        public const string ThumbsOUp = "\uf087";
 
         /// <summary>
         /// fa-thumbs-up icon (f164)
@@ -7364,9 +11179,14 @@ namespace Meziantou.WpfFontAwesome
         public const string ThumbsUp = "\uf164";
 
         /// <summary>
-        /// fa-ticket icon (f145)
+        /// fa-thumbtack icon (f08d)
         /// </summary>
-        public const string Ticket = "\uf145";
+        public const string Thumbtack = "\uf08d";
+
+        /// <summary>
+        /// fa-ticket-alt icon (f3ff)
+        /// </summary>
+        public const string TicketAlt = "\uf3ff";
 
         /// <summary>
         /// fa-times icon (f00d)
@@ -7379,34 +11199,19 @@ namespace Meziantou.WpfFontAwesome
         public const string TimesCircle = "\uf057";
 
         /// <summary>
-        /// fa-times-circle-o icon (f05c)
-        /// </summary>
-        public const string TimesCircleO = "\uf05c";
-
-        /// <summary>
-        /// fa-times-rectangle icon (f2d3)
-        /// </summary>
-        public const string TimesRectangle = "\uf2d3";
-
-        /// <summary>
-        /// fa-times-rectangle-o icon (f2d4)
-        /// </summary>
-        public const string TimesRectangleO = "\uf2d4";
-
-        /// <summary>
         /// fa-tint icon (f043)
         /// </summary>
         public const string Tint = "\uf043";
 
         /// <summary>
-        /// fa-toggle-down icon (f150)
+        /// fa-tint-slash icon (f5c7)
         /// </summary>
-        public const string ToggleDown = "\uf150";
+        public const string TintSlash = "\uf5c7";
 
         /// <summary>
-        /// fa-toggle-left icon (f191)
+        /// fa-tired icon (f5c8)
         /// </summary>
-        public const string ToggleLeft = "\uf191";
+        public const string Tired = "\uf5c8";
 
         /// <summary>
         /// fa-toggle-off icon (f204)
@@ -7419,19 +11224,39 @@ namespace Meziantou.WpfFontAwesome
         public const string ToggleOn = "\uf205";
 
         /// <summary>
-        /// fa-toggle-right icon (f152)
+        /// fa-toolbox icon (f552)
         /// </summary>
-        public const string ToggleRight = "\uf152";
+        public const string Toolbox = "\uf552";
 
         /// <summary>
-        /// fa-toggle-up icon (f151)
+        /// fa-tooth icon (f5c9)
         /// </summary>
-        public const string ToggleUp = "\uf151";
+        public const string Tooth = "\uf5c9";
+
+        /// <summary>
+        /// fa-torah icon (f6a0)
+        /// </summary>
+        public const string Torah = "\uf6a0";
+
+        /// <summary>
+        /// fa-torii-gate icon (f6a1)
+        /// </summary>
+        public const string ToriiGate = "\uf6a1";
+
+        /// <summary>
+        /// fa-trade-federation icon (f513)
+        /// </summary>
+        public const string TradeFederation = "\uf513";
 
         /// <summary>
         /// fa-trademark icon (f25c)
         /// </summary>
         public const string Trademark = "\uf25c";
+
+        /// <summary>
+        /// fa-traffic-light icon (f637)
+        /// </summary>
+        public const string TrafficLight = "\uf637";
 
         /// <summary>
         /// fa-train icon (f238)
@@ -7454,9 +11279,9 @@ namespace Meziantou.WpfFontAwesome
         public const string Trash = "\uf1f8";
 
         /// <summary>
-        /// fa-trash-o icon (f014)
+        /// fa-trash-alt icon (f2ed)
         /// </summary>
-        public const string TrashO = "\uf014";
+        public const string TrashAlt = "\uf2ed";
 
         /// <summary>
         /// fa-tree icon (f1bb)
@@ -7484,9 +11309,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Truck = "\uf0d1";
 
         /// <summary>
-        /// fa-try icon (f195)
+        /// fa-truck-loading icon (f4de)
         /// </summary>
-        public const string Try = "\uf195";
+        public const string TruckLoading = "\uf4de";
+
+        /// <summary>
+        /// fa-truck-monster icon (f63b)
+        /// </summary>
+        public const string TruckMonster = "\uf63b";
+
+        /// <summary>
+        /// fa-truck-moving icon (f4df)
+        /// </summary>
+        public const string TruckMoving = "\uf4df";
+
+        /// <summary>
+        /// fa-truck-pickup icon (f63c)
+        /// </summary>
+        public const string TruckPickup = "\uf63c";
+
+        /// <summary>
+        /// fa-tshirt icon (f553)
+        /// </summary>
+        public const string Tshirt = "\uf553";
 
         /// <summary>
         /// fa-tty icon (f1e4)
@@ -7502,11 +11347,6 @@ namespace Meziantou.WpfFontAwesome
         /// fa-tumblr-square icon (f174)
         /// </summary>
         public const string TumblrSquare = "\uf174";
-
-        /// <summary>
-        /// fa-turkish-lira icon (f195)
-        /// </summary>
-        public const string TurkishLira = "\uf195";
 
         /// <summary>
         /// fa-tv icon (f26c)
@@ -7529,9 +11369,29 @@ namespace Meziantou.WpfFontAwesome
         public const string TwitterSquare = "\uf081";
 
         /// <summary>
+        /// fa-typo3 icon (f42b)
+        /// </summary>
+        public const string Typo3 = "\uf42b";
+
+        /// <summary>
+        /// fa-uber icon (f402)
+        /// </summary>
+        public const string Uber = "\uf402";
+
+        /// <summary>
+        /// fa-uikit icon (f403)
+        /// </summary>
+        public const string Uikit = "\uf403";
+
+        /// <summary>
         /// fa-umbrella icon (f0e9)
         /// </summary>
         public const string Umbrella = "\uf0e9";
+
+        /// <summary>
+        /// fa-umbrella-beach icon (f5ca)
+        /// </summary>
+        public const string UmbrellaBeach = "\uf5ca";
 
         /// <summary>
         /// fa-underline icon (f0cd)
@@ -7542,6 +11402,16 @@ namespace Meziantou.WpfFontAwesome
         /// fa-undo icon (f0e2)
         /// </summary>
         public const string Undo = "\uf0e2";
+
+        /// <summary>
+        /// fa-undo-alt icon (f2ea)
+        /// </summary>
+        public const string UndoAlt = "\uf2ea";
+
+        /// <summary>
+        /// fa-uniregistry icon (f404)
+        /// </summary>
+        public const string Uniregistry = "\uf404";
 
         /// <summary>
         /// fa-universal-access icon (f29a)
@@ -7569,9 +11439,9 @@ namespace Meziantou.WpfFontAwesome
         public const string UnlockAlt = "\uf13e";
 
         /// <summary>
-        /// fa-unsorted icon (f0dc)
+        /// fa-untappd icon (f405)
         /// </summary>
-        public const string Unsorted = "\uf0dc";
+        public const string Untappd = "\uf405";
 
         /// <summary>
         /// fa-upload icon (f093)
@@ -7584,14 +11454,29 @@ namespace Meziantou.WpfFontAwesome
         public const string Usb = "\uf287";
 
         /// <summary>
-        /// fa-usd icon (f155)
-        /// </summary>
-        public const string Usd = "\uf155";
-
-        /// <summary>
         /// fa-user icon (f007)
         /// </summary>
         public const string User = "\uf007";
+
+        /// <summary>
+        /// fa-user-alt icon (f406)
+        /// </summary>
+        public const string UserAlt = "\uf406";
+
+        /// <summary>
+        /// fa-user-alt-slash icon (f4fa)
+        /// </summary>
+        public const string UserAltSlash = "\uf4fa";
+
+        /// <summary>
+        /// fa-user-astronaut icon (f4fb)
+        /// </summary>
+        public const string UserAstronaut = "\uf4fb";
+
+        /// <summary>
+        /// fa-user-check icon (f4fc)
+        /// </summary>
+        public const string UserCheck = "\uf4fc";
 
         /// <summary>
         /// fa-user-circle icon (f2bd)
@@ -7599,9 +11484,34 @@ namespace Meziantou.WpfFontAwesome
         public const string UserCircle = "\uf2bd";
 
         /// <summary>
-        /// fa-user-circle-o icon (f2be)
+        /// fa-user-clock icon (f4fd)
         /// </summary>
-        public const string UserCircleO = "\uf2be";
+        public const string UserClock = "\uf4fd";
+
+        /// <summary>
+        /// fa-user-cog icon (f4fe)
+        /// </summary>
+        public const string UserCog = "\uf4fe";
+
+        /// <summary>
+        /// fa-user-edit icon (f4ff)
+        /// </summary>
+        public const string UserEdit = "\uf4ff";
+
+        /// <summary>
+        /// fa-user-friends icon (f500)
+        /// </summary>
+        public const string UserFriends = "\uf500";
+
+        /// <summary>
+        /// fa-user-graduate icon (f501)
+        /// </summary>
+        public const string UserGraduate = "\uf501";
+
+        /// <summary>
+        /// fa-user-lock icon (f502)
+        /// </summary>
+        public const string UserLock = "\uf502";
 
         /// <summary>
         /// fa-user-md icon (f0f0)
@@ -7609,9 +11519,14 @@ namespace Meziantou.WpfFontAwesome
         public const string UserMd = "\uf0f0";
 
         /// <summary>
-        /// fa-user-o icon (f2c0)
+        /// fa-user-minus icon (f503)
         /// </summary>
-        public const string UserO = "\uf2c0";
+        public const string UserMinus = "\uf503";
+
+        /// <summary>
+        /// fa-user-ninja icon (f504)
+        /// </summary>
+        public const string UserNinja = "\uf504";
 
         /// <summary>
         /// fa-user-plus icon (f234)
@@ -7624,6 +11539,26 @@ namespace Meziantou.WpfFontAwesome
         public const string UserSecret = "\uf21b";
 
         /// <summary>
+        /// fa-user-shield icon (f505)
+        /// </summary>
+        public const string UserShield = "\uf505";
+
+        /// <summary>
+        /// fa-user-slash icon (f506)
+        /// </summary>
+        public const string UserSlash = "\uf506";
+
+        /// <summary>
+        /// fa-user-tag icon (f507)
+        /// </summary>
+        public const string UserTag = "\uf507";
+
+        /// <summary>
+        /// fa-user-tie icon (f508)
+        /// </summary>
+        public const string UserTie = "\uf508";
+
+        /// <summary>
         /// fa-user-times icon (f235)
         /// </summary>
         public const string UserTimes = "\uf235";
@@ -7634,14 +11569,34 @@ namespace Meziantou.WpfFontAwesome
         public const string Users = "\uf0c0";
 
         /// <summary>
-        /// fa-vcard icon (f2bb)
+        /// fa-users-cog icon (f509)
         /// </summary>
-        public const string Vcard = "\uf2bb";
+        public const string UsersCog = "\uf509";
 
         /// <summary>
-        /// fa-vcard-o icon (f2bc)
+        /// fa-ussunnah icon (f407)
         /// </summary>
-        public const string VcardO = "\uf2bc";
+        public const string Ussunnah = "\uf407";
+
+        /// <summary>
+        /// fa-utensil-spoon icon (f2e5)
+        /// </summary>
+        public const string UtensilSpoon = "\uf2e5";
+
+        /// <summary>
+        /// fa-utensils icon (f2e7)
+        /// </summary>
+        public const string Utensils = "\uf2e7";
+
+        /// <summary>
+        /// fa-vaadin icon (f408)
+        /// </summary>
+        public const string Vaadin = "\uf408";
+
+        /// <summary>
+        /// fa-vector-square icon (f5cb)
+        /// </summary>
+        public const string VectorSquare = "\uf5cb";
 
         /// <summary>
         /// fa-venus icon (f221)
@@ -7674,19 +11629,49 @@ namespace Meziantou.WpfFontAwesome
         public const string ViadeoSquare = "\uf2aa";
 
         /// <summary>
-        /// fa-video-camera icon (f03d)
+        /// fa-vial icon (f492)
         /// </summary>
-        public const string VideoCamera = "\uf03d";
+        public const string Vial = "\uf492";
 
         /// <summary>
-        /// fa-vimeo icon (f27d)
+        /// fa-vials icon (f493)
         /// </summary>
-        public const string Vimeo = "\uf27d";
+        public const string Vials = "\uf493";
+
+        /// <summary>
+        /// fa-viber icon (f409)
+        /// </summary>
+        public const string Viber = "\uf409";
+
+        /// <summary>
+        /// fa-video icon (f03d)
+        /// </summary>
+        public const string Video = "\uf03d";
+
+        /// <summary>
+        /// fa-video-slash icon (f4e2)
+        /// </summary>
+        public const string VideoSlash = "\uf4e2";
+
+        /// <summary>
+        /// fa-vihara icon (f6a7)
+        /// </summary>
+        public const string Vihara = "\uf6a7";
+
+        /// <summary>
+        /// fa-vimeo icon (f40a)
+        /// </summary>
+        public const string Vimeo = "\uf40a";
 
         /// <summary>
         /// fa-vimeo-square icon (f194)
         /// </summary>
         public const string VimeoSquare = "\uf194";
+
+        /// <summary>
+        /// fa-vimeo-v icon (f27d)
+        /// </summary>
+        public const string VimeoV = "\uf27d";
 
         /// <summary>
         /// fa-vine icon (f1ca)
@@ -7699,9 +11684,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Vk = "\uf189";
 
         /// <summary>
-        /// fa-volume-control-phone icon (f2a0)
+        /// fa-vnv icon (f40b)
         /// </summary>
-        public const string VolumeControlPhone = "\uf2a0";
+        public const string Vnv = "\uf40b";
+
+        /// <summary>
+        /// fa-volleyball-ball icon (f45f)
+        /// </summary>
+        public const string VolleyballBall = "\uf45f";
 
         /// <summary>
         /// fa-volume-down icon (f027)
@@ -7719,19 +11709,44 @@ namespace Meziantou.WpfFontAwesome
         public const string VolumeUp = "\uf028";
 
         /// <summary>
-        /// fa-warning icon (f071)
+        /// fa-vuejs icon (f41f)
         /// </summary>
-        public const string Warning = "\uf071";
+        public const string Vuejs = "\uf41f";
 
         /// <summary>
-        /// fa-wechat icon (f1d7)
+        /// fa-walking icon (f554)
         /// </summary>
-        public const string Wechat = "\uf1d7";
+        public const string Walking = "\uf554";
+
+        /// <summary>
+        /// fa-wallet icon (f555)
+        /// </summary>
+        public const string Wallet = "\uf555";
+
+        /// <summary>
+        /// fa-warehouse icon (f494)
+        /// </summary>
+        public const string Warehouse = "\uf494";
+
+        /// <summary>
+        /// fa-weebly icon (f5cc)
+        /// </summary>
+        public const string Weebly = "\uf5cc";
 
         /// <summary>
         /// fa-weibo icon (f18a)
         /// </summary>
         public const string Weibo = "\uf18a";
+
+        /// <summary>
+        /// fa-weight icon (f496)
+        /// </summary>
+        public const string Weight = "\uf496";
+
+        /// <summary>
+        /// fa-weight-hanging icon (f5cd)
+        /// </summary>
+        public const string WeightHanging = "\uf5cd";
 
         /// <summary>
         /// fa-weixin icon (f1d7)
@@ -7744,14 +11759,19 @@ namespace Meziantou.WpfFontAwesome
         public const string Whatsapp = "\uf232";
 
         /// <summary>
+        /// fa-whatsapp-square icon (f40c)
+        /// </summary>
+        public const string WhatsappSquare = "\uf40c";
+
+        /// <summary>
         /// fa-wheelchair icon (f193)
         /// </summary>
         public const string Wheelchair = "\uf193";
 
         /// <summary>
-        /// fa-wheelchair-alt icon (f29b)
+        /// fa-whmcs icon (f40d)
         /// </summary>
-        public const string WheelchairAlt = "\uf29b";
+        public const string Whmcs = "\uf40d";
 
         /// <summary>
         /// fa-wifi icon (f1eb)
@@ -7764,14 +11784,9 @@ namespace Meziantou.WpfFontAwesome
         public const string WikipediaW = "\uf266";
 
         /// <summary>
-        /// fa-window-close icon (f2d3)
+        /// fa-window-close icon (f410)
         /// </summary>
-        public const string WindowClose = "\uf2d3";
-
-        /// <summary>
-        /// fa-window-close-o icon (f2d4)
-        /// </summary>
-        public const string WindowCloseO = "\uf2d4";
+        public const string WindowClose = "\uf410";
 
         /// <summary>
         /// fa-window-maximize icon (f2d0)
@@ -7794,14 +11809,39 @@ namespace Meziantou.WpfFontAwesome
         public const string Windows = "\uf17a";
 
         /// <summary>
-        /// fa-won icon (f159)
+        /// fa-wine-glass icon (f4e3)
         /// </summary>
-        public const string Won = "\uf159";
+        public const string WineGlass = "\uf4e3";
+
+        /// <summary>
+        /// fa-wine-glass-alt icon (f5ce)
+        /// </summary>
+        public const string WineGlassAlt = "\uf5ce";
+
+        /// <summary>
+        /// fa-wix icon (f5cf)
+        /// </summary>
+        public const string Wix = "\uf5cf";
+
+        /// <summary>
+        /// fa-wolf-pack-battalion icon (f514)
+        /// </summary>
+        public const string WolfPackBattalion = "\uf514";
+
+        /// <summary>
+        /// fa-won-sign icon (f159)
+        /// </summary>
+        public const string WonSign = "\uf159";
 
         /// <summary>
         /// fa-wordpress icon (f19a)
         /// </summary>
         public const string Wordpress = "\uf19a";
+
+        /// <summary>
+        /// fa-wordpress-simple icon (f411)
+        /// </summary>
+        public const string WordpressSimple = "\uf411";
 
         /// <summary>
         /// fa-wpbeginner icon (f297)
@@ -7824,6 +11864,16 @@ namespace Meziantou.WpfFontAwesome
         public const string Wrench = "\uf0ad";
 
         /// <summary>
+        /// fa-x-ray icon (f497)
+        /// </summary>
+        public const string XRay = "\uf497";
+
+        /// <summary>
+        /// fa-xbox icon (f412)
+        /// </summary>
+        public const string Xbox = "\uf412";
+
+        /// <summary>
         /// fa-xing icon (f168)
         /// </summary>
         public const string Xing = "\uf168";
@@ -7839,24 +11889,19 @@ namespace Meziantou.WpfFontAwesome
         public const string YCombinator = "\uf23b";
 
         /// <summary>
-        /// fa-y-combinator-square icon (f1d4)
-        /// </summary>
-        public const string YCombinatorSquare = "\uf1d4";
-
-        /// <summary>
         /// fa-yahoo icon (f19e)
         /// </summary>
         public const string Yahoo = "\uf19e";
 
         /// <summary>
-        /// fa-yc icon (f23b)
+        /// fa-yandex icon (f413)
         /// </summary>
-        public const string Yc = "\uf23b";
+        public const string Yandex = "\uf413";
 
         /// <summary>
-        /// fa-yc-square icon (f1d4)
+        /// fa-yandex-international icon (f414)
         /// </summary>
-        public const string YcSquare = "\uf1d4";
+        public const string YandexInternational = "\uf414";
 
         /// <summary>
         /// fa-yelp icon (f1e9)
@@ -7864,9 +11909,14 @@ namespace Meziantou.WpfFontAwesome
         public const string Yelp = "\uf1e9";
 
         /// <summary>
-        /// fa-yen icon (f157)
+        /// fa-yen-sign icon (f157)
         /// </summary>
-        public const string Yen = "\uf157";
+        public const string YenSign = "\uf157";
+
+        /// <summary>
+        /// fa-yin-yang icon (f6ad)
+        /// </summary>
+        public const string YinYang = "\uf6ad";
 
         /// <summary>
         /// fa-yoast icon (f2b1)
@@ -7879,17 +11929,17 @@ namespace Meziantou.WpfFontAwesome
         public const string Youtube = "\uf167";
 
         /// <summary>
-        /// fa-youtube-play icon (f16a)
+        /// fa-youtube-square icon (f431)
         /// </summary>
-        public const string YoutubePlay = "\uf16a";
+        public const string YoutubeSquare = "\uf431";
 
         /// <summary>
-        /// fa-youtube-square icon (f166)
+        /// fa-zhihu icon (f63f)
         /// </summary>
-        public const string YoutubeSquare = "\uf166";
+        public const string Zhihu = "\uf63f";
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplatingCBF688617F9548F89F86A3B19E785BB338713F3B55E87799D112C7974D60B7B8E265EEA5CB295C2E8A02B0DB6AB4F1190D47D04B27AC238F43820AFBFB82B697.GeneratedTextTransformation", "1.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating78D2D64FFB678D4AF21136306D573C5A98D068402ED888CC162310DA6FB1A6BC05307C86156BD7C6404C0175830EBA0A93947BDC139360C989F627210152AF4F.GeneratedTextTransformation", "1.0.0.0")]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [System.Windows.Markup.MarkupExtensionReturnType(typeof(string))]

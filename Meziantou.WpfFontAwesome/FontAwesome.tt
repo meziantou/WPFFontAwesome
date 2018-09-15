@@ -116,7 +116,7 @@ namespace <#= @namespace #>
         /// <summary>
         /// fa-<#= pair.Name #> icon (<#= pair.Value #>)
         /// </summary>
-        public const string <#= ToCSharpIdentifier(CamelName(pair.Name)) #> = "\u<#= pair.Value #>";
+        public <#= pair.Name == "equals" ? "new " : "" #>const string <#= ToCSharpIdentifier(CamelName(pair.Name)) #> = "\u<#= pair.Value #>";
 <#
 	    }
 	}

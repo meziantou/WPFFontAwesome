@@ -69,7 +69,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Resource Include="Resources\fontawesome-webfont.ttf" />
+    <Resource Include="Resources\fa-brands-400.ttf" />
+    <Resource Include="Resources\fa-solid-900.ttf" />
     <None Include="Resources\variables.less" />
   </ItemGroup>
   <ItemGroup>

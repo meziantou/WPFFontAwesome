@@ -3,18 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Meziantou.WpfFontAwesome.Demo"
         xmlns:fa="clr-namespace:Meziantou.WpfFontAwesome;assembly=Meziantou.WpfFontAwesome"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <!--<TextBlock Text="{x:Static local:FontAwesomeIcons.Beer}" FontFamily="{StaticResource FontAwesome}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center"/>-->
-        <!--<TextBlock Text="{x:Static local:FontAwesomeIcons.Beer}" FontFamily="{StaticResource FontAwesomeFontFamily}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center"/>-->
+
         <WrapPanel>
-            <TextBlock Text="{fa:Icon Beer}" Style="{StaticResource FontAwesome}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
-            <TextBlock Text="{fa:Icon Cog}" Style="{StaticResource FontAwesomeSpin}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
-            <TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSpin}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
-            <TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomePulse}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
+            <TextBlock Text="{fa:Icon Beer}" Style="{StaticResource FontAwesomeSolid}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
+            <TextBlock Text="{fa:Icon Cog}" Style="{StaticResource FontAwesomeSolidSpin}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
+            <TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidSpin}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
+            <TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidPulse}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
+            <TextBlock Text="{fa:Icon Icon=FontAwesome}" Style="{StaticResource FontAwesomeBrand}" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
         </WrapPanel>
 
     </Grid>
