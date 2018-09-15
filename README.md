@@ -1,7 +1,7 @@
 Meziantou.WpfFontAwesome
 =======
 
-Use FontAwesome in WPF application
+Use FontAwesome 5.3.1 in WPF application
 
 # Usage
 
@@ -27,9 +27,10 @@ Use FontAwesome in WPF application
 4. Use it
 
 ````xaml
-<TextBlock Text="{fa:Icon Beer}" Style="{StaticResource FontAwesome}" />
+<TextBlock Text="{fa:Icon Beer}" Style="{StaticResource FontAwesomeSolid}" />
+<TextBlock Text="{fa:Icon Github}" Style="{StaticResource FontAwesomeBrand}" />
 
 <!-- Animation -->
-<TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSpin}" />
-<TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomePulse}" />
+<TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidSpin}" />
+<TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidPulse}" />
 ````
