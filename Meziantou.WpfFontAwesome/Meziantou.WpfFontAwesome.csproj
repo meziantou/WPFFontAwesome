@@ -13,6 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,35 +49,28 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FontAwesome.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FontAwesome.tt</DependentUpon>
-    </Compile>
+    <Compile Include="AnimationType.cs" />
+    <Compile Include="FontAwesomeIcons.cs" />
+    <Compile Include="FontAwesomeIcon.cs" />
+    <Compile Include="IconExtension.cs" />
+    <Compile Include="ProIconAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FontAwesome.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FontAwesome.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Resource Include="Resources\fa-brands-400.ttf" />
-    <Resource Include="Resources\fa-solid-900.ttf" />
-    <None Include="Resources\variables.less" />
+    <Page Include="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="FontAwesome.xaml">
-      <SubType>Designer</SubType>
-    </Resource>
+    <Resource Include="Resources\brands\Font Awesome 5 Brands-Regular-400.otf" />
+    <Resource Include="Resources\regular\Font Awesome 5 Free-Regular-400.otf" />
+    <Resource Include="Resources\solid\Font Awesome 5 Free-Solid-900.otf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

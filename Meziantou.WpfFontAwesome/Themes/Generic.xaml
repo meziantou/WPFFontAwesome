@@ -1,0 +1,120 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Meziantou.WpfFontAwesome">
+
+    <FontFamily x:Key="FontAwesomeRegularFont">pack://application:,,,/Meziantou.WpfFontAwesome;component/Resources/regular/#Font Awesome 5 Free Regular</FontFamily>
+    <FontFamily x:Key="FontAwesomeSolidFont">pack://application:,,,/Meziantou.WpfFontAwesome;component/Resources/solid/#Font Awesome 5 Free Solid</FontFamily>
+    <FontFamily x:Key="FontAwesomeBrandsFont">pack://application:,,,/Meziantou.WpfFontAwesome;component/Resources/brands/#Font Awesome 5 Brands</FontFamily>
+
+    <Style x:Key="FontAwesomeRegular">
+        <Setter Property="TextElement.FontFamily" Value="{StaticResource FontAwesomeRegularFont}" />
+    </Style>
+
+    <Style x:Key="FontAwesomeSolid">
+        <Setter Property="TextElement.FontFamily" Value="{StaticResource FontAwesomeSolidFont}" />
+    </Style>
+
+    <Style x:Key="FontAwesomeBrand">
+        <Setter Property="TextElement.FontFamily" Value="{StaticResource FontAwesomeBrandsFont}" />
+    </Style>
+
+    <Storyboard x:Key="FontAwesomeSpinStoryboard">
+        <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" 
+                         From="0"
+                         To="360" 
+                         Duration="0:0:2" 
+                         RepeatBehavior="Forever"/>
+    </Storyboard>
+
+    <Storyboard x:Key="FontAwesomePulseStoryboard">
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)"
+                                       Duration="0:0:1"
+                                       RepeatBehavior="Forever">
+            <DiscreteDoubleKeyFrame Value="45" KeyTime="Uniform"/>
+            <DiscreteDoubleKeyFrame Value="90" KeyTime="Uniform"/>
+            <DiscreteDoubleKeyFrame Value="135" KeyTime="Uniform"/>
+            <DiscreteDoubleKeyFrame Value="180" KeyTime="Uniform"/>
+            <DiscreteDoubleKeyFrame Value="225" KeyTime="Uniform"/>
+            <DiscreteDoubleKeyFrame Value="270" KeyTime="Uniform"/>
+            <DiscreteDoubleKeyFrame Value="315" KeyTime="Uniform"/>
+            <DiscreteDoubleKeyFrame Value="360" KeyTime="Uniform"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Style x:Key="FontAwesomeSolidSpin" TargetType="FrameworkElement" BasedOn="{StaticResource FontAwesomeSolid}">
+        <Setter Property="RenderTransformOrigin" Value="0.5 0.5"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="0"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="Loaded">
+                <BeginStoryboard Storyboard="{StaticResource FontAwesomeSpinStoryboard}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="FontAwesomeSolidPulse" TargetType="FrameworkElement" BasedOn="{StaticResource FontAwesomeSolid}">
+        <Setter Property="RenderTransformOrigin" Value="0.5 0.5"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="0"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource FontAwesomePulseStoryboard}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="{x:Type local:FontAwesomeIcon}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:FontAwesomeIcon}">
+                    <TextBlock Text="{TemplateBinding IconCharacter}" 
+                               FontFamily="{TemplateBinding FinalFontFamily}" 
+                               FontSize="{TemplateBinding FontSize}"
+                               FontStyle="{TemplateBinding FontStyle}"
+                               FontWeight="{TemplateBinding FontWeight}"
+                               Foreground="{TemplateBinding Foreground}"
+                               Background="{TemplateBinding Background}"
+                               TextAlignment="Center"
+                               VerticalAlignment="Center" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="AnimationType" Value="Spin">
+                <Trigger.Setters>
+                    <Setter Property="RenderTransformOrigin" Value="0.5 0.5"/>
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <RotateTransform Angle="0"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger.Setters>
+                <Trigger.EnterActions>
+                    <BeginStoryboard Storyboard="{StaticResource FontAwesomeSpinStoryboard}" />
+                </Trigger.EnterActions>
+            </Trigger>
+
+            <Trigger Property="AnimationType" Value="Pulse">
+                <Trigger.Setters>
+                    <Setter Property="RenderTransformOrigin" Value="0.5 0.5"/>
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <RotateTransform Angle="0"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger.Setters>
+                <Trigger.EnterActions>
+                    <BeginStoryboard Storyboard="{StaticResource FontAwesomePulseStoryboard}" />
+                </Trigger.EnterActions>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

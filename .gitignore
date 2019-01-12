@@ -240,3 +240,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Meziantou.WpfFontAwesome.Generator/Pro/

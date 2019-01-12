@@ -1,7 +1,7 @@
 Meziantou.WpfFontAwesome
 =======
 
-Use FontAwesome 5.3.1 in WPF application
+Use FontAwesome 5.6.3 in WPF application
 
 # Usage
 
@@ -16,7 +16,7 @@ Use FontAwesome 5.3.1 in WPF application
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Meziantou.WpfFontAwesome;component/FontAwesome.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Meziantou.WpfFontAwesome;component/Themes/Generic.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
@@ -27,10 +27,21 @@ Use FontAwesome 5.3.1 in WPF application
 4. Use it
 
 ````xaml
-<TextBlock Text="{fa:Icon Beer}" Style="{StaticResource FontAwesomeSolid}" />
-<TextBlock Text="{fa:Icon Github}" Style="{StaticResource FontAwesomeBrand}" />
+<fa:FontAwesomeIcon SolidIcon="AddressBook" FontSize="60" />
+<fa:FontAwesomeIcon RegularIcon="AddressBook" FontSize="60" />
+<fa:FontAwesomeIcon BrandIcon="Microsoft" FontSize="60" />
+<fa:FontAwesomeIcon SolidIcon="Spinner" AnimationType="Spin" FontSize="60" />
+<fa:FontAwesomeIcon SolidIcon="Spinner" AnimationType="Pulse" FontSize="60" />
 
-<!-- Animation -->
-<TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidSpin}" />
-<TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidPulse}" />
+<TextBlock Text="{fa:Icon AddressBook}" Style="{StaticResource FontAwesomeRegular}" FontSize="60" />
+<TextBlock Text="{fa:Icon AddressBook}" Style="{StaticResource FontAwesomeSolid}" FontSize="60" />
+<TextBlock Text="{fa:Icon FontAwesome}" Style="{StaticResource FontAwesomeBrand}" FontSize="60" />
+<TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidSpin}" FontSize="60" />
+<TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidPulse}" FontSize="60" />
 ````
+
+If you want to use a Pro icon, you need to load the font first:
+
+```csharp
+FontAwesomeIcon.ProSolidFontFamily = new FontFamily(...);
+```
