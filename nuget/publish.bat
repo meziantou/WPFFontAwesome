@@ -1,2 +1,1 @@
-nuget setApiKey %nuget-apikey%
-nuget push Meziantou.WpfFontAwesome.5.6.3.0.nupkg
+nuget push Meziantou.WpfFontAwesome.5.6.3.0.nupkg -ApiKey %nuget-apikey% -Source https://api.nuget.org/v3/index.json
