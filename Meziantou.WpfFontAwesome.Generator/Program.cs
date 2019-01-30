@@ -13,8 +13,8 @@ namespace Meziantou.WpfFontAwesome.Generator
     {
         static void Main(string[] args)
         {
-            var freeIconFile = Path.GetFullPath(Path.Combine("Free", "metadata", "icons.json"));
-            var proIconFile = Path.GetFullPath(Path.Combine("Pro", "metadata", "icons.json"));
+            var freeIconFile = Path.GetFullPath(Path.Combine("../../../", "Free", "metadata", "icons.json"));
+            var proIconFile = Path.GetFullPath(Path.Combine("../../../", "Pro", "metadata", "icons.json"));
             if (!File.Exists(freeIconFile))
             {
                 Console.Error.WriteLine($"File not found: {freeIconFile}");
@@ -73,6 +73,12 @@ namespace Meziantou.WpfFontAwesome.Generator
 
             var codeGenerator = new CSharpCodeGenerator();
             File.WriteAllText("../../../../Meziantou.WpfFontAwesome/FontAwesomeIcons.cs", codeGenerator.Write(unit));
+
+            // Copy free fonts
+            File.Copy("../../../Free/otfs/Font Awesome 5 Brands-Regular-400.otf", "../../../../Meziantou.WpfFontAwesome/Resources/brands/Font Awesome 5 Brands-Regular-400.otf", overwrite: true);
+            File.Copy("../../../Free/otfs/Font Awesome 5 Free-Regular-400.otf", "../../../../Meziantou.WpfFontAwesome/Resources/regular/Font Awesome 5 Free-Regular-400.otf", overwrite: true);
+            File.Copy("../../../Free/otfs/Font Awesome 5 Free-Solid-900.otf", "../../../../Meziantou.WpfFontAwesome/Resources/solid/Font Awesome 5 Free-Solid-900.otf", overwrite: true);
+
         }
 
         private static string PascalName(string name)

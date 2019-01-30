@@ -2,10 +2,10 @@
 <package >
   <metadata>
     <id>Meziantou.WpfFontAwesome</id>
-    <version>5.6.3.0</version>
+    <version>5.7.0.0</version>
     <authors>Meziantou</authors>
     <owners>Meziantou</owners>
-    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <license type="expression">MIT</license>
     <projectUrl>https://github.com/meziantou/WPFFontAwesome</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>WPF FontAwesome</tags>

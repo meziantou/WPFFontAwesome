@@ -18,10 +18,10 @@ namespace Meziantou.WpfFontAwesome
             FreeSolidFontFamily = Fonts.GetFontFamilies(new Uri("pack://application:,,,/Meziantou.WpfFontAwesome;component/Resources/"), "./solid/").First();
         }
 
-        public static readonly DependencyProperty BrandIconProperty = DependencyProperty.Register("BrandIcon", typeof(FontAwesomeBrandsIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(null, OnValueChanged));
-        public static readonly DependencyProperty SolidIconProperty = DependencyProperty.Register("SolidIcon", typeof(FontAwesomeSolidIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(null, OnValueChanged));
-        public static readonly DependencyProperty RegularIconProperty = DependencyProperty.Register("RegularIcon", typeof(FontAwesomeRegularIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(null, OnValueChanged));
-        public static readonly DependencyProperty LightIconProperty = DependencyProperty.Register("LightIcon", typeof(FontAwesomeLightIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(null, OnValueChanged));
+        public static readonly DependencyProperty BrandIconProperty = DependencyProperty.Register("BrandIcon", typeof(FontAwesomeBrandsIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(defaultValue: null, OnValueChanged));
+        public static readonly DependencyProperty SolidIconProperty = DependencyProperty.Register("SolidIcon", typeof(FontAwesomeSolidIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(defaultValue: null, OnValueChanged));
+        public static readonly DependencyProperty RegularIconProperty = DependencyProperty.Register("RegularIcon", typeof(FontAwesomeRegularIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(defaultValue: null, OnValueChanged));
+        public static readonly DependencyProperty LightIconProperty = DependencyProperty.Register("LightIcon", typeof(FontAwesomeLightIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(defaultValue: null, OnValueChanged));
         public static readonly DependencyProperty AnimationTypeProperty = DependencyProperty.Register("AnimationType", typeof(AnimationType), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(AnimationType.None));
 
         public static readonly DependencyPropertyKey IconCharacterProperty = DependencyProperty.RegisterReadOnly("IconCharacter", typeof(string), typeof(FontAwesomeIcon), new PropertyMetadata());
@@ -62,12 +62,12 @@ namespace Meziantou.WpfFontAwesome
             {
                 var enumValue = obj.LightIcon.Value;
                 obj.SetValue(IconCharacterProperty, ((char)enumValue).ToString());
-                obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProLightFontFamily, null));
+                obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProLightFontFamily, freeFontFamily: null));
             }
             else
             {
-                obj.SetValue(IconCharacterProperty, null);
-                obj.SetValue(FinalFontFamilyProperty, null);
+                obj.SetValue(IconCharacterProperty, value: null);
+                obj.SetValue(FinalFontFamilyProperty, value: null);
             }
         }
 
