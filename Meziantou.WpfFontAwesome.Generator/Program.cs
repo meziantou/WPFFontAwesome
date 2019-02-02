@@ -11,7 +11,7 @@ namespace Meziantou.WpfFontAwesome.Generator
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var freeIconFile = Path.GetFullPath(Path.Combine("../../../", "Free", "metadata", "icons.json"));
             var proIconFile = Path.GetFullPath(Path.Combine("../../../", "Pro", "metadata", "icons.json"));
