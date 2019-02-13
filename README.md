@@ -1,7 +1,7 @@
 Meziantou.WpfFontAwesome
 =======
 
-Use FontAwesome 5.6.3 in WPF application
+Use FontAwesome in WPF application
 
 # Usage
 
