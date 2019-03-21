@@ -32,6 +32,8 @@ namespace Meziantou.WpfFontAwesome
         Affiliatetheme = 62315,
         /// <summary>Air Freshener (f5d0)</summary>
         AirFreshener = 62928,
+        /// <summary>Airbnb (f834)</summary>
+        Airbnb = 63540,
         /// <summary>Alarm Clock (f34e)</summary>
         AlarmClock = 62286,
         /// <summary>Algolia (f36c)</summary>
@@ -316,6 +318,8 @@ namespace Meziantou.WpfFontAwesome
         BatterySlash = 62327,
         /// <summary>Battery 3/4 Full (f241)</summary>
         BatteryThreeQuarters = 62017,
+        /// <summary>Battle.net (f835)</summary>
+        BattleNet = 63541,
         /// <summary>Bed (f236)</summary>
         Bed = 62006,
         /// <summary>beer (f0fc)</summary>
@@ -416,6 +420,8 @@ namespace Meziantou.WpfFontAwesome
         Boot = 63362,
         /// <summary>Booth with Curtain (f734)</summary>
         BoothCurtain = 63284,
+        /// <summary>Bootstrap (f836)</summary>
+        Bootstrap = 63542,
         /// <summary>Bow Arrow (f6b9)</summary>
         BowArrow = 63161,
         /// <summary>Bowling Ball (f436)</summary>
@@ -474,6 +480,8 @@ namespace Meziantou.WpfFontAwesome
         Brush = 62813,
         /// <summary>BTC (f15a)</summary>
         Btc = 61786,
+        /// <summary>Buffer (f837)</summary>
+        Buffer = 63543,
         /// <summary>Bug (f188)</summary>
         Bug = 61832,
         /// <summary>Building (f1ad)</summary>
@@ -744,6 +752,8 @@ namespace Meziantou.WpfFontAwesome
         Chimney = 63371,
         /// <summary>Chrome (f268)</summary>
         Chrome = 62056,
+        /// <summary>Chromecast (f838)</summary>
+        Chromecast = 63544,
         /// <summary>Church (f51d)</summary>
         Church = 62749,
         /// <summary>Circle (f111)</summary>
@@ -1268,6 +1278,8 @@ namespace Meziantou.WpfFontAwesome
         Etsy = 62167,
         /// <summary>Euro Sign (f153)</summary>
         EuroSign = 61779,
+        /// <summary>Evernote (f839)</summary>
+        Evernote = 63545,
         /// <summary>Exchange (f0ec)</summary>
         Exchange = 61676,
         /// <summary>Alternate Exchange (f362)</summary>
@@ -1986,6 +1998,8 @@ namespace Meziantou.WpfFontAwesome
         IslandTropical = 63505,
         /// <summary>italic (f033)</summary>
         Italic = 61491,
+        /// <summary>itch.io (f83a)</summary>
+        ItchIo = 63546,
         /// <summary>iTunes (f3b4)</summary>
         Itunes = 62388,
         /// <summary>Itunes Note (f3b5)</summary>
@@ -2868,6 +2882,8 @@ namespace Meziantou.WpfFontAwesome
         Safari = 62055,
         /// <summary>Salad (f81e)</summary>
         Salad = 63518,
+        /// <summary>Salesforce (f83b)</summary>
+        Salesforce = 63547,
         /// <summary>Sandwich (f81f)</summary>
         Sandwich = 63519,
         /// <summary>Sass (f41e)</summary>
@@ -3158,6 +3174,8 @@ namespace Meziantou.WpfFontAwesome
         Spade = 62196,
         /// <summary>Speakap (f3f3)</summary>
         Speakap = 62451,
+        /// <summary>Speaker Deck (f83c)</summary>
+        SpeakerDeck = 63548,
         /// <summary>Spider (f717)</summary>
         Spider = 63255,
         /// <summary>Black Widow Spider (f718)</summary>
@@ -3310,6 +3328,8 @@ namespace Meziantou.WpfFontAwesome
         Sword = 63260,
         /// <summary>Swords (f71d)</summary>
         Swords = 63261,
+        /// <summary>Symfony (f83d)</summary>
+        Symfony = 63549,
         /// <summary>Synagogue (f69b)</summary>
         Synagogue = 63131,
         /// <summary>Sync (f021)</summary>
@@ -3824,6 +3844,10 @@ namespace Meziantou.WpfFontAwesome
         WaterLower = 63348,
         /// <summary>Rising Water Level (f775)</summary>
         WaterRise = 63349,
+        /// <summary>Square Wave (f83e)</summary>
+        WaveSquare = 63550,
+        /// <summary>Waze (f83f)</summary>
+        Waze = 63551,
         /// <summary>Webcam (f832)</summary>
         Webcam = 63538,
         /// <summary>Webcam Slash (f833)</summary>
@@ -3924,6 +3948,8 @@ namespace Meziantou.WpfFontAwesome
         YCombinator = 62011,
         /// <summary>Yahoo Logo (f19e)</summary>
         Yahoo = 61854,
+        /// <summary>Yammer (f840)</summary>
+        Yammer = 63552,
         /// <summary>Yandex (f413)</summary>
         Yandex = 62483,
         /// <summary>Yandex International (f414)</summary>
@@ -3964,6 +3990,8 @@ namespace Meziantou.WpfFontAwesome
         Adversal = 62314,
         /// <summary>affiliatetheme (f36b)</summary>
         Affiliatetheme = 62315,
+        /// <summary>Airbnb (f834)</summary>
+        Airbnb = 63540,
         /// <summary>Algolia (f36c)</summary>
         Algolia = 62316,
         /// <summary>Alipay (f642)</summary>
@@ -4010,6 +4038,8 @@ namespace Meziantou.WpfFontAwesome
         Aws = 62325,
         /// <summary>Bandcamp (f2d5)</summary>
         Bandcamp = 62165,
+        /// <summary>Battle.net (f835)</summary>
+        BattleNet = 63541,
         /// <summary>Behance (f1b4)</summary>
         Behance = 61876,
         /// <summary>Behance Square (f1b5)</summary>
@@ -4034,8 +4064,12 @@ namespace Meziantou.WpfFontAwesome
         Bluetooth = 62099,
         /// <summary>Bluetooth (f294)</summary>
         BluetoothB = 62100,
+        /// <summary>Bootstrap (f836)</summary>
+        Bootstrap = 63542,
         /// <summary>BTC (f15a)</summary>
         Btc = 61786,
+        /// <summary>Buffer (f837)</summary>
+        Buffer = 63543,
         /// <summary>Büromöbel-Experte GmbH &amp; Co. KG. (f37f)</summary>
         Buromobelexperte = 62335,
         /// <summary>BuySellAds (f20d)</summary>
@@ -4068,6 +4102,8 @@ namespace Meziantou.WpfFontAwesome
         Centos = 63369,
         /// <summary>Chrome (f268)</summary>
         Chrome = 62056,
+        /// <summary>Chromecast (f838)</summary>
+        Chromecast = 63544,
         /// <summary>cloudscale.ch (f383)</summary>
         Cloudscale = 62339,
         /// <summary>Cloudsmith (f384)</summary>
@@ -4188,6 +4224,8 @@ namespace Meziantou.WpfFontAwesome
         Ethereum = 62510,
         /// <summary>Etsy (f2d7)</summary>
         Etsy = 62167,
+        /// <summary>Evernote (f839)</summary>
+        Evernote = 63545,
         /// <summary>ExpeditedSSL (f23e)</summary>
         Expeditedssl = 62014,
         /// <summary>Facebook (f09a)</summary>
@@ -4340,6 +4378,8 @@ namespace Meziantou.WpfFontAwesome
         Invision = 63408,
         /// <summary>ioxhost (f208)</summary>
         Ioxhost = 61960,
+        /// <summary>itch.io (f83a)</summary>
+        ItchIo = 63546,
         /// <summary>iTunes (f3b4)</summary>
         Itunes = 62388,
         /// <summary>Itunes Note (f3b5)</summary>
@@ -4558,6 +4598,8 @@ namespace Meziantou.WpfFontAwesome
         Rockrms = 62441,
         /// <summary>Safari (f267)</summary>
         Safari = 62055,
+        /// <summary>Salesforce (f83b)</summary>
+        Salesforce = 63547,
         /// <summary>Sass (f41e)</summary>
         Sass = 62494,
         /// <summary>SCHLIX (f3ea)</summary>
@@ -4606,6 +4648,8 @@ namespace Meziantou.WpfFontAwesome
         Sourcetree = 63443,
         /// <summary>Speakap (f3f3)</summary>
         Speakap = 62451,
+        /// <summary>Speaker Deck (f83c)</summary>
+        SpeakerDeck = 63548,
         /// <summary>Spotify (f1bc)</summary>
         Spotify = 61884,
         /// <summary>Squarespace (f5be)</summary>
@@ -4642,6 +4686,8 @@ namespace Meziantou.WpfFontAwesome
         Supple = 62457,
         /// <summary>Suse (f7d6)</summary>
         Suse = 63446,
+        /// <summary>Symfony (f83d)</summary>
+        Symfony = 63549,
         /// <summary>TeamSpeak (f4f9)</summary>
         Teamspeak = 62713,
         /// <summary>Telegram (f2c6)</summary>
@@ -4718,6 +4764,8 @@ namespace Meziantou.WpfFontAwesome
         Vnv = 62475,
         /// <summary>Vue.js (f41f)</summary>
         Vuejs = 62495,
+        /// <summary>Waze (f83f)</summary>
+        Waze = 63551,
         /// <summary>Weebly (f5cc)</summary>
         Weebly = 62924,
         /// <summary>Weibo (f18a)</summary>
@@ -4762,6 +4810,8 @@ namespace Meziantou.WpfFontAwesome
         YCombinator = 62011,
         /// <summary>Yahoo Logo (f19e)</summary>
         Yahoo = 61854,
+        /// <summary>Yammer (f840)</summary>
+        Yammer = 63552,
         /// <summary>Yandex (f413)</summary>
         Yandex = 62483,
         /// <summary>Yandex International (f414)</summary>
@@ -8444,6 +8494,8 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Rising Water Level (f775)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         WaterRise = 63349,
+        /// <summary>Square Wave (f83e)</summary>
+        WaveSquare = 63550,
         /// <summary>Webcam (f832)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Webcam = 63538,
@@ -12954,6 +13006,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Rising Water Level (f775)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         WaterRise = 63349,
+        /// <summary>Square Wave (f83e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WaveSquare = 63550,
         /// <summary>Webcam (f832)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Webcam = 63538,
@@ -17625,6 +17680,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Rising Water Level (f775)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         WaterRise = 63349,
+        /// <summary>Square Wave (f83e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WaveSquare = 63550,
         /// <summary>Webcam (f832)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Webcam = 63538,
