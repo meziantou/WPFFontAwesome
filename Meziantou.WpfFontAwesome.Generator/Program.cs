@@ -9,9 +9,9 @@ using Newtonsoft.Json;
 
 namespace Meziantou.WpfFontAwesome.Generator
 {
-    class Program
+    internal static class Program
     {
-        static void Main()
+        private static void Main()
         {
             var freeIconFile = Path.GetFullPath(Path.Combine("../../../", "Free", "metadata", "icons.json"));
             var proIconFile = Path.GetFullPath(Path.Combine("../../../", "Pro", "metadata", "icons.json"));
@@ -29,7 +29,7 @@ namespace Meziantou.WpfFontAwesome.Generator
 
             var freeIcons = JsonConvert.DeserializeObject<IDictionary<string, Icon>>(File.ReadAllText(freeIconFile));
             var proIcons = JsonConvert.DeserializeObject<IDictionary<string, Icon>>(File.ReadAllText(proIconFile));
-            var allStyles = proIcons.Values.SelectMany(icon => icon.Styles).Distinct().ToList();
+            var allStyles = proIcons.Values.SelectMany(icon => icon.Styles).Distinct(StringComparer.Ordinal).ToList();
 
             var unit = new CompilationUnit();
             var ns = unit.AddNamespace("Meziantou.WpfFontAwesome");
@@ -55,7 +55,7 @@ namespace Meziantou.WpfFontAwesome.Generator
 
                 foreach (var (key, value) in proIcons)
                 {
-                    if (!value.Styles.Contains(style))
+                    if (!value.Styles.Contains(style, StringComparer.Ordinal))
                         continue;
 
                     var identifier = ToCSharpIdentifier(PascalName(key));
@@ -64,7 +64,7 @@ namespace Meziantou.WpfFontAwesome.Generator
 
                     member.XmlComments.Add(new XElement("summary", $"{value.Label} ({value.Unicode})"));
 
-                    if (!freeIcons.TryGetValue(key, out var freeIcon) || !freeIcon.Styles.Contains(style))
+                    if (!freeIcons.TryGetValue(key, out var freeIcon) || !freeIcon.Styles.Contains(style, StringComparer.Ordinal))
                     {
                         member.CustomAttributes.Add(new CustomAttribute(new TypeReference("Meziantou.WpfFontAwesome.ProIconAttribute")));
                     }
@@ -95,7 +95,7 @@ namespace Meziantou.WpfFontAwesome.Generator
 
                 if (upperCase)
                 {
-                    sb.Append(char.ToUpper(c));
+                    sb.Append(char.ToUpperInvariant(c));
                 }
                 else
                 {
@@ -118,13 +118,5 @@ namespace Meziantou.WpfFontAwesome.Generator
 
             return "Icon" + name;
         }
-    }
-
-    internal class Icon
-    {
-        public string[] Styles { get; set; }
-        public string Unicode { get; set; }
-        public int UnicodeIntValue => int.Parse(Unicode, System.Globalization.NumberStyles.HexNumber);
-        public string Label { get; set; }
     }
 }
