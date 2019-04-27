@@ -1,0 +1,49 @@
+# https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#use-a-microsoft-hosted-agent
+pool:
+  vmImage: 'windows-2019'
+
+trigger:
+- '*'
+
+variables:
+  solution: Meziantou.WpfFontAwesome.sln
+  buildConfiguration: Release
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
+
+steps:
+- task: DotNetCoreInstaller@0
+  displayName: 'Use .NET Core sdk'
+  inputs:
+    version: 3.0.100-preview4-011223
+
+- task: DotNetCoreCLI@2
+  displayName: dotnet build
+  inputs:
+    projects: '**/*.csproj'
+    arguments: '--configuration $(BuildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: dotnet pack
+  inputs:
+    command: pack
+    packagesToPack: '**/*.csproj'
+    nobuild: true
+
+- powershell: |
+    Write-Host "Searching nupkg in folder: $(Build.ArtifactStagingDirectory)"
+    $files = Get-ChildItem $(Build.ArtifactStagingDirectory) -Filter *.nupkg
+    foreach($file in $files) {
+        Write-Host "Pushing NuGet package: $($file.FullName)"
+        & dotnet nuget push "$($file.FullName)" --api-key "$(NuGetApiKey)" --source https://api.nuget.org/v3/index.json --force-english-output
+    }
+  workingDirectory: '$(Build.ArtifactStagingDirectory)'
+  ignoreLASTEXITCODE: true  
+  displayName: dotnet push
+  continueOnError: true
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    PathtoPublish: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
