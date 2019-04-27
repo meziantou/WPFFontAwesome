@@ -1,4 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>library</OutputType>
     <TargetFrameworks>netcoreapp3.0;net461</TargetFrameworks>
@@ -7,7 +8,7 @@
 
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>sn_key.snk</AssemblyOriginatorKeyFile>
-    <Version>5.8.0</Version>
+    <Version>5.8.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
