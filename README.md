@@ -1,6 +1,10 @@
 Meziantou.WpfFontAwesome
 =======
 
+[![NuGet](https://img.shields.io/nuget/v/Meziantou.WpfFontAwesome.svg)](https://www.nuget.org/packages/Meziantou.WpfFontAwesome/)
+[![GitHub license](https://img.shields.io/github/license/meziantou/WPFFontAwesome.svg)](https://github.com/meziantou/WpfFontAwesome/blob/master/LICENSE)
+[![Build Status](https://dev.azure.com/meziantou/GitHub%20projects/_apis/build/status/meziantou.WPFFontAwesome?branchName=master)](https://dev.azure.com/meziantou/GitHub%20projects/_build/latest?definitionId=45&branchName=master)
+
 Use FontAwesome in WPF application
 
 # Usage
