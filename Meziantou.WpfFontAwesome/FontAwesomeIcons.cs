@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.8.1</summary>
+    /// <summary>Icons of FontAwesome 5.8.2</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -681,7 +681,7 @@ namespace Meziantou.WpfFontAwesome
         Check = 61452,
         /// <summary>Check Circle (f058)</summary>
         CheckCircle = 61528,
-        /// <summary>Check Double (f560)</summary>
+        /// <summary>Double Check (f560)</summary>
         CheckDouble = 62816,
         /// <summary>Check Square (f14a)</summary>
         CheckSquare = 61770,
@@ -1603,6 +1603,8 @@ namespace Meziantou.WpfFontAwesome
         GingerbreadMan = 63389,
         /// <summary>Git (f1d3)</summary>
         Git = 61907,
+        /// <summary>Git Alt (f841)</summary>
+        GitAlt = 63553,
         /// <summary>Git Square (f1d2)</summary>
         GitSquare = 61906,
         /// <summary>GitHub (f09b)</summary>
@@ -3217,6 +3219,8 @@ namespace Meziantou.WpfFontAwesome
         StackExchange = 61837,
         /// <summary>Stack Overflow (f16c)</summary>
         StackOverflow = 61804,
+        /// <summary>Stackpath (f842)</summary>
+        Stackpath = 63554,
         /// <summary>Staff (f71b)</summary>
         Staff = 63259,
         /// <summary>Stamp (f5bf)</summary>
@@ -3981,7 +3985,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.8.1</summary>
+    /// <summary>Icons of FontAwesome brands 5.8.2</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -4306,6 +4310,8 @@ namespace Meziantou.WpfFontAwesome
         GgCircle = 62049,
         /// <summary>Git (f1d3)</summary>
         Git = 61907,
+        /// <summary>Git Alt (f841)</summary>
+        GitAlt = 63553,
         /// <summary>Git Square (f1d2)</summary>
         GitSquare = 61906,
         /// <summary>GitHub (f09b)</summary>
@@ -4668,6 +4674,8 @@ namespace Meziantou.WpfFontAwesome
         StackExchange = 61837,
         /// <summary>Stack Overflow (f16c)</summary>
         StackOverflow = 61804,
+        /// <summary>Stackpath (f842)</summary>
+        Stackpath = 63554,
         /// <summary>StayLinked (f3f5)</summary>
         Staylinked = 62453,
         /// <summary>Steam (f1b6)</summary>
@@ -4840,7 +4848,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.8.1</summary>
+    /// <summary>Icons of FontAwesome solid 5.8.2</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -5504,7 +5512,7 @@ namespace Meziantou.WpfFontAwesome
         Check = 61452,
         /// <summary>Check Circle (f058)</summary>
         CheckCircle = 61528,
-        /// <summary>Check Double (f560)</summary>
+        /// <summary>Double Check (f560)</summary>
         CheckDouble = 62816,
         /// <summary>Check Square (f14a)</summary>
         CheckSquare = 61770,
@@ -8582,7 +8590,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.8.1</summary>
+    /// <summary>Icons of FontAwesome regular 5.8.2</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -9378,7 +9386,7 @@ namespace Meziantou.WpfFontAwesome
         Check = 61452,
         /// <summary>Check Circle (f058)</summary>
         CheckCircle = 61528,
-        /// <summary>Check Double (f560)</summary>
+        /// <summary>Double Check (f560)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CheckDouble = 62816,
         /// <summary>Check Square (f14a)</summary>
@@ -13109,7 +13117,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.8.1</summary>
+    /// <summary>Icons of FontAwesome light 5.8.2</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -13928,7 +13936,7 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Check Circle (f058)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CheckCircle = 61528,
-        /// <summary>Check Double (f560)</summary>
+        /// <summary>Double Check (f560)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CheckDouble = 62816,
         /// <summary>Check Square (f14a)</summary>

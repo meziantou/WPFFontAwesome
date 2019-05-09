@@ -3,7 +3,7 @@
 namespace Meziantou.WpfFontAwesome
 {
     [MarkupExtensionReturnType(typeof(string))]
-    public partial class IconExtension : MarkupExtension
+    public sealed partial class IconExtension : MarkupExtension
     {
         public IconExtension()
         {

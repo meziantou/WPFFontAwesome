@@ -7,7 +7,7 @@ using System.Windows.Media;
 
 namespace Meziantou.WpfFontAwesome
 {
-    public class FontAwesomeIcon : Control
+    public sealed class FontAwesomeIcon : Control
     {
         static FontAwesomeIcon()
         {
