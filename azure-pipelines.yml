@@ -14,12 +14,19 @@ steps:
 - task: DotNetCoreInstaller@0
   displayName: 'Use .NET Core sdk'
   inputs:
-    version: 3.0.100-preview4-011223
+    version: 3.0.100-preview5-011568
 
 - task: DotNetCoreCLI@2
   displayName: dotnet build
   inputs:
     projects: '**/*.csproj'
+    arguments: '--configuration $(BuildConfiguration)'
+    
+- task: DotNetCoreCLI@2
+  displayName: dotnet test
+  inputs:
+    command: test
+    projects: 'Meziantou.WpfFontAwesome.Tests/Meziantou.WpfFontAwesome.Tests.csproj'
     arguments: '--configuration $(BuildConfiguration)'
 
 - task: DotNetCoreCLI@2
