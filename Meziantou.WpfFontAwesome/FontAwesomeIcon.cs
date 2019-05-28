@@ -43,25 +43,25 @@ namespace Meziantou.WpfFontAwesome
             if (obj.BrandIcon.HasValue)
             {
                 var enumValue = obj.BrandIcon.Value;
-                obj.SetValue(IconCharacterProperty, ((char)enumValue).ToString());
+                obj.SetValue(IconCharacterProperty, new string((char)enumValue, 1));
                 obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProBrandsFontFamily, FreeBrandsFontFamily));
             }
             else if (obj.SolidIcon.HasValue)
             {
                 var enumValue = obj.SolidIcon.Value;
-                obj.SetValue(IconCharacterProperty, ((char)enumValue).ToString());
+                obj.SetValue(IconCharacterProperty, new string((char)enumValue, 1));
                 obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProSolidFontFamily, FreeSolidFontFamily));
             }
             else if (obj.RegularIcon.HasValue)
             {
                 var enumValue = obj.RegularIcon.Value;
-                obj.SetValue(IconCharacterProperty, ((char)enumValue).ToString());
+                obj.SetValue(IconCharacterProperty, new string((char)enumValue, 1));
                 obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProRegularFontFamily, FreeRegularFontFamily));
             }
             else if (obj.LightIcon.HasValue)
             {
                 var enumValue = obj.LightIcon.Value;
-                obj.SetValue(IconCharacterProperty, ((char)enumValue).ToString());
+                obj.SetValue(IconCharacterProperty, new string((char)enumValue, 1));
                 obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProLightFontFamily, freeFontFamily: null));
             }
             else
