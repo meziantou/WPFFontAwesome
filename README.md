@@ -9,6 +9,22 @@ Use FontAwesome in WPF application
 
 # Usage
 
+## Use the control
+
+1. Install Nuget package `Meziantou.WpfFontAwesome`
+2. Add the xml namespace `xmlns:fa="clr-namespace:Meziantou.WpfFontAwesome;assembly=Meziantou.WpfFontAwesome"`
+3. Use the custom control
+
+````xaml
+<fa:FontAwesomeIcon SolidIcon="AddressBook" FontSize="60" />
+<fa:FontAwesomeIcon RegularIcon="AddressBook" FontSize="60" />
+<fa:FontAwesomeIcon BrandIcon="Microsoft" FontSize="60" />
+<fa:FontAwesomeIcon SolidIcon="Spinner" AnimationType="Spin" FontSize="60" />
+<fa:FontAwesomeIcon SolidIcon="Spinner" AnimationType="Pulse" FontSize="60" />
+````
+
+## Use the font
+
 1. Install Nuget package `Meziantou.WpfFontAwesome`
 2. Add the `ResourceDictionary` to the `app.xaml` file
 
@@ -43,6 +59,8 @@ Use FontAwesome in WPF application
 <TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidSpin}" FontSize="60" />
 <TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidPulse}" FontSize="60" />
 ````
+
+## Use the Pro icon
 
 If you want to use a Pro icon, you need to load the font first:
 
