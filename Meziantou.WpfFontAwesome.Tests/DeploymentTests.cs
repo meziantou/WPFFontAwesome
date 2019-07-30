@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Meziantou.WpfFontAwesome.Tests
 {
     [TestClass]
-    public class DeploymentTests
+    public sealed class DeploymentTests
     {
         [TestMethod]
         public void IsStrongNamed()

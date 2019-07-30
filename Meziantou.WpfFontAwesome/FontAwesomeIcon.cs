@@ -22,6 +22,7 @@ namespace Meziantou.WpfFontAwesome
         public static readonly DependencyProperty SolidIconProperty = DependencyProperty.Register("SolidIcon", typeof(FontAwesomeSolidIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(defaultValue: null, OnValueChanged));
         public static readonly DependencyProperty RegularIconProperty = DependencyProperty.Register("RegularIcon", typeof(FontAwesomeRegularIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(defaultValue: null, OnValueChanged));
         public static readonly DependencyProperty LightIconProperty = DependencyProperty.Register("LightIcon", typeof(FontAwesomeLightIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(defaultValue: null, OnValueChanged));
+        public static readonly DependencyProperty DuotoneIconProperty = DependencyProperty.Register("DuotoneIcon", typeof(FontAwesomeDuotoneIcon?), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(defaultValue: null, OnValueChanged));
         public static readonly DependencyProperty AnimationTypeProperty = DependencyProperty.Register("AnimationType", typeof(AnimationType), typeof(FontAwesomeIcon), new FrameworkPropertyMetadata(AnimationType.None));
 
         public static readonly DependencyPropertyKey IconCharacterProperty = DependencyProperty.RegisterReadOnly("IconCharacter", typeof(string), typeof(FontAwesomeIcon), new PropertyMetadata());
@@ -35,6 +36,7 @@ namespace Meziantou.WpfFontAwesome
         public static FontFamily ProSolidFontFamily { get; set; }
         public static FontFamily ProRegularFontFamily { get; set; }
         public static FontFamily ProLightFontFamily { get; set; }
+        public static FontFamily ProDuotoneFontFamily { get; set; }
 
         private static void OnValueChanged(DependencyObject d, DependencyPropertyChangedEventArgs baseValue)
         {
@@ -59,6 +61,12 @@ namespace Meziantou.WpfFontAwesome
                 obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProRegularFontFamily, FreeRegularFontFamily));
             }
             else if (obj.LightIcon.HasValue)
+            {
+                var enumValue = obj.LightIcon.Value;
+                obj.SetValue(IconCharacterProperty, new string((char)enumValue, 1));
+                obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProLightFontFamily, freeFontFamily: null));
+            }
+            else if (obj.DuotoneIcon.HasValue)
             {
                 var enumValue = obj.LightIcon.Value;
                 obj.SetValue(IconCharacterProperty, new string((char)enumValue, 1));
@@ -114,6 +122,12 @@ namespace Meziantou.WpfFontAwesome
         {
             get { return (FontAwesomeLightIcon?)GetValue(LightIconProperty); }
             set { SetValue(LightIconProperty, value); }
+        }
+        
+        public FontAwesomeDuotoneIcon? DuotoneIcon
+        {
+            get { return (FontAwesomeDuotoneIcon?)GetValue(DuotoneIconProperty); }
+            set { SetValue(DuotoneIconProperty, value); }
         }
 
         public AnimationType AnimationType

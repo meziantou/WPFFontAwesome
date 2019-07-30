@@ -19,7 +19,7 @@ namespace Meziantou.WpfFontAwesome
 
         public override object ProvideValue(System.IServiceProvider serviceProvider)
         {
-            return ((char)Icon).ToString();
+            return char.ToString((char)Icon);
         }
     }
 }
