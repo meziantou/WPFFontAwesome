@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.10.0</summary>
+    /// <summary>Icons of FontAwesome 5.10.1</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -2497,7 +2497,7 @@ namespace Meziantou.WpfFontAwesome
         MoneyCheckEdit = 63602,
         /// <summary>Alternate Money Check Edit (f873)</summary>
         MoneyCheckEditAlt = 63603,
-        /// <summary>Monitor Heart Rate (f611)</summary>
+        /// <summary>Heart Rate Monitor (f611)</summary>
         MonitorHeartRate = 62993,
         /// <summary>Monkey (f6fb)</summary>
         Monkey = 63227,
@@ -4167,7 +4167,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.10.0</summary>
+    /// <summary>Icons of FontAwesome brands 5.10.1</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -5030,7 +5030,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.10.0</summary>
+    /// <summary>Icons of FontAwesome solid 5.10.1</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -7441,7 +7441,7 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Money Check Edit (f873)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MoneyCheckEditAlt = 63603,
-        /// <summary>Monitor Heart Rate (f611)</summary>
+        /// <summary>Heart Rate Monitor (f611)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MonitorHeartRate = 62993,
         /// <summary>Monkey (f6fb)</summary>
@@ -9025,7 +9025,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.10.0</summary>
+    /// <summary>Icons of FontAwesome regular 5.10.1</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -11888,7 +11888,7 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Money Check Edit (f873)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MoneyCheckEditAlt = 63603,
-        /// <summary>Monitor Heart Rate (f611)</summary>
+        /// <summary>Heart Rate Monitor (f611)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MonitorHeartRate = 62993,
         /// <summary>Monkey (f6fb)</summary>
@@ -13825,7 +13825,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.10.0</summary>
+    /// <summary>Icons of FontAwesome light 5.10.1</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -16804,7 +16804,7 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Money Check Edit (f873)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MoneyCheckEditAlt = 63603,
-        /// <summary>Monitor Heart Rate (f611)</summary>
+        /// <summary>Heart Rate Monitor (f611)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MonitorHeartRate = 62993,
         /// <summary>Monkey (f6fb)</summary>
@@ -18777,7 +18777,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome duotone 5.10.0</summary>
+    /// <summary>Icons of FontAwesome duotone 5.10.1</summary>
     public enum FontAwesomeDuotoneIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -19305,6 +19305,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Border Bottom (f84d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BorderBottom = 63565,
+        /// <summary>Border Center - Horizontal (f89c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BorderCenterH = 63644,
+        /// <summary>Border Center - Vertical (f89d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BorderCenterV = 63645,
         /// <summary>Border Inner (f84e)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BorderInner = 63566,
@@ -21750,7 +21756,7 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Money Check Edit (f873)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MoneyCheckEditAlt = 63603,
-        /// <summary>Monitor Heart Rate (f611)</summary>
+        /// <summary>Heart Rate Monitor (f611)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MonitorHeartRate = 62993,
         /// <summary>Monkey (f6fb)</summary>
@@ -21993,6 +21999,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Phone (f095)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Phone = 61589,
+        /// <summary>Alternate Phone (f879)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PhoneAlt = 63609,
         /// <summary>Phone and Laptop (f87a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PhoneLaptop = 63610,
@@ -22008,6 +22017,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Phone Square (f098)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PhoneSquare = 61592,
+        /// <summary>Alternate Phone Square (f87b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PhoneSquareAlt = 63611,
         /// <summary>Phone Volume (f2a0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PhoneVolume = 62112,
