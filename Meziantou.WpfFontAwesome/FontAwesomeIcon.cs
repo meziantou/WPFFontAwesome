@@ -68,9 +68,9 @@ namespace Meziantou.WpfFontAwesome
             }
             else if (obj.DuotoneIcon.HasValue)
             {
-                var enumValue = obj.LightIcon.Value;
+                var enumValue = obj.DuotoneIcon.Value;
                 obj.SetValue(IconCharacterProperty, new string((char)enumValue, 1));
-                obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProLightFontFamily, freeFontFamily: null));
+                obj.SetValue(FinalFontFamilyProperty, GetFontFamily(enumValue, ProDuotoneFontFamily, freeFontFamily: null));
             }
             else
             {
