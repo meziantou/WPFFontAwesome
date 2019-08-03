@@ -7,20 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <WrapPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Click="Button_Click">Load Pro fonts</Button>
+
+        <WrapPanel Grid.Row="1">
             <fa:FontAwesomeIcon SolidIcon="Spinner" AnimationType="Spin" FontSize="60" />
             <fa:FontAwesomeIcon SolidIcon="Spinner" AnimationType="Pulse" FontSize="60" />
             <fa:FontAwesomeIcon SolidIcon="AddressBook" FontSize="60" />
             <fa:FontAwesomeIcon RegularIcon="AddressBook" FontSize="60" />
             <fa:FontAwesomeIcon BrandIcon="Microsoft" FontSize="60" />
-
-            <TextBlock Text="{fa:Icon AddressBook}" Style="{StaticResource FontAwesomeRegular}" FontSize="60" />
-            <TextBlock Text="{fa:Icon AddressBook}" Style="{StaticResource FontAwesomeSolid}" FontSize="60" />
-            <TextBlock Text="{fa:Icon Adobe}" Style="{StaticResource FontAwesomeBrand}" FontSize="60" />
-            <TextBlock Text="{fa:Icon Cog}" Style="{StaticResource FontAwesomeSolidSpin}" FontSize="60" />
-            <TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidSpin}" FontSize="60" />
-            <TextBlock Text="{fa:Icon Spinner}" Style="{StaticResource FontAwesomeSolidPulse}" FontSize="60" />
-            <TextBlock Text="{fa:Icon Icon=FontAwesome}" Style="{StaticResource FontAwesomeBrand}" FontSize="60" />
         </WrapPanel>
+
+        <WrapPanel Grid.Row="2" x:Name="ProIcons" />
     </Grid>
 </Window>

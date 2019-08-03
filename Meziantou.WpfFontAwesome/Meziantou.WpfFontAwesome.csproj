@@ -8,8 +8,10 @@
 
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>sn_key.snk</AssemblyOriginatorKeyFile>
-    <Version>5.10.1</Version>
+    <Version>5.10.1.1</Version>
     <SignAssembly>true</SignAssembly>
+    <Description>Use FontAwesome in WPF application</Description>
+    <PackageTags>wpf fontawesome icons</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
