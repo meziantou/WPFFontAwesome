@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.11.1</summary>
+    /// <summary>Icons of FontAwesome 5.11.2</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -1563,8 +1563,8 @@ namespace Meziantou.WpfFontAwesome
         Film = 61448,
         /// <summary>Alternate Film (f3a0)</summary>
         FilmAlt = 62368,
-        /// <summary>Film Cannister (f8b7)</summary>
-        FilmCannister = 63671,
+        /// <summary>Film Canister (f8b7)</summary>
+        FilmCanister = 63671,
         /// <summary>Filter (f0b0)</summary>
         Filter = 61616,
         /// <summary>Fingerprint (f577)</summary>
@@ -3159,8 +3159,8 @@ namespace Meziantou.WpfFontAwesome
         ScalpelPath = 63006,
         /// <summary>Scanner (f488)</summary>
         Scanner = 62600,
-        /// <summary>Image Scanner (f488)</summary>
-        ScannerImage = 62600,
+        /// <summary>Image Scanner (f8f3)</summary>
+        ScannerImage = 63731,
         /// <summary>Scanner Keyboard (f489)</summary>
         ScannerKeyboard = 62601,
         /// <summary>Scanner Touchscreen (f48a)</summary>
@@ -4337,7 +4337,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.11.1</summary>
+    /// <summary>Icons of FontAwesome brands 5.11.2</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -5210,7 +5210,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.11.1</summary>
+    /// <summary>Icons of FontAwesome solid 5.11.2</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -6793,9 +6793,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Film (f3a0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FilmAlt = 62368,
-        /// <summary>Film Cannister (f8b7)</summary>
+        /// <summary>Film Canister (f8b7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
-        FilmCannister = 63671,
+        FilmCanister = 63671,
         /// <summary>Filter (f0b0)</summary>
         Filter = 61616,
         /// <summary>Fingerprint (f577)</summary>
@@ -8283,9 +8283,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Scanner (f488)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Scanner = 62600,
-        /// <summary>Image Scanner (f488)</summary>
+        /// <summary>Image Scanner (f8f3)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
-        ScannerImage = 62600,
+        ScannerImage = 63731,
         /// <summary>Scanner Keyboard (f489)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         ScannerKeyboard = 62601,
@@ -9441,7 +9441,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.11.1</summary>
+    /// <summary>Icons of FontAwesome regular 5.11.2</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -11306,9 +11306,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Film (f3a0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FilmAlt = 62368,
-        /// <summary>Film Cannister (f8b7)</summary>
+        /// <summary>Film Canister (f8b7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
-        FilmCannister = 63671,
+        FilmCanister = 63671,
         /// <summary>Filter (f0b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Filter = 61616,
@@ -13086,9 +13086,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Scanner (f488)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Scanner = 62600,
-        /// <summary>Image Scanner (f488)</summary>
+        /// <summary>Image Scanner (f8f3)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
-        ScannerImage = 62600,
+        ScannerImage = 63731,
         /// <summary>Scanner Keyboard (f489)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         ScannerKeyboard = 62601,
@@ -14481,7 +14481,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.11.1</summary>
+    /// <summary>Icons of FontAwesome light 5.11.2</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -16401,9 +16401,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Film (f3a0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FilmAlt = 62368,
-        /// <summary>Film Cannister (f8b7)</summary>
+        /// <summary>Film Canister (f8b7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
-        FilmCannister = 63671,
+        FilmCanister = 63671,
         /// <summary>Filter (f0b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Filter = 61616,
@@ -18255,9 +18255,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Scanner (f488)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Scanner = 62600,
-        /// <summary>Image Scanner (f488)</summary>
+        /// <summary>Image Scanner (f8f3)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
-        ScannerImage = 62600,
+        ScannerImage = 63731,
         /// <summary>Scanner Keyboard (f489)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         ScannerKeyboard = 62601,
@@ -19673,7 +19673,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome duotone 5.11.1</summary>
+    /// <summary>Icons of FontAwesome duotone 5.11.2</summary>
     public enum FontAwesomeDuotoneIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -21593,9 +21593,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Film (f3a0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FilmAlt = 62368,
-        /// <summary>Film Cannister (f8b7)</summary>
+        /// <summary>Film Canister (f8b7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
-        FilmCannister = 63671,
+        FilmCanister = 63671,
         /// <summary>Filter (f0b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Filter = 61616,
@@ -23447,9 +23447,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Scanner (f488)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Scanner = 62600,
-        /// <summary>Image Scanner (f488)</summary>
+        /// <summary>Image Scanner (f8f3)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
-        ScannerImage = 62600,
+        ScannerImage = 63731,
         /// <summary>Scanner Keyboard (f489)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         ScannerKeyboard = 62601,
