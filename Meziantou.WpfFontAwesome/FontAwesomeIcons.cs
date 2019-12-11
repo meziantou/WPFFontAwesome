@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.11.2</summary>
+    /// <summary>Icons of FontAwesome 5.12.0</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -39,6 +39,8 @@ namespace Meziantou.WpfFontAwesome
         Adversal = 62314,
         /// <summary>affiliatetheme (f36b)</summary>
         Affiliatetheme = 62315,
+        /// <summary>Air Conditioner (f8f4)</summary>
+        AirConditioner = 63732,
         /// <summary>Air Freshener (f5d0)</summary>
         AirFreshener = 62928,
         /// <summary>Airbnb (f834)</summary>
@@ -59,6 +61,10 @@ namespace Meziantou.WpfFontAwesome
         Algolia = 62316,
         /// <summary>Alicorn (f6b0)</summary>
         Alicorn = 63152,
+        /// <summary>Alien (f8f5)</summary>
+        Alien = 63733,
+        /// <summary>Alien Monster (f8f6)</summary>
+        AlienMonster = 63734,
         /// <summary>align-center (f037)</summary>
         AlignCenter = 61495,
         /// <summary>align-justify (f039)</summary>
@@ -291,6 +297,8 @@ namespace Meziantou.WpfFontAwesome
         BadgerHoney = 63156,
         /// <summary>Shopping Bags (f847)</summary>
         BagsShopping = 63559,
+        /// <summary>Bahá'í (f666)</summary>
+        Bahai = 63078,
         /// <summary>Balance Scale (f24e)</summary>
         BalanceScale = 62030,
         /// <summary>Balance Scale (Left-Weighted) (f515)</summary>
@@ -351,6 +359,12 @@ namespace Meziantou.WpfFontAwesome
         BattleNet = 63541,
         /// <summary>Bed (f236)</summary>
         Bed = 62006,
+        /// <summary>Alternate Bed (f8f7)</summary>
+        BedAlt = 63735,
+        /// <summary>Bunkbed (f8f8)</summary>
+        BedBunk = 63736,
+        /// <summary>Bed Empty (f8f9)</summary>
+        BedEmpty = 63737,
         /// <summary>beer (f0fc)</summary>
         Beer = 61692,
         /// <summary>Behance (f1b4)</summary>
@@ -361,6 +375,8 @@ namespace Meziantou.WpfFontAwesome
         Bell = 61683,
         /// <summary>Bell Exclamation (f848)</summary>
         BellExclamation = 63560,
+        /// <summary>Bell On (f8fa)</summary>
+        BellOn = 63738,
         /// <summary>Bell Plus (f849)</summary>
         BellPlus = 63561,
         /// <summary>Bell School (f5d5)</summary>
@@ -409,6 +425,12 @@ namespace Meziantou.WpfFontAwesome
         BlenderPhone = 63158,
         /// <summary>Blind (f29d)</summary>
         Blind = 62109,
+        /// <summary>Blinds (f8fb)</summary>
+        Blinds = 63739,
+        /// <summary>Blinds Open (f8fc)</summary>
+        BlindsOpen = 63740,
+        /// <summary>Blinds Raised (f8fd)</summary>
+        BlindsRaised = 63741,
         /// <summary>Blog (f781)</summary>
         Blog = 63361,
         /// <summary>Blogger (f37c)</summary>
@@ -619,6 +641,8 @@ namespace Meziantou.WpfFontAwesome
         Camera = 61488,
         /// <summary>Alternate Camera (f332)</summary>
         CameraAlt = 62258,
+        /// <summary>Camera Home (f8fe)</summary>
+        CameraHome = 63742,
         /// <summary>Movie Camera (f8a9)</summary>
         CameraMovie = 63657,
         /// <summary>Polaroid Camera (f8aa)</summary>
@@ -665,6 +689,10 @@ namespace Meziantou.WpfFontAwesome
         CarTilt = 62949,
         /// <summary>Car Wash (f5e6)</summary>
         CarWash = 62950,
+        /// <summary>Caravan (f8ff)</summary>
+        Caravan = 63743,
+        /// <summary>Caravan Alternate (f900)</summary>
+        CaravanAlt = 63744,
         /// <summary>Caret Circle Down (f32d)</summary>
         CaretCircleDown = 62253,
         /// <summary>Caret Circle Left (f32e)</summary>
@@ -703,6 +731,8 @@ namespace Meziantou.WpfFontAwesome
         CassetteTape = 63659,
         /// <summary>Cat (f6be)</summary>
         Cat = 63166,
+        /// <summary>Space Cat (f901)</summary>
+        CatSpace = 63745,
         /// <summary>Cauldron (f6bf)</summary>
         Cauldron = 63167,
         /// <summary>Amazon Pay Credit Card (f42d)</summary>
@@ -947,6 +977,8 @@ namespace Meziantou.WpfFontAwesome
         Codiepie = 62084,
         /// <summary>Coffee (f0f4)</summary>
         Coffee = 61684,
+        /// <summary>Coffee Pot (f902)</summary>
+        CoffeePot = 63746,
         /// <summary>To-Go Coffee (f6c5)</summary>
         CoffeeTogo = 63173,
         /// <summary>Coffin (f6c6)</summary>
@@ -961,6 +993,8 @@ namespace Meziantou.WpfFontAwesome
         Coins = 62750,
         /// <summary>Columns (f0db)</summary>
         Columns = 61659,
+        /// <summary>Comet (f903)</summary>
+        Comet = 63747,
         /// <summary>comment (f075)</summary>
         Comment = 61557,
         /// <summary>Alternate Comment (f27a)</summary>
@@ -1455,6 +1489,8 @@ namespace Meziantou.WpfFontAwesome
         FacebookSquare = 61570,
         /// <summary>Fan (f863)</summary>
         Fan = 63587,
+        /// <summary>Fan Table (f904)</summary>
+        FanTable = 63748,
         /// <summary>Fantasy Flight-games (f6dc)</summary>
         FantasyFlightGames = 63196,
         /// <summary>Farm (f864)</summary>
@@ -1463,6 +1499,10 @@ namespace Meziantou.WpfFontAwesome
         FastBackward = 61513,
         /// <summary>fast-forward (f050)</summary>
         FastForward = 61520,
+        /// <summary>Faucet (f905)</summary>
+        Faucet = 63749,
+        /// <summary>Faucet Drip (f906)</summary>
+        FaucetDrip = 63750,
         /// <summary>Fax (f1ac)</summary>
         Fax = 61868,
         /// <summary>Feather (f52d)</summary>
@@ -1579,6 +1619,8 @@ namespace Meziantou.WpfFontAwesome
         FireSmoke = 63307,
         /// <summary>Firefox (f269)</summary>
         Firefox = 62057,
+        /// <summary>Firefox Browser (f907)</summary>
+        FirefoxBrowser = 63751,
         /// <summary>Fireplace (f79a)</summary>
         Fireplace = 63386,
         /// <summary>First Aid (f479)</summary>
@@ -1681,7 +1723,7 @@ namespace Meziantou.WpfFontAwesome
         Foursquare = 61824,
         /// <summary>Fragile (f4bb)</summary>
         Fragile = 62651,
-        /// <summary>Free Code Camp (f2c5)</summary>
+        /// <summary>freeCodeCamp (f2c5)</summary>
         FreeCodeCamp = 62149,
         /// <summary>FreeBSD (f3a4)</summary>
         Freebsd = 62372,
@@ -1707,6 +1749,8 @@ namespace Meziantou.WpfFontAwesome
         GalacticRepublic = 62732,
         /// <summary>Galactic Senate (f50d)</summary>
         GalacticSenate = 62733,
+        /// <summary>Galaxy (f908)</summary>
+        Galaxy = 63752,
         /// <summary>Game Board (f867)</summary>
         GameBoard = 63591,
         /// <summary>Alternate Game Board (f868)</summary>
@@ -1717,6 +1761,12 @@ namespace Meziantou.WpfFontAwesome
         Gamepad = 61723,
         /// <summary>Alternate Gamepad (f8bc)</summary>
         GamepadAlt = 63676,
+        /// <summary>Garage (f909)</summary>
+        Garage = 63753,
+        /// <summary>Garage Car (f90a)</summary>
+        GarageCar = 63754,
+        /// <summary>Garage Open (f90b)</summary>
+        GarageOpen = 63755,
         /// <summary>Gas Pump (f52f)</summary>
         GasPump = 62767,
         /// <summary>Gas Pump Slash (f5f4)</summary>
@@ -1983,8 +2033,6 @@ namespace Meziantou.WpfFontAwesome
         HatWitch = 63207,
         /// <summary>Wizard's Hat (f6e8)</summary>
         HatWizard = 63208,
-        /// <summary>Haykal (f666)</summary>
-        Haykal = 63078,
         /// <summary>HDD (f0a0)</summary>
         Hdd = 61600,
         /// <summary>Head Side (f6e9)</summary>
@@ -2017,6 +2065,8 @@ namespace Meziantou.WpfFontAwesome
         HeartSquare = 62664,
         /// <summary>Heartbeat (f21e)</summary>
         Heartbeat = 61982,
+        /// <summary>Heat (f90c)</summary>
+        Heat = 63756,
         /// <summary>Helicopter (f533)</summary>
         Helicopter = 62771,
         /// <summary>Battle Helmet (f6eb)</summary>
@@ -2093,10 +2143,22 @@ namespace Meziantou.WpfFontAwesome
         HourglassHalf = 62034,
         /// <summary>Hourglass Start (f251)</summary>
         HourglassStart = 62033,
+        /// <summary>House (f90d)</summary>
+        House = 63757,
         /// <summary>Damaged House (f6f1)</summary>
         HouseDamage = 63217,
+        /// <summary>House Day (f90e)</summary>
+        HouseDay = 63758,
         /// <summary>Flooded House (f74f)</summary>
         HouseFlood = 63311,
+        /// <summary>House Leave (f90f)</summary>
+        HouseLeave = 63759,
+        /// <summary>House Night (f910)</summary>
+        HouseNight = 63760,
+        /// <summary>House Return (f911)</summary>
+        HouseReturn = 63761,
+        /// <summary>House Signal (f912)</summary>
+        HouseSignal = 63762,
         /// <summary>Houzz (f27c)</summary>
         Houzz = 62076,
         /// <summary>Hryvnia (f6f2)</summary>
@@ -2127,6 +2189,8 @@ namespace Meziantou.WpfFontAwesome
         IdCard = 62146,
         /// <summary>Alternate Identification Card (f47f)</summary>
         IdCardAlt = 62591,
+        /// <summary>iDeal (f913)</summary>
+        Ideal = 63763,
         /// <summary>Igloo (f7ae)</summary>
         Igloo = 63406,
         /// <summary>Image (f03e)</summary>
@@ -2261,6 +2325,10 @@ namespace Meziantou.WpfFontAwesome
         Lambda = 63086,
         /// <summary>Lamp (f4ca)</summary>
         Lamp = 62666,
+        /// <summary>Lamp Desk (f914)</summary>
+        LampDesk = 63764,
+        /// <summary>Lamp Floor (f915)</summary>
+        LampFloor = 63765,
         /// <summary>Landmark (f66f)</summary>
         Landmark = 63087,
         /// <summary>Alternative Landmark (f752)</summary>
@@ -2323,6 +2391,14 @@ namespace Meziantou.WpfFontAwesome
         LevelUpAlt = 62399,
         /// <summary>Life Ring (f1cd)</summary>
         LifeRing = 61901,
+        /// <summary>Light Ceiling (f916)</summary>
+        LightCeiling = 63766,
+        /// <summary>Light Switch (f917)</summary>
+        LightSwitch = 63767,
+        /// <summary>Light Switch-off (f918)</summary>
+        LightSwitchOff = 63768,
+        /// <summary>Light Switch-on (f919)</summary>
+        LightSwitchOn = 63769,
         /// <summary>Lightbulb (f0eb)</summary>
         Lightbulb = 61675,
         /// <summary>Lightbulb Dollar (f670)</summary>
@@ -2521,6 +2597,8 @@ namespace Meziantou.WpfFontAwesome
         Mercury = 61987,
         /// <summary>Meteor (f753)</summary>
         Meteor = 63315,
+        /// <summary>Micro.blog (f91a)</summary>
+        Microblog = 63770,
         /// <summary>Microchip (f2db)</summary>
         Microchip = 62171,
         /// <summary>microphone (f130)</summary>
@@ -2537,6 +2615,8 @@ namespace Meziantou.WpfFontAwesome
         Microscope = 62992,
         /// <summary>Microsoft (f3ca)</summary>
         Microsoft = 62410,
+        /// <summary>Microwave (f91b)</summary>
+        Microwave = 63771,
         /// <summary>Mind Share (f677)</summary>
         MindShare = 63095,
         /// <summary>minus (f068)</summary>
@@ -2699,6 +2779,10 @@ namespace Meziantou.WpfFontAwesome
         Otter = 63232,
         /// <summary>Outdent (f03b)</summary>
         Outdent = 61499,
+        /// <summary>Outlet (f91c)</summary>
+        Outlet = 63772,
+        /// <summary>Oven (f91d)</summary>
+        Oven = 63773,
         /// <summary>Overline (f876)</summary>
         Overline = 63606,
         /// <summary>Page Break (f877)</summary>
@@ -2847,12 +2931,14 @@ namespace Meziantou.WpfFontAwesome
         Pie = 63237,
         /// <summary>Pied Piper Logo (f2ae)</summary>
         PiedPiper = 62126,
-        /// <summary>Alternate Pied Piper Logo (f1a8)</summary>
+        /// <summary>Alternate Pied Piper Logo (Old) (f1a8)</summary>
         PiedPiperAlt = 61864,
-        /// <summary>Pied Piper-hat (f4e5)</summary>
+        /// <summary>Pied Piper Hat (Old) (f4e5)</summary>
         PiedPiperHat = 62693,
         /// <summary>Pied Piper PP Logo (Old) (f1a7)</summary>
         PiedPiperPp = 61863,
+        /// <summary>Pied Piper Square Logo (Old) (f91e)</summary>
+        PiedPiperSquare = 63774,
         /// <summary>Pig (f706)</summary>
         Pig = 63238,
         /// <summary>Piggy Bank (f4d3)</summary>
@@ -2879,6 +2965,10 @@ namespace Meziantou.WpfFontAwesome
         PlaneArrival = 62895,
         /// <summary>Plane Departure (f5b0)</summary>
         PlaneDeparture = 62896,
+        /// <summary>Planet with Moon (f91f)</summary>
+        PlanetMoon = 63775,
+        /// <summary>Ringed Planet (f920)</summary>
+        PlanetRinged = 63776,
         /// <summary>play (f04b)</summary>
         Play = 61515,
         /// <summary>Play Circle (f144)</summary>
@@ -2903,6 +2993,8 @@ namespace Meziantou.WpfFontAwesome
         Podium = 63104,
         /// <summary>Podium with Star (f758)</summary>
         PodiumStar = 63320,
+        /// <summary>Police Box (f921)</summary>
+        PoliceBox = 63777,
         /// <summary>Poll (f681)</summary>
         Poll = 63105,
         /// <summary>Poll H (f682)</summary>
@@ -2917,6 +3009,10 @@ namespace Meziantou.WpfFontAwesome
         Poop = 63001,
         /// <summary>Popcorn (f819)</summary>
         Popcorn = 63513,
+        /// <summary>Portal Enter (f922)</summary>
+        PortalEnter = 63778,
+        /// <summary>Portal Exit (f923)</summary>
+        PortalExit = 63779,
         /// <summary>Portrait (f3e0)</summary>
         Portrait = 62432,
         /// <summary>Pound Sign (f154)</summary>
@@ -2987,6 +3083,8 @@ namespace Meziantou.WpfFontAwesome
         RabbitFast = 63241,
         /// <summary>Racquet (f45a)</summary>
         Racquet = 62554,
+        /// <summary>Radar (f924)</summary>
+        Radar = 63780,
         /// <summary>Radiation (f7b9)</summary>
         Radiation = 63417,
         /// <summary>Alternate Radiation (f7ba)</summary>
@@ -3009,6 +3107,8 @@ namespace Meziantou.WpfFontAwesome
         RaspberryPi = 63419,
         /// <summary>Ravelry (f2d9)</summary>
         Ravelry = 62169,
+        /// <summary>Raygun (f925)</summary>
+        Raygun = 63781,
         /// <summary>React (f41b)</summary>
         React = 62491,
         /// <summary>ReactEurope (f75d)</summary>
@@ -3043,6 +3143,8 @@ namespace Meziantou.WpfFontAwesome
         Redo = 61470,
         /// <summary>Alternate Redo (f2f9)</summary>
         RedoAlt = 62201,
+        /// <summary>Refrigerator (f926)</summary>
+        Refrigerator = 63782,
         /// <summary>Registered Trademark (f25d)</summary>
         Registered = 62045,
         /// <summary>Remove Format (f87d)</summary>
@@ -3089,6 +3191,8 @@ namespace Meziantou.WpfFontAwesome
         Robot = 62788,
         /// <summary>rocket (f135)</summary>
         Rocket = 61749,
+        /// <summary>Rocket Launch (f927)</summary>
+        RocketLaunch = 63783,
         /// <summary>Rocket.Chat (f3e8)</summary>
         Rocketchat = 62440,
         /// <summary>Rockrms (f3e9)</summary>
@@ -3209,6 +3313,16 @@ namespace Meziantou.WpfFontAwesome
         SendBack = 63614,
         /// <summary>Send Backward (f87f)</summary>
         SendBackward = 63615,
+        /// <summary>Sensor (f928)</summary>
+        Sensor = 63784,
+        /// <summary>Sensor Alert (f929)</summary>
+        SensorAlert = 63785,
+        /// <summary>Sensor Fire (f92a)</summary>
+        SensorFire = 63786,
+        /// <summary>Sensor On (f92b)</summary>
+        SensorOn = 63787,
+        /// <summary>Sensor Smoke (f92c)</summary>
+        SensorSmoke = 63788,
         /// <summary>Server (f233)</summary>
         Server = 62003,
         /// <summary>Servicestack (f3ec)</summary>
@@ -3315,6 +3429,10 @@ namespace Meziantou.WpfFontAwesome
         SimCard = 63428,
         /// <summary>SimplyBuilt (f215)</summary>
         Simplybuilt = 61973,
+        /// <summary>Siren (f92d)</summary>
+        Siren = 63789,
+        /// <summary>Siren On (f92e)</summary>
+        SirenOn = 63790,
         /// <summary>SISTRIX (f3ee)</summary>
         Sistrix = 62446,
         /// <summary>Sitemap (f0e8)</summary>
@@ -3411,6 +3529,8 @@ namespace Meziantou.WpfFontAwesome
         Socks = 63126,
         /// <summary>Solar Panel (f5ba)</summary>
         SolarPanel = 62906,
+        /// <summary>Solar System (f92f)</summary>
+        SolarSystem = 63791,
         /// <summary>Sort (f0dc)</summary>
         Sort = 61660,
         /// <summary>Sort Alphabetical Down (f15d)</summary>
@@ -3431,6 +3551,12 @@ namespace Meziantou.WpfFontAwesome
         SortAmountUp = 61793,
         /// <summary>Alternate Sort Amount Up (f885)</summary>
         SortAmountUpAlt = 63621,
+        /// <summary>Sort Circle (f930)</summary>
+        SortCircle = 63792,
+        /// <summary>Sort Circle Down (f931)</summary>
+        SortCircleDown = 63793,
+        /// <summary>Sort Circle Up (f932)</summary>
+        SortCircleUp = 63794,
         /// <summary>Sort Down (Descending) (f0dd)</summary>
         SortDown = 61661,
         /// <summary>Sort Numeric Down (f162)</summary>
@@ -3469,6 +3595,10 @@ namespace Meziantou.WpfFontAwesome
         Spa = 62907,
         /// <summary>Space Shuttle (f197)</summary>
         SpaceShuttle = 61847,
+        /// <summary>Moon Space Station (f933)</summary>
+        SpaceStationMoon = 63795,
+        /// <summary>Moon Space Station Under Construction (f934)</summary>
+        SpaceStationMoonAlt = 63796,
         /// <summary>Spade (f2f4)</summary>
         Spade = 62196,
         /// <summary>Sparkles (f890)</summary>
@@ -3499,6 +3629,8 @@ namespace Meziantou.WpfFontAwesome
         Spotify = 61884,
         /// <summary>Spray Can (f5bd)</summary>
         SprayCan = 62909,
+        /// <summary>Sprinkler (f935)</summary>
+        Sprinkler = 63797,
         /// <summary>Square (f0c8)</summary>
         Square = 61640,
         /// <summary>Square Full (f45c)</summary>
@@ -3537,8 +3669,18 @@ namespace Meziantou.WpfFontAwesome
         StarOfDavid = 63130,
         /// <summary>Star of Life (f621)</summary>
         StarOfLife = 63009,
+        /// <summary>Star Shooting (f936)</summary>
+        StarShooting = 63798,
+        /// <summary>Starfighter (f937)</summary>
+        Starfighter = 63799,
+        /// <summary>Starfighter Alternate (f938)</summary>
+        StarfighterAlt = 63800,
         /// <summary>Stars (f762)</summary>
         Stars = 63330,
+        /// <summary>Starship (f939)</summary>
+        Starship = 63801,
+        /// <summary>Starship Freighter (f93a)</summary>
+        StarshipFreighter = 63802,
         /// <summary>StayLinked (f3f5)</summary>
         Staylinked = 62453,
         /// <summary>Steak (f824)</summary>
@@ -3639,8 +3781,14 @@ namespace Meziantou.WpfFontAwesome
         SwimmingPool = 62917,
         /// <summary>Sword (f71c)</summary>
         Sword = 63260,
+        /// <summary>Sword Laser (f93b)</summary>
+        SwordLaser = 63803,
+        /// <summary>Sword Laser Alternate (f93c)</summary>
+        SwordLaserAlt = 63804,
         /// <summary>Swords (f71d)</summary>
         Swords = 63261,
+        /// <summary>Swords Laser (f93d)</summary>
+        SwordsLaser = 63805,
         /// <summary>Symfony (f83d)</summary>
         Symfony = 63549,
         /// <summary>Synagogue (f69b)</summary>
@@ -3719,6 +3867,10 @@ namespace Meziantou.WpfFontAwesome
         Telegram = 62150,
         /// <summary>Telegram Plane (f3fe)</summary>
         TelegramPlane = 62462,
+        /// <summary>Telescope (f93e)</summary>
+        Telescope = 63806,
+        /// <summary>Temperature Down (f93f)</summary>
+        TemperatureDown = 63807,
         /// <summary>Temperature Frigid (f768)</summary>
         TemperatureFrigid = 63336,
         /// <summary>High Temperature (f769)</summary>
@@ -3727,6 +3879,8 @@ namespace Meziantou.WpfFontAwesome
         TemperatureHot = 63338,
         /// <summary>Low Temperature (f76b)</summary>
         TemperatureLow = 63339,
+        /// <summary>Temperature Up (f940)</summary>
+        TemperatureUp = 63808,
         /// <summary>Tencent Weibo (f1d5)</summary>
         TencentWeibo = 61909,
         /// <summary>Tenge (f7d7)</summary>
@@ -3859,6 +4013,8 @@ namespace Meziantou.WpfFontAwesome
         TrafficLightSlow = 63033,
         /// <summary>Traffic Light-stop (f63a)</summary>
         TrafficLightStop = 63034,
+        /// <summary>Trailer (f941)</summary>
+        Trailer = 63809,
         /// <summary>Train (f238)</summary>
         Train = 62008,
         /// <summary>Tram (f7da)</summary>
@@ -3867,6 +4023,16 @@ namespace Meziantou.WpfFontAwesome
         Transgender = 61988,
         /// <summary>Alternate Transgender (f225)</summary>
         TransgenderAlt = 61989,
+        /// <summary>Transporter (f942)</summary>
+        Transporter = 63810,
+        /// <summary>Transporter 1 (f943)</summary>
+        Transporter1 = 63811,
+        /// <summary>Transporter 2 (f944)</summary>
+        Transporter2 = 63812,
+        /// <summary>Transporter 3 (f945)</summary>
+        Transporter3 = 63813,
+        /// <summary>Transporter Empty (f946)</summary>
+        TransporterEmpty = 63814,
         /// <summary>Trash (f1f8)</summary>
         Trash = 61944,
         /// <summary>Alternate Trash (f2ed)</summary>
@@ -3963,6 +4129,10 @@ namespace Meziantou.WpfFontAwesome
         Uber = 62466,
         /// <summary>Ubuntu (f7df)</summary>
         Ubuntu = 63455,
+        /// <summary>U.F.O. (f947)</summary>
+        Ufo = 63815,
+        /// <summary>U.F.O. with Beam (f948)</summary>
+        UfoBeam = 63816,
         /// <summary>UIkit (f403)</summary>
         Uikit = 62467,
         /// <summary>Umbraco (f8e8)</summary>
@@ -3983,6 +4153,8 @@ namespace Meziantou.WpfFontAwesome
         Union = 63138,
         /// <summary>Uniregistry (f404)</summary>
         Uniregistry = 62468,
+        /// <summary>Unity 3D (f949)</summary>
+        Unity = 63817,
         /// <summary>Universal Access (f29a)</summary>
         UniversalAccess = 62106,
         /// <summary>University (f19c)</summary>
@@ -4009,6 +4181,8 @@ namespace Meziantou.WpfFontAwesome
         UsdSquare = 62185,
         /// <summary>User (f007)</summary>
         User = 61447,
+        /// <summary>User Alien (f94a)</summary>
+        UserAlien = 63818,
         /// <summary>Alternate User (f406)</summary>
         UserAlt = 62470,
         /// <summary>Alternate User Slash (f4fa)</summary>
@@ -4057,6 +4231,8 @@ namespace Meziantou.WpfFontAwesome
         UserNurse = 63535,
         /// <summary>User Plus (f234)</summary>
         UserPlus = 62004,
+        /// <summary>User Robot (f94b)</summary>
+        UserRobot = 63819,
         /// <summary>User Secret (f21b)</summary>
         UserSecret = 61979,
         /// <summary>User Shield (f505)</summary>
@@ -4069,6 +4245,8 @@ namespace Meziantou.WpfFontAwesome
         UserTie = 62728,
         /// <summary>Remove User (f235)</summary>
         UserTimes = 62005,
+        /// <summary>User Visor (f94c)</summary>
+        UserVisor = 63820,
         /// <summary>Users (f0c0)</summary>
         Users = 61632,
         /// <summary>Users Class (f63d)</summary>
@@ -4095,6 +4273,10 @@ namespace Meziantou.WpfFontAwesome
         UtensilsAlt = 62182,
         /// <summary>Vaadin (f408)</summary>
         Vaadin = 62472,
+        /// <summary>Vacuum (f94d)</summary>
+        Vacuum = 63821,
+        /// <summary>Robot Vacuum (f94e)</summary>
+        VacuumRobot = 63822,
         /// <summary>Value Absolute (f6a6)</summary>
         ValueAbsolute = 63142,
         /// <summary>Vector Square (f5cb)</summary>
@@ -4261,6 +4443,10 @@ namespace Meziantou.WpfFontAwesome
         WindowAlt = 62479,
         /// <summary>Window Close (f410)</summary>
         WindowClose = 62480,
+        /// <summary>House Window (f94f)</summary>
+        WindowFrame = 63823,
+        /// <summary>House Window Open (f950)</summary>
+        WindowFrameOpen = 63824,
         /// <summary>Window Maximize (f2d0)</summary>
         WindowMaximize = 62160,
         /// <summary>Window Minimize (f2d1)</summary>
@@ -4337,7 +4523,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.11.2</summary>
+    /// <summary>Icons of FontAwesome brands 5.12.0</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -4616,6 +4802,8 @@ namespace Meziantou.WpfFontAwesome
         Figma = 63385,
         /// <summary>Firefox (f269)</summary>
         Firefox = 62057,
+        /// <summary>Firefox Browser (f907)</summary>
+        FirefoxBrowser = 63751,
         /// <summary>First Order (f2b0)</summary>
         FirstOrder = 62128,
         /// <summary>Alternate First Order (f50a)</summary>
@@ -4648,7 +4836,7 @@ namespace Meziantou.WpfFontAwesome
         Forumbee = 61969,
         /// <summary>Foursquare (f180)</summary>
         Foursquare = 61824,
-        /// <summary>Free Code Camp (f2c5)</summary>
+        /// <summary>freeCodeCamp (f2c5)</summary>
         FreeCodeCamp = 62149,
         /// <summary>FreeBSD (f3a4)</summary>
         Freebsd = 62372,
@@ -4738,6 +4926,8 @@ namespace Meziantou.WpfFontAwesome
         Html5 = 61755,
         /// <summary>HubSpot (f3b2)</summary>
         Hubspot = 62386,
+        /// <summary>iDeal (f913)</summary>
+        Ideal = 63763,
         /// <summary>IMDB (f2d8)</summary>
         Imdb = 62168,
         /// <summary>Instagram (f16d)</summary>
@@ -4836,6 +5026,8 @@ namespace Meziantou.WpfFontAwesome
         Megaport = 62883,
         /// <summary>Mendeley (f7b3)</summary>
         Mendeley = 63411,
+        /// <summary>Micro.blog (f91a)</summary>
+        Microblog = 63770,
         /// <summary>Microsoft (f3ca)</summary>
         Microsoft = 62410,
         /// <summary>Mix (f3cb)</summary>
@@ -4906,12 +5098,14 @@ namespace Meziantou.WpfFontAwesome
         Php = 62551,
         /// <summary>Pied Piper Logo (f2ae)</summary>
         PiedPiper = 62126,
-        /// <summary>Alternate Pied Piper Logo (f1a8)</summary>
+        /// <summary>Alternate Pied Piper Logo (Old) (f1a8)</summary>
         PiedPiperAlt = 61864,
-        /// <summary>Pied Piper-hat (f4e5)</summary>
+        /// <summary>Pied Piper Hat (Old) (f4e5)</summary>
         PiedPiperHat = 62693,
         /// <summary>Pied Piper PP Logo (Old) (f1a7)</summary>
         PiedPiperPp = 61863,
+        /// <summary>Pied Piper Square Logo (Old) (f91e)</summary>
+        PiedPiperSquare = 63774,
         /// <summary>Pinterest (f0d2)</summary>
         Pinterest = 61650,
         /// <summary>Pinterest P (f231)</summary>
@@ -5110,6 +5304,8 @@ namespace Meziantou.WpfFontAwesome
         Umbraco = 63720,
         /// <summary>Uniregistry (f404)</summary>
         Uniregistry = 62468,
+        /// <summary>Unity 3D (f949)</summary>
+        Unity = 63817,
         /// <summary>Untappd (f405)</summary>
         Untappd = 62469,
         /// <summary>UPS (f7e0)</summary>
@@ -5210,7 +5406,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.11.2</summary>
+    /// <summary>Icons of FontAwesome solid 5.12.0</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -5227,6 +5423,9 @@ namespace Meziantou.WpfFontAwesome
         AddressCard = 62139,
         /// <summary>adjust (f042)</summary>
         Adjust = 61506,
+        /// <summary>Air Conditioner (f8f4)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        AirConditioner = 63732,
         /// <summary>Air Freshener (f5d0)</summary>
         AirFreshener = 62928,
         /// <summary>Alarm Clock (f34e)</summary>
@@ -5250,6 +5449,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alicorn (f6b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Alicorn = 63152,
+        /// <summary>Alien (f8f5)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Alien = 63733,
+        /// <summary>Alien Monster (f8f6)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        AlienMonster = 63734,
         /// <summary>align-center (f037)</summary>
         AlignCenter = 61495,
         /// <summary>align-justify (f039)</summary>
@@ -5487,6 +5692,8 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Shopping Bags (f847)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BagsShopping = 63559,
+        /// <summary>Bahá'í (f666)</summary>
+        Bahai = 63078,
         /// <summary>Balance Scale (f24e)</summary>
         BalanceScale = 62030,
         /// <summary>Balance Scale (Left-Weighted) (f515)</summary>
@@ -5555,6 +5762,15 @@ namespace Meziantou.WpfFontAwesome
         BatteryThreeQuarters = 62017,
         /// <summary>Bed (f236)</summary>
         Bed = 62006,
+        /// <summary>Alternate Bed (f8f7)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedAlt = 63735,
+        /// <summary>Bunkbed (f8f8)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedBunk = 63736,
+        /// <summary>Bed Empty (f8f9)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedEmpty = 63737,
         /// <summary>beer (f0fc)</summary>
         Beer = 61692,
         /// <summary>bell (f0f3)</summary>
@@ -5562,6 +5778,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Bell Exclamation (f848)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BellExclamation = 63560,
+        /// <summary>Bell On (f8fa)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BellOn = 63738,
         /// <summary>Bell Plus (f849)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BellPlus = 63561,
@@ -5605,6 +5824,15 @@ namespace Meziantou.WpfFontAwesome
         BlenderPhone = 63158,
         /// <summary>Blind (f29d)</summary>
         Blind = 62109,
+        /// <summary>Blinds (f8fb)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Blinds = 63739,
+        /// <summary>Blinds Open (f8fc)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BlindsOpen = 63740,
+        /// <summary>Blinds Raised (f8fd)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BlindsRaised = 63741,
         /// <summary>Blog (f781)</summary>
         Blog = 63361,
         /// <summary>bold (f032)</summary>
@@ -5845,6 +6073,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Camera (f332)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CameraAlt = 62258,
+        /// <summary>Camera Home (f8fe)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CameraHome = 63742,
         /// <summary>Movie Camera (f8a9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CameraMovie = 63657,
@@ -5901,6 +6132,11 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Car Wash (f5e6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CarWash = 62950,
+        /// <summary>Caravan (f8ff)</summary>
+        Caravan = 63743,
+        /// <summary>Caravan Alternate (f900)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CaravanAlt = 63744,
         /// <summary>Caret Circle Down (f32d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CaretCircleDown = 62253,
@@ -5945,6 +6181,9 @@ namespace Meziantou.WpfFontAwesome
         CassetteTape = 63659,
         /// <summary>Cat (f6be)</summary>
         Cat = 63166,
+        /// <summary>Space Cat (f901)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CatSpace = 63745,
         /// <summary>Cauldron (f6bf)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cauldron = 63167,
@@ -6198,6 +6437,9 @@ namespace Meziantou.WpfFontAwesome
         CodeMerge = 62343,
         /// <summary>Coffee (f0f4)</summary>
         Coffee = 61684,
+        /// <summary>Coffee Pot (f902)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CoffeePot = 63746,
         /// <summary>To-Go Coffee (f6c5)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CoffeeTogo = 63173,
@@ -6215,6 +6457,9 @@ namespace Meziantou.WpfFontAwesome
         Coins = 62750,
         /// <summary>Columns (f0db)</summary>
         Columns = 61659,
+        /// <summary>Comet (f903)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Comet = 63747,
         /// <summary>comment (f075)</summary>
         Comment = 61557,
         /// <summary>Alternate Comment (f27a)</summary>
@@ -6313,7 +6558,6 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Compress (f066)</summary>
         Compress = 61542,
         /// <summary>Alternate Compress (f422)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
         CompressAlt = 62498,
         /// <summary>Alternate Compress Arrows (f78c)</summary>
         CompressArrowsAlt = 63372,
@@ -6645,7 +6889,6 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Expand (f065)</summary>
         Expand = 61541,
         /// <summary>Alternate Expand (f424)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
         ExpandAlt = 62500,
         /// <summary>Expand Arrows (f31d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
@@ -6676,6 +6919,9 @@ namespace Meziantou.WpfFontAwesome
         EyeSlash = 61552,
         /// <summary>Fan (f863)</summary>
         Fan = 63587,
+        /// <summary>Fan Table (f904)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FanTable = 63748,
         /// <summary>Farm (f864)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Farm = 63588,
@@ -6683,6 +6929,12 @@ namespace Meziantou.WpfFontAwesome
         FastBackward = 61513,
         /// <summary>fast-forward (f050)</summary>
         FastForward = 61520,
+        /// <summary>Faucet (f905)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Faucet = 63749,
+        /// <summary>Faucet Drip (f906)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FaucetDrip = 63750,
         /// <summary>Fax (f1ac)</summary>
         Fax = 61868,
         /// <summary>Feather (f52d)</summary>
@@ -6920,6 +7172,9 @@ namespace Meziantou.WpfFontAwesome
         FunnelDollar = 63074,
         /// <summary>Futbol (f1e3)</summary>
         Futbol = 61923,
+        /// <summary>Galaxy (f908)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Galaxy = 63752,
         /// <summary>Game Board (f867)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GameBoard = 63591,
@@ -6934,6 +7189,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Gamepad (f8bc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GamepadAlt = 63676,
+        /// <summary>Garage (f909)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Garage = 63753,
+        /// <summary>Garage Car (f90a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        GarageCar = 63754,
+        /// <summary>Garage Open (f90b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        GarageOpen = 63755,
         /// <summary>Gas Pump (f52f)</summary>
         GasPump = 62767,
         /// <summary>Gas Pump Slash (f5f4)</summary>
@@ -7168,8 +7432,6 @@ namespace Meziantou.WpfFontAwesome
         HatWitch = 63207,
         /// <summary>Wizard's Hat (f6e8)</summary>
         HatWizard = 63208,
-        /// <summary>Haykal (f666)</summary>
-        Haykal = 63078,
         /// <summary>HDD (f0a0)</summary>
         Hdd = 61600,
         /// <summary>Head Side (f6e9)</summary>
@@ -7210,6 +7472,9 @@ namespace Meziantou.WpfFontAwesome
         HeartSquare = 62664,
         /// <summary>Heartbeat (f21e)</summary>
         Heartbeat = 61982,
+        /// <summary>Heat (f90c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Heat = 63756,
         /// <summary>Helicopter (f533)</summary>
         Helicopter = 62771,
         /// <summary>Battle Helmet (f6eb)</summary>
@@ -7289,11 +7554,29 @@ namespace Meziantou.WpfFontAwesome
         HourglassHalf = 62034,
         /// <summary>Hourglass Start (f251)</summary>
         HourglassStart = 62033,
+        /// <summary>House (f90d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        House = 63757,
         /// <summary>Damaged House (f6f1)</summary>
         HouseDamage = 63217,
+        /// <summary>House Day (f90e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseDay = 63758,
         /// <summary>Flooded House (f74f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HouseFlood = 63311,
+        /// <summary>House Leave (f90f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseLeave = 63759,
+        /// <summary>House Night (f910)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseNight = 63760,
+        /// <summary>House Return (f911)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseReturn = 63761,
+        /// <summary>House Signal (f912)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseSignal = 63762,
         /// <summary>Hryvnia (f6f2)</summary>
         Hryvnia = 63218,
         /// <summary>Humidity (f750)</summary>
@@ -7430,6 +7713,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Lamp (f4ca)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Lamp = 62666,
+        /// <summary>Lamp Desk (f914)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LampDesk = 63764,
+        /// <summary>Lamp Floor (f915)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LampFloor = 63765,
         /// <summary>Landmark (f66f)</summary>
         Landmark = 63087,
         /// <summary>Alternative Landmark (f752)</summary>
@@ -7491,6 +7780,18 @@ namespace Meziantou.WpfFontAwesome
         LevelUpAlt = 62399,
         /// <summary>Life Ring (f1cd)</summary>
         LifeRing = 61901,
+        /// <summary>Light Ceiling (f916)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightCeiling = 63766,
+        /// <summary>Light Switch (f917)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitch = 63767,
+        /// <summary>Light Switch-off (f918)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitchOff = 63768,
+        /// <summary>Light Switch-on (f919)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitchOn = 63769,
         /// <summary>Lightbulb (f0eb)</summary>
         Lightbulb = 61675,
         /// <summary>Lightbulb Dollar (f670)</summary>
@@ -7700,6 +8001,9 @@ namespace Meziantou.WpfFontAwesome
         MicrophoneStand = 63691,
         /// <summary>Microscope (f610)</summary>
         Microscope = 62992,
+        /// <summary>Microwave (f91b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Microwave = 63771,
         /// <summary>Mind Share (f677)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MindShare = 63095,
@@ -7844,6 +8148,12 @@ namespace Meziantou.WpfFontAwesome
         Otter = 63232,
         /// <summary>Outdent (f03b)</summary>
         Outdent = 61499,
+        /// <summary>Outlet (f91c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Outlet = 63772,
+        /// <summary>Oven (f91d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Oven = 63773,
         /// <summary>Overline (f876)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Overline = 63606,
@@ -8017,6 +8327,12 @@ namespace Meziantou.WpfFontAwesome
         PlaneArrival = 62895,
         /// <summary>Plane Departure (f5b0)</summary>
         PlaneDeparture = 62896,
+        /// <summary>Planet with Moon (f91f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PlanetMoon = 63775,
+        /// <summary>Ringed Planet (f920)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PlanetRinged = 63776,
         /// <summary>play (f04b)</summary>
         Play = 61515,
         /// <summary>Play Circle (f144)</summary>
@@ -8043,6 +8359,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Podium with Star (f758)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PodiumStar = 63320,
+        /// <summary>Police Box (f921)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PoliceBox = 63777,
         /// <summary>Poll (f681)</summary>
         Poll = 63105,
         /// <summary>Poll H (f682)</summary>
@@ -8059,6 +8378,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Popcorn (f819)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Popcorn = 63513,
+        /// <summary>Portal Enter (f922)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PortalEnter = 63778,
+        /// <summary>Portal Exit (f923)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PortalExit = 63779,
         /// <summary>Portrait (f3e0)</summary>
         Portrait = 62432,
         /// <summary>Pound Sign (f154)</summary>
@@ -8124,6 +8449,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Racquet (f45a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Racquet = 62554,
+        /// <summary>Radar (f924)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Radar = 63780,
         /// <summary>Radiation (f7b9)</summary>
         Radiation = 63417,
         /// <summary>Alternate Radiation (f7ba)</summary>
@@ -8147,6 +8475,9 @@ namespace Meziantou.WpfFontAwesome
         RampLoading = 62676,
         /// <summary>random (f074)</summary>
         Random = 61556,
+        /// <summary>Raygun (f925)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Raygun = 63781,
         /// <summary>Receipt (f543)</summary>
         Receipt = 62787,
         /// <summary>Record Vinyl (f8d9)</summary>
@@ -8166,6 +8497,9 @@ namespace Meziantou.WpfFontAwesome
         Redo = 61470,
         /// <summary>Alternate Redo (f2f9)</summary>
         RedoAlt = 62201,
+        /// <summary>Refrigerator (f926)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Refrigerator = 63782,
         /// <summary>Registered Trademark (f25d)</summary>
         Registered = 62045,
         /// <summary>Remove Format (f87d)</summary>
@@ -8208,6 +8542,9 @@ namespace Meziantou.WpfFontAwesome
         Robot = 62788,
         /// <summary>rocket (f135)</summary>
         Rocket = 61749,
+        /// <summary>Rocket Launch (f927)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        RocketLaunch = 63783,
         /// <summary>Route (f4d7)</summary>
         Route = 62679,
         /// <summary>Route Highway (f61a)</summary>
@@ -8333,6 +8670,21 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Send Backward (f87f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SendBackward = 63615,
+        /// <summary>Sensor (f928)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Sensor = 63784,
+        /// <summary>Sensor Alert (f929)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorAlert = 63785,
+        /// <summary>Sensor Fire (f92a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorFire = 63786,
+        /// <summary>Sensor On (f92b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorOn = 63787,
+        /// <summary>Sensor Smoke (f92c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorSmoke = 63788,
         /// <summary>Server (f233)</summary>
         Server = 62003,
         /// <summary>Shapes (f61f)</summary>
@@ -8457,6 +8809,12 @@ namespace Meziantou.WpfFontAwesome
         Signature = 62903,
         /// <summary>SIM Card (f7c4)</summary>
         SimCard = 63428,
+        /// <summary>Siren (f92d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Siren = 63789,
+        /// <summary>Siren On (f92e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SirenOn = 63790,
         /// <summary>Sitemap (f0e8)</summary>
         Sitemap = 61672,
         /// <summary>Skating (f7c5)</summary>
@@ -8546,6 +8904,9 @@ namespace Meziantou.WpfFontAwesome
         Socks = 63126,
         /// <summary>Solar Panel (f5ba)</summary>
         SolarPanel = 62906,
+        /// <summary>Solar System (f92f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SolarSystem = 63791,
         /// <summary>Sort (f0dc)</summary>
         Sort = 61660,
         /// <summary>Sort Alphabetical Down (f15d)</summary>
@@ -8567,6 +8928,15 @@ namespace Meziantou.WpfFontAwesome
         SortAmountUp = 61793,
         /// <summary>Alternate Sort Amount Up (f885)</summary>
         SortAmountUpAlt = 63621,
+        /// <summary>Sort Circle (f930)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircle = 63792,
+        /// <summary>Sort Circle Down (f931)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircleDown = 63793,
+        /// <summary>Sort Circle Up (f932)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircleUp = 63794,
         /// <summary>Sort Down (Descending) (f0dd)</summary>
         SortDown = 61661,
         /// <summary>Sort Numeric Down (f162)</summary>
@@ -8610,6 +8980,12 @@ namespace Meziantou.WpfFontAwesome
         Spa = 62907,
         /// <summary>Space Shuttle (f197)</summary>
         SpaceShuttle = 61847,
+        /// <summary>Moon Space Station (f933)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SpaceStationMoon = 63795,
+        /// <summary>Moon Space Station Under Construction (f934)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SpaceStationMoonAlt = 63796,
         /// <summary>Spade (f2f4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Spade = 62196,
@@ -8641,6 +9017,9 @@ namespace Meziantou.WpfFontAwesome
         Splotch = 62908,
         /// <summary>Spray Can (f5bd)</summary>
         SprayCan = 62909,
+        /// <summary>Sprinkler (f935)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Sprinkler = 63797,
         /// <summary>Square (f0c8)</summary>
         Square = 61640,
         /// <summary>Square Full (f45c)</summary>
@@ -8676,9 +9055,24 @@ namespace Meziantou.WpfFontAwesome
         StarOfDavid = 63130,
         /// <summary>Star of Life (f621)</summary>
         StarOfLife = 63009,
+        /// <summary>Star Shooting (f936)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarShooting = 63798,
+        /// <summary>Starfighter (f937)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Starfighter = 63799,
+        /// <summary>Starfighter Alternate (f938)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarfighterAlt = 63800,
         /// <summary>Stars (f762)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Stars = 63330,
+        /// <summary>Starship (f939)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Starship = 63801,
+        /// <summary>Starship Freighter (f93a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarshipFreighter = 63802,
         /// <summary>Steak (f824)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Steak = 63524,
@@ -8761,9 +9155,18 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Sword (f71c)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sword = 63260,
+        /// <summary>Sword Laser (f93b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordLaser = 63803,
+        /// <summary>Sword Laser Alternate (f93c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordLaserAlt = 63804,
         /// <summary>Swords (f71d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Swords = 63261,
+        /// <summary>Swords Laser (f93d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordsLaser = 63805,
         /// <summary>Synagogue (f69b)</summary>
         Synagogue = 63131,
         /// <summary>Sync (f021)</summary>
@@ -8852,6 +9255,12 @@ namespace Meziantou.WpfFontAwesome
         Teeth = 63022,
         /// <summary>Teeth Open (f62f)</summary>
         TeethOpen = 63023,
+        /// <summary>Telescope (f93e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Telescope = 63806,
+        /// <summary>Temperature Down (f93f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TemperatureDown = 63807,
         /// <summary>Temperature Frigid (f768)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TemperatureFrigid = 63336,
@@ -8862,6 +9271,9 @@ namespace Meziantou.WpfFontAwesome
         TemperatureHot = 63338,
         /// <summary>Low Temperature (f76b)</summary>
         TemperatureLow = 63339,
+        /// <summary>Temperature Up (f940)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TemperatureUp = 63808,
         /// <summary>Tenge (f7d7)</summary>
         Tenge = 63447,
         /// <summary>Tennis Ball (f45e)</summary>
@@ -9007,6 +9419,8 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Traffic Light-stop (f63a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TrafficLightStop = 63034,
+        /// <summary>Trailer (f941)</summary>
+        Trailer = 63809,
         /// <summary>Train (f238)</summary>
         Train = 62008,
         /// <summary>Tram (f7da)</summary>
@@ -9015,6 +9429,21 @@ namespace Meziantou.WpfFontAwesome
         Transgender = 61988,
         /// <summary>Alternate Transgender (f225)</summary>
         TransgenderAlt = 61989,
+        /// <summary>Transporter (f942)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter = 63810,
+        /// <summary>Transporter 1 (f943)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter1 = 63811,
+        /// <summary>Transporter 2 (f944)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter2 = 63812,
+        /// <summary>Transporter 3 (f945)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter3 = 63813,
+        /// <summary>Transporter Empty (f946)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TransporterEmpty = 63814,
         /// <summary>Trash (f1f8)</summary>
         Trash = 61944,
         /// <summary>Alternate Trash (f2ed)</summary>
@@ -9115,6 +9544,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Typewriter (f8e7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Typewriter = 63719,
+        /// <summary>U.F.O. (f947)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Ufo = 63815,
+        /// <summary>U.F.O. with Beam (f948)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UfoBeam = 63816,
         /// <summary>Umbrella (f0e9)</summary>
         Umbrella = 61673,
         /// <summary>Umbrella Beach (f5ca)</summary>
@@ -9154,6 +9589,9 @@ namespace Meziantou.WpfFontAwesome
         UsdSquare = 62185,
         /// <summary>User (f007)</summary>
         User = 61447,
+        /// <summary>User Alien (f94a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserAlien = 63818,
         /// <summary>Alternate User (f406)</summary>
         UserAlt = 62470,
         /// <summary>Alternate User Slash (f4fa)</summary>
@@ -9209,6 +9647,9 @@ namespace Meziantou.WpfFontAwesome
         UserNurse = 63535,
         /// <summary>User Plus (f234)</summary>
         UserPlus = 62004,
+        /// <summary>User Robot (f94b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserRobot = 63819,
         /// <summary>User Secret (f21b)</summary>
         UserSecret = 61979,
         /// <summary>User Shield (f505)</summary>
@@ -9221,6 +9662,9 @@ namespace Meziantou.WpfFontAwesome
         UserTie = 62728,
         /// <summary>Remove User (f235)</summary>
         UserTimes = 62005,
+        /// <summary>User Visor (f94c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserVisor = 63820,
         /// <summary>Users (f0c0)</summary>
         Users = 61632,
         /// <summary>Users Class (f63d)</summary>
@@ -9247,6 +9691,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Utensils (f2e6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UtensilsAlt = 62182,
+        /// <summary>Vacuum (f94d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Vacuum = 63821,
+        /// <summary>Robot Vacuum (f94e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        VacuumRobot = 63822,
         /// <summary>Value Absolute (f6a6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         ValueAbsolute = 63142,
@@ -9411,6 +9861,12 @@ namespace Meziantou.WpfFontAwesome
         WindowAlt = 62479,
         /// <summary>Window Close (f410)</summary>
         WindowClose = 62480,
+        /// <summary>House Window (f94f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WindowFrame = 63823,
+        /// <summary>House Window Open (f950)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WindowFrameOpen = 63824,
         /// <summary>Window Maximize (f2d0)</summary>
         WindowMaximize = 62160,
         /// <summary>Window Minimize (f2d1)</summary>
@@ -9441,7 +9897,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.11.2</summary>
+    /// <summary>Icons of FontAwesome regular 5.12.0</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -9460,6 +9916,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>adjust (f042)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Adjust = 61506,
+        /// <summary>Air Conditioner (f8f4)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        AirConditioner = 63732,
         /// <summary>Air Freshener (f5d0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         AirFreshener = 62928,
@@ -9484,6 +9943,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alicorn (f6b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Alicorn = 63152,
+        /// <summary>Alien (f8f5)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Alien = 63733,
+        /// <summary>Alien Monster (f8f6)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        AlienMonster = 63734,
         /// <summary>align-center (f037)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         AlignCenter = 61495,
@@ -9764,6 +10229,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Shopping Bags (f847)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BagsShopping = 63559,
+        /// <summary>Bahá'í (f666)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Bahai = 63078,
         /// <summary>Balance Scale (f24e)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BalanceScale = 62030,
@@ -9848,6 +10316,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Bed (f236)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Bed = 62006,
+        /// <summary>Alternate Bed (f8f7)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedAlt = 63735,
+        /// <summary>Bunkbed (f8f8)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedBunk = 63736,
+        /// <summary>Bed Empty (f8f9)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedEmpty = 63737,
         /// <summary>beer (f0fc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Beer = 61692,
@@ -9856,6 +10333,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Bell Exclamation (f848)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BellExclamation = 63560,
+        /// <summary>Bell On (f8fa)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BellOn = 63738,
         /// <summary>Bell Plus (f849)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BellPlus = 63561,
@@ -9909,6 +10389,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Blind (f29d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Blind = 62109,
+        /// <summary>Blinds (f8fb)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Blinds = 63739,
+        /// <summary>Blinds Open (f8fc)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BlindsOpen = 63740,
+        /// <summary>Blinds Raised (f8fd)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BlindsRaised = 63741,
         /// <summary>Blog (f781)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Blog = 63361,
@@ -10186,6 +10675,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Camera (f332)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CameraAlt = 62258,
+        /// <summary>Camera Home (f8fe)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CameraHome = 63742,
         /// <summary>Movie Camera (f8a9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CameraMovie = 63657,
@@ -10252,6 +10744,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Car Wash (f5e6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CarWash = 62950,
+        /// <summary>Caravan (f8ff)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Caravan = 63743,
+        /// <summary>Caravan Alternate (f900)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CaravanAlt = 63744,
         /// <summary>Caret Circle Down (f32d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CaretCircleDown = 62253,
@@ -10305,6 +10803,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Cat (f6be)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cat = 63166,
+        /// <summary>Space Cat (f901)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CatSpace = 63745,
         /// <summary>Cauldron (f6bf)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cauldron = 63167,
@@ -10606,6 +11107,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Coffee (f0f4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Coffee = 61684,
+        /// <summary>Coffee Pot (f902)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CoffeePot = 63746,
         /// <summary>To-Go Coffee (f6c5)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CoffeeTogo = 63173,
@@ -10627,6 +11131,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Columns (f0db)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Columns = 61659,
+        /// <summary>Comet (f903)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Comet = 63747,
         /// <summary>comment (f075)</summary>
         Comment = 61557,
         /// <summary>Alternate Comment (f27a)</summary>
@@ -11167,6 +11674,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Fan (f863)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Fan = 63587,
+        /// <summary>Fan Table (f904)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FanTable = 63748,
         /// <summary>Farm (f864)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Farm = 63588,
@@ -11176,6 +11686,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>fast-forward (f050)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FastForward = 61520,
+        /// <summary>Faucet (f905)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Faucet = 63749,
+        /// <summary>Faucet Drip (f906)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FaucetDrip = 63750,
         /// <summary>Fax (f1ac)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Fax = 61868,
@@ -11451,6 +11967,9 @@ namespace Meziantou.WpfFontAwesome
         FunnelDollar = 63074,
         /// <summary>Futbol (f1e3)</summary>
         Futbol = 61923,
+        /// <summary>Galaxy (f908)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Galaxy = 63752,
         /// <summary>Game Board (f867)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GameBoard = 63591,
@@ -11466,6 +11985,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Gamepad (f8bc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GamepadAlt = 63676,
+        /// <summary>Garage (f909)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Garage = 63753,
+        /// <summary>Garage Car (f90a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        GarageCar = 63754,
+        /// <summary>Garage Open (f90b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        GarageOpen = 63755,
         /// <summary>Gas Pump (f52f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GasPump = 62767,
@@ -11742,9 +12270,6 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Wizard's Hat (f6e8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HatWizard = 63208,
-        /// <summary>Haykal (f666)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
-        Haykal = 63078,
         /// <summary>HDD (f0a0)</summary>
         Hdd = 61600,
         /// <summary>Head Side (f6e9)</summary>
@@ -11791,6 +12316,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Heartbeat (f21e)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Heartbeat = 61982,
+        /// <summary>Heat (f90c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Heat = 63756,
         /// <summary>Helicopter (f533)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Helicopter = 62771,
@@ -11888,12 +12416,30 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Hourglass Start (f251)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HourglassStart = 62033,
+        /// <summary>House (f90d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        House = 63757,
         /// <summary>Damaged House (f6f1)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HouseDamage = 63217,
+        /// <summary>House Day (f90e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseDay = 63758,
         /// <summary>Flooded House (f74f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HouseFlood = 63311,
+        /// <summary>House Leave (f90f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseLeave = 63759,
+        /// <summary>House Night (f910)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseNight = 63760,
+        /// <summary>House Return (f911)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseReturn = 63761,
+        /// <summary>House Signal (f912)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseSignal = 63762,
         /// <summary>Hryvnia (f6f2)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Hryvnia = 63218,
@@ -12051,6 +12597,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Lamp (f4ca)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Lamp = 62666,
+        /// <summary>Lamp Desk (f914)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LampDesk = 63764,
+        /// <summary>Lamp Floor (f915)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LampFloor = 63765,
         /// <summary>Landmark (f66f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Landmark = 63087,
@@ -12123,6 +12675,18 @@ namespace Meziantou.WpfFontAwesome
         LevelUpAlt = 62399,
         /// <summary>Life Ring (f1cd)</summary>
         LifeRing = 61901,
+        /// <summary>Light Ceiling (f916)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightCeiling = 63766,
+        /// <summary>Light Switch (f917)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitch = 63767,
+        /// <summary>Light Switch-off (f918)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitchOff = 63768,
+        /// <summary>Light Switch-on (f919)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitchOn = 63769,
         /// <summary>Lightbulb (f0eb)</summary>
         Lightbulb = 61675,
         /// <summary>Lightbulb Dollar (f670)</summary>
@@ -12375,6 +12939,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Microscope (f610)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Microscope = 62992,
+        /// <summary>Microwave (f91b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Microwave = 63771,
         /// <summary>Mind Share (f677)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MindShare = 63095,
@@ -12546,6 +13113,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Outdent (f03b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Outdent = 61499,
+        /// <summary>Outlet (f91c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Outlet = 63772,
+        /// <summary>Oven (f91d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Oven = 63773,
         /// <summary>Overline (f876)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Overline = 63606,
@@ -12760,6 +13333,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Plane Departure (f5b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PlaneDeparture = 62896,
+        /// <summary>Planet with Moon (f91f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PlanetMoon = 63775,
+        /// <summary>Ringed Planet (f920)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PlanetRinged = 63776,
         /// <summary>play (f04b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Play = 61515,
@@ -12791,6 +13370,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Podium with Star (f758)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PodiumStar = 63320,
+        /// <summary>Police Box (f921)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PoliceBox = 63777,
         /// <summary>Poll (f681)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Poll = 63105,
@@ -12812,6 +13394,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Popcorn (f819)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Popcorn = 63513,
+        /// <summary>Portal Enter (f922)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PortalEnter = 63778,
+        /// <summary>Portal Exit (f923)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PortalExit = 63779,
         /// <summary>Portrait (f3e0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Portrait = 62432,
@@ -12895,6 +13483,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Racquet (f45a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Racquet = 62554,
+        /// <summary>Radar (f924)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Radar = 63780,
         /// <summary>Radiation (f7b9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Radiation = 63417,
@@ -12922,6 +13513,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>random (f074)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Random = 61556,
+        /// <summary>Raygun (f925)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Raygun = 63781,
         /// <summary>Receipt (f543)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Receipt = 62787,
@@ -12946,6 +13540,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Redo (f2f9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         RedoAlt = 62201,
+        /// <summary>Refrigerator (f926)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Refrigerator = 63782,
         /// <summary>Registered Trademark (f25d)</summary>
         Registered = 62045,
         /// <summary>Remove Format (f87d)</summary>
@@ -12999,6 +13596,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>rocket (f135)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Rocket = 61749,
+        /// <summary>Rocket Launch (f927)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        RocketLaunch = 63783,
         /// <summary>Route (f4d7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Route = 62679,
@@ -13146,6 +13746,21 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Send Backward (f87f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SendBackward = 63615,
+        /// <summary>Sensor (f928)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Sensor = 63784,
+        /// <summary>Sensor Alert (f929)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorAlert = 63785,
+        /// <summary>Sensor Fire (f92a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorFire = 63786,
+        /// <summary>Sensor On (f92b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorOn = 63787,
+        /// <summary>Sensor Smoke (f92c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorSmoke = 63788,
         /// <summary>Server (f233)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Server = 62003,
@@ -13292,6 +13907,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>SIM Card (f7c4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SimCard = 63428,
+        /// <summary>Siren (f92d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Siren = 63789,
+        /// <summary>Siren On (f92e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SirenOn = 63790,
         /// <summary>Sitemap (f0e8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sitemap = 61672,
@@ -13399,6 +14020,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Solar Panel (f5ba)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SolarPanel = 62906,
+        /// <summary>Solar System (f92f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SolarSystem = 63791,
         /// <summary>Sort (f0dc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sort = 61660,
@@ -13429,6 +14053,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Sort Amount Up (f885)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SortAmountUpAlt = 63621,
+        /// <summary>Sort Circle (f930)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircle = 63792,
+        /// <summary>Sort Circle Down (f931)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircleDown = 63793,
+        /// <summary>Sort Circle Up (f932)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircleUp = 63794,
         /// <summary>Sort Down (Descending) (f0dd)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SortDown = 61661,
@@ -13480,6 +14113,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Space Shuttle (f197)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SpaceShuttle = 61847,
+        /// <summary>Moon Space Station (f933)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SpaceStationMoon = 63795,
+        /// <summary>Moon Space Station Under Construction (f934)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SpaceStationMoonAlt = 63796,
         /// <summary>Spade (f2f4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Spade = 62196,
@@ -13516,6 +14155,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Spray Can (f5bd)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SprayCan = 62909,
+        /// <summary>Sprinkler (f935)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Sprinkler = 63797,
         /// <summary>Square (f0c8)</summary>
         Square = 61640,
         /// <summary>Square Full (f45c)</summary>
@@ -13558,9 +14200,24 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Star of Life (f621)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         StarOfLife = 63009,
+        /// <summary>Star Shooting (f936)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarShooting = 63798,
+        /// <summary>Starfighter (f937)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Starfighter = 63799,
+        /// <summary>Starfighter Alternate (f938)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarfighterAlt = 63800,
         /// <summary>Stars (f762)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Stars = 63330,
+        /// <summary>Starship (f939)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Starship = 63801,
+        /// <summary>Starship Freighter (f93a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarshipFreighter = 63802,
         /// <summary>Steak (f824)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Steak = 63524,
@@ -13662,9 +14319,18 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Sword (f71c)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sword = 63260,
+        /// <summary>Sword Laser (f93b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordLaser = 63803,
+        /// <summary>Sword Laser Alternate (f93c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordLaserAlt = 63804,
         /// <summary>Swords (f71d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Swords = 63261,
+        /// <summary>Swords Laser (f93d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordsLaser = 63805,
         /// <summary>Synagogue (f69b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Synagogue = 63131,
@@ -13770,6 +14436,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Teeth Open (f62f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TeethOpen = 63023,
+        /// <summary>Telescope (f93e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Telescope = 63806,
+        /// <summary>Temperature Down (f93f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TemperatureDown = 63807,
         /// <summary>Temperature Frigid (f768)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TemperatureFrigid = 63336,
@@ -13782,6 +14454,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Low Temperature (f76b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TemperatureLow = 63339,
+        /// <summary>Temperature Up (f940)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TemperatureUp = 63808,
         /// <summary>Tenge (f7d7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Tenge = 63447,
@@ -13958,6 +14633,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Traffic Light-stop (f63a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TrafficLightStop = 63034,
+        /// <summary>Trailer (f941)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Trailer = 63809,
         /// <summary>Train (f238)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Train = 62008,
@@ -13970,6 +14648,21 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Transgender (f225)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TransgenderAlt = 61989,
+        /// <summary>Transporter (f942)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter = 63810,
+        /// <summary>Transporter 1 (f943)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter1 = 63811,
+        /// <summary>Transporter 2 (f944)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter2 = 63812,
+        /// <summary>Transporter 3 (f945)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter3 = 63813,
+        /// <summary>Transporter Empty (f946)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TransporterEmpty = 63814,
         /// <summary>Trash (f1f8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Trash = 61944,
@@ -14083,6 +14776,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Typewriter (f8e7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Typewriter = 63719,
+        /// <summary>U.F.O. (f947)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Ufo = 63815,
+        /// <summary>U.F.O. with Beam (f948)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UfoBeam = 63816,
         /// <summary>Umbrella (f0e9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Umbrella = 61673,
@@ -14133,6 +14832,9 @@ namespace Meziantou.WpfFontAwesome
         UsdSquare = 62185,
         /// <summary>User (f007)</summary>
         User = 61447,
+        /// <summary>User Alien (f94a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserAlien = 63818,
         /// <summary>Alternate User (f406)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserAlt = 62470,
@@ -14204,6 +14906,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>User Plus (f234)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserPlus = 62004,
+        /// <summary>User Robot (f94b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserRobot = 63819,
         /// <summary>User Secret (f21b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserSecret = 61979,
@@ -14222,6 +14927,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Remove User (f235)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserTimes = 62005,
+        /// <summary>User Visor (f94c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserVisor = 63820,
         /// <summary>Users (f0c0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Users = 61632,
@@ -14252,6 +14960,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Utensils (f2e6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UtensilsAlt = 62182,
+        /// <summary>Vacuum (f94d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Vacuum = 63821,
+        /// <summary>Robot Vacuum (f94e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        VacuumRobot = 63822,
         /// <summary>Value Absolute (f6a6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         ValueAbsolute = 63142,
@@ -14443,6 +15157,12 @@ namespace Meziantou.WpfFontAwesome
         WindowAlt = 62479,
         /// <summary>Window Close (f410)</summary>
         WindowClose = 62480,
+        /// <summary>House Window (f94f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WindowFrame = 63823,
+        /// <summary>House Window Open (f950)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WindowFrameOpen = 63824,
         /// <summary>Window Maximize (f2d0)</summary>
         WindowMaximize = 62160,
         /// <summary>Window Minimize (f2d1)</summary>
@@ -14481,7 +15201,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.11.2</summary>
+    /// <summary>Icons of FontAwesome light 5.12.0</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -14502,6 +15222,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>adjust (f042)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Adjust = 61506,
+        /// <summary>Air Conditioner (f8f4)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        AirConditioner = 63732,
         /// <summary>Air Freshener (f5d0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         AirFreshener = 62928,
@@ -14526,6 +15249,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alicorn (f6b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Alicorn = 63152,
+        /// <summary>Alien (f8f5)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Alien = 63733,
+        /// <summary>Alien Monster (f8f6)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        AlienMonster = 63734,
         /// <summary>align-center (f037)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         AlignCenter = 61495,
@@ -14811,6 +15540,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Shopping Bags (f847)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BagsShopping = 63559,
+        /// <summary>Bahá'í (f666)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Bahai = 63078,
         /// <summary>Balance Scale (f24e)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BalanceScale = 62030,
@@ -14895,6 +15627,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Bed (f236)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Bed = 62006,
+        /// <summary>Alternate Bed (f8f7)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedAlt = 63735,
+        /// <summary>Bunkbed (f8f8)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedBunk = 63736,
+        /// <summary>Bed Empty (f8f9)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedEmpty = 63737,
         /// <summary>beer (f0fc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Beer = 61692,
@@ -14904,6 +15645,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Bell Exclamation (f848)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BellExclamation = 63560,
+        /// <summary>Bell On (f8fa)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BellOn = 63738,
         /// <summary>Bell Plus (f849)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BellPlus = 63561,
@@ -14958,6 +15702,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Blind (f29d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Blind = 62109,
+        /// <summary>Blinds (f8fb)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Blinds = 63739,
+        /// <summary>Blinds Open (f8fc)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BlindsOpen = 63740,
+        /// <summary>Blinds Raised (f8fd)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BlindsRaised = 63741,
         /// <summary>Blog (f781)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Blog = 63361,
@@ -15243,6 +15996,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Camera (f332)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CameraAlt = 62258,
+        /// <summary>Camera Home (f8fe)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CameraHome = 63742,
         /// <summary>Movie Camera (f8a9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CameraMovie = 63657,
@@ -15309,6 +16065,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Car Wash (f5e6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CarWash = 62950,
+        /// <summary>Caravan (f8ff)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Caravan = 63743,
+        /// <summary>Caravan Alternate (f900)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CaravanAlt = 63744,
         /// <summary>Caret Circle Down (f32d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CaretCircleDown = 62253,
@@ -15366,6 +16128,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Cat (f6be)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cat = 63166,
+        /// <summary>Space Cat (f901)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CatSpace = 63745,
         /// <summary>Cauldron (f6bf)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cauldron = 63167,
@@ -15675,6 +16440,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Coffee (f0f4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Coffee = 61684,
+        /// <summary>Coffee Pot (f902)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CoffeePot = 63746,
         /// <summary>To-Go Coffee (f6c5)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CoffeeTogo = 63173,
@@ -15696,6 +16464,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Columns (f0db)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Columns = 61659,
+        /// <summary>Comet (f903)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Comet = 63747,
         /// <summary>comment (f075)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Comment = 61557,
@@ -16251,6 +17022,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Fan (f863)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Fan = 63587,
+        /// <summary>Fan Table (f904)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FanTable = 63748,
         /// <summary>Farm (f864)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Farm = 63588,
@@ -16260,6 +17034,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>fast-forward (f050)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FastForward = 61520,
+        /// <summary>Faucet (f905)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Faucet = 63749,
+        /// <summary>Faucet Drip (f906)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FaucetDrip = 63750,
         /// <summary>Fax (f1ac)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Fax = 61868,
@@ -16554,6 +17334,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Futbol (f1e3)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Futbol = 61923,
+        /// <summary>Galaxy (f908)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Galaxy = 63752,
         /// <summary>Game Board (f867)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GameBoard = 63591,
@@ -16569,6 +17352,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Gamepad (f8bc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GamepadAlt = 63676,
+        /// <summary>Garage (f909)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Garage = 63753,
+        /// <summary>Garage Car (f90a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        GarageCar = 63754,
+        /// <summary>Garage Open (f90b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        GarageOpen = 63755,
         /// <summary>Gas Pump (f52f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GasPump = 62767,
@@ -16872,9 +17664,6 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Wizard's Hat (f6e8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HatWizard = 63208,
-        /// <summary>Haykal (f666)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
-        Haykal = 63078,
         /// <summary>HDD (f0a0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Hdd = 61600,
@@ -16923,6 +17712,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Heartbeat (f21e)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Heartbeat = 61982,
+        /// <summary>Heat (f90c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Heat = 63756,
         /// <summary>Helicopter (f533)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Helicopter = 62771,
@@ -17022,12 +17814,30 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Hourglass Start (f251)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HourglassStart = 62033,
+        /// <summary>House (f90d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        House = 63757,
         /// <summary>Damaged House (f6f1)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HouseDamage = 63217,
+        /// <summary>House Day (f90e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseDay = 63758,
         /// <summary>Flooded House (f74f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HouseFlood = 63311,
+        /// <summary>House Leave (f90f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseLeave = 63759,
+        /// <summary>House Night (f910)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseNight = 63760,
+        /// <summary>House Return (f911)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseReturn = 63761,
+        /// <summary>House Signal (f912)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseSignal = 63762,
         /// <summary>Hryvnia (f6f2)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Hryvnia = 63218,
@@ -17193,6 +18003,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Lamp (f4ca)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Lamp = 62666,
+        /// <summary>Lamp Desk (f914)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LampDesk = 63764,
+        /// <summary>Lamp Floor (f915)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LampFloor = 63765,
         /// <summary>Landmark (f66f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Landmark = 63087,
@@ -17271,6 +18087,18 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Life Ring (f1cd)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         LifeRing = 61901,
+        /// <summary>Light Ceiling (f916)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightCeiling = 63766,
+        /// <summary>Light Switch (f917)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitch = 63767,
+        /// <summary>Light Switch-off (f918)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitchOff = 63768,
+        /// <summary>Light Switch-on (f919)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitchOn = 63769,
         /// <summary>Lightbulb (f0eb)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Lightbulb = 61675,
@@ -17529,6 +18357,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Microscope (f610)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Microscope = 62992,
+        /// <summary>Microwave (f91b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Microwave = 63771,
         /// <summary>Mind Share (f677)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MindShare = 63095,
@@ -17706,6 +18537,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Outdent (f03b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Outdent = 61499,
+        /// <summary>Outlet (f91c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Outlet = 63772,
+        /// <summary>Oven (f91d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Oven = 63773,
         /// <summary>Overline (f876)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Overline = 63606,
@@ -17922,6 +18759,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Plane Departure (f5b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PlaneDeparture = 62896,
+        /// <summary>Planet with Moon (f91f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PlanetMoon = 63775,
+        /// <summary>Ringed Planet (f920)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PlanetRinged = 63776,
         /// <summary>play (f04b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Play = 61515,
@@ -17955,6 +18798,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Podium with Star (f758)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PodiumStar = 63320,
+        /// <summary>Police Box (f921)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PoliceBox = 63777,
         /// <summary>Poll (f681)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Poll = 63105,
@@ -17976,6 +18822,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Popcorn (f819)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Popcorn = 63513,
+        /// <summary>Portal Enter (f922)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PortalEnter = 63778,
+        /// <summary>Portal Exit (f923)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PortalExit = 63779,
         /// <summary>Portrait (f3e0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Portrait = 62432,
@@ -18060,6 +18912,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Racquet (f45a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Racquet = 62554,
+        /// <summary>Radar (f924)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Radar = 63780,
         /// <summary>Radiation (f7b9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Radiation = 63417,
@@ -18087,6 +18942,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>random (f074)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Random = 61556,
+        /// <summary>Raygun (f925)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Raygun = 63781,
         /// <summary>Receipt (f543)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Receipt = 62787,
@@ -18111,6 +18969,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Redo (f2f9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         RedoAlt = 62201,
+        /// <summary>Refrigerator (f926)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Refrigerator = 63782,
         /// <summary>Registered Trademark (f25d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Registered = 62045,
@@ -18165,6 +19026,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>rocket (f135)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Rocket = 61749,
+        /// <summary>Rocket Launch (f927)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        RocketLaunch = 63783,
         /// <summary>Route (f4d7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Route = 62679,
@@ -18315,6 +19179,21 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Send Backward (f87f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SendBackward = 63615,
+        /// <summary>Sensor (f928)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Sensor = 63784,
+        /// <summary>Sensor Alert (f929)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorAlert = 63785,
+        /// <summary>Sensor Fire (f92a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorFire = 63786,
+        /// <summary>Sensor On (f92b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorOn = 63787,
+        /// <summary>Sensor Smoke (f92c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorSmoke = 63788,
         /// <summary>Server (f233)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Server = 62003,
@@ -18462,6 +19341,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>SIM Card (f7c4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SimCard = 63428,
+        /// <summary>Siren (f92d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Siren = 63789,
+        /// <summary>Siren On (f92e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SirenOn = 63790,
         /// <summary>Sitemap (f0e8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sitemap = 61672,
@@ -18573,6 +19458,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Solar Panel (f5ba)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SolarPanel = 62906,
+        /// <summary>Solar System (f92f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SolarSystem = 63791,
         /// <summary>Sort (f0dc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sort = 61660,
@@ -18603,6 +19491,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Sort Amount Up (f885)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SortAmountUpAlt = 63621,
+        /// <summary>Sort Circle (f930)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircle = 63792,
+        /// <summary>Sort Circle Down (f931)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircleDown = 63793,
+        /// <summary>Sort Circle Up (f932)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircleUp = 63794,
         /// <summary>Sort Down (Descending) (f0dd)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SortDown = 61661,
@@ -18654,6 +19551,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Space Shuttle (f197)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SpaceShuttle = 61847,
+        /// <summary>Moon Space Station (f933)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SpaceStationMoon = 63795,
+        /// <summary>Moon Space Station Under Construction (f934)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SpaceStationMoonAlt = 63796,
         /// <summary>Spade (f2f4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Spade = 62196,
@@ -18690,6 +19593,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Spray Can (f5bd)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SprayCan = 62909,
+        /// <summary>Sprinkler (f935)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Sprinkler = 63797,
         /// <summary>Square (f0c8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Square = 61640,
@@ -18735,9 +19641,24 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Star of Life (f621)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         StarOfLife = 63009,
+        /// <summary>Star Shooting (f936)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarShooting = 63798,
+        /// <summary>Starfighter (f937)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Starfighter = 63799,
+        /// <summary>Starfighter Alternate (f938)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarfighterAlt = 63800,
         /// <summary>Stars (f762)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Stars = 63330,
+        /// <summary>Starship (f939)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Starship = 63801,
+        /// <summary>Starship Freighter (f93a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarshipFreighter = 63802,
         /// <summary>Steak (f824)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Steak = 63524,
@@ -18843,9 +19764,18 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Sword (f71c)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sword = 63260,
+        /// <summary>Sword Laser (f93b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordLaser = 63803,
+        /// <summary>Sword Laser Alternate (f93c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordLaserAlt = 63804,
         /// <summary>Swords (f71d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Swords = 63261,
+        /// <summary>Swords Laser (f93d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordsLaser = 63805,
         /// <summary>Synagogue (f69b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Synagogue = 63131,
@@ -18951,6 +19881,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Teeth Open (f62f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TeethOpen = 63023,
+        /// <summary>Telescope (f93e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Telescope = 63806,
+        /// <summary>Temperature Down (f93f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TemperatureDown = 63807,
         /// <summary>Temperature Frigid (f768)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TemperatureFrigid = 63336,
@@ -18963,6 +19899,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Low Temperature (f76b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TemperatureLow = 63339,
+        /// <summary>Temperature Up (f940)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TemperatureUp = 63808,
         /// <summary>Tenge (f7d7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Tenge = 63447,
@@ -19143,6 +20082,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Traffic Light-stop (f63a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TrafficLightStop = 63034,
+        /// <summary>Trailer (f941)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Trailer = 63809,
         /// <summary>Train (f238)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Train = 62008,
@@ -19155,6 +20097,21 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Transgender (f225)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TransgenderAlt = 61989,
+        /// <summary>Transporter (f942)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter = 63810,
+        /// <summary>Transporter 1 (f943)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter1 = 63811,
+        /// <summary>Transporter 2 (f944)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter2 = 63812,
+        /// <summary>Transporter 3 (f945)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter3 = 63813,
+        /// <summary>Transporter Empty (f946)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TransporterEmpty = 63814,
         /// <summary>Trash (f1f8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Trash = 61944,
@@ -19269,6 +20226,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Typewriter (f8e7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Typewriter = 63719,
+        /// <summary>U.F.O. (f947)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Ufo = 63815,
+        /// <summary>U.F.O. with Beam (f948)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UfoBeam = 63816,
         /// <summary>Umbrella (f0e9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Umbrella = 61673,
@@ -19320,6 +20283,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>User (f007)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         User = 61447,
+        /// <summary>User Alien (f94a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserAlien = 63818,
         /// <summary>Alternate User (f406)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserAlt = 62470,
@@ -19392,6 +20358,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>User Plus (f234)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserPlus = 62004,
+        /// <summary>User Robot (f94b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserRobot = 63819,
         /// <summary>User Secret (f21b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserSecret = 61979,
@@ -19410,6 +20379,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Remove User (f235)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserTimes = 62005,
+        /// <summary>User Visor (f94c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserVisor = 63820,
         /// <summary>Users (f0c0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Users = 61632,
@@ -19440,6 +20412,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Utensils (f2e6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UtensilsAlt = 62182,
+        /// <summary>Vacuum (f94d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Vacuum = 63821,
+        /// <summary>Robot Vacuum (f94e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        VacuumRobot = 63822,
         /// <summary>Value Absolute (f6a6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         ValueAbsolute = 63142,
@@ -19632,6 +20610,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Window Close (f410)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         WindowClose = 62480,
+        /// <summary>House Window (f94f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WindowFrame = 63823,
+        /// <summary>House Window Open (f950)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WindowFrameOpen = 63824,
         /// <summary>Window Maximize (f2d0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         WindowMaximize = 62160,
@@ -19673,7 +20657,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome duotone 5.11.2</summary>
+    /// <summary>Icons of FontAwesome duotone 5.12.0</summary>
     public enum FontAwesomeDuotoneIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -19694,6 +20678,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>adjust (f042)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Adjust = 61506,
+        /// <summary>Air Conditioner (f8f4)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        AirConditioner = 63732,
         /// <summary>Air Freshener (f5d0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         AirFreshener = 62928,
@@ -19718,6 +20705,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alicorn (f6b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Alicorn = 63152,
+        /// <summary>Alien (f8f5)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Alien = 63733,
+        /// <summary>Alien Monster (f8f6)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        AlienMonster = 63734,
         /// <summary>align-center (f037)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         AlignCenter = 61495,
@@ -20003,6 +20996,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Shopping Bags (f847)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BagsShopping = 63559,
+        /// <summary>Bahá'í (f666)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Bahai = 63078,
         /// <summary>Balance Scale (f24e)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BalanceScale = 62030,
@@ -20087,6 +21083,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Bed (f236)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Bed = 62006,
+        /// <summary>Alternate Bed (f8f7)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedAlt = 63735,
+        /// <summary>Bunkbed (f8f8)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedBunk = 63736,
+        /// <summary>Bed Empty (f8f9)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BedEmpty = 63737,
         /// <summary>beer (f0fc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Beer = 61692,
@@ -20096,6 +21101,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Bell Exclamation (f848)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BellExclamation = 63560,
+        /// <summary>Bell On (f8fa)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BellOn = 63738,
         /// <summary>Bell Plus (f849)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         BellPlus = 63561,
@@ -20150,6 +21158,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Blind (f29d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Blind = 62109,
+        /// <summary>Blinds (f8fb)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Blinds = 63739,
+        /// <summary>Blinds Open (f8fc)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BlindsOpen = 63740,
+        /// <summary>Blinds Raised (f8fd)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        BlindsRaised = 63741,
         /// <summary>Blog (f781)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Blog = 63361,
@@ -20435,6 +21452,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Camera (f332)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CameraAlt = 62258,
+        /// <summary>Camera Home (f8fe)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CameraHome = 63742,
         /// <summary>Movie Camera (f8a9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CameraMovie = 63657,
@@ -20501,6 +21521,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Car Wash (f5e6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CarWash = 62950,
+        /// <summary>Caravan (f8ff)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Caravan = 63743,
+        /// <summary>Caravan Alternate (f900)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CaravanAlt = 63744,
         /// <summary>Caret Circle Down (f32d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CaretCircleDown = 62253,
@@ -20558,6 +21584,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Cat (f6be)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cat = 63166,
+        /// <summary>Space Cat (f901)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CatSpace = 63745,
         /// <summary>Cauldron (f6bf)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cauldron = 63167,
@@ -20867,6 +21896,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Coffee (f0f4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Coffee = 61684,
+        /// <summary>Coffee Pot (f902)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CoffeePot = 63746,
         /// <summary>To-Go Coffee (f6c5)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         CoffeeTogo = 63173,
@@ -20888,6 +21920,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Columns (f0db)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Columns = 61659,
+        /// <summary>Comet (f903)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Comet = 63747,
         /// <summary>comment (f075)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Comment = 61557,
@@ -21443,6 +22478,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Fan (f863)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Fan = 63587,
+        /// <summary>Fan Table (f904)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FanTable = 63748,
         /// <summary>Farm (f864)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Farm = 63588,
@@ -21452,6 +22490,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>fast-forward (f050)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FastForward = 61520,
+        /// <summary>Faucet (f905)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Faucet = 63749,
+        /// <summary>Faucet Drip (f906)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FaucetDrip = 63750,
         /// <summary>Fax (f1ac)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Fax = 61868,
@@ -21746,6 +22790,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Futbol (f1e3)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Futbol = 61923,
+        /// <summary>Galaxy (f908)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Galaxy = 63752,
         /// <summary>Game Board (f867)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GameBoard = 63591,
@@ -21761,6 +22808,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Gamepad (f8bc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GamepadAlt = 63676,
+        /// <summary>Garage (f909)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Garage = 63753,
+        /// <summary>Garage Car (f90a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        GarageCar = 63754,
+        /// <summary>Garage Open (f90b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        GarageOpen = 63755,
         /// <summary>Gas Pump (f52f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         GasPump = 62767,
@@ -22064,9 +23120,6 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Wizard's Hat (f6e8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HatWizard = 63208,
-        /// <summary>Haykal (f666)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
-        Haykal = 63078,
         /// <summary>HDD (f0a0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Hdd = 61600,
@@ -22115,6 +23168,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Heartbeat (f21e)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Heartbeat = 61982,
+        /// <summary>Heat (f90c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Heat = 63756,
         /// <summary>Helicopter (f533)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Helicopter = 62771,
@@ -22214,12 +23270,30 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Hourglass Start (f251)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HourglassStart = 62033,
+        /// <summary>House (f90d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        House = 63757,
         /// <summary>Damaged House (f6f1)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HouseDamage = 63217,
+        /// <summary>House Day (f90e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseDay = 63758,
         /// <summary>Flooded House (f74f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         HouseFlood = 63311,
+        /// <summary>House Leave (f90f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseLeave = 63759,
+        /// <summary>House Night (f910)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseNight = 63760,
+        /// <summary>House Return (f911)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseReturn = 63761,
+        /// <summary>House Signal (f912)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        HouseSignal = 63762,
         /// <summary>Hryvnia (f6f2)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Hryvnia = 63218,
@@ -22385,6 +23459,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Lamp (f4ca)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Lamp = 62666,
+        /// <summary>Lamp Desk (f914)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LampDesk = 63764,
+        /// <summary>Lamp Floor (f915)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LampFloor = 63765,
         /// <summary>Landmark (f66f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Landmark = 63087,
@@ -22463,6 +23543,18 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Life Ring (f1cd)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         LifeRing = 61901,
+        /// <summary>Light Ceiling (f916)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightCeiling = 63766,
+        /// <summary>Light Switch (f917)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitch = 63767,
+        /// <summary>Light Switch-off (f918)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitchOff = 63768,
+        /// <summary>Light Switch-on (f919)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        LightSwitchOn = 63769,
         /// <summary>Lightbulb (f0eb)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Lightbulb = 61675,
@@ -22721,6 +23813,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Microscope (f610)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Microscope = 62992,
+        /// <summary>Microwave (f91b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Microwave = 63771,
         /// <summary>Mind Share (f677)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         MindShare = 63095,
@@ -22898,6 +23993,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Outdent (f03b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Outdent = 61499,
+        /// <summary>Outlet (f91c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Outlet = 63772,
+        /// <summary>Oven (f91d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Oven = 63773,
         /// <summary>Overline (f876)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Overline = 63606,
@@ -23114,6 +24215,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Plane Departure (f5b0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PlaneDeparture = 62896,
+        /// <summary>Planet with Moon (f91f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PlanetMoon = 63775,
+        /// <summary>Ringed Planet (f920)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PlanetRinged = 63776,
         /// <summary>play (f04b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Play = 61515,
@@ -23147,6 +24254,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Podium with Star (f758)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         PodiumStar = 63320,
+        /// <summary>Police Box (f921)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PoliceBox = 63777,
         /// <summary>Poll (f681)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Poll = 63105,
@@ -23168,6 +24278,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Popcorn (f819)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Popcorn = 63513,
+        /// <summary>Portal Enter (f922)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PortalEnter = 63778,
+        /// <summary>Portal Exit (f923)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        PortalExit = 63779,
         /// <summary>Portrait (f3e0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Portrait = 62432,
@@ -23252,6 +24368,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Racquet (f45a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Racquet = 62554,
+        /// <summary>Radar (f924)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Radar = 63780,
         /// <summary>Radiation (f7b9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Radiation = 63417,
@@ -23279,6 +24398,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>random (f074)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Random = 61556,
+        /// <summary>Raygun (f925)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Raygun = 63781,
         /// <summary>Receipt (f543)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Receipt = 62787,
@@ -23303,6 +24425,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Redo (f2f9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         RedoAlt = 62201,
+        /// <summary>Refrigerator (f926)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Refrigerator = 63782,
         /// <summary>Registered Trademark (f25d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Registered = 62045,
@@ -23357,6 +24482,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>rocket (f135)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Rocket = 61749,
+        /// <summary>Rocket Launch (f927)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        RocketLaunch = 63783,
         /// <summary>Route (f4d7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Route = 62679,
@@ -23507,6 +24635,21 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Send Backward (f87f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SendBackward = 63615,
+        /// <summary>Sensor (f928)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Sensor = 63784,
+        /// <summary>Sensor Alert (f929)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorAlert = 63785,
+        /// <summary>Sensor Fire (f92a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorFire = 63786,
+        /// <summary>Sensor On (f92b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorOn = 63787,
+        /// <summary>Sensor Smoke (f92c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SensorSmoke = 63788,
         /// <summary>Server (f233)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Server = 62003,
@@ -23654,6 +24797,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>SIM Card (f7c4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SimCard = 63428,
+        /// <summary>Siren (f92d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Siren = 63789,
+        /// <summary>Siren On (f92e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SirenOn = 63790,
         /// <summary>Sitemap (f0e8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sitemap = 61672,
@@ -23765,6 +24914,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Solar Panel (f5ba)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SolarPanel = 62906,
+        /// <summary>Solar System (f92f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SolarSystem = 63791,
         /// <summary>Sort (f0dc)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sort = 61660,
@@ -23795,6 +24947,15 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Sort Amount Up (f885)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SortAmountUpAlt = 63621,
+        /// <summary>Sort Circle (f930)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircle = 63792,
+        /// <summary>Sort Circle Down (f931)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircleDown = 63793,
+        /// <summary>Sort Circle Up (f932)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SortCircleUp = 63794,
         /// <summary>Sort Down (Descending) (f0dd)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SortDown = 61661,
@@ -23846,6 +25007,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Space Shuttle (f197)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SpaceShuttle = 61847,
+        /// <summary>Moon Space Station (f933)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SpaceStationMoon = 63795,
+        /// <summary>Moon Space Station Under Construction (f934)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SpaceStationMoonAlt = 63796,
         /// <summary>Spade (f2f4)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Spade = 62196,
@@ -23882,6 +25049,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Spray Can (f5bd)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         SprayCan = 62909,
+        /// <summary>Sprinkler (f935)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Sprinkler = 63797,
         /// <summary>Square (f0c8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Square = 61640,
@@ -23927,9 +25097,24 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Star of Life (f621)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         StarOfLife = 63009,
+        /// <summary>Star Shooting (f936)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarShooting = 63798,
+        /// <summary>Starfighter (f937)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Starfighter = 63799,
+        /// <summary>Starfighter Alternate (f938)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarfighterAlt = 63800,
         /// <summary>Stars (f762)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Stars = 63330,
+        /// <summary>Starship (f939)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Starship = 63801,
+        /// <summary>Starship Freighter (f93a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        StarshipFreighter = 63802,
         /// <summary>Steak (f824)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Steak = 63524,
@@ -24035,9 +25220,18 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Sword (f71c)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sword = 63260,
+        /// <summary>Sword Laser (f93b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordLaser = 63803,
+        /// <summary>Sword Laser Alternate (f93c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordLaserAlt = 63804,
         /// <summary>Swords (f71d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Swords = 63261,
+        /// <summary>Swords Laser (f93d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        SwordsLaser = 63805,
         /// <summary>Synagogue (f69b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Synagogue = 63131,
@@ -24143,6 +25337,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Teeth Open (f62f)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TeethOpen = 63023,
+        /// <summary>Telescope (f93e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Telescope = 63806,
+        /// <summary>Temperature Down (f93f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TemperatureDown = 63807,
         /// <summary>Temperature Frigid (f768)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TemperatureFrigid = 63336,
@@ -24155,6 +25355,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Low Temperature (f76b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TemperatureLow = 63339,
+        /// <summary>Temperature Up (f940)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TemperatureUp = 63808,
         /// <summary>Tenge (f7d7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Tenge = 63447,
@@ -24335,6 +25538,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Traffic Light-stop (f63a)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TrafficLightStop = 63034,
+        /// <summary>Trailer (f941)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Trailer = 63809,
         /// <summary>Train (f238)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Train = 62008,
@@ -24347,6 +25553,21 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Transgender (f225)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         TransgenderAlt = 61989,
+        /// <summary>Transporter (f942)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter = 63810,
+        /// <summary>Transporter 1 (f943)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter1 = 63811,
+        /// <summary>Transporter 2 (f944)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter2 = 63812,
+        /// <summary>Transporter 3 (f945)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Transporter3 = 63813,
+        /// <summary>Transporter Empty (f946)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        TransporterEmpty = 63814,
         /// <summary>Trash (f1f8)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Trash = 61944,
@@ -24461,6 +25682,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Typewriter (f8e7)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Typewriter = 63719,
+        /// <summary>U.F.O. (f947)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Ufo = 63815,
+        /// <summary>U.F.O. with Beam (f948)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UfoBeam = 63816,
         /// <summary>Umbrella (f0e9)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Umbrella = 61673,
@@ -24512,6 +25739,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>User (f007)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         User = 61447,
+        /// <summary>User Alien (f94a)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserAlien = 63818,
         /// <summary>Alternate User (f406)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserAlt = 62470,
@@ -24584,6 +25814,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>User Plus (f234)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserPlus = 62004,
+        /// <summary>User Robot (f94b)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserRobot = 63819,
         /// <summary>User Secret (f21b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserSecret = 61979,
@@ -24602,6 +25835,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Remove User (f235)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserTimes = 62005,
+        /// <summary>User Visor (f94c)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserVisor = 63820,
         /// <summary>Users (f0c0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Users = 61632,
@@ -24632,6 +25868,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Alternate Utensils (f2e6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UtensilsAlt = 62182,
+        /// <summary>Vacuum (f94d)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Vacuum = 63821,
+        /// <summary>Robot Vacuum (f94e)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        VacuumRobot = 63822,
         /// <summary>Value Absolute (f6a6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         ValueAbsolute = 63142,
@@ -24824,6 +26066,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Window Close (f410)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         WindowClose = 62480,
+        /// <summary>House Window (f94f)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WindowFrame = 63823,
+        /// <summary>House Window Open (f950)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        WindowFrameOpen = 63824,
         /// <summary>Window Maximize (f2d0)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         WindowMaximize = 62160,
