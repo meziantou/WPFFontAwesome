@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.12.0</summary>
+    /// <summary>Icons of FontAwesome 5.12.1</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -983,6 +983,8 @@ namespace Meziantou.WpfFontAwesome
         CoffeeTogo = 63173,
         /// <summary>Coffin (f6c6)</summary>
         Coffin = 63174,
+        /// <summary>Coffin with Cross (f951)</summary>
+        CoffinCross = 63825,
         /// <summary>cog (f013)</summary>
         Cog = 61459,
         /// <summary>cogs (f085)</summary>
@@ -1191,6 +1193,8 @@ namespace Meziantou.WpfFontAwesome
         DAndDBeyond = 63178,
         /// <summary>Dagger (f6cb)</summary>
         Dagger = 63179,
+        /// <summary>dailymotion (f952)</summary>
+        Dailymotion = 63826,
         /// <summary>DashCube (f210)</summary>
         Dashcube = 61968,
         /// <summary>Database (f1c0)</summary>
@@ -1677,6 +1681,8 @@ namespace Meziantou.WpfFontAwesome
         Fog = 63310,
         /// <summary>Folder (f07b)</summary>
         Folder = 61563,
+        /// <summary>Folder Download (f953)</summary>
+        FolderDownload = 63827,
         /// <summary>Folder Minus (f65d)</summary>
         FolderMinus = 63069,
         /// <summary>Folder Open (f07c)</summary>
@@ -1687,6 +1693,8 @@ namespace Meziantou.WpfFontAwesome
         FolderTimes = 63071,
         /// <summary>Folder Tree (f802)</summary>
         FolderTree = 63490,
+        /// <summary>Folder Upload (f954)</summary>
+        FolderUpload = 63828,
         /// <summary>Folders (f660)</summary>
         Folders = 63072,
         /// <summary>font (f031)</summary>
@@ -2225,6 +2233,8 @@ namespace Meziantou.WpfFontAwesome
         Inhaler = 62969,
         /// <summary>Instagram (f16d)</summary>
         Instagram = 61805,
+        /// <summary>Instagram Square (f955)</summary>
+        InstagramSquare = 63829,
         /// <summary>Integral (f667)</summary>
         Integral = 63079,
         /// <summary>Intercom (f7af)</summary>
@@ -2637,6 +2647,8 @@ namespace Meziantou.WpfFontAwesome
         Mix = 62411,
         /// <summary>Mixcloud (f289)</summary>
         Mixcloud = 62089,
+        /// <summary>Mixer (f956)</summary>
+        Mixer = 63830,
         /// <summary>Mizuni (f3cc)</summary>
         Mizuni = 62412,
         /// <summary>Mobile Phone (f10b)</summary>
@@ -3363,6 +3375,8 @@ namespace Meziantou.WpfFontAwesome
         ShishKebab = 63521,
         /// <summary>Shoe Prints (f54b)</summary>
         ShoePrints = 62795,
+        /// <summary>Shopify (f957)</summary>
+        Shopify = 63831,
         /// <summary>Shopping Bag (f290)</summary>
         ShoppingBag = 62096,
         /// <summary>Shopping Basket (f291)</summary>
@@ -4245,6 +4259,8 @@ namespace Meziantou.WpfFontAwesome
         UserTie = 62728,
         /// <summary>Remove User (f235)</summary>
         UserTimes = 62005,
+        /// <summary>User Unlock (f958)</summary>
+        UserUnlock = 63832,
         /// <summary>User Visor (f94c)</summary>
         UserVisor = 63820,
         /// <summary>Users (f0c0)</summary>
@@ -4523,7 +4539,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.12.0</summary>
+    /// <summary>Icons of FontAwesome brands 5.12.1</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -4718,6 +4734,8 @@ namespace Meziantou.WpfFontAwesome
         DAndD = 62349,
         /// <summary>D&amp;D Beyond (f6ca)</summary>
         DAndDBeyond = 63178,
+        /// <summary>dailymotion (f952)</summary>
+        Dailymotion = 63826,
         /// <summary>DashCube (f210)</summary>
         Dashcube = 61968,
         /// <summary>Delicious (f1a5)</summary>
@@ -4932,6 +4950,8 @@ namespace Meziantou.WpfFontAwesome
         Imdb = 62168,
         /// <summary>Instagram (f16d)</summary>
         Instagram = 61805,
+        /// <summary>Instagram Square (f955)</summary>
+        InstagramSquare = 63829,
         /// <summary>Intercom (f7af)</summary>
         Intercom = 63407,
         /// <summary>Internet-explorer (f26b)</summary>
@@ -5034,6 +5054,8 @@ namespace Meziantou.WpfFontAwesome
         Mix = 62411,
         /// <summary>Mixcloud (f289)</summary>
         Mixcloud = 62089,
+        /// <summary>Mixer (f956)</summary>
+        Mixer = 63830,
         /// <summary>Mizuni (f3cc)</summary>
         Mizuni = 62412,
         /// <summary>MODX (f285)</summary>
@@ -5184,6 +5206,8 @@ namespace Meziantou.WpfFontAwesome
         Servicestack = 62444,
         /// <summary>Shirts in Bulk (f214)</summary>
         Shirtsinbulk = 61972,
+        /// <summary>Shopify (f957)</summary>
+        Shopify = 63831,
         /// <summary>Shopware (f5b5)</summary>
         Shopware = 62901,
         /// <summary>SimplyBuilt (f215)</summary>
@@ -5406,7 +5430,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.12.0</summary>
+    /// <summary>Icons of FontAwesome solid 5.12.1</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -6446,6 +6470,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Coffin (f6c6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Coffin = 63174,
+        /// <summary>Coffin with Cross (f951)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CoffinCross = 63825,
         /// <summary>cog (f013)</summary>
         Cog = 61459,
         /// <summary>cogs (f085)</summary>
@@ -7118,6 +7145,9 @@ namespace Meziantou.WpfFontAwesome
         Fog = 63310,
         /// <summary>Folder (f07b)</summary>
         Folder = 61563,
+        /// <summary>Folder Download (f953)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FolderDownload = 63827,
         /// <summary>Folder Minus (f65d)</summary>
         FolderMinus = 63069,
         /// <summary>Folder Open (f07c)</summary>
@@ -7130,6 +7160,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Folder Tree (f802)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FolderTree = 63490,
+        /// <summary>Folder Upload (f954)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FolderUpload = 63828,
         /// <summary>Folders (f660)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Folders = 63072,
@@ -9662,6 +9695,9 @@ namespace Meziantou.WpfFontAwesome
         UserTie = 62728,
         /// <summary>Remove User (f235)</summary>
         UserTimes = 62005,
+        /// <summary>User Unlock (f958)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserUnlock = 63832,
         /// <summary>User Visor (f94c)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserVisor = 63820,
@@ -9897,7 +9933,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.12.0</summary>
+    /// <summary>Icons of FontAwesome regular 5.12.1</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -11116,6 +11152,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Coffin (f6c6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Coffin = 63174,
+        /// <summary>Coffin with Cross (f951)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CoffinCross = 63825,
         /// <summary>cog (f013)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cog = 61459,
@@ -11906,6 +11945,9 @@ namespace Meziantou.WpfFontAwesome
         Fog = 63310,
         /// <summary>Folder (f07b)</summary>
         Folder = 61563,
+        /// <summary>Folder Download (f953)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FolderDownload = 63827,
         /// <summary>Folder Minus (f65d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FolderMinus = 63069,
@@ -11920,6 +11962,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Folder Tree (f802)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FolderTree = 63490,
+        /// <summary>Folder Upload (f954)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FolderUpload = 63828,
         /// <summary>Folders (f660)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Folders = 63072,
@@ -14927,6 +14972,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Remove User (f235)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserTimes = 62005,
+        /// <summary>User Unlock (f958)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserUnlock = 63832,
         /// <summary>User Visor (f94c)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserVisor = 63820,
@@ -15201,7 +15249,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.12.0</summary>
+    /// <summary>Icons of FontAwesome light 5.12.1</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -16449,6 +16497,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Coffin (f6c6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Coffin = 63174,
+        /// <summary>Coffin with Cross (f951)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CoffinCross = 63825,
         /// <summary>cog (f013)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cog = 61459,
@@ -17268,6 +17319,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Folder (f07b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Folder = 61563,
+        /// <summary>Folder Download (f953)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FolderDownload = 63827,
         /// <summary>Folder Minus (f65d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FolderMinus = 63069,
@@ -17283,6 +17337,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Folder Tree (f802)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FolderTree = 63490,
+        /// <summary>Folder Upload (f954)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FolderUpload = 63828,
         /// <summary>Folders (f660)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Folders = 63072,
@@ -20379,6 +20436,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Remove User (f235)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserTimes = 62005,
+        /// <summary>User Unlock (f958)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserUnlock = 63832,
         /// <summary>User Visor (f94c)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserVisor = 63820,
@@ -20657,7 +20717,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome duotone 5.12.0</summary>
+    /// <summary>Icons of FontAwesome duotone 5.12.1</summary>
     public enum FontAwesomeDuotoneIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -21905,6 +21965,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Coffin (f6c6)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Coffin = 63174,
+        /// <summary>Coffin with Cross (f951)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        CoffinCross = 63825,
         /// <summary>cog (f013)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Cog = 61459,
@@ -22724,6 +22787,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Folder (f07b)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Folder = 61563,
+        /// <summary>Folder Download (f953)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FolderDownload = 63827,
         /// <summary>Folder Minus (f65d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FolderMinus = 63069,
@@ -22739,6 +22805,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Folder Tree (f802)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         FolderTree = 63490,
+        /// <summary>Folder Upload (f954)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        FolderUpload = 63828,
         /// <summary>Folders (f660)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Folders = 63072,
@@ -25835,6 +25904,9 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Remove User (f235)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserTimes = 62005,
+        /// <summary>User Unlock (f958)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        UserUnlock = 63832,
         /// <summary>User Visor (f94c)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UserVisor = 63820,
