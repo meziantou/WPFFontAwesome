@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.13.0</summary>
+    /// <summary>Icons of FontAwesome 5.13.1</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -1213,6 +1213,8 @@ namespace Meziantou.WpfFontAwesome
         Deer = 63374,
         /// <summary>Deer Rudolph (f78f)</summary>
         DeerRudolph = 63375,
+        /// <summary>Deezer (f977)</summary>
+        Deezer = 63863,
         /// <summary>Delicious (f1a5)</summary>
         Delicious = 61861,
         /// <summary>Democrat (f747)</summary>
@@ -1391,6 +1393,8 @@ namespace Meziantou.WpfFontAwesome
         EclipseAlt = 63306,
         /// <summary>Edge Browser (f282)</summary>
         Edge = 62082,
+        /// <summary>Edge Legacy Browser (f978)</summary>
+        EdgeLegacy = 63864,
         /// <summary>Edit (f044)</summary>
         Edit = 61508,
         /// <summary>Egg (f7fb)</summary>
@@ -1877,6 +1881,8 @@ namespace Meziantou.WpfFontAwesome
         Google = 61856,
         /// <summary>Google Drive (f3aa)</summary>
         GoogleDrive = 62378,
+        /// <summary>Google Pay (f979)</summary>
+        GooglePay = 63865,
         /// <summary>Google Play (f3ab)</summary>
         GooglePlay = 62379,
         /// <summary>Google Plus (f2b3)</summary>
@@ -3275,6 +3281,8 @@ namespace Meziantou.WpfFontAwesome
         Running = 63244,
         /// <summary>Indian Rupee Sign (f156)</summary>
         RupeeSign = 61782,
+        /// <summary>Rust (f97a)</summary>
+        Rust = 63866,
         /// <summary>R.V. (f7be)</summary>
         Rv = 63422,
         /// <summary>Sack (f81c)</summary>
@@ -4007,6 +4015,8 @@ namespace Meziantou.WpfFontAwesome
         Ticket = 61765,
         /// <summary>Alternate Ticket (f3ff)</summary>
         TicketAlt = 62463,
+        /// <summary>TikTok (f97b)</summary>
+        Tiktok = 63867,
         /// <summary>Tilde (f69f)</summary>
         Tilde = 63135,
         /// <summary>Times (f00d)</summary>
@@ -4231,6 +4241,8 @@ namespace Meziantou.WpfFontAwesome
         Unlock = 61596,
         /// <summary>Alternate Unlock (f13e)</summary>
         UnlockAlt = 61758,
+        /// <summary>Unsplash (f97c)</summary>
+        Unsplash = 63868,
         /// <summary>Untappd (f405)</summary>
         Untappd = 62469,
         /// <summary>Upload (f093)</summary>
@@ -4599,7 +4611,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.13.0</summary>
+    /// <summary>Icons of FontAwesome brands 5.13.1</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -4798,6 +4810,8 @@ namespace Meziantou.WpfFontAwesome
         Dailymotion = 63826,
         /// <summary>DashCube (f210)</summary>
         Dashcube = 61968,
+        /// <summary>Deezer (f977)</summary>
+        Deezer = 63863,
         /// <summary>Delicious (f1a5)</summary>
         Delicious = 61861,
         /// <summary>deploy.dog (f38e)</summary>
@@ -4842,6 +4856,8 @@ namespace Meziantou.WpfFontAwesome
         Ebay = 62708,
         /// <summary>Edge Browser (f282)</summary>
         Edge = 62082,
+        /// <summary>Edge Legacy Browser (f978)</summary>
+        EdgeLegacy = 63864,
         /// <summary>Elementor (f430)</summary>
         Elementor = 62512,
         /// <summary>Ello (f5f1)</summary>
@@ -4962,6 +4978,8 @@ namespace Meziantou.WpfFontAwesome
         Google = 61856,
         /// <summary>Google Drive (f3aa)</summary>
         GoogleDrive = 62378,
+        /// <summary>Google Pay (f979)</summary>
+        GooglePay = 63865,
         /// <summary>Google Play (f3ab)</summary>
         GooglePlay = 62379,
         /// <summary>Google Plus (f2b3)</summary>
@@ -5246,6 +5264,8 @@ namespace Meziantou.WpfFontAwesome
         Rocketchat = 62440,
         /// <summary>Rockrms (f3e9)</summary>
         Rockrms = 62441,
+        /// <summary>Rust (f97a)</summary>
+        Rust = 63866,
         /// <summary>Safari (f267)</summary>
         Safari = 62055,
         /// <summary>Salesforce (f83b)</summary>
@@ -5360,6 +5380,8 @@ namespace Meziantou.WpfFontAwesome
         Themeisle = 62130,
         /// <summary>Think Peaks (f731)</summary>
         ThinkPeaks = 63281,
+        /// <summary>TikTok (f97b)</summary>
+        Tiktok = 63867,
         /// <summary>Trade Federation (f513)</summary>
         TradeFederation = 62739,
         /// <summary>Trello (f181)</summary>
@@ -5390,6 +5412,8 @@ namespace Meziantou.WpfFontAwesome
         Uniregistry = 62468,
         /// <summary>Unity 3D (f949)</summary>
         Unity = 63817,
+        /// <summary>Unsplash (f97c)</summary>
+        Unsplash = 63868,
         /// <summary>Untappd (f405)</summary>
         Untappd = 62469,
         /// <summary>UPS (f7e0)</summary>
@@ -5490,7 +5514,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.13.0</summary>
+    /// <summary>Icons of FontAwesome solid 5.13.1</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -5756,10 +5780,8 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Bacon (f7e5)</summary>
         Bacon = 63461,
         /// <summary>Bacteria (f959)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
         Bacteria = 63833,
         /// <summary>Bacterium (f95a)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
         Bacterium = 63834,
         /// <summary>Badge (f335)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
@@ -8940,7 +8962,6 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>SIM Card (f7c4)</summary>
         SimCard = 63428,
         /// <summary>Sink (f96d)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
         Sink = 63853,
         /// <summary>Siren (f92d)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
@@ -9825,7 +9846,6 @@ namespace Meziantou.WpfFontAwesome
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         UsersMedical = 63536,
         /// <summary>Users Slash (f973)</summary>
-        [Meziantou.WpfFontAwesome.ProIconAttribute]
         UsersSlash = 63859,
         /// <summary>Utensil Fork (f2e3)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
@@ -10052,7 +10072,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.13.0</summary>
+    /// <summary>Icons of FontAwesome regular 5.13.1</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -15458,7 +15478,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.13.0</summary>
+    /// <summary>Icons of FontAwesome light 5.13.1</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -21016,7 +21036,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome duotone 5.13.0</summary>
+    /// <summary>Icons of FontAwesome duotone 5.13.1</summary>
     public enum FontAwesomeDuotoneIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
