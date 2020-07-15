@@ -2,13 +2,13 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>library</OutputType>
-    <TargetFrameworks>netcoreapp3.0;net461</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;net461</TargetFrameworks>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>sn_key.snk</AssemblyOriginatorKeyFile>
-    <Version>5.13.1</Version>
+    <Version>5.14.0</Version>
     <SignAssembly>true</SignAssembly>
     <Description>Use FontAwesome in WPF application</Description>
     <PackageTags>wpf fontawesome icons</PackageTags>
