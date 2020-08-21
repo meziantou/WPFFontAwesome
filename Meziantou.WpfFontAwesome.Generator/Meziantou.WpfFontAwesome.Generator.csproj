@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Meziantou.Framework.CodeDom" Version="2.13.9" />
+    <PackageReference Include="Meziantou.Framework.CodeDom" Version="3.2.6" />
     <PackageReference Include="Meziantou.Framework.Versioning" Version="1.2.5" />
     <PackageReference Include="Microsoft.Win32.Registry" Version="4.7.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
