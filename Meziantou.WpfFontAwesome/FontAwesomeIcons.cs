@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.14.0</summary>
+    /// <summary>Icons of FontAwesome 5.15.0</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -33,8 +33,6 @@ namespace Meziantou.WpfFontAwesome
         Adjust = 61506,
         /// <summary>App.net (f170)</summary>
         Adn = 61808,
-        /// <summary>Adobe (f778)</summary>
-        Adobe = 63352,
         /// <summary>Adversal (f36a)</summary>
         Adversal = 62314,
         /// <summary>affiliatetheme (f36b)</summary>
@@ -953,6 +951,8 @@ namespace Meziantou.WpfFontAwesome
         CloudUpload = 61678,
         /// <summary>Alternate Cloud Upload (f382)</summary>
         CloudUploadAlt = 62338,
+        /// <summary>Cloudflare (e07d)</summary>
+        Cloudflare = 57469,
         /// <summary>Clouds (f744)</summary>
         Clouds = 63300,
         /// <summary>Clouds with Moon (f745)</summary>
@@ -1947,6 +1947,8 @@ namespace Meziantou.WpfFontAwesome
         Gripfire = 62380,
         /// <summary>Grunt (f3ad)</summary>
         Grunt = 62381,
+        /// <summary>Guilded (e07e)</summary>
+        Guilded = 57470,
         /// <summary>Guitar (f7a6)</summary>
         Guitar = 63398,
         /// <summary>Guitar Electric (f8be)</summary>
@@ -2123,6 +2125,8 @@ namespace Meziantou.WpfFontAwesome
         HireAHelper = 62384,
         /// <summary>History (f1da)</summary>
         History = 61914,
+        /// <summary>Hive Blockchain Network (e07f)</summary>
+        Hive = 57471,
         /// <summary>Hockey Mask (f6ee)</summary>
         HockeyMask = 63214,
         /// <summary>Hockey Puck (f453)</summary>
@@ -2263,10 +2267,14 @@ namespace Meziantou.WpfFontAwesome
         InfoSquare = 62223,
         /// <summary>Inhaler (f5f9)</summary>
         Inhaler = 62969,
+        /// <summary>Innosoft (e080)</summary>
+        Innosoft = 57472,
         /// <summary>Instagram (f16d)</summary>
         Instagram = 61805,
         /// <summary>Instagram Square (e055)</summary>
         InstagramSquare = 57429,
+        /// <summary>InstaLOD (e081)</summary>
+        Instalod = 57473,
         /// <summary>Integral (f667)</summary>
         Integral = 63079,
         /// <summary>Intercom (f7af)</summary>
@@ -2795,6 +2803,8 @@ namespace Meziantou.WpfFontAwesome
         ObjectUngroup = 62024,
         /// <summary>Octagon (f306)</summary>
         Octagon = 62214,
+        /// <summary>Octopus Deploy (e082)</summary>
+        OctopusDeploy = 57474,
         /// <summary>Odnoklassniki (f263)</summary>
         Odnoklassniki = 62051,
         /// <summary>Odnoklassniki Square (f264)</summary>
@@ -2925,6 +2935,8 @@ namespace Meziantou.WpfFontAwesome
         PeopleCarry = 62670,
         /// <summary>Hot Pepper (f816)</summary>
         PepperHot = 63510,
+        /// <summary>PerByte (e083)</summary>
+        Perbyte = 57475,
         /// <summary>Percent (f295)</summary>
         Percent = 62101,
         /// <summary>Percentage (f541)</summary>
@@ -4217,6 +4229,8 @@ namespace Meziantou.WpfFontAwesome
         Umbrella = 61673,
         /// <summary>Umbrella Beach (f5ca)</summary>
         UmbrellaBeach = 62922,
+        /// <summary>Uncharted Software (e084)</summary>
+        Uncharted = 57476,
         /// <summary>Underline (f0cd)</summary>
         Underline = 61645,
         /// <summary>Undo (f0e2)</summary>
@@ -4369,6 +4383,10 @@ namespace Meziantou.WpfFontAwesome
         VenusDouble = 61990,
         /// <summary>Venus Mars (f228)</summary>
         VenusMars = 61992,
+        /// <summary>vest (e085)</summary>
+        Vest = 57477,
+        /// <summary>vest-patches (e086)</summary>
+        VestPatches = 57478,
         /// <summary>VHS (f8ec)</summary>
         Vhs = 63724,
         /// <summary>Viacoin (f237)</summary>
@@ -4463,6 +4481,8 @@ namespace Meziantou.WpfFontAwesome
         WatchCalculator = 63728,
         /// <summary>Watch Fitness (f63e)</summary>
         WatchFitness = 63038,
+        /// <summary>Watchman Monitoring (e087)</summary>
+        WatchmanMonitoring = 57479,
         /// <summary>Water (f773)</summary>
         Water = 63347,
         /// <summary>Lower Water Level (f774)</summary>
@@ -4555,6 +4575,8 @@ namespace Meziantou.WpfFontAwesome
         Wix = 62927,
         /// <summary>Wizards of the Coast (f730)</summary>
         WizardsOfTheCoast = 63280,
+        /// <summary>Wodu (e088)</summary>
+        Wodu = 57480,
         /// <summary>Wolf Pack Battalion (f514)</summary>
         WolfPackBattalion = 62740,
         /// <summary>Won Sign (f159)</summary>
@@ -4611,7 +4633,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.14.0</summary>
+    /// <summary>Icons of FontAwesome brands 5.15.0</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -4624,8 +4646,6 @@ namespace Meziantou.WpfFontAwesome
         AcquisitionsIncorporated = 63151,
         /// <summary>App.net (f170)</summary>
         Adn = 61808,
-        /// <summary>Adobe (f778)</summary>
-        Adobe = 63352,
         /// <summary>Adversal (f36a)</summary>
         Adversal = 62314,
         /// <summary>affiliatetheme (f36b)</summary>
@@ -4746,6 +4766,8 @@ namespace Meziantou.WpfFontAwesome
         Chrome = 62056,
         /// <summary>Chromecast (f838)</summary>
         Chromecast = 63544,
+        /// <summary>Cloudflare (e07d)</summary>
+        Cloudflare = 57469,
         /// <summary>cloudscale.ch (f383)</summary>
         Cloudscale = 62339,
         /// <summary>Cloudsmith (f384)</summary>
@@ -4998,6 +5020,8 @@ namespace Meziantou.WpfFontAwesome
         Gripfire = 62380,
         /// <summary>Grunt (f3ad)</summary>
         Grunt = 62381,
+        /// <summary>Guilded (e07e)</summary>
+        Guilded = 57470,
         /// <summary>Gulp (f3ae)</summary>
         Gulp = 62382,
         /// <summary>Hacker News (f1d4)</summary>
@@ -5010,6 +5034,8 @@ namespace Meziantou.WpfFontAwesome
         Hips = 62546,
         /// <summary>HireAHelper (f3b0)</summary>
         HireAHelper = 62384,
+        /// <summary>Hive Blockchain Network (e07f)</summary>
+        Hive = 57471,
         /// <summary>Hooli (f427)</summary>
         Hooli = 62503,
         /// <summary>Hornbill (f592)</summary>
@@ -5026,10 +5052,14 @@ namespace Meziantou.WpfFontAwesome
         Ideal = 57363,
         /// <summary>IMDB (f2d8)</summary>
         Imdb = 62168,
+        /// <summary>Innosoft (e080)</summary>
+        Innosoft = 57472,
         /// <summary>Instagram (f16d)</summary>
         Instagram = 61805,
         /// <summary>Instagram Square (e055)</summary>
         InstagramSquare = 57429,
+        /// <summary>InstaLOD (e081)</summary>
+        Instalod = 57473,
         /// <summary>Intercom (f7af)</summary>
         Intercom = 63407,
         /// <summary>Internet-explorer (f26b)</summary>
@@ -5156,6 +5186,8 @@ namespace Meziantou.WpfFontAwesome
         Ns8 = 62421,
         /// <summary>Nutritionix (f3d6)</summary>
         Nutritionix = 62422,
+        /// <summary>Octopus Deploy (e082)</summary>
+        OctopusDeploy = 57474,
         /// <summary>Odnoklassniki (f263)</summary>
         Odnoklassniki = 62051,
         /// <summary>Odnoklassniki Square (f264)</summary>
@@ -5186,6 +5218,8 @@ namespace Meziantou.WpfFontAwesome
         Paypal = 61933,
         /// <summary>Penny Arcade (f704)</summary>
         PennyArcade = 63236,
+        /// <summary>PerByte (e083)</summary>
+        Perbyte = 57475,
         /// <summary>Periscope (f3da)</summary>
         Periscope = 62426,
         /// <summary>Phabricator (f3db)</summary>
@@ -5408,6 +5442,8 @@ namespace Meziantou.WpfFontAwesome
         Uikit = 62467,
         /// <summary>Umbraco (f8e8)</summary>
         Umbraco = 63720,
+        /// <summary>Uncharted Software (e084)</summary>
+        Uncharted = 57476,
         /// <summary>Uniregistry (f404)</summary>
         Uniregistry = 62468,
         /// <summary>Unity 3D (e049)</summary>
@@ -5448,6 +5484,8 @@ namespace Meziantou.WpfFontAwesome
         Vnv = 62475,
         /// <summary>Vue.js (f41f)</summary>
         Vuejs = 62495,
+        /// <summary>Watchman Monitoring (e087)</summary>
+        WatchmanMonitoring = 57479,
         /// <summary>Waze (f83f)</summary>
         Waze = 63551,
         /// <summary>Weebly (f5cc)</summary>
@@ -5470,6 +5508,8 @@ namespace Meziantou.WpfFontAwesome
         Wix = 62927,
         /// <summary>Wizards of the Coast (f730)</summary>
         WizardsOfTheCoast = 63280,
+        /// <summary>Wodu (e088)</summary>
+        Wodu = 57480,
         /// <summary>Wolf Pack Battalion (f514)</summary>
         WolfPackBattalion = 62740,
         /// <summary>WordPress Logo (f19a)</summary>
@@ -5514,7 +5554,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.14.0</summary>
+    /// <summary>Icons of FontAwesome solid 5.15.0</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -9877,6 +9917,10 @@ namespace Meziantou.WpfFontAwesome
         VenusDouble = 61990,
         /// <summary>Venus Mars (f228)</summary>
         VenusMars = 61992,
+        /// <summary>vest (e085)</summary>
+        Vest = 57477,
+        /// <summary>vest-patches (e086)</summary>
+        VestPatches = 57478,
         /// <summary>VHS (f8ec)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Vhs = 63724,
@@ -10072,7 +10116,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.14.0</summary>
+    /// <summary>Icons of FontAwesome regular 5.15.0</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -15249,6 +15293,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Venus Mars (f228)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         VenusMars = 61992,
+        /// <summary>vest (e085)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Vest = 57477,
+        /// <summary>vest-patches (e086)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        VestPatches = 57478,
         /// <summary>VHS (f8ec)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Vhs = 63724,
@@ -15478,7 +15528,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.14.0</summary>
+    /// <summary>Icons of FontAwesome light 5.15.0</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -20803,6 +20853,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Venus Mars (f228)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         VenusMars = 61992,
+        /// <summary>vest (e085)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Vest = 57477,
+        /// <summary>vest-patches (e086)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        VestPatches = 57478,
         /// <summary>VHS (f8ec)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Vhs = 63724,
@@ -21036,7 +21092,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome duotone 5.14.0</summary>
+    /// <summary>Icons of FontAwesome duotone 5.15.0</summary>
     public enum FontAwesomeDuotoneIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -26361,6 +26417,12 @@ namespace Meziantou.WpfFontAwesome
         /// <summary>Venus Mars (f228)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         VenusMars = 61992,
+        /// <summary>vest (e085)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        Vest = 57477,
+        /// <summary>vest-patches (e086)</summary>
+        [Meziantou.WpfFontAwesome.ProIconAttribute]
+        VestPatches = 57478,
         /// <summary>VHS (f8ec)</summary>
         [Meziantou.WpfFontAwesome.ProIconAttribute]
         Vhs = 63724,
