@@ -9,14 +9,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meziantou.WpfFontAwesome.De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{467B95DC-08B3-4115-B735-8D7DD6DB4B52}"
 	ProjectSection(SolutionItems) = preProject
-		azure-pipelines.yml = azure-pipelines.yml
+		.editorconfig = .editorconfig
+		.github\workflows\ci.yml = .github\workflows\ci.yml
 		Directory.Build.props = Directory.Build.props
+		global.json = global.json
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meziantou.WpfFontAwesome.Generator", "Meziantou.WpfFontAwesome.Generator\Meziantou.WpfFontAwesome.Generator.csproj", "{B286F30D-4A05-429C-B701-6DE8AD53CA9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meziantou.WpfFontAwesome.Tests", "Meziantou.WpfFontAwesome.Tests\Meziantou.WpfFontAwesome.Tests.csproj", "{5A254141-00EF-42E0-849E-69BCF96C16DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meziantou.WpfFontAwesome.Tests", "Meziantou.WpfFontAwesome.Tests\Meziantou.WpfFontAwesome.Tests.csproj", "{5A254141-00EF-42E0-849E-69BCF96C16DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

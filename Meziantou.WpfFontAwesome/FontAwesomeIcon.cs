@@ -102,38 +102,38 @@ namespace Meziantou.WpfFontAwesome
 
         public FontAwesomeBrandsIcon? BrandIcon
         {
-            get { return (FontAwesomeBrandsIcon?)GetValue(BrandIconProperty); }
-            set { SetValue(BrandIconProperty, value); }
+            get => (FontAwesomeBrandsIcon?)GetValue(BrandIconProperty);
+            set => SetValue(BrandIconProperty, value);
         }
 
         public FontAwesomeSolidIcon? SolidIcon
         {
-            get { return (FontAwesomeSolidIcon?)GetValue(SolidIconProperty); }
-            set { SetValue(SolidIconProperty, value); }
+            get => (FontAwesomeSolidIcon?)GetValue(SolidIconProperty);
+            set => SetValue(SolidIconProperty, value);
         }
 
         public FontAwesomeRegularIcon? RegularIcon
         {
-            get { return (FontAwesomeRegularIcon?)GetValue(RegularIconProperty); }
-            set { SetValue(RegularIconProperty, value); }
+            get => (FontAwesomeRegularIcon?)GetValue(RegularIconProperty);
+            set => SetValue(RegularIconProperty, value);
         }
 
         public FontAwesomeLightIcon? LightIcon
         {
-            get { return (FontAwesomeLightIcon?)GetValue(LightIconProperty); }
-            set { SetValue(LightIconProperty, value); }
+            get => (FontAwesomeLightIcon?)GetValue(LightIconProperty);
+            set => SetValue(LightIconProperty, value);
         }
-        
+
         public FontAwesomeDuotoneIcon? DuotoneIcon
         {
-            get { return (FontAwesomeDuotoneIcon?)GetValue(DuotoneIconProperty); }
-            set { SetValue(DuotoneIconProperty, value); }
+            get => (FontAwesomeDuotoneIcon?)GetValue(DuotoneIconProperty);
+            set => SetValue(DuotoneIconProperty, value);
         }
 
         public AnimationType AnimationType
         {
-            get { return (AnimationType)GetValue(AnimationTypeProperty); }
-            set { SetValue(AnimationTypeProperty, value); }
+            get => (AnimationType)GetValue(AnimationTypeProperty);
+            set => SetValue(AnimationTypeProperty, value);
         }
     }
 }

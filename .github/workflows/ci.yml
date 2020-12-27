@@ -1,0 +1,105 @@
+name: publish
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    branches:
+      - '*'
+
+env:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
+  DOTNET_NOLOGO: true
+  NuGetDirectory: ${{ github.workspace}}/nuget
+
+defaults:
+  run:
+    shell: pwsh
+
+jobs:
+  lint_csharp:
+    runs-on: windows-2019
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      
+    - name: Add dotnet-format problem matcher
+      uses: xt0rted/dotnet-format-problem-matcher@v1
+
+    - name: Install dotnet format
+      run: dotnet tool update --global dotnet-format
+
+    - name: Run dotnet format
+      run: dotnet format --check --verbosity:diagnostic
+
+  create_nuget:
+    runs-on: windows-2019
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+    - run: dotnet pack --configuration Release --output ${{ env.NuGetDirectory }} /bl
+    - uses: actions/upload-artifact@v2
+      with:
+        name: nuget
+        if-no-files-found: error
+        retention-days: 3
+        path: ${{ env.NuGetDirectory }}/**/*
+
+  build_and_test:
+    runs-on: windows-2019
+    env:
+      TestResultsDirectory: ${{ github.workspace}}/TestResults
+    strategy:
+      matrix:
+        configuration: [ Debug, Release ]
+      fail-fast: false
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core (global.json)
+      uses: actions/setup-dotnet@v1
+    - name: Setup .NET Core (3.1)
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.x'        
+    - run: dotnet test --configuration ${{ matrix.configuration }} --logger trx --results-directory "${{ env.TestResultsDirectory }}"
+      name: Run tests
+    - uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: test-results-${{ matrix.configuration }}
+        if-no-files-found: error
+        retention-days: 3
+        path: ${{ env.TestResultsDirectory }}/*.trx
+
+  deploy:
+    runs-on: windows-2019
+    needs: [ lint_csharp, create_nuget, build_and_test ]
+    steps:
+    - uses: actions/download-artifact@v2
+      with:
+        name: nuget
+        path: ${{ env.NuGetDirectory }}
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+    - run: |
+        Write-Host "Current ref: $env:GITHUB_REF"
+        Write-Host "Searching nupkg in folder: ${{ env.NuGetDirectory }}"
+        $files = Get-ChildItem "${{ env.NuGetDirectory }}/*" -Include *.nupkg
+        foreach($file in $files) {
+            Write-Host "Pushing NuGet package: $($file.FullName)"
+            if ($env:GITHUB_REF -eq 'refs/heads/main')
+            {
+              & dotnet nuget push "$($file.FullName)" --api-key "$env:NuGetApiKey" --source https://api.nuget.org/v3/index.json --force-english-output --skip-duplicate
+            }
+            else
+            {
+              Write-Host "Not on the default branch => Do not push"
+            }
+        }
+      name: Publish NuGet packages
+      if: always()
+      env:
+        NuGetApiKey: ${{ secrets.NuGetApiKey }}

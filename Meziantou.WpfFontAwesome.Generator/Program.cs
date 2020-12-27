@@ -31,7 +31,7 @@ namespace Meziantou.WpfFontAwesome.Generator
 
         private static void UpdateCsprojVersion(SemanticVersion version)
         {
-            string path = "../../../../Meziantou.WpfFontAwesome/Meziantou.WpfFontAwesome.csproj";
+            var path = "../../../../Meziantou.WpfFontAwesome/Meziantou.WpfFontAwesome.csproj";
             var document = XDocument.Load(path, LoadOptions.PreserveWhitespace);
             document.Descendants("Version").Single().Value = version.ToString();
             document.Save(path);
@@ -39,7 +39,7 @@ namespace Meziantou.WpfFontAwesome.Generator
 
         private static string GetDownloadFolderPath()
         {
-            return Registry.GetValue(@"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders", "{374DE290-123F-4565-9164-39C4925E467B}", String.Empty).ToString();
+            return Registry.GetValue(@"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders", "{374DE290-123F-4565-9164-39C4925E467B}", string.Empty).ToString();
         }
 
         private static (string free, string pro, SemanticVersion version) GetPaths()
@@ -58,7 +58,7 @@ namespace Meziantou.WpfFontAwesome.Generator
                 if (!SemanticVersion.TryParse(match.Groups["version"].Value, out var version))
                     continue;
 
-                bool isFree = string.Equals(match.Groups["type"].Value, "free", StringComparison.OrdinalIgnoreCase);
+                var isFree = string.Equals(match.Groups["type"].Value, "free", StringComparison.OrdinalIgnoreCase);
 
                 if (isFree && version > free.version)
                 {
@@ -87,15 +87,11 @@ namespace Meziantou.WpfFontAwesome.Generator
 
         private static string GetIconsFileContent(string path)
         {
-            using (var zipFile = ZipFile.OpenRead(path))
-            {
-                var entry = zipFile.Entries.First(zipEntry => zipEntry.FullName.EndsWith("metadata/icons.json", StringComparison.Ordinal));
-                using (var stream = entry.Open())
-                using (var sr = new StreamReader(stream))
-                {
-                    return sr.ReadToEnd();
-                }
-            }
+            using var zipFile = ZipFile.OpenRead(path);
+            var entry = zipFile.Entries.First(zipEntry => zipEntry.FullName.EndsWith("metadata/icons.json", StringComparison.Ordinal));
+            using var stream = entry.Open();
+            using var sr = new StreamReader(stream);
+            return sr.ReadToEnd();
         }
 
         private static void CopyFonts(string path)
@@ -106,17 +102,14 @@ namespace Meziantou.WpfFontAwesome.Generator
                 ("regular", "Font Awesome 5 Free-Regular-400.otf"),
                 ("solid","Font Awesome 5 Free-Solid-900.otf"),
             };
-            using (var zipFile = ZipFile.OpenRead(path))
+
+            using var zipFile = ZipFile.OpenRead(path);
+            foreach (var file in files)
             {
-                foreach (var file in files)
-                {
-                    var entry = zipFile.Entries.First(zipEntry => zipEntry.FullName.EndsWith(file.Item2, StringComparison.Ordinal));
-                    using (var stream = entry.Open())
-                    using (var fileStream = File.OpenWrite($"../../../../Meziantou.WpfFontAwesome/Resources/{file.Item1}/{entry.Name}"))
-                    {
-                        stream.CopyTo(fileStream);
-                    }
-                }
+                var entry = zipFile.Entries.First(zipEntry => zipEntry.FullName.EndsWith(file.Item2, StringComparison.Ordinal));
+                using var stream = entry.Open();
+                using var fileStream = File.OpenWrite($"../../../../Meziantou.WpfFontAwesome/Resources/{file.Item1}/{entry.Name}");
+                stream.CopyTo(fileStream);
             }
         }
 
@@ -184,8 +177,8 @@ namespace Meziantou.WpfFontAwesome.Generator
         private static string PascalName(string name)
         {
             var sb = new StringBuilder();
-            bool upperCase = true;
-            foreach (char c in name)
+            var upperCase = true;
+            foreach (var c in name)
             {
                 if (c == '-')
                 {
@@ -210,7 +203,7 @@ namespace Meziantou.WpfFontAwesome.Generator
 
         private static string ToCSharpIdentifier(string name)
         {
-            char c = name[0];
+            var c = name[0];
             if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || c == '_')
             {
                 return name;
