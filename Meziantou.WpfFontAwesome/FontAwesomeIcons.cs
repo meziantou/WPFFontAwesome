@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.15.1</summary>
+    /// <summary>Icons of FontAwesome 5.15.2</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -4391,9 +4391,9 @@ namespace Meziantou.WpfFontAwesome
         Vhs = 63724,
         /// <summary>Viacoin (f237)</summary>
         Viacoin = 62007,
-        /// <summary>Video (f2a9)</summary>
+        /// <summary>Viadeo (f2a9)</summary>
         Viadeo = 62121,
-        /// <summary>Video Square (f2aa)</summary>
+        /// <summary>Viadeo Square (f2aa)</summary>
         ViadeoSquare = 62122,
         /// <summary>Vial (f492)</summary>
         Vial = 62610,
@@ -4633,7 +4633,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.15.1</summary>
+    /// <summary>Icons of FontAwesome brands 5.15.2</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -5464,9 +5464,9 @@ namespace Meziantou.WpfFontAwesome
         Vaadin = 62472,
         /// <summary>Viacoin (f237)</summary>
         Viacoin = 62007,
-        /// <summary>Video (f2a9)</summary>
+        /// <summary>Viadeo (f2a9)</summary>
         Viadeo = 62121,
-        /// <summary>Video Square (f2aa)</summary>
+        /// <summary>Viadeo Square (f2aa)</summary>
         ViadeoSquare = 62122,
         /// <summary>Viber (f409)</summary>
         Viber = 62473,
@@ -5554,7 +5554,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.15.1</summary>
+    /// <summary>Icons of FontAwesome solid 5.15.2</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -10116,7 +10116,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.15.1</summary>
+    /// <summary>Icons of FontAwesome regular 5.15.2</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -15528,7 +15528,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.15.1</summary>
+    /// <summary>Icons of FontAwesome light 5.15.2</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -21092,7 +21092,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome duotone 5.15.1</summary>
+    /// <summary>Icons of FontAwesome duotone 5.15.2</summary>
     public enum FontAwesomeDuotoneIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
