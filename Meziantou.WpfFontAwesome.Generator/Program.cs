@@ -15,6 +15,8 @@ namespace Meziantou.WpfFontAwesome.Generator
 {
     internal static class Program
     {
+        private const string ProjectName = "Meziantou.WpfFontAwesome";
+
         private static void Main()
         {
             var files = GetPaths();
@@ -29,9 +31,21 @@ namespace Meziantou.WpfFontAwesome.Generator
             UpdateCsprojVersion(files.version);
         }
 
+        private static string FindSourceDirectory()
+        {
+            var path = Environment.CurrentDirectory;
+            while (true)
+            {
+                if (Directory.EnumerateDirectories(path).Any(d => string.Equals(Path.GetFileName(d), ProjectName, StringComparison.OrdinalIgnoreCase)))
+                    return Path.Join(path, ProjectName);
+
+                path = Path.GetDirectoryName(path);
+            }
+        }
+
         private static void UpdateCsprojVersion(SemanticVersion version)
         {
-            var path = "../../../../Meziantou.WpfFontAwesome/Meziantou.WpfFontAwesome.csproj";
+            var path = FindSourceDirectory() + "/Meziantou.WpfFontAwesome.csproj";
             var document = XDocument.Load(path, LoadOptions.PreserveWhitespace);
             document.Descendants("Version").Single().Value = version.ToString();
             document.Save(path);
@@ -108,7 +122,7 @@ namespace Meziantou.WpfFontAwesome.Generator
             {
                 var entry = zipFile.Entries.First(zipEntry => zipEntry.FullName.EndsWith(file.Item2, StringComparison.Ordinal));
                 using var stream = entry.Open();
-                using var fileStream = File.OpenWrite($"../../../../Meziantou.WpfFontAwesome/Resources/{file.Item1}/{entry.Name}");
+                using var fileStream = File.OpenWrite($"{FindSourceDirectory()}/Resources/{file.Item1}/{entry.Name}");
                 stream.CopyTo(fileStream);
             }
         }
@@ -171,7 +185,7 @@ namespace Meziantou.WpfFontAwesome.Generator
             }
 
             var codeGenerator = new CSharpCodeGenerator();
-            File.WriteAllText("../../../../Meziantou.WpfFontAwesome/FontAwesomeIcons.cs", codeGenerator.Write(unit));
+            File.WriteAllText(FindSourceDirectory() + "/FontAwesomeIcons.cs", codeGenerator.Write(unit));
         }
 
         private static string PascalName(string name)

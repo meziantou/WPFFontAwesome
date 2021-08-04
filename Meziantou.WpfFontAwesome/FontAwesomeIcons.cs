@@ -8,7 +8,7 @@
 // ------------------------------------------------------------------------------
 namespace Meziantou.WpfFontAwesome
 {
-    /// <summary>Icons of FontAwesome 5.15.3</summary>
+    /// <summary>Icons of FontAwesome 5.15.4</summary>
     public enum FontAwesomeIcons : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -4155,8 +4155,6 @@ namespace Meziantou.WpfFontAwesome
         Triangle = 62188,
         /// <summary>Musical Triangle (f8e2)</summary>
         TriangleMusic = 63714,
-        /// <summary>TripAdvisor (f262)</summary>
-        Tripadvisor = 62050,
         /// <summary>trophy (f091)</summary>
         Trophy = 61585,
         /// <summary>Alternate Trophy (f2eb)</summary>
@@ -4633,7 +4631,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome brands 5.15.3</summary>
+    /// <summary>Icons of FontAwesome brands 5.15.4</summary>
     public enum FontAwesomeBrandsIcon : ushort
     {
         /// <summary>500px (f26e)</summary>
@@ -5420,8 +5418,6 @@ namespace Meziantou.WpfFontAwesome
         TradeFederation = 62739,
         /// <summary>Trello (f181)</summary>
         Trello = 61825,
-        /// <summary>TripAdvisor (f262)</summary>
-        Tripadvisor = 62050,
         /// <summary>Tumblr (f173)</summary>
         Tumblr = 61811,
         /// <summary>Tumblr Square (f174)</summary>
@@ -5554,7 +5550,7 @@ namespace Meziantou.WpfFontAwesome
         Zhihu = 63039
     }
 
-    /// <summary>Icons of FontAwesome solid 5.15.3</summary>
+    /// <summary>Icons of FontAwesome solid 5.15.4</summary>
     public enum FontAwesomeSolidIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -10116,7 +10112,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome regular 5.15.3</summary>
+    /// <summary>Icons of FontAwesome regular 5.15.4</summary>
     public enum FontAwesomeRegularIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -15528,7 +15524,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome light 5.15.3</summary>
+    /// <summary>Icons of FontAwesome light 5.15.4</summary>
     public enum FontAwesomeLightIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
@@ -21092,7 +21088,7 @@ namespace Meziantou.WpfFontAwesome
         YinYang = 63149
     }
 
-    /// <summary>Icons of FontAwesome duotone 5.15.3</summary>
+    /// <summary>Icons of FontAwesome duotone 5.15.4</summary>
     public enum FontAwesomeDuotoneIcon : ushort
     {
         /// <summary>Abacus (f640)</summary>
