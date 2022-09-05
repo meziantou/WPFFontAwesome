@@ -78,7 +78,7 @@ jobs:
     runs-on: windows-2019
     needs: [ lint_csharp, create_nuget, build_and_test ]
     steps:
-    - uses: actions/download-artifact@v2
+    - uses: actions/download-artifact@v3
       with:
         name: nuget
         path: ${{ env.NuGetDirectory }}
