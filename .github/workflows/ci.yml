@@ -20,7 +20,7 @@ jobs:
   lint_csharp:
     runs-on: windows-2019
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
@@ -37,7 +37,7 @@ jobs:
   create_nuget:
     runs-on: windows-2019
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
     - run: dotnet pack --configuration Release --output ${{ env.NuGetDirectory }} /bl
@@ -57,7 +57,7 @@ jobs:
         configuration: [ Debug, Release ]
       fail-fast: false
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Setup .NET Core (global.json)
       uses: actions/setup-dotnet@v1
     - name: Setup .NET Core (3.1)
